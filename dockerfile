@@ -1,13 +1,13 @@
 # ---- Build Stage ----
-FROM maven:3.9.6-eclipse-temurin-21 AS builder
+FROM eclipse-temurin:17-jdk-jammy AS builder
 WORKDIR /app
 COPY . .
-RUN mvn clean package -DskipTests
+RUN ./mvnw clean package -DskipTests
 
 # ---- Runtime Stage ----
-FROM eclipse-temurin:21-jdk
+FROM eclipse-temurin:17-jre-jammy
 WORKDIR /app
 COPY --from=builder /app/target/*.jar app.jar
-ENV PORT=8386
-EXPOSE 8386
+ENV PORT=8080
+EXPOSE 8080
 CMD ["java", "-jar", "app.jar"]
