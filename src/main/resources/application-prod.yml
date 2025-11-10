@@ -11,9 +11,9 @@ spring:
   application:
     name: quotes-facts-service
   datasource:
-    url: 'jdbc:mysql://db-mysql-sgp1-do-user-8499874-0.g.db.ondigitalocean.com:25060/gvsdb'
-    username: doadmin
-    password: AVNS_eQ8TtPlWp0DxPKCTPXf
+    url: ${DB_URL}
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     hibernate:
