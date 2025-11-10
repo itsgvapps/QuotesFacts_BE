@@ -1,0 +1,55 @@
+server:
+  port: 8386
+  error:
+    include-message: always
+    include-binding-errors: always
+    include-stacktrace: always
+    whitelabel:
+      enabled: false
+
+spring:
+  application:
+    name: quotes-facts-service
+  datasource:
+    url: 'jdbc:mysql://localhost:3306/gvsdb'
+    username: root
+    password: admin@1234
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: false
+        dialect: org.hibernate.dialect.MySQL8Dialect
+  web:
+    cors:
+      allowed-origins: "*"
+      allowed-methods: "GET,POST,PUT,DELETE,OPTIONS"
+      allowed-headers: "*"
+
+springdoc:
+  show-actuator: true
+  api-docs:
+    path: /authentication-service/v3/api-docs
+  swagger-ui:
+    enabled: true
+    url: /authentication-service/v3/api-docs
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info, health, loggers, env
+
+logging:
+  level:
+    org.springframework.web: INFO
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+  file:
+    name: application.log
+myapp:
+  message: Hello, Spring Boot!
+

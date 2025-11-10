@@ -1,0 +1,1850 @@
+[
+  {
+    "CATEGORY_ID": 1,
+    "CATEGORY_NAME": "Addiction",
+    "DESCRIPTION": "Explore fun and surprising facts about addiction that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Remarkable Facts About Addiction",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about addiction.",
+      "Learn something new about addiction today.",
+      "Fun insights and trivia that make addiction even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 2,
+    "CATEGORY_NAME": "Alcohol",
+    "DESCRIPTION": "Explore fun and surprising facts about alcohol that make learning something new exciting.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Amazing Facts About Alcohol",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about alcohol.",
+      "Learn something new about alcohol today.",
+      "Fun insights and trivia that make alcohol even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 3,
+    "CATEGORY_NAME": "Animal",
+    "DESCRIPTION": "Get ready to uncover wild wonders about animal that will make you look at nature differently.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Funny Facts About Animal",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Some animals can sense earthquakes before they happen.",
+      "A group of flamingos is called a flamboyance.",
+      "Octopuses have three hearts and blue blood."
+    ]
+  },
+  {
+    "CATEGORY_ID": 4,
+    "CATEGORY_NAME": "Awesome",
+    "DESCRIPTION": "Dive into a collection of fascinating details about awesome you\u2019ll enjoy sharing with friends.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Remarkable Facts About Awesome",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about awesome.",
+      "Learn something new about awesome today.",
+      "Fun insights and trivia that make awesome even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 5,
+    "CATEGORY_NAME": "Baby",
+    "DESCRIPTION": "Take a journey through interesting insights about baby that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Fascinating Facts About Baby",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about baby.",
+      "Learn something new about baby today.",
+      "Fun insights and trivia that make baby even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 6,
+    "CATEGORY_NAME": "Mind Blowing",
+    "DESCRIPTION": "Uncover the mysteries behind our behavior with mind blowing that give surprising insight into the human mind.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Mind-Opening Facts About Mind Blowing",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about mind blowing.",
+      "Learn something new about mind blowing today.",
+      "Fun insights and trivia that make mind blowing even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 7,
+    "CATEGORY_NAME": "Bible",
+    "DESCRIPTION": "Dive into a collection of fascinating details about bible that make learning something new exciting.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Amazing Facts About Bible",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about bible.",
+      "Learn something new about bible today.",
+      "Fun insights and trivia that make bible even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 8,
+    "CATEGORY_NAME": "Body",
+    "DESCRIPTION": "Find out surprising details about body that show how fascinating we truly are.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Intriguing Facts About Body",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about body.",
+      "Learn something new about body today.",
+      "Fun insights and trivia that make body even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 9,
+    "CATEGORY_NAME": "Brain",
+    "DESCRIPTION": "Discover how extraordinary we truly are with brain that reveal how your body and mind work together.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Remarkable Facts About Brain",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about brain.",
+      "Learn something new about brain today.",
+      "Fun insights and trivia that make brain even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 10,
+    "CATEGORY_NAME": "Buddhism",
+    "DESCRIPTION": "Explore fun and surprising facts about buddhism you\u2019ll enjoy sharing with friends.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Remarkable Facts About Buddhism",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about buddhism.",
+      "Learn something new about buddhism today.",
+      "Fun insights and trivia that make buddhism even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 11,
+    "CATEGORY_NAME": "Business",
+    "DESCRIPTION": "Dive into a collection of fascinating details about business that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Interesting Facts About Business",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about business.",
+      "Learn something new about business today.",
+      "Fun insights and trivia that make business even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 12,
+    "CATEGORY_NAME": "Cat",
+    "DESCRIPTION": "Step into the amazing animal kingdom of cat that show how extraordinary creatures can be.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Funny Facts About Cat",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about cat.",
+      "Learn something new about cat today.",
+      "Fun insights and trivia that make cat even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 13,
+    "CATEGORY_NAME": "Celebrity",
+    "DESCRIPTION": "Dive into a collection of fascinating details about celebrity you\u2019ll enjoy sharing with friends.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Fascinating Facts About Celebrity",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about celebrity.",
+      "Learn something new about celebrity today.",
+      "Fun insights and trivia that make celebrity even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 14,
+    "CATEGORY_NAME": "Ceremony",
+    "DESCRIPTION": "Dive into a collection of fascinating details about ceremony that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Amazing Facts About Ceremony",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about ceremony.",
+      "Learn something new about ceremony today.",
+      "Fun insights and trivia that make ceremony even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 15,
+    "CATEGORY_NAME": "China",
+    "DESCRIPTION": "Dive into a collection of fascinating details about china you\u2019ll enjoy sharing with friends.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Unique Facts About China",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about china.",
+      "Learn something new about china today.",
+      "Fun insights and trivia that make china even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 16,
+    "CATEGORY_NAME": "Christianity",
+    "DESCRIPTION": "Take a journey through interesting insights about christianity you\u2019ll enjoy sharing with friends.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Interesting Facts About Christianity",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about christianity.",
+      "Learn something new about christianity today.",
+      "Fun insights and trivia that make christianity even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 17,
+    "CATEGORY_NAME": "Christmas",
+    "DESCRIPTION": "Explore fun and surprising facts about christmas you\u2019ll enjoy sharing with friends.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Remarkable Facts About Christmas",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about christmas.",
+      "Learn something new about christmas today.",
+      "Fun insights and trivia that make christmas even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 18,
+    "CATEGORY_NAME": "City",
+    "DESCRIPTION": "Explore fun and surprising facts about city that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Fascinating Facts About City",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about city.",
+      "Learn something new about city today.",
+      "Fun insights and trivia that make city even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 19,
+    "CATEGORY_NAME": "Did you know",
+    "DESCRIPTION": "Explore fun and surprising facts about did you know that make learning something new exciting.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Interesting Facts About Did you know",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about did you know.",
+      "Learn something new about did you know today.",
+      "Fun insights and trivia that make did you know even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 20,
+    "CATEGORY_NAME": "Creature",
+    "DESCRIPTION": "You\u2019ll be surprised to learn incredible things about creature you won\u2019t believe exist in the wild!",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Surprising Facts About Creature",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about creature.",
+      "Learn something new about creature today.",
+      "Fun insights and trivia that make creature even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 21,
+    "CATEGORY_NAME": "Internet and Computer",
+    "DESCRIPTION": "Explore fun and surprising facts about internet and computer that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Remarkable Facts About Internet and Computer",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about internet and computer.",
+      "Learn something new about internet and computer today.",
+      "Fun insights and trivia that make internet and computer even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 22,
+    "CATEGORY_NAME": "Country",
+    "DESCRIPTION": "Explore fun and surprising facts about country that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Unique Facts About Country",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about country.",
+      "Learn something new about country today.",
+      "Fun insights and trivia that make country even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 23,
+    "CATEGORY_NAME": "Cultural Issues",
+    "DESCRIPTION": "Take a journey through interesting insights about cultural issues that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Remarkable Facts About Cultural Issues",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about cultural issues.",
+      "Learn something new about cultural issues today.",
+      "Fun insights and trivia that make cultural issues even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 24,
+    "CATEGORY_NAME": "Denmark",
+    "DESCRIPTION": "Dive into a collection of fascinating details about denmark that make learning something new exciting.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Remarkable Facts About Denmark",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about denmark.",
+      "Learn something new about denmark today.",
+      "Fun insights and trivia that make denmark even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 26,
+    "CATEGORY_NAME": "Diseases and Disorders",
+    "DESCRIPTION": "Dive into a collection of fascinating details about diseases and disorders that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Amazing Facts About Diseases and Disorders",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about diseases and disorders.",
+      "Learn something new about diseases and disorders today.",
+      "Fun insights and trivia that make diseases and disorders even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 27,
+    "CATEGORY_NAME": "Dog",
+    "DESCRIPTION": "You\u2019ll be surprised to learn incredible things about dog you won\u2019t believe exist in the wild!",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Funny Facts About Dog",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about dog.",
+      "Learn something new about dog today.",
+      "Fun insights and trivia that make dog even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 28,
+    "CATEGORY_NAME": "Dolphin",
+    "DESCRIPTION": "Step into the amazing animal kingdom of dolphin you won\u2019t believe exist in the wild!",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Wild Facts About Dolphin",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about dolphin.",
+      "Learn something new about dolphin today.",
+      "Fun insights and trivia that make dolphin even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 29,
+    "CATEGORY_NAME": "Earth",
+    "DESCRIPTION": "Experience the peace and power of earth that highlight the wonder of our planet.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Breathtaking Facts About Earth",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about earth.",
+      "Learn something new about earth today.",
+      "Fun insights and trivia that make earth even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 30,
+    "CATEGORY_NAME": "Elephant",
+    "DESCRIPTION": "Take a journey through interesting insights about elephant that make learning something new exciting.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Unique Facts About Elephant",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about elephant.",
+      "Learn something new about elephant today.",
+      "Fun insights and trivia that make elephant even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 31,
+    "CATEGORY_NAME": "Engineering",
+    "DESCRIPTION": "Explore the brilliance of science through engineering you didn\u2019t know could change how you see the world.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Amazing Facts About Engineering",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about engineering.",
+      "Learn something new about engineering today.",
+      "Fun insights and trivia that make engineering even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 32,
+    "CATEGORY_NAME": "Eyes",
+    "DESCRIPTION": "Discover how extraordinary we truly are with eyes that reveal how your body and mind work together.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Remarkable Facts About Eyes",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about eyes.",
+      "Learn something new about eyes today.",
+      "Fun insights and trivia that make eyes even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 34,
+    "CATEGORY_NAME": "Fashion and Style",
+    "DESCRIPTION": "Explore fun and surprising facts about fashion and style that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Remarkable Facts About Fashion and Style",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about fashion and style.",
+      "Learn something new about fashion and style today.",
+      "Fun insights and trivia that make fashion and style even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 35,
+    "CATEGORY_NAME": "Fish",
+    "DESCRIPTION": "Get ready to uncover wild wonders about fish that show how extraordinary creatures can be.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Curious Facts About Fish",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about fish.",
+      "Learn something new about fish today.",
+      "Fun insights and trivia that make fish even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 36,
+    "CATEGORY_NAME": "Food and Drinks",
+    "DESCRIPTION": "Dive into a collection of fascinating details about food and drinks you\u2019ll enjoy sharing with friends.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Remarkable Facts About Food and Drinks",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about food and drinks.",
+      "Learn something new about food and drinks today.",
+      "Fun insights and trivia that make food and drinks even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 37,
+    "CATEGORY_NAME": "Funny",
+    "DESCRIPTION": "Discover the lighter side of life through funny you won\u2019t believe are actually true!",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Hilarious Facts About Funny",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "In Switzerland, it\u2019s illegal to own just one guinea pig \u2014 they get lonely.",
+      "Cows have best friends and get stressed when separated.",
+      "There\u2019s a town in Canada called Dull that\u2019s twinned with Boring, Oregon."
+    ]
+  },
+  {
+    "CATEGORY_ID": 38,
+    "CATEGORY_NAME": "Game",
+    "DESCRIPTION": "Take a journey through interesting insights about game that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Unique Facts About Game",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about game.",
+      "Learn something new about game today.",
+      "Fun insights and trivia that make game even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 39,
+    "CATEGORY_NAME": "Gender",
+    "DESCRIPTION": "Dive into a collection of fascinating details about gender that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Amazing Facts About Gender",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about gender.",
+      "Learn something new about gender today.",
+      "Fun insights and trivia that make gender even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 40,
+    "CATEGORY_NAME": "Geography",
+    "DESCRIPTION": "Take a journey through interesting insights about geography that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Interesting Facts About Geography",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about geography.",
+      "Learn something new about geography today.",
+      "Fun insights and trivia that make geography even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 41,
+    "CATEGORY_NAME": "Giraffe",
+    "DESCRIPTION": "Step into the amazing animal kingdom of giraffe that show how extraordinary creatures can be.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Curious Facts About Giraffe",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about giraffe.",
+      "Learn something new about giraffe today.",
+      "Fun insights and trivia that make giraffe even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 43,
+    "CATEGORY_NAME": "Health and Fitness",
+    "DESCRIPTION": "Find out surprising details about health and fitness that reveal how your body and mind work together.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Intriguing Facts About Health and Fitness",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about health and fitness.",
+      "Learn something new about health and fitness today.",
+      "Fun insights and trivia that make health and fitness even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 44,
+    "CATEGORY_NAME": "Historical Structure",
+    "DESCRIPTION": "Relive the most fascinating moments in historical structure that shaped civilizations and changed humanity.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Timeless Facts About Historical Structure",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about historical structure.",
+      "Learn something new about historical structure today.",
+      "Fun insights and trivia that make historical structure even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 45,
+    "CATEGORY_NAME": "History",
+    "DESCRIPTION": "Travel back in time and uncover stories from history you never learned in school!",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Timeless Facts About History",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "The Great Pyramid of Giza was the tallest structure for nearly 4,000 years.",
+      "Vikings never wore horned helmets \u2014 that\u2019s a modern myth.",
+      "The first Olympic Games were held in 776 BC in Greece."
+    ]
+  },
+  {
+    "CATEGORY_ID": 46,
+    "CATEGORY_NAME": "Holidays",
+    "DESCRIPTION": "Dive into a collection of fascinating details about holidays you\u2019ll enjoy sharing with friends.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Amazing Facts About Holidays",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about holidays.",
+      "Learn something new about holidays today.",
+      "Fun insights and trivia that make holidays even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 48,
+    "CATEGORY_NAME": "Human Body",
+    "DESCRIPTION": "Find out surprising details about human body that reveal how your body and mind work together.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Amazing Facts About Human Body",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Your heart beats about 100,000 times per day.",
+      "The human nose can detect over a trillion different scents.",
+      "Your skin renews itself every 28 days."
+    ]
+  },
+  {
+    "CATEGORY_ID": 49,
+    "CATEGORY_NAME": "India",
+    "DESCRIPTION": "Take a journey through interesting insights about india that make learning something new exciting.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Amazing Facts About India",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about india.",
+      "Learn something new about india today.",
+      "Fun insights and trivia that make india even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 50,
+    "CATEGORY_NAME": "Indonesia",
+    "DESCRIPTION": "Explore fun and surprising facts about indonesia that make learning something new exciting.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Unique Facts About Indonesia",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about indonesia.",
+      "Learn something new about indonesia today.",
+      "Fun insights and trivia that make indonesia even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 51,
+    "CATEGORY_NAME": "Interesting",
+    "DESCRIPTION": "Take a journey through interesting insights about interesting that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Fascinating Facts About Interesting",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about interesting.",
+      "Learn something new about interesting today.",
+      "Fun insights and trivia that make interesting even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 52,
+    "CATEGORY_NAME": "Children/Kids",
+    "DESCRIPTION": "Dive into a collection of fascinating details about children/kids you\u2019ll enjoy sharing with friends.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Amazing Facts About Children/Kids",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about children/kids.",
+      "Learn something new about children/kids today.",
+      "Fun insights and trivia that make children/kids even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 54,
+    "CATEGORY_NAME": "Language",
+    "DESCRIPTION": "Dive into a collection of fascinating details about language you\u2019ll enjoy sharing with friends.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Remarkable Facts About Language",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about language.",
+      "Learn something new about language today.",
+      "Fun insights and trivia that make language even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 55,
+    "CATEGORY_NAME": "Locality",
+    "DESCRIPTION": "Take a journey through interesting insights about locality you\u2019ll enjoy sharing with friends.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Unique Facts About Locality",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about locality.",
+      "Learn something new about locality today.",
+      "Fun insights and trivia that make locality even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 56,
+    "CATEGORY_NAME": "Maths",
+    "DESCRIPTION": "Step inside the world of discovery with maths that reveal the magic behind everyday life.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Incredible Facts About Maths",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about maths.",
+      "Learn something new about maths today.",
+      "Fun insights and trivia that make maths even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 57,
+    "CATEGORY_NAME": "Medical and Health",
+    "DESCRIPTION": "Find out surprising details about medical and health that reveal how your body and mind work together.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Amazing Facts About Medical and Health",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about medical and health.",
+      "Learn something new about medical and health today.",
+      "Fun insights and trivia that make medical and health even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 59,
+    "CATEGORY_NAME": "Ridiculous ",
+    "DESCRIPTION": "Enjoy a dose of humor with funny facts about ridiculous  that will have you laughing out loud.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Amusing Facts About Ridiculous ",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about ridiculous .",
+      "Learn something new about ridiculous  today.",
+      "Fun insights and trivia that make ridiculous  even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 62,
+    "CATEGORY_NAME": "Monument",
+    "DESCRIPTION": "Take a journey through interesting insights about monument that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Remarkable Facts About Monument",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about monument.",
+      "Learn something new about monument today.",
+      "Fun insights and trivia that make monument even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 63,
+    "CATEGORY_NAME": "Moon",
+    "DESCRIPTION": "Take a mind-blowing journey through moon that prove our universe is full of mysteries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Mind-Blowing Facts About Moon",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about moon.",
+      "Learn something new about moon today.",
+      "Fun insights and trivia that make moon even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 64,
+    "CATEGORY_NAME": "Movie",
+    "DESCRIPTION": "Take a journey through interesting insights about movie that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Unique Facts About Movie",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about movie.",
+      "Learn something new about movie today.",
+      "Fun insights and trivia that make movie even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 65,
+    "CATEGORY_NAME": "Nature",
+    "DESCRIPTION": "Step into the wonders of the natural world with nature you\u2019ll find both peaceful and powerful.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Breathtaking Facts About Nature",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "There are more trees on Earth than stars in our galaxy.",
+      "Sloths can hold their breath longer than dolphins can.",
+      "The Amazon rainforest produces 20% of the world\u2019s oxygen."
+    ]
+  },
+  {
+    "CATEGORY_ID": 66,
+    "CATEGORY_NAME": "North Korea",
+    "DESCRIPTION": "Dive into a collection of fascinating details about north korea you\u2019ll enjoy sharing with friends.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Remarkable Facts About North Korea",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about north korea.",
+      "Learn something new about north korea today.",
+      "Fun insights and trivia that make north korea even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 67,
+    "CATEGORY_NAME": "Health and Nutrition",
+    "DESCRIPTION": "Discover how extraordinary we truly are with health and nutrition that show how fascinating we truly are.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Intriguing Facts About Health and Nutrition",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about health and nutrition.",
+      "Learn something new about health and nutrition today.",
+      "Fun insights and trivia that make health and nutrition even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 68,
+    "CATEGORY_NAME": "OMG!",
+    "DESCRIPTION": "Find the weirdest truths about omg! that show how bizarre our world really is.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Strange Facts About OMG!",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about omg!.",
+      "Learn something new about omg! today.",
+      "Fun insights and trivia that make omg! even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 69,
+    "CATEGORY_NAME": "Octopus",
+    "DESCRIPTION": "Step into the amazing animal kingdom of octopus that show how extraordinary creatures can be.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Wild Facts About Octopus",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about octopus.",
+      "Learn something new about octopus today.",
+      "Fun insights and trivia that make octopus even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 72,
+    "CATEGORY_NAME": "Panda",
+    "DESCRIPTION": "Get ready to uncover wild wonders about panda that will make you look at nature differently.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Wild Facts About Panda",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about panda.",
+      "Learn something new about panda today.",
+      "Fun insights and trivia that make panda even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 73,
+    "CATEGORY_NAME": "Penguin",
+    "DESCRIPTION": "Explore fun and surprising facts about penguin that make learning something new exciting.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Remarkable Facts About Penguin",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about penguin.",
+      "Learn something new about penguin today.",
+      "Fun insights and trivia that make penguin even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 74,
+    "CATEGORY_NAME": "People",
+    "DESCRIPTION": "Dive into a collection of fascinating details about people that make learning something new exciting.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Interesting Facts About People",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about people.",
+      "Learn something new about people today.",
+      "Fun insights and trivia that make people even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 75,
+    "CATEGORY_NAME": "Personal Characteristics",
+    "DESCRIPTION": "Explore fun and surprising facts about personal characteristics that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Fascinating Facts About Personal Characteristics",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about personal characteristics.",
+      "Learn something new about personal characteristics today.",
+      "Fun insights and trivia that make personal characteristics even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 76,
+    "CATEGORY_NAME": "Phobia",
+    "DESCRIPTION": "Take a journey through interesting insights about phobia you\u2019ll enjoy sharing with friends.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Unique Facts About Phobia",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about phobia.",
+      "Learn something new about phobia today.",
+      "Fun insights and trivia that make phobia even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 77,
+    "CATEGORY_NAME": "Pokemon GO",
+    "DESCRIPTION": "Dive into a collection of fascinating details about pokemon go that make learning something new exciting.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Fascinating Facts About Pokemon GO",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about pokemon go.",
+      "Learn something new about pokemon go today.",
+      "Fun insights and trivia that make pokemon go even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 78,
+    "CATEGORY_NAME": "Politics",
+    "DESCRIPTION": "Take a journey through interesting insights about politics that make learning something new exciting.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Fascinating Facts About Politics",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about politics.",
+      "Learn something new about politics today.",
+      "Fun insights and trivia that make politics even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 79,
+    "CATEGORY_NAME": "Random",
+    "DESCRIPTION": "Explore fun and surprising facts about random that make learning something new exciting.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Fascinating Facts About Random",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about random.",
+      "Learn something new about random today.",
+      "Fun insights and trivia that make random even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 80,
+    "CATEGORY_NAME": "Russia",
+    "DESCRIPTION": "Dive into a collection of fascinating details about russia that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Unique Facts About Russia",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about russia.",
+      "Learn something new about russia today.",
+      "Fun insights and trivia that make russia even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 81,
+    "CATEGORY_NAME": "Science",
+    "DESCRIPTION": "Step inside the world of discovery with science that reveal the magic behind everyday life.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Mind-Expanding Facts About Science",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Bananas are slightly radioactive due to potassium-40.",
+      "Water can boil and freeze at the same time under the right conditions.",
+      "Light from the Sun takes about 8 minutes to reach Earth."
+    ]
+  },
+  {
+    "CATEGORY_ID": 82,
+    "CATEGORY_NAME": "Love and Romance",
+    "DESCRIPTION": "Celebrate the emotions and magic of love and romance that warm the heart and lift the spirit.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Sweet Facts About Love and Romance",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about love and romance.",
+      "Learn something new about love and romance today.",
+      "Fun insights and trivia that make love and romance even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 83,
+    "CATEGORY_NAME": "Shark",
+    "DESCRIPTION": "Step into the amazing animal kingdom of shark you won\u2019t believe exist in the wild!",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Wild Facts About Shark",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about shark.",
+      "Learn something new about shark today.",
+      "Fun insights and trivia that make shark even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 85,
+    "CATEGORY_NAME": "Space",
+    "DESCRIPTION": "Take a mind-blowing journey through space that\u2019ll blow your mind about space and time.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Stunning Facts About Space",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "A day on Venus is longer than a year on Venus.",
+      "There are more stars in the universe than grains of sand on Earth.",
+      "Neptune\u2019s moon Triton orbits backward around its planet."
+    ]
+  },
+  {
+    "CATEGORY_ID": 87,
+    "CATEGORY_NAME": "Sports",
+    "DESCRIPTION": "Dive into a collection of fascinating details about sports that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Interesting Facts About Sports",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about sports.",
+      "Learn something new about sports today.",
+      "Fun insights and trivia that make sports even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 88,
+    "CATEGORY_NAME": "Statistics",
+    "DESCRIPTION": "Dive into a collection of fascinating details about statistics that make learning something new exciting.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Fascinating Facts About Statistics",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about statistics.",
+      "Learn something new about statistics today.",
+      "Fun insights and trivia that make statistics even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 89,
+    "CATEGORY_NAME": "Strange law",
+    "DESCRIPTION": "Brace yourself for bizarre and mind-twisting tales of strange law that show how bizarre our world really is.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Strange Facts About Strange law",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about strange law.",
+      "Learn something new about strange law today.",
+      "Fun insights and trivia that make strange law even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 90,
+    "CATEGORY_NAME": "Strange",
+    "DESCRIPTION": "Explore the strangest corners of strange that are too strange to be made up.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Unusual Facts About Strange",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about strange.",
+      "Learn something new about strange today.",
+      "Fun insights and trivia that make strange even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 91,
+    "CATEGORY_NAME": "Supernatural",
+    "DESCRIPTION": "Dive into a collection of fascinating details about supernatural that make learning something new exciting.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Unique Facts About Supernatural",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about supernatural.",
+      "Learn something new about supernatural today.",
+      "Fun insights and trivia that make supernatural even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 92,
+    "CATEGORY_NAME": "Tax",
+    "DESCRIPTION": "Dive into a collection of fascinating details about tax that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Fascinating Facts About Tax",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about tax.",
+      "Learn something new about tax today.",
+      "Fun insights and trivia that make tax even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 93,
+    "CATEGORY_NAME": "Technology",
+    "DESCRIPTION": "Unlock the wonders behind technology you didn\u2019t know could change how you see the world.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Amazing Facts About Technology",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about technology.",
+      "Learn something new about technology today.",
+      "Fun insights and trivia that make technology even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 94,
+    "CATEGORY_NAME": "USA",
+    "DESCRIPTION": "Dive into a collection of fascinating details about usa that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Amazing Facts About USA",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about usa.",
+      "Learn something new about usa today.",
+      "Fun insights and trivia that make usa even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 95,
+    "CATEGORY_NAME": "Unbelievable Things",
+    "DESCRIPTION": "Dive into a collection of fascinating details about unbelievable things that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Amazing Facts About Unbelievable Things",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about unbelievable things.",
+      "Learn something new about unbelievable things today.",
+      "Fun insights and trivia that make unbelievable things even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 96,
+    "CATEGORY_NAME": "Universe",
+    "DESCRIPTION": "Venture into the mysteries of universe that prove our universe is full of mysteries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Awe-Inspiring Facts About Universe",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about universe.",
+      "Learn something new about universe today.",
+      "Fun insights and trivia that make universe even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 97,
+    "CATEGORY_NAME": "Crazy",
+    "DESCRIPTION": "Get ready to laugh with hilarious tidbits about crazy that prove the world is full of humor.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Entertaining Facts About Crazy",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about crazy.",
+      "Learn something new about crazy today.",
+      "Fun insights and trivia that make crazy even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 98,
+    "CATEGORY_NAME": "War",
+    "DESCRIPTION": "Travel back in time and uncover stories from war that bring the past vividly back to life.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Historic Facts About War",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about war.",
+      "Learn something new about war today.",
+      "Fun insights and trivia that make war even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 101,
+    "CATEGORY_NAME": "Weird",
+    "DESCRIPTION": "Explore the strangest corners of weird you have to read to believe!",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Unusual Facts About Weird",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Wombat poop is cube-shaped to stop it from rolling away.",
+      "Sharks existed before trees did.",
+      "A cloud can weigh over a million pounds."
+    ]
+  },
+  {
+    "CATEGORY_ID": 102,
+    "CATEGORY_NAME": "Whale",
+    "DESCRIPTION": "You\u2019ll be surprised to learn incredible things about whale that will make you look at nature differently.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Curious Facts About Whale",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about whale.",
+      "Learn something new about whale today.",
+      "Fun insights and trivia that make whale even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 104,
+    "CATEGORY_NAME": "World Records",
+    "DESCRIPTION": "Travel back in time and uncover stories from world records you never learned in school!",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Intriguing Facts About World Records",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about world records.",
+      "Learn something new about world records today.",
+      "Fun insights and trivia that make world records even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 106,
+    "CATEGORY_NAME": "Amazing",
+    "DESCRIPTION": "Explore fun and surprising facts about amazing that make learning something new exciting.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Amazing Facts About Amazing",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about amazing.",
+      "Learn something new about amazing today.",
+      "Fun insights and trivia that make amazing even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 109,
+    "CATEGORY_NAME": "Etymology",
+    "DESCRIPTION": "Explore fun and surprising facts about etymology that make learning something new exciting.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Unique Facts About Etymology",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about etymology.",
+      "Learn something new about etymology today.",
+      "Fun insights and trivia that make etymology even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 110,
+    "CATEGORY_NAME": "Birds",
+    "DESCRIPTION": "You\u2019ll be surprised to learn incredible things about birds you won\u2019t believe exist in the wild!",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Wild Facts About Birds",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about birds.",
+      "Learn something new about birds today.",
+      "Fun insights and trivia that make birds even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 111,
+    "CATEGORY_NAME": "World",
+    "DESCRIPTION": "Take a journey through interesting insights about world that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Remarkable Facts About World",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about world.",
+      "Learn something new about world today.",
+      "Fun insights and trivia that make world even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 112,
+    "CATEGORY_NAME": "Incredible",
+    "DESCRIPTION": "Dive into a collection of fascinating details about incredible that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Amazing Facts About Incredible",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about incredible.",
+      "Learn something new about incredible today.",
+      "Fun insights and trivia that make incredible even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 201,
+    "CATEGORY_NAME": "Anger",
+    "DESCRIPTION": "Dive into a collection of fascinating details about anger that make learning something new exciting.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Fascinating Facts About Anger",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about anger.",
+      "Learn something new about anger today.",
+      "Fun insights and trivia that make anger even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 202,
+    "CATEGORY_NAME": "Animal",
+    "DESCRIPTION": "You\u2019ll be surprised to learn incredible things about animal that show how extraordinary creatures can be.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Adorable Facts About Animal",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Some animals can sense earthquakes before they happen.",
+      "A group of flamingos is called a flamboyance.",
+      "Octopuses have three hearts and blue blood."
+    ]
+  },
+  {
+    "CATEGORY_ID": 203,
+    "CATEGORY_NAME": "Attraction",
+    "DESCRIPTION": "Take a journey through interesting insights about attraction that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Fascinating Facts About Attraction",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about attraction.",
+      "Learn something new about attraction today.",
+      "Fun insights and trivia that make attraction even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 204,
+    "CATEGORY_NAME": "Human Body",
+    "DESCRIPTION": "Take a closer look at the marvels of human body that reveal how your body and mind work together.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Fascinating Facts About Human Body",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Your heart beats about 100,000 times per day.",
+      "The human nose can detect over a trillion different scents.",
+      "Your skin renews itself every 28 days."
+    ]
+  },
+  {
+    "CATEGORY_ID": 205,
+    "CATEGORY_NAME": "Body Language",
+    "DESCRIPTION": "Take a closer look at the marvels of body language that show how fascinating we truly are.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Amazing Facts About Body Language",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about body language.",
+      "Learn something new about body language today.",
+      "Fun insights and trivia that make body language even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 206,
+    "CATEGORY_NAME": "Children",
+    "DESCRIPTION": "Take a journey through interesting insights about children that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Fascinating Facts About Children",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about children.",
+      "Learn something new about children today.",
+      "Fun insights and trivia that make children even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 207,
+    "CATEGORY_NAME": "Colors",
+    "DESCRIPTION": "Take a journey through interesting insights about colors that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Amazing Facts About Colors",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about colors.",
+      "Learn something new about colors today.",
+      "Fun insights and trivia that make colors even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 208,
+    "CATEGORY_NAME": "Depression",
+    "DESCRIPTION": "Dive into a collection of fascinating details about depression that make learning something new exciting.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Amazing Facts About Depression",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about depression.",
+      "Learn something new about depression today.",
+      "Fun insights and trivia that make depression even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 209,
+    "CATEGORY_NAME": "Extrovert",
+    "DESCRIPTION": "Take a journey through interesting insights about extrovert that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Interesting Facts About Extrovert",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about extrovert.",
+      "Learn something new about extrovert today.",
+      "Fun insights and trivia that make extrovert even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 210,
+    "CATEGORY_NAME": "Phobia",
+    "DESCRIPTION": "Take a journey through interesting insights about phobia you\u2019ll enjoy sharing with friends.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Amazing Facts About Phobia",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about phobia.",
+      "Learn something new about phobia today.",
+      "Fun insights and trivia that make phobia even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 211,
+    "CATEGORY_NAME": "Women",
+    "DESCRIPTION": "Dive into a collection of fascinating details about women that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Fascinating Facts About Women",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about women.",
+      "Learn something new about women today.",
+      "Fun insights and trivia that make women even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 212,
+    "CATEGORY_NAME": "Friendship",
+    "DESCRIPTION": "Take a journey through interesting insights about friendship that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Remarkable Facts About Friendship",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about friendship.",
+      "Learn something new about friendship today.",
+      "Fun insights and trivia that make friendship even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 213,
+    "CATEGORY_NAME": "Happiness",
+    "DESCRIPTION": "Explore fun and surprising facts about happiness you\u2019ll enjoy sharing with friends.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Fascinating Facts About Happiness",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about happiness.",
+      "Learn something new about happiness today.",
+      "Fun insights and trivia that make happiness even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 214,
+    "CATEGORY_NAME": "Health",
+    "DESCRIPTION": "Find out surprising details about health that show how fascinating we truly are.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Remarkable Facts About Health",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about health.",
+      "Learn something new about health today.",
+      "Fun insights and trivia that make health even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 215,
+    "CATEGORY_NAME": "Human Behaviour",
+    "DESCRIPTION": "Take a closer look at the marvels of human behaviour that reveal how your body and mind work together.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Intriguing Facts About Human Behaviour",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about human behaviour.",
+      "Learn something new about human behaviour today.",
+      "Fun insights and trivia that make human behaviour even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 216,
+    "CATEGORY_NAME": "Emotions",
+    "DESCRIPTION": "Uncover the mysteries behind our behavior with emotions that give surprising insight into the human mind.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Surprising Facts About Emotions",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about emotions.",
+      "Learn something new about emotions today.",
+      "Fun insights and trivia that make emotions even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 217,
+    "CATEGORY_NAME": "Hunger and Food",
+    "DESCRIPTION": "Explore fun and surprising facts about hunger and food you\u2019ll enjoy sharing with friends.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Remarkable Facts About Hunger and Food",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about hunger and food.",
+      "Learn something new about hunger and food today.",
+      "Fun insights and trivia that make hunger and food even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 218,
+    "CATEGORY_NAME": "Introvert",
+    "DESCRIPTION": "Take a journey through interesting insights about introvert that make learning something new exciting.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Remarkable Facts About Introvert",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about introvert.",
+      "Learn something new about introvert today.",
+      "Fun insights and trivia that make introvert even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 219,
+    "CATEGORY_NAME": "Jealousy",
+    "DESCRIPTION": "Explore fun and surprising facts about jealousy that make learning something new exciting.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Interesting Facts About Jealousy",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about jealousy.",
+      "Learn something new about jealousy today.",
+      "Fun insights and trivia that make jealousy even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 220,
+    "CATEGORY_NAME": "Laughter",
+    "DESCRIPTION": "Explore fun and surprising facts about laughter you\u2019ll enjoy sharing with friends.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Interesting Facts About Laughter",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about laughter.",
+      "Learn something new about laughter today.",
+      "Fun insights and trivia that make laughter even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 221,
+    "CATEGORY_NAME": "Left Handed People",
+    "DESCRIPTION": "Take a journey through interesting insights about left handed people that make learning something new exciting.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Remarkable Facts About Left Handed People",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about left handed people.",
+      "Learn something new about left handed people today.",
+      "Fun insights and trivia that make left handed people even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 222,
+    "CATEGORY_NAME": "Love",
+    "DESCRIPTION": "Dive into heartwarming insights about love that show the science behind emotions.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Beautiful Facts About Love",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "When you hug someone, your brain releases oxytocin \u2014 the \u2018love hormone\u2019.",
+      "Love can actually reduce physical pain by activating pleasure centers in the brain.",
+      "Holding hands can lower stress levels and calm the nervous system."
+    ]
+  },
+  {
+    "CATEGORY_ID": 223,
+    "CATEGORY_NAME": "Men",
+    "DESCRIPTION": "Dive into a collection of fascinating details about men you\u2019ll enjoy sharing with friends.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Fascinating Facts About Men",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about men.",
+      "Learn something new about men today.",
+      "Fun insights and trivia that make men even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 224,
+    "CATEGORY_NAME": "Brain",
+    "DESCRIPTION": "Find out surprising details about brain that reveal how your body and mind work together.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Amazing Facts About Brain",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about brain.",
+      "Learn something new about brain today.",
+      "Fun insights and trivia that make brain even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 225,
+    "CATEGORY_NAME": "Music",
+    "DESCRIPTION": "Explore fun and surprising facts about music that make learning something new exciting.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Remarkable Facts About Music",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about music.",
+      "Learn something new about music today.",
+      "Fun insights and trivia that make music even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 226,
+    "CATEGORY_NAME": "Obsessive Compulsive Disorder",
+    "DESCRIPTION": "Take a journey through interesting insights about obsessive compulsive disorder that make learning something new exciting.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Interesting Facts About Obsessive Compulsive Disorder",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about obsessive compulsive disorder.",
+      "Learn something new about obsessive compulsive disorder today.",
+      "Fun insights and trivia that make obsessive compulsive disorder even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 227,
+    "CATEGORY_NAME": "Personality",
+    "DESCRIPTION": "Explore fascinating insights into personality that help you understand people better.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Intriguing Facts About Personality",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about personality.",
+      "Learn something new about personality today.",
+      "Fun insights and trivia that make personality even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 228,
+    "CATEGORY_NAME": "Psychological",
+    "DESCRIPTION": "Explore fun and surprising facts about psychological that make learning something new exciting.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Amazing Facts About Psychological",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about psychological.",
+      "Learn something new about psychological today.",
+      "Fun insights and trivia that make psychological even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 229,
+    "CATEGORY_NAME": "Sixth Sense",
+    "DESCRIPTION": "Explore fun and surprising facts about sixth sense that turn everyday knowledge into fun discoveries.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Amazing Facts About Sixth Sense",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about sixth sense.",
+      "Learn something new about sixth sense today.",
+      "Fun insights and trivia that make sixth sense even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 230,
+    "CATEGORY_NAME": "Sleep",
+    "DESCRIPTION": "Explore fascinating insights into sleep that explain why we think, feel, and act the way we do.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Insightful Facts About Sleep",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about sleep.",
+      "Learn something new about sleep today.",
+      "Fun insights and trivia that make sleep even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 231,
+    "CATEGORY_NAME": "Technology",
+    "DESCRIPTION": "Step inside the world of discovery with technology you didn\u2019t know could change how you see the world.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Innovative Facts About Technology",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about technology.",
+      "Learn something new about technology today.",
+      "Fun insights and trivia that make technology even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 232,
+    "CATEGORY_NAME": "Teenagers",
+    "DESCRIPTION": "Take a journey through interesting insights about teenagers that make learning something new exciting.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Interesting Facts About Teenagers",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about teenagers.",
+      "Learn something new about teenagers today.",
+      "Fun insights and trivia that make teenagers even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 233,
+    "CATEGORY_NAME": "Writing",
+    "DESCRIPTION": "Dive into a collection of fascinating details about writing that make learning something new exciting.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Fascinating Facts About Writing",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about writing.",
+      "Learn something new about writing today.",
+      "Fun insights and trivia that make writing even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 234,
+    "CATEGORY_NAME": "People",
+    "DESCRIPTION": "Dive into a collection of fascinating details about people that make learning something new exciting.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Fascinating Facts About People",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about people.",
+      "Learn something new about people today.",
+      "Fun insights and trivia that make people even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 235,
+    "CATEGORY_NAME": "Blue Eyes",
+    "DESCRIPTION": "Take a closer look at the marvels of blue eyes you didn\u2019t know about yourself!",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Fascinating Facts About Blue Eyes",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about blue eyes.",
+      "Learn something new about blue eyes today.",
+      "Fun insights and trivia that make blue eyes even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 236,
+    "CATEGORY_NAME": "Smoking",
+    "DESCRIPTION": "Dive into a collection of fascinating details about smoking you\u2019ll enjoy sharing with friends.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Interesting Facts About Smoking",
+    "TYPE_ID": 22,
+    "TYPE_NAME": "PSYCHOLOGY",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about smoking.",
+      "Learn something new about smoking today.",
+      "Fun insights and trivia that make smoking even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 100,
+    "CATEGORY_NAME": "General",
+    "DESCRIPTION": "Dive into a collection of fascinating details about general you\u2019ll enjoy sharing with friends.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Amazing Facts About General",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about general.",
+      "Learn something new about general today.",
+      "Fun insights and trivia that make general even more interesting."
+    ]
+  },
+  {
+    "CATEGORY_ID": 113,
+    "CATEGORY_NAME": "Weather",
+    "DESCRIPTION": "Breathe in the beauty of our planet through weather that show nature\u2019s beauty in every detail.",
+    "FAVOURITE": 0,
+    "SHORT_DESCRIPTION": "Peaceful Facts About Weather",
+    "TYPE_ID": 11,
+    "TYPE_NAME": "FACTS",
+    "PREVIEW_FACTS": [
+      "Discover curious and surprising facts about weather.",
+      "Learn something new about weather today.",
+      "Fun insights and trivia that make weather even more interesting."
+    ]
+  }
+]
