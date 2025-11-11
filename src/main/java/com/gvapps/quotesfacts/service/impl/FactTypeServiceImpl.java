@@ -1,16 +1,16 @@
 package com.gvapps.quotesfacts.service.impl;
 
+import com.gvapps.quotesfacts.entity.ArticlesEntity;
+import com.gvapps.quotesfacts.entity.FactDetailsEntity;
 import com.gvapps.quotesfacts.entity.FactTypeEntity;
+import com.gvapps.quotesfacts.repository.ArticlesRepository;
+import com.gvapps.quotesfacts.repository.FactDetailsRepository;
 import com.gvapps.quotesfacts.repository.FactTypeRepository;
 import com.gvapps.quotesfacts.service.FactTypeService;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import com.gvapps.quotesfacts.entity.ArticlesEntity;
-import com.gvapps.quotesfacts.entity.FactDetailsEntity;
-import com.gvapps.quotesfacts.repository.ArticlesRepository;
-import com.gvapps.quotesfacts.repository.FactDetailsRepository;
-import lombok.extern.slf4j.Slf4j;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -56,7 +56,7 @@ public class FactTypeServiceImpl implements FactTypeService {
         Map<String, Object> factsSection = new HashMap<>();
         factsSection.put("header", Map.of(
                 "title", "Today’s Quick Facts",
-                "subtitle", "Short, snappy, and verified",
+                "subTitle", "Short, snappy, and verified",
                 "gradientColors", List.of("#FEF9C3", "#E0F2FE", "#E9D5FF")
         ));
         factsSection.put("items", todayFacts);
@@ -67,7 +67,7 @@ public class FactTypeServiceImpl implements FactTypeService {
         Map<String, Object> categoriesSection = new HashMap<>();
         categoriesSection.put("header", Map.of(
                 "title", "Popular Fact Categories",
-                "subtitle", "Discover trending topics and curiosities"
+                "subTitle", "Discover trending topics and curiosities"
         ));
         categoriesSection.put("items", popularCategories);
         dashboard.put("popularCategories", categoriesSection);
@@ -77,7 +77,7 @@ public class FactTypeServiceImpl implements FactTypeService {
         Map<String, Object> articlesSection = new HashMap<>();
         articlesSection.put("header", Map.of(
                 "title", "Featured Articles",
-                "subtitle", "In-depth stories & curated facts"
+                "subTitle", "In-depth stories & curated facts"
         ));
         articlesSection.put("items", topArticles);
         dashboard.put("topArticles", articlesSection);
@@ -96,7 +96,7 @@ public class FactTypeServiceImpl implements FactTypeService {
         Map<String, Object> factsByCategorySection = new HashMap<>();
         factsByCategorySection.put("header", Map.of(
                 "title", "Facts by Category",
-                "subtitle", "Explore diverse fact types",
+                "subTitle", "Explore diverse fact types",
                 "gradientColors", List.of("#FDE68A", "#FECACA", "#E0F2FE")
         ));
         factsByCategorySection.put("items", factsByCategory);
@@ -107,7 +107,7 @@ public class FactTypeServiceImpl implements FactTypeService {
         Map<String, Object> quotesSection = new HashMap<>();
         quotesSection.put("header", Map.of(
                 "title", "Interesting Facts",
-                "subtitle", "Timeless and must read facts",
+                "subTitle", "Timeless and must read facts",
                 "gradientColors", List.of("#BBF7D0", "#FDE68A", "#E0F2FE")
         ));
         quotesSection.put("items", interestingQuotes);
@@ -118,7 +118,7 @@ public class FactTypeServiceImpl implements FactTypeService {
         Map<String, Object> psychologySection = new HashMap<>();
         psychologySection.put("header", Map.of(
                 "title", "Mind-Blowing Psychology Facts",
-                "subtitle", "Explore fascinating mind insights",
+                "subTitle", "Explore fascinating mind insights",
                 "gradientColors", List.of("#E9D5FF", "#C7D2FE", "#A5F3FC")
         ));
         psychologySection.put("items", psychologyFacts);
@@ -129,7 +129,7 @@ public class FactTypeServiceImpl implements FactTypeService {
         Map<String, Object> curiousReadsSection = new HashMap<>();
         curiousReadsSection.put("header", Map.of(
                 "title", "Curious Reads",
-                "subtitle", "Thought-provoking psychology reads",
+                "subTitle", "Thought-provoking psychology reads",
                 "gradientColors", List.of("#FECACA", "#E0F2FE", "#BBF7D0")
         ));
         curiousReadsSection.put("items", curiousReads);

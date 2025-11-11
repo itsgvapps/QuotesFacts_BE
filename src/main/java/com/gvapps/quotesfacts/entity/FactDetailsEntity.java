@@ -2,6 +2,7 @@ package com.gvapps.quotesfacts.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
+
 import java.time.LocalDate;
 
 @Entity
@@ -55,6 +56,9 @@ public class FactDetailsEntity {
 
     @Column(name = "tags", columnDefinition = "JSON")
     private String tags;
+
+    @Column(name = "external_url", length = 255)
+    private String externalUrl;
 
     @Column(name = "verified", nullable = false, columnDefinition = "BOOLEAN DEFAULT FALSE")
     private boolean verified = false;

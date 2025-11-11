@@ -1,5 +1,5 @@
 server:
-  port: ${PORT:8386}
+  port: 8386
   error:
     include-message: always
     include-binding-errors: always
@@ -11,9 +11,9 @@ spring:
   application:
     name: quotes-facts-service
   datasource:
-    url: ${DB_URL}
-    username: ${DB_USER}
-    password: ${DB_PASSWORD}
+    url: 'jdbc:mysql://localhost:3306/gvsdb'
+    username: root
+    password: admin@1234
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     hibernate:

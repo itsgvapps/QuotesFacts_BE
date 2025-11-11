@@ -9,6 +9,6 @@ RUN ./mvnw clean package -DskipTests
 FROM eclipse-temurin:21-jre-jammy
 WORKDIR /app
 COPY --from=builder /app/target/*.jar app.jar
-ENV PORT=8080
-EXPOSE 8080
+ENV PORT=8386
+EXPOSE 8386
 CMD ["java", "-jar", "app.jar"]
