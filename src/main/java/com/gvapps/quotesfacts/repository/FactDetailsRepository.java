@@ -17,7 +17,7 @@ public interface FactDetailsRepository extends JpaRepository<FactDetailsEntity, 
     List<FactDetailsEntity> findByCategoryId(int categoryId);
 
     @Query(value = """
-    SELECT * FROM FACT_DETAILS
+            SELECT * FROM fact_details
     WHERE category_id = :categoryId
     ORDER BY RAND()
     LIMIT :limit
@@ -65,7 +65,7 @@ public interface FactDetailsRepository extends JpaRepository<FactDetailsEntity, 
     void incrementShares(List<Long> ids);
 
     @Query(value = """
-        SELECT * FROM FACT_DETAILS
+            SELECT * FROM fact_details
         WHERE LENGTH(text) < 160
         ORDER BY RAND()
         LIMIT 5

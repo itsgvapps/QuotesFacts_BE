@@ -1,11 +1,15 @@
 package com.gvapps.quotesfacts.entity;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 import lombok.*;
+
 import java.time.LocalDate;
 
 @Entity
-@Table(name = "FACT_TYPE")
+@Table(name = "fact_type")
 @Getter
 @Setter
 @NoArgsConstructor
