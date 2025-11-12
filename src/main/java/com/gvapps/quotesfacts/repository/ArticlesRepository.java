@@ -1,16 +1,15 @@
 package com.gvapps.quotesfacts.repository;
 
 import com.gvapps.quotesfacts.entity.ArticlesEntity;
-import org.springframework.data.jpa.repository.*;
-
-import java.time.LocalDate;
-import java.util.List;
-
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
+
+import java.time.LocalDate;
+import java.util.List;
 
 public interface ArticlesRepository extends JpaRepository<ArticlesEntity, Long> {
 
@@ -54,17 +53,20 @@ public interface ArticlesRepository extends JpaRepository<ArticlesEntity, Long> 
 
     @Query(value = """
         SELECT * FROM articles 
-        WHERE (:tag IS NULL OR :tag = '' OR JSON_CONTAINS(tags, JSON_QUOTE(:tag), '$'))
+            WHERE (:tag IS NULL OR :tag = '' 
+                   OR JSON_SEARCH(LOWER(tags), 'one', LOWER(:tag), NULL, '$') IS NOT NULL)
         AND active = 1
         ORDER BY RAND()
         """,
             countQuery = """
         SELECT COUNT(*) FROM articles 
-        WHERE (:tag IS NULL OR :tag = '' OR JSON_CONTAINS(tags, JSON_QUOTE(:tag), '$'))
+                    WHERE (:tag IS NULL OR :tag = '' 
+                           OR JSON_SEARCH(LOWER(tags), 'one', LOWER(:tag), NULL, '$') IS NOT NULL)
         AND active = 1
         """,
             nativeQuery = true)
     Page<ArticlesEntity> findByTagOrAll(@Param("tag") String tag, Pageable pageable);
+
 
     @Query(value = """
         SELECT * FROM articles

@@ -36,6 +36,7 @@ public class ArticlesServiceImpl implements ArticlesService {
     @Override
     public Page<ArticlesEntity> getArticlesByTag(String tag, int page, int size) {
         try {
+            tag = tag.toLowerCase().trim();
             return repository.findByTagOrAll(tag, PageRequest.of(page, size));
         } catch (Exception e) {
             log.error("[ArticlesServiceImpl] >> getArticlesByTag failed for tag: {}", tag, e);
