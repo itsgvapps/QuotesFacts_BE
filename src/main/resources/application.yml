@@ -11,7 +11,7 @@ spring:
   application:
     name: quotes-facts-service
   profiles:
-    active: dev
+    active: prod
   mvc:
     servlet:
       path: /api

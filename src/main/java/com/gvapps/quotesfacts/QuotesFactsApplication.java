@@ -9,5 +9,4 @@ public class QuotesFactsApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(QuotesFactsApplication.class, args);
 	}
-
 }

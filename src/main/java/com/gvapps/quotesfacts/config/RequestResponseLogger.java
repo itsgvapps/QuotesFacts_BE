@@ -12,10 +12,13 @@ import org.springframework.web.util.ContentCachingResponseWrapper;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
-import java.time.OffsetDateTime;
 import java.time.ZoneId;
+import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.*;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 @Component
@@ -76,8 +79,9 @@ public class RequestResponseLogger extends OncePerRequestFilter {
 
         boolean hasReqBody = !"GET".equalsIgnoreCase(method) && !reqBody.isEmpty();
 
-        // ✅ Add formatted date-time (colored cyan)
-        String timestamp = CYAN + OffsetDateTime.now(ZoneId.systemDefault()).format(ISO_FORMATTER) + RESET;
+        // ✅ Malaysia timezone timestamp
+        ZonedDateTime malaysiaTime = ZonedDateTime.now(ZoneId.of("Asia/Kuala_Lumpur"));
+        String timestamp = CYAN + malaysiaTime.format(ISO_FORMATTER) + " MYT" + RESET;
 
         System.out.printf(
                 "%n%s═══════════════ [REQUEST @ %s] ═══════════════%s%n" +
@@ -89,11 +93,11 @@ public class RequestResponseLogger extends OncePerRequestFilter {
         );
 
         System.out.printf(
-                "%s─────────────── [RESPONSE] ───────────────%s%n" +
+                "%s─────────────── [RESPONSE @ %s] ───────────────%s%n" +
                         "%sStatus:%s %s%d%s | %sTime:%s %dms%n" +
                         "%sBody:%s %s%n" +
                         "%s═══════════════════════════════════════%s%n",
-                BLUE, RESET,
+                BLUE, timestamp, RESET,
                 CYAN, RESET, color, status, RESET, CYAN, RESET, duration,
                 GRAY, RESET, truncate(resBody), BLUE, RESET
         );
