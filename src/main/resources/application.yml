@@ -11,7 +11,10 @@ spring:
   application:
     name: quotes-facts-service
   profiles:
-    active: prod
+    active: dev
+  mvc:
+    servlet:
+      path: /api
   datasource:
     url: ${DB_URL}
     username: ${DB_USER}

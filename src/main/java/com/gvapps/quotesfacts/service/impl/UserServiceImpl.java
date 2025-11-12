@@ -2,6 +2,7 @@ package com.gvapps.quotesfacts.service.impl;
 
 import com.gvapps.quotesfacts.dto.UserDTO;
 import com.gvapps.quotesfacts.entity.UserEntity;
+import com.gvapps.quotesfacts.exception.ApiException;
 import com.gvapps.quotesfacts.mapper.UserMapper;
 import com.gvapps.quotesfacts.repository.UserRepository;
 import com.gvapps.quotesfacts.service.UserService;
@@ -76,8 +77,8 @@ public class UserServiceImpl implements UserService {
         int updated = userRepository.updateNotificationAndFcmTokenByIdAndAppName(id, appName, notificationEnabled, fcmToken);
 
         if (updated == 0) {
-            log.warn("[UserServiceImpl] >> [updateNotificationAndFcmToken] No user found with id: {} and appName: {}", id, appName);
-            throw new RuntimeException("User not found for id: " + id + " and appName: " + appName);
+            throw new ApiException("404", "User Not Found", "No user found with id: " + id + " and appName: " + appName);
         }
     }
+
 }

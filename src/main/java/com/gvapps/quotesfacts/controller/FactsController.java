@@ -1,9 +1,10 @@
 package com.gvapps.quotesfacts.controller;
 
+import com.gvapps.quotesfacts.dto.response.APIResponse;
 import com.gvapps.quotesfacts.entity.FactDetailsEntity;
 import com.gvapps.quotesfacts.entity.FactTypeEntity;
-import com.gvapps.quotesfacts.service.FactDetailsService;
 import com.gvapps.quotesfacts.service.FactTypeService;
+import com.gvapps.quotesfacts.util.ResponseUtils;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
@@ -14,106 +15,110 @@ import java.util.Map;
 
 @Slf4j
 @RestController
-@RequestMapping("/api/v1/facts")
+@RequestMapping("/v1/facts")
 @RequiredArgsConstructor
 @CrossOrigin(origins = "*") // ✅ Allow access from mobile app or frontend
 public class FactsController {
-
-    private final FactDetailsService factDetailsService;
 
     private final FactTypeService factTypeService;
 
     // ✅ Get categories by type_id
     @GetMapping("/type/{typeId}")
-    public ResponseEntity<List<FactTypeEntity>> getCategoriesByTypeId(@PathVariable int typeId) {
-        return ResponseEntity.ok(factTypeService.getCategoriesByTypeId(typeId));
+    public ResponseEntity<APIResponse> getCategoriesByTypeId(@PathVariable int typeId) {
+        List<FactTypeEntity> result = factTypeService.getCategoriesByTypeId(typeId);
+        return ResponseEntity.ok(ResponseUtils.success("200", "Categories fetched successfully", result));
     }
 
-    // ✅ Get tab data
+    // ✅ Get tab data (Home / Discover)
     @GetMapping("/tab/{name}")
-    public ResponseEntity<Map<String, Object>> getTabData(@PathVariable String name) {
-        if (name.equals("Home"))
-            return ResponseEntity.ok(factTypeService.getHomeTabData());
-        if (name.equals("Discover"))
-            return ResponseEntity.ok(factTypeService.getDiscoverTabData());
-        return null;
+    public ResponseEntity<APIResponse> getTabData(@PathVariable String name) {
+        Map<String, Object> tabData;
+        switch (name) {
+            case "Home" -> tabData = factTypeService.getHomeTabData();
+            case "Discover" -> tabData = factTypeService.getDiscoverTabData();
+            default -> throw new IllegalArgumentException("Invalid tab name: " + name);
+        }
+        return ResponseEntity.ok(ResponseUtils.success("200", name + " tab data fetched successfully", tabData));
     }
 
-    // ✅ Get top popular categories (configurable)
+    // ✅ Get top popular categories
     @GetMapping("/popular")
-    public ResponseEntity<List<FactTypeEntity>> getPopularCategories(
-            @RequestParam(defaultValue = "4") int limit) {
-        return ResponseEntity.ok(factTypeService.getTopPopularCategories(limit));
+    public ResponseEntity<APIResponse> getPopularCategories(@RequestParam(defaultValue = "4") int limit) {
+        List<FactTypeEntity> result = factTypeService.getTopPopularCategories(limit);
+        return ResponseEntity.ok(ResponseUtils.success("200", "Popular categories fetched successfully", result));
     }
 
-    // ✅ Get top trending categories (configurable)
+    // ✅ Get top trending categories
     @GetMapping("/trending")
-    public ResponseEntity<List<FactTypeEntity>> getTrendingCategories(
-            @RequestParam(defaultValue = "4") int limit) {
-        return ResponseEntity.ok(factTypeService.getTopTrendingCategories(limit));
+    public ResponseEntity<APIResponse> getTrendingCategories(@RequestParam(defaultValue = "4") int limit) {
+        List<FactTypeEntity> result = factTypeService.getTopTrendingCategories(limit);
+        return ResponseEntity.ok(ResponseUtils.success("200", "Trending categories fetched successfully", result));
     }
-
-    //Fact details
 
     // ✅ Create new fact
     @PostMapping
-    public ResponseEntity<FactDetailsEntity> createFact(@RequestBody FactDetailsEntity fact) {
-        FactDetailsEntity savedFact = factDetailsService.saveFact(fact);
-        return ResponseEntity.ok(savedFact);
+    public ResponseEntity<APIResponse> createFact(@RequestBody FactDetailsEntity fact) {
+        FactDetailsEntity savedFact = factTypeService.saveFact(fact);
+        return ResponseEntity.ok(ResponseUtils.success("200", "Fact created successfully", savedFact));
     }
-
 
     // ✅ Get fact by ID
     @GetMapping("/{id}")
-    public ResponseEntity<FactDetailsEntity> getFactById(@PathVariable int id) {
-        return factDetailsService.getFactById(id)
-                .map(ResponseEntity::ok)
-                .orElse(ResponseEntity.notFound().build());
+    public ResponseEntity<APIResponse> getFactById(@PathVariable int id) {
+        return factTypeService.getFactById(id)
+                .map(fact -> ResponseEntity.ok(ResponseUtils.success("200", "Fact fetched successfully", fact)))
+                .orElse(ResponseEntity.ok(ResponseUtils.error("404", "Fact Not Found", "Fact not found with id: " + id)));
     }
 
     // ✅ Get facts by category
     @GetMapping("/category/{categoryId}")
-    public ResponseEntity<List<FactDetailsEntity>> getFactsByCategory(@PathVariable int categoryId) {
-        log.info("[FactController] >> [getFactsByCategory] categoryId:{}", categoryId);
-        return ResponseEntity.ok(factDetailsService.getFactsByCategory(categoryId));
+    public ResponseEntity<APIResponse> getFactsByCategory(@PathVariable int categoryId) {
+        log.info("[FactController] >> [getFactsByCategory] categoryId: {}", categoryId);
+        List<FactDetailsEntity> facts = factTypeService.getFactsByCategory(categoryId);
+        return ResponseEntity.ok(ResponseUtils.success("200", "Facts fetched successfully", facts));
     }
 
+    // ✅ Update category views
     @PostMapping("/category/views")
-    public ResponseEntity<String> updateCategoryViews(@RequestBody Map<String, List<Long>> payload) {
-        log.info("[FactController] >> [updateFactDetailCounts]");
+    public ResponseEntity<APIResponse> updateCategoryViews(@RequestBody Map<String, List<Long>> payload) {
+        log.info("[FactController] >> [updateCategoryViews]");
         factTypeService.incrementCategoryViewsAsync(payload);
-        return ResponseEntity.ok("Category Counts updated successfully");
+        return ResponseEntity.ok(ResponseUtils.success("200", "Category views updated successfully", null));
     }
 
     // ✅ Get facts by language
     @GetMapping("/language/{lang}")
-    public ResponseEntity<List<FactDetailsEntity>> getFactsByLanguage(@PathVariable("lang") String language) {
-        return ResponseEntity.ok(factDetailsService.getFactsByLanguage(language));
+    public ResponseEntity<APIResponse> getFactsByLanguage(@PathVariable("lang") String language) {
+        List<FactDetailsEntity> result = factTypeService.getFactsByLanguage(language);
+        return ResponseEntity.ok(ResponseUtils.success("200", "Facts fetched successfully", result));
     }
 
-    // ✅ Get verified facts only
+    // ✅ Get verified facts
     @GetMapping("/verified")
-    public ResponseEntity<List<FactDetailsEntity>> getVerifiedFacts() {
-        return ResponseEntity.ok(factDetailsService.getVerifiedFacts());
+    public ResponseEntity<APIResponse> getVerifiedFacts() {
+        List<FactDetailsEntity> result = factTypeService.getVerifiedFacts();
+        return ResponseEntity.ok(ResponseUtils.success("200", "Verified facts fetched successfully", result));
     }
 
     // ✅ Get top viewed facts
     @GetMapping("/top")
-    public ResponseEntity<List<FactDetailsEntity>> getTopFacts(
-            @RequestParam(defaultValue = "10") int limit) {
-        return ResponseEntity.ok(factDetailsService.getTopViewedFacts(limit));
+    public ResponseEntity<APIResponse> getTopFacts(@RequestParam(defaultValue = "10") int limit) {
+        List<FactDetailsEntity> result = factTypeService.getTopViewedFacts(limit);
+        return ResponseEntity.ok(ResponseUtils.success("200", "Top viewed facts fetched successfully", result));
     }
 
     // ✅ Search facts by keyword
     @GetMapping("/search")
-    public ResponseEntity<List<FactDetailsEntity>> searchFacts(@RequestParam String q) {
-        return ResponseEntity.ok(factDetailsService.searchFactsByKeyword(q));
+    public ResponseEntity<APIResponse> searchFacts(@RequestParam String q) {
+        List<FactDetailsEntity> result = factTypeService.searchFactsByKeyword(q);
+        return ResponseEntity.ok(ResponseUtils.success("200", "Facts fetched successfully", result));
     }
 
+    // ✅ Update fact detail counts
     @PostMapping("/detail/counts")
-    public ResponseEntity<String> updateFactDetailCounts(@RequestBody Map<String, List<Long>> payload) {
+    public ResponseEntity<APIResponse> updateFactDetailCounts(@RequestBody Map<String, List<Long>> payload) {
         log.info("[FactController] >> [updateFactDetailCounts]");
-        factDetailsService.incrementDetailCounts(payload);
-        return ResponseEntity.ok("Counts updated successfully");
+        factTypeService.incrementDetailCounts(payload);
+        return ResponseEntity.ok(ResponseUtils.success("200", "Fact detail counts updated successfully", null));
     }
 }

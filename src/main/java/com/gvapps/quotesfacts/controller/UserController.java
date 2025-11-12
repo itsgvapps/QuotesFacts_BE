@@ -2,32 +2,35 @@ package com.gvapps.quotesfacts.controller;
 
 import com.gvapps.quotesfacts.dto.UserDTO;
 import com.gvapps.quotesfacts.dto.request.UpdateNotificationRequest;
+import com.gvapps.quotesfacts.dto.response.APIResponse;
 import com.gvapps.quotesfacts.service.UserService;
+import com.gvapps.quotesfacts.util.ResponseUtils;
+import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
-
 import static com.gvapps.quotesfacts.util.Utils.getJsonString;
 
 @Slf4j
 @RestController
-@RequestMapping("/api/v1/users")
+@RequestMapping("/v1/users")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "*") // ✅ Allow access from mobile app or frontend
+@CrossOrigin(origins = "*")
 public class UserController {
 
     private final UserService userService;
 
     @PostMapping("/save")
-    public ResponseEntity<UserDTO> saveOrUpdate(@RequestBody UserDTO userDTO) {
-        return ResponseEntity.ok(userService.saveOrUpdate(userDTO));
+    public ResponseEntity<APIResponse> saveOrUpdate(@RequestBody UserDTO userDTO) {
+        log.info("[UserController] >> [saveOrUpdate] userDTO: {}", getJsonString(userDTO));
+        UserDTO savedUser = userService.saveOrUpdate(userDTO);
+        return ResponseEntity.ok(ResponseUtils.success("200", "User saved successfully", savedUser));
     }
 
     @PostMapping("/update-notification")
-    public ResponseEntity<String> updateNotification(@RequestBody UpdateNotificationRequest request) {
+    public ResponseEntity<APIResponse> updateNotification(@RequestBody UpdateNotificationRequest request) {
         log.info("[UserController] >> [updateNotification] request: {}", getJsonString(request));
         userService.updateNotificationAndFcmToken(
                 request.getId(),
@@ -35,22 +38,25 @@ public class UserController {
                 request.getNotificationEnabled(),
                 request.getFcmToken()
         );
-        return ResponseEntity.ok("User notification and FCM token updated successfully.");
+        return ResponseEntity.ok(ResponseUtils.success("200", "User notification updated", null));
     }
 
     @GetMapping
-    public ResponseEntity<List<UserDTO>> getAllUsers() {
-        return ResponseEntity.ok(userService.getAllUsers());
+    public ResponseEntity<APIResponse> getAllUsers() {
+        return ResponseEntity.ok(ResponseUtils.success("200", "Users retrieved", userService.getAllUsers()));
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<UserDTO> getUserById(@PathVariable Long id) {
-        return ResponseEntity.ok(userService.getUserById(id));
+    public ResponseEntity<APIResponse> getUserById(@PathVariable Long id) {
+        UserDTO user = userService.getUserById(id);
+        if (user == null) throw new EntityNotFoundException("User not found with id: " + id);
+        return ResponseEntity.ok(ResponseUtils.success("200", "User retrieved", user));
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteUser(@PathVariable Long id) {
+    public ResponseEntity<APIResponse> deleteUser(@PathVariable Long id) {
         userService.deleteUser(id);
-        return ResponseEntity.noContent().build();
+        return ResponseEntity.ok(ResponseUtils.success("200", "User deleted successfully", null));
     }
+
 }

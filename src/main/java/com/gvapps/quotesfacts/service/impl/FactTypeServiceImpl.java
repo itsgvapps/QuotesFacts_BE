@@ -3,19 +3,18 @@ package com.gvapps.quotesfacts.service.impl;
 import com.gvapps.quotesfacts.entity.ArticlesEntity;
 import com.gvapps.quotesfacts.entity.FactDetailsEntity;
 import com.gvapps.quotesfacts.entity.FactTypeEntity;
+import com.gvapps.quotesfacts.exception.ApiException;
 import com.gvapps.quotesfacts.repository.ArticlesRepository;
 import com.gvapps.quotesfacts.repository.FactDetailsRepository;
 import com.gvapps.quotesfacts.repository.FactTypeRepository;
 import com.gvapps.quotesfacts.service.FactTypeService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 @Slf4j
 @Service
@@ -26,128 +25,347 @@ public class FactTypeServiceImpl implements FactTypeService {
     private final FactTypeRepository factTypeRepository;
     private final ArticlesRepository articlesRepository;
 
+    // ----------------------------------------------------------------------------------------
+    // CATEGORY MANAGEMENT
+    // ----------------------------------------------------------------------------------------
+
     @Override
     public List<FactTypeEntity> getAllCategories() {
-        return factTypeRepository.findAll();
-    }
-
-    @Override
-    public List<FactTypeEntity> getCategoriesByTypeId(int typeId) {
-        return factTypeRepository.findByTypeIdAndActiveTrue(typeId);
-    }
-
-    @Transactional
-    public void incrementCategoryViewsAsync(Map<String, List<Long>> payload) {
-
-        if (payload.containsKey("views")) {
-            List<Long> ids = payload.get("views");
-            factTypeRepository.incrementViewsByCategoryIds(ids);
+        try {
+            return factTypeRepository.findAll();
+        } catch (Exception e) {
+            log.error("[getAllCategories] ❌ Failed to fetch categories", e);
+            throw new ApiException("500", "Failed to fetch categories");
         }
     }
 
     @Override
-    public Map<String, Object> getHomeTabData() {
-        log.info("[FactTypeServiceImpl] >> Fetching Home tab data");
-
-        Map<String, Object> dashboard = new LinkedHashMap<>();
-
-        // 1️⃣ Today's Random 5 Facts (shorter than 160 chars)
-        List<FactDetailsEntity> todayFacts = factDetailsRepository.findRandomShortFacts();
-        Map<String, Object> factsSection = new HashMap<>();
-        factsSection.put("header", Map.of(
-                "title", "Today’s Quick Facts",
-                "subTitle", "Short, snappy, and verified",
-                "gradientColors", List.of("#FEF9C3", "#E0F2FE", "#E9D5FF")
-        ));
-        factsSection.put("items", todayFacts);
-        dashboard.put("todayFacts", factsSection);
-
-        // 2️⃣ Popular Fact Categories
-        List<FactTypeEntity> popularCategories = factTypeRepository.findTop4PopularCategories();
-        Map<String, Object> categoriesSection = new HashMap<>();
-        categoriesSection.put("header", Map.of(
-                "title", "Popular Fact Categories",
-                "subTitle", "Discover trending topics and curiosities"
-        ));
-        categoriesSection.put("items", popularCategories);
-        dashboard.put("popularCategories", categoriesSection);
-
-        // 3️⃣ Top 5 Articles by Type
-        List<ArticlesEntity> topArticles = articlesRepository.findTop5Articles();
-        Map<String, Object> articlesSection = new HashMap<>();
-        articlesSection.put("header", Map.of(
-                "title", "Featured Articles",
-                "subTitle", "In-depth stories & curated facts"
-        ));
-        articlesSection.put("items", topArticles);
-        dashboard.put("topArticles", articlesSection);
-
-        return dashboard;
-    }
-
-    @Override
-    public Map<String, Object> getDiscoverTabData() {
-        log.info("[FactTypeServiceImpl] >> Fetching Discover tab data");
-
-        Map<String, Object> discover = new LinkedHashMap<>();
-
-        // 1️⃣ Facts by Category (FactTypeEntity, type_id = 11)
-        List<FactTypeEntity> factsByCategory = factTypeRepository.findTopByTypeIdAndActiveTrue(11, 4);
-        Map<String, Object> factsByCategorySection = new HashMap<>();
-        factsByCategorySection.put("header", Map.of(
-                "title", "Facts by Category",
-                "subTitle", "Explore diverse fact types",
-                "gradientColors", List.of("#FDE68A", "#FECACA", "#E0F2FE")
-        ));
-        factsByCategorySection.put("items", factsByCategory);
-        discover.put("SECTION_EXPLORE_TEXT_CATEGORIES_GRID_1", factsByCategorySection);
-
-        // 2️⃣ Interesting Facts (ArticlesEntity, tag = "Quotes")
-        List<ArticlesEntity> interestingQuotes = articlesRepository.findTopByTag("Quotes", 4);
-        Map<String, Object> quotesSection = new HashMap<>();
-        quotesSection.put("header", Map.of(
-                "title", "Interesting Facts",
-                "subTitle", "Timeless and must read facts",
-                "gradientColors", List.of("#BBF7D0", "#FDE68A", "#E0F2FE")
-        ));
-        quotesSection.put("items", interestingQuotes);
-        discover.put("SECTION_EXPLORE_ARTICLE_ITEMS_VERTICAL_SMALL_1", quotesSection);
-
-        // 3️⃣ Mind-Blowing Psychology Facts (FactTypeEntity, type_id = 22)
-        List<FactTypeEntity> psychologyFacts = factTypeRepository.findTopByTypeIdAndActiveTrue(22, 4);
-        Map<String, Object> psychologySection = new HashMap<>();
-        psychologySection.put("header", Map.of(
-                "title", "Mind-Blowing Psychology Facts",
-                "subTitle", "Explore fascinating mind insights",
-                "gradientColors", List.of("#E9D5FF", "#C7D2FE", "#A5F3FC")
-        ));
-        psychologySection.put("items", psychologyFacts);
-        discover.put("SECTION_EXPLORE_TEXT_CATEGORIES_GRID_LONG_TEXT_1", psychologySection);
-
-        // 4️⃣ Curious Reads (ArticlesEntity, tag = "Psychology")
-        List<ArticlesEntity> curiousReads = articlesRepository.findTopByTag("Psychology", 4);
-        Map<String, Object> curiousReadsSection = new HashMap<>();
-        curiousReadsSection.put("header", Map.of(
-                "title", "Curious Reads",
-                "subTitle", "Thought-provoking psychology reads",
-                "gradientColors", List.of("#FECACA", "#E0F2FE", "#BBF7D0")
-        ));
-        curiousReadsSection.put("items", curiousReads);
-        discover.put("curiousReads", curiousReadsSection);
-
-        log.info("[FactTypeServiceImpl] ✅ Discover data ready with {} sections", discover.size());
-        return discover;
+    public List<FactTypeEntity> getCategoriesByTypeId(int typeId) {
+        try {
+            List<FactTypeEntity> categories = factTypeRepository.findByTypeIdAndActiveTrue(typeId);
+            if (categories.isEmpty()) {
+                throw new ApiException("404", "No categories found for typeId: " + typeId);
+            }
+            return categories;
+        } catch (ApiException e) {
+            throw e;
+        } catch (Exception e) {
+            log.error("[getCategoriesByTypeId] ❌ Failed for typeId={}", typeId, e);
+            throw new ApiException("500", "Error retrieving categories for typeId=" + typeId);
+        }
     }
 
     @Override
     public List<FactTypeEntity> getTopPopularCategories(int limit) {
-        List<FactTypeEntity> popular = factTypeRepository.findTop4ByOrderByViewsDesc();
-        return popular.size() > limit ? popular.subList(0, limit) : popular;
+        log.info("[getTopPopularCategories] >> Fetching top {} popular categories", limit);
+
+        try {
+            if (limit <= 0) {
+                throw new ApiException("400", "Limit must be greater than zero");
+            }
+
+            List<FactTypeEntity> popular = factTypeRepository.findTop4ByOrderByViewsDesc();
+
+            if (popular == null || popular.isEmpty()) {
+                log.warn("[getTopPopularCategories] ⚠️ No popular categories found");
+                return Collections.emptyList();
+            }
+
+            // Prevent IndexOutOfBoundsException
+            int safeLimit = Math.min(limit, popular.size());
+            List<FactTypeEntity> result = popular.subList(0, safeLimit);
+
+            log.info("[getTopPopularCategories] ✅ Returning {} categories", result.size());
+            return result;
+
+        } catch (ApiException e) {
+            throw e;
+        } catch (Exception e) {
+            log.error("[getTopPopularCategories] ❌ Error retrieving popular categories", e);
+            throw new ApiException("500", "Failed to fetch popular categories");
+        }
     }
 
     @Override
     public List<FactTypeEntity> getTopTrendingCategories(int limit) {
-        List<FactTypeEntity> trending = factTypeRepository.findTop4ByOrderByUpdatedDateDesc();
-        return trending.size() > limit ? trending.subList(0, limit) : trending;
+        log.info("[getTopTrendingCategories] >> Fetching top {} trending categories", limit);
+
+        try {
+            if (limit <= 0) {
+                throw new ApiException("400", "Limit must be greater than zero");
+            }
+
+            List<FactTypeEntity> trending = factTypeRepository.findTop4ByOrderByUpdatedDateDesc();
+
+            if (trending == null || trending.isEmpty()) {
+                log.warn("[getTopTrendingCategories] ⚠️ No trending categories found");
+                return Collections.emptyList();
+            }
+
+            int safeLimit = Math.min(limit, trending.size());
+            List<FactTypeEntity> result = trending.subList(0, safeLimit);
+
+            log.info("[getTopTrendingCategories] ✅ Returning {} categories", result.size());
+            return result;
+
+        } catch (ApiException e) {
+            throw e;
+        } catch (Exception e) {
+            log.error("[getTopTrendingCategories] ❌ Error retrieving trending categories", e);
+            throw new ApiException("500", "Failed to fetch trending categories");
+        }
+    }
+
+
+    // ✅ Run view increments asynchronously (non-blocking)
+    @Async("taskExecutor")
+    @Transactional
+    public void incrementCategoryViewsAsync(Map<String, List<Long>> payload) {
+        try {
+            if (!payload.containsKey("views")) {
+                log.warn("[incrementCategoryViewsAsync] ⚠️ Missing 'views' key");
+                return;
+            }
+
+            List<Long> ids = payload.get("views");
+            if (ids == null || ids.isEmpty()) {
+                log.warn("[incrementCategoryViewsAsync] ⚠️ Empty ID list");
+                return;
+            }
+
+            factTypeRepository.incrementViewsByCategoryIds(ids);
+            log.info("[incrementCategoryViewsAsync] ✅ Incremented views for categories: {}", ids);
+
+        } catch (Exception e) {
+            // Don't rethrow — async tasks should fail silently but log clearly
+            log.error("[incrementCategoryViewsAsync] ❌ Error incrementing category views", e);
+        }
+    }
+
+    // ----------------------------------------------------------------------------------------
+    // HOME & DISCOVER DASHBOARD
+    // ----------------------------------------------------------------------------------------
+
+    @Override
+    public Map<String, Object> getHomeTabData() {
+        log.info("[getHomeTabData] >> Fetching Home tab data");
+        Map<String, Object> dashboard = new LinkedHashMap<>();
+
+        try {
+            List<FactDetailsEntity> todayFacts = factDetailsRepository.findRandomShortFacts();
+            dashboard.put("todayFacts", Map.of(
+                    "header", Map.of(
+                            "title", "Today’s Quick Facts",
+                            "subTitle", "Short, snappy, and verified",
+                            "gradientColors", List.of("#FEF9C3", "#E0F2FE", "#E9D5FF")
+                    ),
+                    "items", todayFacts
+            ));
+
+            List<FactTypeEntity> popularCategories = factTypeRepository.findTop4PopularCategories();
+            dashboard.put("popularCategories", Map.of(
+                    "header", Map.of(
+                            "title", "Popular Fact Categories",
+                            "subTitle", "Discover trending topics and curiosities"
+                    ),
+                    "items", popularCategories
+            ));
+
+            List<ArticlesEntity> topArticles = articlesRepository.findTop5Articles();
+            dashboard.put("topArticles", Map.of(
+                    "header", Map.of(
+                            "title", "Featured Articles",
+                            "subTitle", "In-depth stories & curated facts"
+                    ),
+                    "items", topArticles
+            ));
+
+            log.info("[getHomeTabData] ✅ Home dashboard ready with {} sections", dashboard.size());
+            return dashboard;
+
+        } catch (Exception e) {
+            log.error("[getHomeTabData] ❌ Error building home dashboard", e);
+            throw new ApiException("500", "Failed to build home dashboard");
+        }
+    }
+
+    @Override
+    public Map<String, Object> getDiscoverTabData() {
+        log.info("[getDiscoverTabData] >> Fetching Discover tab data");
+
+        Map<String, Object> discover = new LinkedHashMap<>();
+        try {
+            discover.put("SECTION_EXPLORE_TEXT_CATEGORIES_GRID_1", Map.of(
+                    "header", Map.of(
+                            "title", "Facts by Category",
+                            "subTitle", "Explore diverse fact types",
+                            "gradientColors", List.of("#FDE68A", "#FECACA", "#E0F2FE")
+                    ),
+                    "items", factTypeRepository.findTopByTypeIdAndActiveTrue(11, 4)
+            ));
+
+            discover.put("SECTION_EXPLORE_ARTICLE_ITEMS_VERTICAL_SMALL_1", Map.of(
+                    "header", Map.of(
+                            "title", "Interesting Facts",
+                            "subTitle", "Timeless and must-read facts",
+                            "gradientColors", List.of("#BBF7D0", "#FDE68A", "#E0F2FE")
+                    ),
+                    "items", articlesRepository.findTopByTag("Quotes", 4)
+            ));
+
+            discover.put("SECTION_EXPLORE_TEXT_CATEGORIES_GRID_LONG_TEXT_1", Map.of(
+                    "header", Map.of(
+                            "title", "Mind-Blowing Psychology Facts",
+                            "subTitle", "Explore fascinating mind insights",
+                            "gradientColors", List.of("#E9D5FF", "#C7D2FE", "#A5F3FC")
+                    ),
+                    "items", factTypeRepository.findTopByTypeIdAndActiveTrue(22, 4)
+            ));
+
+            discover.put("curiousReads", Map.of(
+                    "header", Map.of(
+                            "title", "Curious Reads",
+                            "subTitle", "Thought-provoking psychology reads",
+                            "gradientColors", List.of("#FECACA", "#E0F2FE", "#BBF7D0")
+                    ),
+                    "items", articlesRepository.findTopByTag("Psychology", 4)
+            ));
+
+            log.info("[getDiscoverTabData] ✅ Discover tab ready with {} sections", discover.size());
+            return discover;
+
+        } catch (Exception e) {
+            log.error("[getDiscoverTabData] ❌ Error building discover tab", e);
+            throw new ApiException("500", "Failed to build discover tab");
+        }
+    }
+
+    // ----------------------------------------------------------------------------------------
+    // FACT DETAILS MANAGEMENT
+    // ----------------------------------------------------------------------------------------
+
+    @Override
+    public FactDetailsEntity saveFact(FactDetailsEntity fact) {
+        try {
+            return factDetailsRepository.save(fact);
+        } catch (Exception e) {
+            log.error("[saveFact] ❌ Failed to save fact", e);
+            throw new ApiException("500", "Failed to save fact");
+        }
+    }
+
+    @Override
+    public Optional<FactDetailsEntity> getFactById(int id) {
+        return factDetailsRepository.findById(id);
+    }
+
+    @Override
+    public List<FactDetailsEntity> getAllFacts() {
+        return factDetailsRepository.findAll();
+    }
+
+    @Override
+    public List<FactDetailsEntity> getFactsByCategory(int categoryId) {
+        return factDetailsRepository.findRandomByCategoryId(categoryId, 100);
+    }
+
+    @Override
+    public List<FactDetailsEntity> getFactsByLanguage(String language) {
+        return factDetailsRepository.findByLanguage(language);
+    }
+
+    @Override
+    public List<FactDetailsEntity> getVerifiedFacts() {
+        return factDetailsRepository.findByVerifiedTrue();
+    }
+
+    @Override
+    public List<FactDetailsEntity> getTopViewedFacts(int limit) {
+        List<FactDetailsEntity> topFacts = factDetailsRepository.findTop10ByOrderByViewsDesc();
+        return topFacts.subList(0, Math.min(limit, topFacts.size()));
+    }
+
+    @Override
+    public List<FactDetailsEntity> searchFactsByKeyword(String keyword) {
+        return factDetailsRepository.findByTextContainingIgnoreCase(keyword);
+    }
+
+    @Override
+    public FactDetailsEntity updateFact(int id, FactDetailsEntity updatedFact) {
+        try {
+            return factDetailsRepository.findById(id)
+                    .map(existingFact -> {
+                        existingFact.setText(updatedFact.getText());
+                        existingFact.setCategoryId(updatedFact.getCategoryId());
+                        existingFact.setShortSummary(updatedFact.getShortSummary());
+                        existingFact.setLongSummary(updatedFact.getLongSummary());
+                        existingFact.setSourceUrl(updatedFact.getSourceUrl());
+                        existingFact.setLikes(updatedFact.getLikes());
+                        existingFact.setBookmarks(updatedFact.getBookmarks());
+                        existingFact.setDownloads(updatedFact.getDownloads());
+                        existingFact.setShares(updatedFact.getShares());
+                        existingFact.setViews(updatedFact.getViews());
+                        existingFact.setTags(updatedFact.getTags());
+                        existingFact.setVerified(updatedFact.isVerified());
+                        existingFact.setLanguage(updatedFact.getLanguage());
+                        existingFact.setAddedDate(updatedFact.getAddedDate());
+                        existingFact.setUpdatedDate(updatedFact.getUpdatedDate());
+                        return factDetailsRepository.save(existingFact);
+                    })
+                    .orElseThrow(() -> new ApiException("404", "Fact not found with id " + id));
+        } catch (ApiException e) {
+            throw e;
+        } catch (Exception e) {
+            log.error("[updateFact] ❌ Failed to update fact id={}", id, e);
+            throw new ApiException("500", "Error updating fact");
+        }
+    }
+
+    @Override
+    public void deleteFact(int id) {
+        try {
+            factDetailsRepository.deleteById(id);
+        } catch (Exception e) {
+            log.error("[deleteFact] ❌ Failed to delete fact id={}", id, e);
+            throw new ApiException("500", "Failed to delete fact");
+        }
+    }
+
+    // ✅ Async non-blocking increment (e.g. called from API after viewing facts)
+    @Async("taskExecutor")
+    @Transactional
+    public void incrementDetailCounts(Map<String, List<Long>> payload) {
+        try {
+            if (payload == null || payload.isEmpty()) {
+                log.warn("[incrementDetailCounts] ⚠️ Empty payload");
+                return;
+            }
+
+            if (payload.containsKey("views")) {
+                List<Long> ids = payload.get("views");
+                if (ids != null && !ids.isEmpty()) factDetailsRepository.incrementViews(ids);
+            }
+            if (payload.containsKey("likes")) {
+                List<Long> ids = payload.get("likes");
+                if (ids != null && !ids.isEmpty()) factDetailsRepository.incrementLikes(ids);
+            }
+            if (payload.containsKey("bookmarks")) {
+                List<Long> ids = payload.get("bookmarks");
+                if (ids != null && !ids.isEmpty()) factDetailsRepository.incrementBookmarks(ids);
+            }
+            if (payload.containsKey("downloads")) {
+                List<Long> ids = payload.get("downloads");
+                if (ids != null && !ids.isEmpty()) factDetailsRepository.incrementDownloads(ids);
+            }
+            if (payload.containsKey("shares")) {
+                List<Long> ids = payload.get("shares");
+                if (ids != null && !ids.isEmpty()) factDetailsRepository.incrementShares(ids);
+            }
+
+            log.info("[incrementDetailCounts] ✅ Incremented fact metrics: {}", payload.keySet());
+
+        } catch (Exception e) {
+            log.error("[incrementDetailCounts] ❌ Error incrementing fact metrics", e);
+        }
     }
 }
