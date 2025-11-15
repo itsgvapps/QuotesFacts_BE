@@ -33,9 +33,9 @@ public class FactsController {
     @GetMapping("/tab/{name}")
     public ResponseEntity<APIResponse> getTabData(@PathVariable String name) {
         Map<String, Object> tabData;
-        switch (name) {
-            case "Home" -> tabData = factTypeService.getHomeTabData();
-            case "Discover" -> tabData = factTypeService.getDiscoverTabData();
+        switch (name.toLowerCase()) {
+            case "home" -> tabData = factTypeService.getHomeTabData();
+            case "discover" -> tabData = factTypeService.getDiscoverTabData();
             default -> throw new IllegalArgumentException("Invalid tab name: " + name);
         }
         return ResponseEntity.ok(ResponseUtils.success("200", name + " tab data fetched successfully", tabData));

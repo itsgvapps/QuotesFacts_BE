@@ -69,13 +69,27 @@ public interface ArticlesRepository extends JpaRepository<ArticlesEntity, Long> 
 
 
     @Query(value = """
-        SELECT * FROM articles
-        WHERE active = TRUE
-        ORDER BY views DESC
-        LIMIT 5
-        """, nativeQuery = true)
-    List<ArticlesEntity> findTop5Articles();
+            SELECT * FROM articles
+            WHERE active = TRUE
+            ORDER BY views DESC
+            LIMIT :limit
+            """, nativeQuery = true)
+    List<ArticlesEntity> findTopArticles(@Param("limit") int limit);
 
-    @Query(value = "SELECT * FROM articles WHERE JSON_SEARCH(tags, 'one', :tag) IS NOT NULL AND active = true LIMIT :limit", nativeQuery = true)
-    List<ArticlesEntity> findTopByTag(@Param("tag") String tag, @Param("limit") int limit);
+    @Query(value = """
+            SELECT * FROM articles
+            WHERE JSON_SEARCH(tags, 'one', :tag) IS NOT NULL AND active = true
+            ORDER BY views DESC
+            LIMIT :limit
+            """, nativeQuery = true)
+    List<ArticlesEntity> findTopArticlesByTag(@Param("tag") String tag, @Param("limit") int limit);
+
+    @Query(value = """
+            SELECT * FROM articles
+            WHERE JSON_SEARCH(tags, 'one', :tag) IS NOT NULL AND active = true
+            ORDER BY RAND()
+            LIMIT :limit
+            """, nativeQuery = true)
+    List<ArticlesEntity> findRandomArticlesByTag(@Param("tag") String tag, @Param("limit") int limit);
+
 }

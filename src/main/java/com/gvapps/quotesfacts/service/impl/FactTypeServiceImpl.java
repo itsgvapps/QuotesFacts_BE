@@ -153,7 +153,7 @@ public class FactTypeServiceImpl implements FactTypeService {
 
         try {
             List<FactDetailsEntity> todayFacts = factDetailsRepository.findRandomShortFacts();
-            dashboard.put("todayFacts", Map.of(
+            dashboard.put("SECTION_HOME_TODAY_PICKS", Map.of(
                     "header", Map.of(
                             "title", "Today’s Quick Facts",
                             "subTitle", "Short, snappy, and verified",
@@ -163,7 +163,7 @@ public class FactTypeServiceImpl implements FactTypeService {
             ));
 
             List<FactTypeEntity> popularCategories = factTypeRepository.findTop4PopularCategories();
-            dashboard.put("popularCategories", Map.of(
+            dashboard.put("SECTION_HOME_TEXT_CATEGORY_GRID_LONG_TEXT_1", Map.of(
                     "header", Map.of(
                             "title", "Popular Fact Categories",
                             "subTitle", "Discover trending topics and curiosities"
@@ -171,14 +171,39 @@ public class FactTypeServiceImpl implements FactTypeService {
                     "items", popularCategories
             ));
 
-            List<ArticlesEntity> topArticles = articlesRepository.findTop5Articles();
-            dashboard.put("topArticles", Map.of(
+            List<ArticlesEntity> topArticles = articlesRepository.findRandomArticlesByTag("Psychology", 4);
+            dashboard.put("SECTION_HOME_ARTICLES_TALL_CARD_1", Map.of(
                     "header", Map.of(
                             "title", "Featured Articles",
                             "subTitle", "In-depth stories & curated facts"
                     ),
                     "items", topArticles
             ));
+
+            dashboard.put("SECTION_HOME_TEXT_CATEGORY_GRID_SHORT_CARD_1", Map.of(
+                    "header", Map.of(
+                            "title", "Facts by Category",
+                            "subTitle", "Explore diverse fact types"
+                    ),
+                    "items", factTypeRepository.findTopByTypeIdAndActiveTrue(11, 4)
+            ));
+
+            dashboard.put("SECTION_HOME_ARTICLES_GRID_1", Map.of(
+                    "header", Map.of(
+                            "title", "Featured Facts",
+                            "subTitle", "Timeless and must-read facts"
+                    ),
+                    "items", articlesRepository.findRandomArticlesByTag("Lifestyle", 4)
+            ));
+
+            dashboard.put("SECTION_HOME_ARTICLES_SHORT_CARD_1", Map.of(
+                    "header", Map.of(
+                            "title", "Curious Reads",
+                            "subTitle", "Thought-provoking psychology reads"
+                    ),
+                    "items", articlesRepository.findTopArticles(4)
+            ));
+
 
             log.info("[getHomeTabData] ✅ Home dashboard ready with {} sections", dashboard.size());
             return dashboard;
@@ -195,40 +220,36 @@ public class FactTypeServiceImpl implements FactTypeService {
 
         Map<String, Object> discover = new LinkedHashMap<>();
         try {
-            discover.put("SECTION_EXPLORE_TEXT_CATEGORIES_GRID_1", Map.of(
+            discover.put("SECTION_EXPLORE_TEXT_CATEGORY_GRID_TALL_CARD_1", Map.of(
                     "header", Map.of(
                             "title", "Facts by Category",
-                            "subTitle", "Explore diverse fact types",
-                            "gradientColors", List.of("#FDE68A", "#FECACA", "#E0F2FE")
+                            "subTitle", "Explore diverse fact types"
                     ),
                     "items", factTypeRepository.findTopByTypeIdAndActiveTrue(11, 4)
             ));
 
-            discover.put("SECTION_EXPLORE_ARTICLE_ITEMS_VERTICAL_SMALL_1", Map.of(
-                    "header", Map.of(
-                            "title", "Interesting Facts",
-                            "subTitle", "Timeless and must-read facts",
-                            "gradientColors", List.of("#BBF7D0", "#FDE68A", "#E0F2FE")
-                    ),
-                    "items", articlesRepository.findTopByTag("Quotes", 4)
-            ));
-
-            discover.put("SECTION_EXPLORE_TEXT_CATEGORIES_GRID_LONG_TEXT_1", Map.of(
-                    "header", Map.of(
-                            "title", "Mind-Blowing Psychology Facts",
-                            "subTitle", "Explore fascinating mind insights",
-                            "gradientColors", List.of("#E9D5FF", "#C7D2FE", "#A5F3FC")
-                    ),
-                    "items", factTypeRepository.findTopByTypeIdAndActiveTrue(22, 4)
-            ));
-
-            discover.put("curiousReads", Map.of(
+            discover.put("SECTION_EXPLORE_ARTICLES_SHORT_CARD_1", Map.of(
                     "header", Map.of(
                             "title", "Curious Reads",
-                            "subTitle", "Thought-provoking psychology reads",
-                            "gradientColors", List.of("#FECACA", "#E0F2FE", "#BBF7D0")
+                            "subTitle", "Thought-provoking psychology reads"
                     ),
-                    "items", articlesRepository.findTopByTag("Psychology", 4)
+                    "items", articlesRepository.findRandomArticlesByTag("Psychology", 4)
+            ));
+
+            discover.put("SECTION_EXPLORE_ARTICLES_GRID_1", Map.of(
+                    "header", Map.of(
+                            "title", "Featured Facts",
+                            "subTitle", "Timeless and must-read facts"
+                    ),
+                    "items", articlesRepository.findRandomArticlesByTag("Lifestyle", 4)
+            ));
+
+            discover.put("SECTION_EXPLORE_TEXT_CATEGORY_GRID_LONG_NAME_1", Map.of(
+                    "header", Map.of(
+                            "title", "Mind-Blowing Psychology Facts",
+                            "subTitle", "Explore fascinating mind insights"
+                    ),
+                    "items", factTypeRepository.findTopByTypeIdAndActiveTrue(22, 4)
             ));
 
             log.info("[getDiscoverTabData] ✅ Discover tab ready with {} sections", discover.size());
