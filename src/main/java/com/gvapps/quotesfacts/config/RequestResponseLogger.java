@@ -86,7 +86,7 @@ public class RequestResponseLogger extends OncePerRequestFilter {
         System.out.printf(
                 "%n%s═══════════════ [REQUEST @ %s] ═══════════════%s%n" +
                         "%s→ %s %s | Headers: %s%s%s%s%s%n" +
-                        (hasReqBody ? "%sBody:%s %s%n" : ""),
+                        (hasReqBody ? "%sRequest Body:%s %s%n" : ""),
                 BLUE, timestamp, RESET,
                 CYAN, method, uri, GRAY, truncate(headers), RESET, CYAN, RESET,
                 hasReqBody ? GRAY : "", hasReqBody ? RESET : "", hasReqBody ? truncate(reqBody) : ""
@@ -95,7 +95,7 @@ public class RequestResponseLogger extends OncePerRequestFilter {
         System.out.printf(
                 "%s─────────────── [RESPONSE @ %s] ───────────────%s%n" +
                         "%sStatus:%s %s%d%s | %sTime:%s %dms%n" +
-                        "%sBody:%s %s%n" +
+                        "%sResponse Body:%s %s%n" +
                         "%s═══════════════════════════════════════%s%n",
                 BLUE, timestamp, RESET,
                 CYAN, RESET, color, status, RESET, CYAN, RESET, duration,

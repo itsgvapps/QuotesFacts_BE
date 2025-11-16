@@ -1,6 +1,5 @@
 package com.gvapps.quotesfacts.service.impl;
 
-import com.gvapps.quotesfacts.entity.ArticlesEntity;
 import com.gvapps.quotesfacts.entity.FactDetailsEntity;
 import com.gvapps.quotesfacts.entity.FactTypeEntity;
 import com.gvapps.quotesfacts.exception.ApiException;
@@ -152,32 +151,29 @@ public class FactTypeServiceImpl implements FactTypeService {
         Map<String, Object> dashboard = new LinkedHashMap<>();
 
         try {
-            List<FactDetailsEntity> todayFacts = factDetailsRepository.findRandomShortFacts();
             dashboard.put("SECTION_HOME_TODAY_PICKS", Map.of(
                     "header", Map.of(
                             "title", "Today’s Quick Facts",
                             "subTitle", "Short, snappy, and verified",
                             "gradientColors", List.of("#FEF9C3", "#E0F2FE", "#E9D5FF")
                     ),
-                    "items", todayFacts
+                    "items", factDetailsRepository.findRandomShortFacts()
             ));
 
-            List<FactTypeEntity> popularCategories = factTypeRepository.findTop4PopularCategories();
             dashboard.put("SECTION_HOME_TEXT_CATEGORY_GRID_LONG_TEXT_1", Map.of(
                     "header", Map.of(
                             "title", "Popular Fact Categories",
                             "subTitle", "Discover trending topics and curiosities"
                     ),
-                    "items", popularCategories
+                    "items", factTypeRepository.findTop4PopularCategories()
             ));
 
-            List<ArticlesEntity> topArticles = articlesRepository.findRandomArticlesByTag("Psychology", 4);
             dashboard.put("SECTION_HOME_ARTICLES_TALL_CARD_1", Map.of(
                     "header", Map.of(
                             "title", "Featured Articles",
                             "subTitle", "In-depth stories & curated facts"
                     ),
-                    "items", topArticles
+                    "items", articlesRepository.findRandomArticlesByTag("Psychology", 4)
             ));
 
             dashboard.put("SECTION_HOME_TEXT_CATEGORY_GRID_SHORT_CARD_1", Map.of(
@@ -197,6 +193,47 @@ public class FactTypeServiceImpl implements FactTypeService {
             ));
 
             dashboard.put("SECTION_HOME_ARTICLES_SHORT_CARD_1", Map.of(
+                    "header", Map.of(
+                            "title", "Curious Reads",
+                            "subTitle", "Thought-provoking psychology reads"
+                    ),
+                    "items", articlesRepository.findTopArticles(4)
+            ));
+
+            //second set
+            dashboard.put("SECTION_HOME_TEXT_CATEGORY_GRID_LONG_TEXT_2", Map.of(
+                    "header", Map.of(
+                            "title", "Popular Fact Categories",
+                            "subTitle", "Discover trending topics and curiosities"
+                    ),
+                    "items", factTypeRepository.findTop4PopularCategories()
+            ));
+
+            dashboard.put("SECTION_HOME_ARTICLES_TALL_CARD_2", Map.of(
+                    "header", Map.of(
+                            "title", "Featured Articles",
+                            "subTitle", "In-depth stories & curated facts"
+                    ),
+                    "items", articlesRepository.findRandomArticlesByTag("Psychology", 4)
+            ));
+
+            dashboard.put("SECTION_HOME_TEXT_CATEGORY_GRID_SHORT_CARD_2", Map.of(
+                    "header", Map.of(
+                            "title", "Facts by Category",
+                            "subTitle", "Explore diverse fact types"
+                    ),
+                    "items", factTypeRepository.findTopByTypeIdAndActiveTrue(11, 4)
+            ));
+
+            dashboard.put("SECTION_HOME_ARTICLES_GRID_2", Map.of(
+                    "header", Map.of(
+                            "title", "Featured Facts",
+                            "subTitle", "Timeless and must-read facts"
+                    ),
+                    "items", articlesRepository.findRandomArticlesByTag("Lifestyle", 4)
+            ));
+
+            dashboard.put("SECTION_HOME_ARTICLES_SHORT_CARD_2", Map.of(
                     "header", Map.of(
                             "title", "Curious Reads",
                             "subTitle", "Thought-provoking psychology reads"
