@@ -16,7 +16,7 @@ public class DataImporterRunner implements CommandLineRunner {
     @Override
     public void run(String... args) {
         //importService.importFactTypesFromJson();
-        importService.importFactDetailsFromJson();
+        //importService.importFactDetailsFromJson();
 //        articlesImportService.importArticlesFromJson();
     }
 }
