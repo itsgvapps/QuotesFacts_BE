@@ -113,6 +113,55 @@ public class FactTypeImportService {
     }
 
     public void importFactDetailsFromJson() {
+        try (InputStream inputStream = getClass().getResourceAsStream("/temp/FACT_DETAILS.json")) {
+            if (inputStream == null) {
+                throw new RuntimeException("File not found: FACT_DETAILS.json");
+            }
+
+            // Read JSON array into a list of maps
+            List<Map<String, Object>> factList = objectMapper.readValue(
+                    inputStream,
+                    new TypeReference<>() {
+                    }
+            );
+
+            List<FactDetailsEntity> entities = factList.stream()
+                    // ✅ Sort by CATEGORY_ID (ascending order)
+                    .sorted(Comparator.comparing(item -> getLong(item.get("CATEGORY_ID")), Comparator.nullsLast(Long::compareTo)))
+
+                    // ✅ Map JSON fields to FactDetailsEntity
+                    .map(item -> {
+                        FactDetailsEntity entity = new FactDetailsEntity();
+
+                        // 🔹 Convert category_id safely (Long → int)
+                        Long categoryId = getLong(item.get("CATEGORY_ID"));
+                        entity.setCategoryId(categoryId != null ? categoryId.intValue() : 0);
+
+                        // 🔹 Optional id if needed
+                        //Long id = getLong(item.get("id"));
+                        //if (id != null) entity.setId(id.intValue());
+
+                        // 🔹 Text / Description fallback
+                        String text = getString(item.get("DESCRIPTION"));
+                        entity.setText(text);
+
+                        // 🔹 Date handling
+                        entity.setAddedDate(parseDateOrNow(getString(item.get("added_date"))));
+                        entity.setUpdatedDate(parseDateOrNow(getString(item.get("updated_date"))));
+
+                        return entity;
+                    })
+                    .collect(Collectors.toList());
+
+            factDetailsRepository.saveAll(entities);
+            System.out.println("✅ Successfully imported " + entities.size() + " Fact Details from JSON!");
+
+        } catch (Exception e) {
+            throw new RuntimeException("❌ Error reading or inserting FACT_DETAILS.json: " + e.getMessage(), e);
+        }
+    }
+
+    public void importFactDetailsFromJson1() {
         try (InputStream inputStream = getClass().getResourceAsStream("/temp/factdetails.json")) {
             if (inputStream == null) {
                 throw new RuntimeException("File not found: factdetails.json");
@@ -172,7 +221,7 @@ public class FactTypeImportService {
                     })
                     .collect(Collectors.toList());
 
-            //factDetailsRepository.saveAll(entities);
+            factDetailsRepository.saveAll(entities);
             System.out.println("✅ Successfully imported " + entities.size() + " Fact Details from JSON!");
 
         } catch (Exception e) {

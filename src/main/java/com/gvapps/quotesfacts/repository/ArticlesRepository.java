@@ -1,5 +1,6 @@
 package com.gvapps.quotesfacts.repository;
 
+import com.gvapps.quotesfacts.dto.ArticleListProjection;
 import com.gvapps.quotesfacts.entity.ArticlesEntity;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -48,11 +49,35 @@ public interface ArticlesRepository extends JpaRepository<ArticlesEntity, Long> 
             "LOWER(a.content) LIKE LOWER(CONCAT('%', :keyword, '%'))")
     List<ArticlesEntity> searchByKeyword(String keyword);
 
-    @Query(value = "SELECT * FROM articles WHERE JSON_CONTAINS(tags, :tag, '$') LIMIT 5", nativeQuery = true)
-    List<ArticlesEntity> findRandomByTag(String tag);
+    @Query(value = """
+            SELECT      id,
+                        title,
+                        sub_title AS subTitle,
+                        source,
+                        summary,
+                        author,
+                        img_credit AS imgCredit,
+                        img_path AS imgPath,
+                        external_url AS externalUrl
+            FROM articles
+            WHERE JSON_CONTAINS(tags, :tag, '$') AND active = TRUE
+            ORDER BY views DESC
+            LIMIT :limit
+            """, nativeQuery = true)
+    List<ArticlesEntity> findRandomByTag(@Param("tag") String tag, @Param("limit") int limit);
 
     @Query(value = """
-        SELECT * FROM articles 
+            SELECT      id,
+                            title,
+                            sub_title AS subTitle,
+                            source,
+                            summary,
+                            author,
+                            active,
+                            img_credit AS imgCredit,
+                            img_path AS imgPath,
+                            external_url AS externalUrl
+                        FROM articles
             WHERE (:tag IS NULL OR :tag = '' 
                    OR JSON_SEARCH(LOWER(tags), 'one', LOWER(:tag), NULL, '$') IS NOT NULL)
         AND active = 1
@@ -65,31 +90,60 @@ public interface ArticlesRepository extends JpaRepository<ArticlesEntity, Long> 
         AND active = 1
         """,
             nativeQuery = true)
-    Page<ArticlesEntity> findByTagOrAll(@Param("tag") String tag, Pageable pageable);
+    Page<ArticleListProjection> findByTagOrAll(@Param("tag") String tag, Pageable pageable);
 
 
     @Query(value = """
-            SELECT * FROM articles
+            SELECT      id,
+                        title,
+                        sub_title AS subTitle,
+                        source,
+                        summary,
+                        author,
+                        img_credit AS imgCredit,
+                        img_path AS imgPath,
+                        external_url AS externalUrl
+            FROM articles
             WHERE active = TRUE
             ORDER BY views DESC
             LIMIT :limit
             """, nativeQuery = true)
-    List<ArticlesEntity> findTopArticles(@Param("limit") int limit);
+    List<ArticleListProjection> findTopArticles(@Param("limit") int limit);
 
     @Query(value = """
-            SELECT * FROM articles
+            SELECT      id,
+                        title,
+                        sub_title AS subTitle,
+                        source,
+                        summary,
+                        author,
+                        active,
+                        img_credit AS imgCredit,
+                        img_path AS imgPath,
+                        external_url AS externalUrl
+                    FROM articles
             WHERE JSON_SEARCH(tags, 'one', :tag) IS NOT NULL AND active = true
             ORDER BY views DESC
             LIMIT :limit
             """, nativeQuery = true)
-    List<ArticlesEntity> findTopArticlesByTag(@Param("tag") String tag, @Param("limit") int limit);
+    List<ArticleListProjection> findTopArticlesByTag(@Param("tag") String tag, @Param("limit") int limit);
 
     @Query(value = """
-            SELECT * FROM articles
+            SELECT      id,
+                        title,
+                        sub_title AS subTitle,
+                        source,
+                        summary,
+                        author,
+                        active,
+                        img_credit AS imgCredit,
+                        img_path AS imgPath,
+                        external_url AS externalUrl
+                    FROM articles
             WHERE JSON_SEARCH(tags, 'one', :tag) IS NOT NULL AND active = true
             ORDER BY RAND()
             LIMIT :limit
             """, nativeQuery = true)
-    List<ArticlesEntity> findRandomArticlesByTag(@Param("tag") String tag, @Param("limit") int limit);
+    List<ArticleListProjection> findRandomArticlesByTag(@Param("tag") String tag, @Param("limit") int limit);
 
 }

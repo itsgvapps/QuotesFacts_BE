@@ -1,5 +1,6 @@
 package com.gvapps.quotesfacts.controller;
 
+import com.gvapps.quotesfacts.dto.ArticleListDTO;
 import com.gvapps.quotesfacts.dto.response.APIResponse;
 import com.gvapps.quotesfacts.entity.ArticlesEntity;
 import com.gvapps.quotesfacts.service.ArticlesService;
@@ -42,7 +43,7 @@ public class ArticlesController {
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "5") int size
     ) {
-        Page<ArticlesEntity> articles = articlesService.getArticlesByTag(tag, page, size);
+        Page<ArticleListDTO> articles = articlesService.getArticlesByTag(tag, page, size);
         return ResponseEntity.ok(ResponseUtils.success("200", "Fetched articles by tag", articles.getContent()));
     }
 

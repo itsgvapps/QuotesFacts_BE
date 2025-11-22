@@ -1,7 +1,11 @@
 package com.gvapps.quotesfacts.service.impl;
 
+import com.gvapps.quotesfacts.dto.ArticleDetailDTO;
+import com.gvapps.quotesfacts.dto.ArticleListDTO;
+import com.gvapps.quotesfacts.dto.ArticleListProjection;
 import com.gvapps.quotesfacts.entity.ArticlesEntity;
 import com.gvapps.quotesfacts.exception.ApiException;
+import com.gvapps.quotesfacts.mapper.ArticleMapper;
 import com.gvapps.quotesfacts.repository.ArticlesRepository;
 import com.gvapps.quotesfacts.service.ArticlesService;
 import lombok.RequiredArgsConstructor;
@@ -26,7 +30,7 @@ public class ArticlesServiceImpl implements ArticlesService {
     @Override
     public List<ArticlesEntity> findByTag(String tag) {
         try {
-            return repository.findRandomByTag(tag);
+            return repository.findRandomByTag(tag, 4);
         } catch (Exception e) {
             log.error("[ArticlesServiceImpl] >> findByTag failed for tag: {}", tag, e);
             throw new ApiException("500", "Failed to fetch articles by tag");
@@ -34,15 +38,21 @@ public class ArticlesServiceImpl implements ArticlesService {
     }
 
     @Override
-    public Page<ArticlesEntity> getArticlesByTag(String tag, int page, int size) {
+    public Page<ArticleListDTO> getArticlesByTag(String tag, int page, int size) {
         try {
             tag = tag.toLowerCase().trim();
-            return repository.findByTagOrAll(tag, PageRequest.of(page, size));
+
+            Page<ArticleListProjection> projections =
+                    repository.findByTagOrAll(tag, PageRequest.of(page, size));
+
+            return projections.map(ArticleMapper::toDTO);
+
         } catch (Exception e) {
             log.error("[ArticlesServiceImpl] >> getArticlesByTag failed for tag: {}", tag, e);
             throw new ApiException("500", "Failed to fetch paginated articles by tag");
         }
     }
+
 
     @Override
     public List<ArticlesEntity> getAll() {
@@ -55,9 +65,10 @@ public class ArticlesServiceImpl implements ArticlesService {
     }
 
     @Override
-    public Optional<ArticlesEntity> getById(Long id) {
+    public Optional<ArticleDetailDTO> getById(Long id) {
         try {
-            return repository.findById(id);
+            return repository.findById(id)
+                    .map(ArticleMapper::toDetailDTO);
         } catch (Exception e) {
             log.error("[ArticlesServiceImpl] >> getById failed for id: {}", id, e);
             throw new ApiException("500", "Failed to fetch article by ID");

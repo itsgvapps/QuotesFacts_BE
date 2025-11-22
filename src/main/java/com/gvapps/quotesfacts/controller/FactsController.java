@@ -1,5 +1,6 @@
 package com.gvapps.quotesfacts.controller;
 
+import com.gvapps.quotesfacts.dto.FactDetailsDTO;
 import com.gvapps.quotesfacts.dto.response.APIResponse;
 import com.gvapps.quotesfacts.entity.FactDetailsEntity;
 import com.gvapps.quotesfacts.entity.FactTypeEntity;
@@ -74,7 +75,7 @@ public class FactsController {
     @GetMapping("/category/{categoryId}")
     public ResponseEntity<APIResponse> getFactsByCategory(@PathVariable int categoryId) {
         log.info("[FactController] >> [getFactsByCategory] categoryId: {}", categoryId);
-        List<FactDetailsEntity> facts = factTypeService.getFactsByCategory(categoryId);
+        List<FactDetailsDTO> facts = factTypeService.getFactsByCategory(categoryId);
         return ResponseEntity.ok(ResponseUtils.success("200", "Facts fetched successfully", facts));
     }
 

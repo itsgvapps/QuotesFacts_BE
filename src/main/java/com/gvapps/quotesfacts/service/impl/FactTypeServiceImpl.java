@@ -1,5 +1,6 @@
 package com.gvapps.quotesfacts.service.impl;
 
+import com.gvapps.quotesfacts.dto.FactDetailsDTO;
 import com.gvapps.quotesfacts.entity.FactDetailsEntity;
 import com.gvapps.quotesfacts.entity.FactTypeEntity;
 import com.gvapps.quotesfacts.exception.ApiException;
@@ -157,7 +158,23 @@ public class FactTypeServiceImpl implements FactTypeService {
                             "subTitle", "Short, snappy, and verified",
                             "gradientColors", List.of("#FEF9C3", "#E0F2FE", "#E9D5FF")
                     ),
-                    "items", factDetailsRepository.findRandomShortFacts()
+                    "items", factDetailsRepository.findRandomShortFacts(5).stream()
+                            .map(p -> new FactDetailsDTO(
+                                    p.getId(),
+                                    p.getCategoryId(),
+                                    p.getText(),
+                                    p.getShortSummary(),
+                                    p.getLongSummary(),
+                                    p.getArticleId(),
+                                    p.getSourceUrl(),
+                                    p.getLikes(),
+                                    p.getBookmarks(),
+                                    p.getDownloads(),
+                                    p.getShares(),
+                                    p.getViews(),
+                                    p.isVerified()
+                            ))
+                            .toList()
             ));
 
             dashboard.put("SECTION_HOME_TEXT_CATEGORY_GRID_LONG_TEXT_1", Map.of(
@@ -323,8 +340,25 @@ public class FactTypeServiceImpl implements FactTypeService {
     }
 
     @Override
-    public List<FactDetailsEntity> getFactsByCategory(int categoryId) {
-        return factDetailsRepository.findRandomByCategoryId(categoryId, 100);
+    public List<FactDetailsDTO> getFactsByCategory(int categoryId) {
+        return factDetailsRepository.findRandomByCategoryId(categoryId, 100)
+                .stream()
+                .map(p -> new FactDetailsDTO(
+                        p.getId(),
+                        p.getCategoryId(),
+                        p.getText(),
+                        p.getShortSummary(),
+                        p.getLongSummary(),
+                        p.getArticleId(),
+                        p.getSourceUrl(),
+                        p.getLikes(),
+                        p.getBookmarks(),
+                        p.getDownloads(),
+                        p.getShares(),
+                        p.getViews(),
+                        p.isVerified()
+                ))
+                .toList();
     }
 
     @Override

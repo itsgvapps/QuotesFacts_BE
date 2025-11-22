@@ -1,5 +1,6 @@
 package com.gvapps.quotesfacts.service;
 
+import com.gvapps.quotesfacts.dto.FactDetailsDTO;
 import com.gvapps.quotesfacts.entity.FactDetailsEntity;
 import com.gvapps.quotesfacts.entity.FactTypeEntity;
 
@@ -32,7 +33,7 @@ public interface FactTypeService {
 
     List<FactDetailsEntity> getAllFacts();
 
-    List<FactDetailsEntity> getFactsByCategory(int categoryId);
+    List<FactDetailsDTO> getFactsByCategory(int categoryId);
 
     List<FactDetailsEntity> getFactsByLanguage(String language);
 

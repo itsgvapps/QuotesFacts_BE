@@ -1,5 +1,7 @@
 package com.gvapps.quotesfacts.service;
 
+import com.gvapps.quotesfacts.dto.ArticleDetailDTO;
+import com.gvapps.quotesfacts.dto.ArticleListDTO;
 import com.gvapps.quotesfacts.entity.ArticlesEntity;
 import org.springframework.data.domain.Page;
 
@@ -11,7 +13,7 @@ import java.util.Optional;
 public interface ArticlesService {
     List<ArticlesEntity> getAll();
 
-    Optional<ArticlesEntity> getById(Long id);
+    Optional<ArticleDetailDTO> getById(Long id);
 
     ArticlesEntity save(ArticlesEntity article);
 
@@ -23,7 +25,7 @@ public interface ArticlesService {
 
     List<ArticlesEntity> findByTag(String tag);
 
-    Page<ArticlesEntity> getArticlesByTag(String tag, int page, int size);
+    Page<ArticleListDTO> getArticlesByTag(String tag, int page, int size);
 
     void incrementArticleCounts(Map<String, List<Long>> payload);
 }

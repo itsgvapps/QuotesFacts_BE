@@ -1,5 +1,6 @@
 package com.gvapps.quotesfacts.repository;
 
+import com.gvapps.quotesfacts.dto.FactDetailsProjection;
 import com.gvapps.quotesfacts.entity.FactDetailsEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
@@ -17,12 +18,27 @@ public interface FactDetailsRepository extends JpaRepository<FactDetailsEntity, 
     List<FactDetailsEntity> findByCategoryId(int categoryId);
 
     @Query(value = """
-            SELECT * FROM fact_details
+            SELECT 
+                id,
+                category_id AS categoryId,
+                text,
+                short_summary AS shortSummary,
+                long_summary AS longSummary,
+                article_id AS articleId,
+                source_url AS sourceUrl,
+                likes,
+                bookmarks,
+                downloads,
+                shares,
+                views,
+                verified
+            FROM fact_details
     WHERE category_id = :categoryId
     ORDER BY RAND()
     LIMIT :limit
-    """, nativeQuery = true)
-    List<FactDetailsEntity> findRandomByCategoryId(
+            """,
+            nativeQuery = true)
+    List<FactDetailsProjection> findRandomByCategoryId(
             @Param("categoryId") int categoryId,
             @Param("limit") int limit
     );
@@ -65,10 +81,27 @@ public interface FactDetailsRepository extends JpaRepository<FactDetailsEntity, 
     void incrementShares(List<Long> ids);
 
     @Query(value = """
-            SELECT * FROM fact_details
-        WHERE LENGTH(text) < 160
-        ORDER BY RAND()
-        LIMIT 5
-        """, nativeQuery = true)
-    List<FactDetailsEntity> findRandomShortFacts();
+            SELECT 
+                id,
+                category_id AS categoryId,
+                text,
+                short_summary AS shortSummary,
+                long_summary AS longSummary,
+                article_id AS articleId,
+                source_url AS sourceUrl,
+                likes,
+                bookmarks,
+                downloads,
+                shares,
+                views,
+                verified
+            FROM fact_details
+            WHERE LENGTH(text) < 160
+            ORDER BY RAND()
+            LIMIT :limit
+            """,
+            nativeQuery = true)
+    List<FactDetailsProjection> findRandomShortFacts(
+            @Param("limit") int limit
+    );
 }
