@@ -70,14 +70,14 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public void updateNotificationAndFcmToken(Long id, String appName, Boolean notificationEnabled, String fcmToken) {
-        log.info("[UserServiceImpl] >> [updateNotificationAndFcmToken] id: {}, appName: {}, notificationEnabled: {}, fcmToken: {}",
-                id, appName, notificationEnabled, fcmToken);
+    public void updateNotificationAndFcmToken(Long id, String appId, Boolean notificationEnabled, String fcmToken) {
+        log.info("[UserServiceImpl] >> [updateNotificationAndFcmToken] id: {}, appId: {}, notificationEnabled: {}, fcmToken: {}",
+                id, appId, notificationEnabled, fcmToken);
 
-        int updated = userRepository.updateNotificationAndFcmTokenByIdAndAppName(id, appName, notificationEnabled, fcmToken);
+        int updated = userRepository.updateNotificationAndFcmTokenByIdAndAppId(id, appId, notificationEnabled, fcmToken);
 
         if (updated == 0) {
-            throw new ApiException("404", "User Not Found", "No user found with id: " + id + " and appName: " + appName);
+            throw new ApiException("404", "User Not Found", "No user found with id: " + id + " and appId: " + appId);
         }
     }
 

@@ -1,4 +1,4 @@
-package com.gvapps.quotesfacts.service;
+package com.gvapps.quotesfacts.service.test;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -15,6 +15,7 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Slf4j
@@ -29,7 +30,7 @@ public class ArticlesImportService {
     public void importArticlesFromJson() {
         try {
             // Load JSON file from resources/temp
-            InputStream inputStream = new ClassPathResource("temp/articles_life_1_100.json").getInputStream();
+            InputStream inputStream = new ClassPathResource("temp/articles_life_201_300.json").getInputStream();
 
             // Read JSON as List<Map>
             List<Map<String, Object>> jsonList = objectMapper.readValue(inputStream, new TypeReference<>() {});
@@ -68,6 +69,60 @@ public class ArticlesImportService {
             log.error("❌ Failed to import articles: {}", e.getMessage(), e);
         }
     }
+
+    @Transactional
+    public void updateSubTitleFromJson() {
+        try {
+            // Load JSON file from resources/temp
+            InputStream inputStream = new ClassPathResource("temp/articles_life_201_300.json").getInputStream();
+
+            // Read JSON as List<Map>
+            List<Map<String, Object>> jsonList = objectMapper.readValue(inputStream, new TypeReference<>() {
+            });
+
+
+            if (jsonList == null || jsonList.isEmpty()) {
+                log.info("⚠️ JSON file empty — nothing to update");
+                return;
+            }
+
+            int updatedCount = 0;
+
+            // 3. Loop each record and update directly based on ID
+            for (Map<String, Object> item : jsonList) {
+
+                Long id = item.get("id") == null ? null :
+                        Long.valueOf(item.get("id").toString());
+
+                String header = item.get("header") == null ? null :
+                        item.get("header").toString().trim();
+
+                // skip invalid
+                if (id == null || header == null || header.isEmpty()) {
+                    continue;
+                }
+
+                // 4. Find entity
+                Optional<ArticlesEntity> optional = articlesRepository.findById(id);
+                if (optional.isEmpty()) {
+                    log.warn("❗ ID {} not found in DB. Skipping.", id);
+                    continue;
+                }
+
+                ArticlesEntity entity = optional.get();
+
+                // 5. Update field
+                entity.setSubTitle(header);
+                updatedCount++;
+            }
+
+            log.info("✅ Updated sub_title for {} articles.", updatedCount);
+
+        } catch (Exception e) {
+            log.error("❌ Failed to update sub_title: {}", e.getMessage(), e);
+        }
+    }
+
 
     private ArticlesEntity mapToEntity(Map<String, Object> json) {
         try {

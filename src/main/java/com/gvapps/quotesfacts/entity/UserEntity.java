@@ -1,9 +1,12 @@
 package com.gvapps.quotesfacts.entity;
 
 import jakarta.persistence.*;
-import lombok.*;
-import org.hibernate.annotations.UpdateTimestamp;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 
 import java.time.LocalDateTime;
 
@@ -23,7 +26,7 @@ public class UserEntity {
     private String deviceId;
 
     private String deviceOs;
-    private String appName;
+    private String appId;
     private String packageName;
     private String fcmToken;
     private String name;

@@ -46,8 +46,13 @@ management:
 logging:
   level:
     org.springframework.web: INFO
-    org.hibernate.SQL: DEBUG
-    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.hibernate.SQL: OFF
+    org.hibernate.orm.jdbc.bind: OFF
+    org.hibernate.type.descriptor.sql: OFF
+    jdbc.sqlonly: OFF
+    jdbc.audit: OFF
+    jdbc.resultset: OFF
+    jdbc.sqltiming: OFF
   file:
     name: application.log
 myapp:

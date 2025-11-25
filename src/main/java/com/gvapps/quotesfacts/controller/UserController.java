@@ -34,7 +34,7 @@ public class UserController {
         log.info("[UserController] >> [updateNotification] request: {}", getJsonString(request));
         userService.updateNotificationAndFcmToken(
                 request.getId(),
-                request.getAppName(),
+                request.getAppId(),
                 request.getNotificationEnabled(),
                 request.getFcmToken()
         );

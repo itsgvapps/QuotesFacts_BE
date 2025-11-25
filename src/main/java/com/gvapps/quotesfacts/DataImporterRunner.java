@@ -1,7 +1,7 @@
 package com.gvapps.quotesfacts;
 
-import com.gvapps.quotesfacts.service.ArticlesImportService;
-import com.gvapps.quotesfacts.service.FactTypeImportService;
+import com.gvapps.quotesfacts.service.test.ArticlesImportService;
+import com.gvapps.quotesfacts.service.test.FactTypeImportService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -18,5 +18,6 @@ public class DataImporterRunner implements CommandLineRunner {
         //importService.importFactTypesFromJson();
         //importService.importFactDetailsFromJson();
 //        articlesImportService.importArticlesFromJson();
+        // articlesImportService.updateSubTitleFromJson();
     }
 }

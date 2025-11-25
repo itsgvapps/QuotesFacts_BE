@@ -1,14 +1,17 @@
 package com.gvapps.quotesfacts.dto;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
+
 import java.time.LocalDateTime;
 
 @Data
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class UserDTO {
     private Long id;
     private String deviceId;
     private String deviceOs;
-    private String appName;
+    private String appId;
     private String packageName;
     private String fcmToken;
     private String name;

@@ -30,20 +30,19 @@ public class HmacFilter extends OncePerRequestFilter {
             String nonce = req.getHeader("x-nonce");
             String signature = req.getHeader("x-signature");
 
-            log.info("[HmacFilter] >> [doFilterInternal] signature: {}", signature);
             /*Client:
             Sends headers: X-APP-ID, X-TIMESTAMP, X-NONCE, X-SIGNATURE
             Signature = HMAC_SHA256(timestamp + nonce, SECRET)*/
 
-            if (!APP_ID.equals(appId)) {
+            /*if (!APP_ID.equals(appId)) {
                 res.sendError(401, "Invalid App ID");
                 log.info("[HmacFilter] >> [doFilterInternal] >> Invalid App ID");
                 return;
-            }
+            }*/
 
             if (timestamp == null || nonce == null || signature == null) {
                 res.sendError(401, "Missing headers");
-                log.info("[HmacFilter] >> [doFilterInternal] >> Missing headers");
+                log.error("[HmacFilter] >> [doFilterInternal] >> Missing headers");
                 return;
             }
 
@@ -51,17 +50,16 @@ public class HmacFilter extends OncePerRequestFilter {
             long ts = Long.parseLong(timestamp);
             if (Math.abs(System.currentTimeMillis() - ts) > 5 * 60 * 1000) {
                 res.sendError(401, "Expired request");
-                log.info("[HmacFilter] >> [doFilterInternal] >> Expired request");
+                log.error("[HmacFilter] >> [doFilterInternal] >> Expired request");
                 return;
             }
 
             // Compute expected signature
             String dataToSign = timestamp + nonce;
             String expected = HmacUtil.hmac(dataToSign);
-
             if (!expected.equals(signature)) {
                 res.sendError(401, "Invalid signature");
-                log.info("[HmacFilter] >> [doFilterInternal] >> Invalid signature");
+                log.error("[HmacFilter] >> [doFilterInternal] >> Invalid signature");
                 return;
             }
 

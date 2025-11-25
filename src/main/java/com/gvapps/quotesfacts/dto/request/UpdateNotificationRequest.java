@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class UpdateNotificationRequest {
     private Long id;
-    private String appName;
+    private String appId;
     private Boolean notificationEnabled;
     private String fcmToken;
 }

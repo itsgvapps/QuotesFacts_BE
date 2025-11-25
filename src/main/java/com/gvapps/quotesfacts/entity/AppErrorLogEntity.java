@@ -20,8 +20,8 @@ public class AppErrorLogEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "app_name")
-    private String appName;
+    @Column(name = "app_id")
+    private String appId;
 
     @Column(name = "device_id", nullable = false)
     private String deviceId;

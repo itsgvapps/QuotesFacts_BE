@@ -25,7 +25,7 @@ public class AppErrorLogController {
         errorLog.setPayload(payload.toString()); // store full JSON
         errorLog.setDeviceId(payload.path("deviceId").asText(null));
         errorLog.setDeviceOs(payload.path("deviceOs").asText(null));
-        errorLog.setAppName(payload.path("appName").asText(null));
+        errorLog.setAppId(payload.path("appId").asText(null));
         errorLog.setAppVersion(payload.path("appVersion").asText(null));
         errorLog.setSessionId(payload.path("sessionId").asText(null));
         errorLog.setPackageName(payload.path("packageName").asText(null));

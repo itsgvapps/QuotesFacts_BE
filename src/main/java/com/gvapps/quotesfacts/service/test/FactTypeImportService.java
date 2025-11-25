@@ -1,4 +1,4 @@
-package com.gvapps.quotesfacts.service;
+package com.gvapps.quotesfacts.service.test;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
