@@ -18,6 +18,7 @@ public class DataImporterRunner implements CommandLineRunner {
         //importService.importFactTypesFromJson();
         //importService.importFactDetailsFromJson();
 //        articlesImportService.importArticlesFromJson();
+//        articlesImportService.importInsertUpdateArticlesFromJson();
         // articlesImportService.updateSubTitleFromJson();
     }
 }
