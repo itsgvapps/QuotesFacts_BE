@@ -81,19 +81,19 @@ public class RequestResponseLogger extends OncePerRequestFilter {
 
         // ✅ Malaysia timezone timestamp
         ZonedDateTime malaysiaTime = ZonedDateTime.now(ZoneId.of("Asia/Kuala_Lumpur"));
-        String timestamp = CYAN + malaysiaTime.format(ISO_FORMATTER) + " MYT" + RESET;
+        String timestamp = CYAN + malaysiaTime.format(ISO_FORMATTER) + " MYT" + BLUE;
 
         System.out.printf(
                 "%n%s═══════════════ [REQUEST @ %s] ═══════════════%s%n" +
                         "%s→ %s %s | Headers: %s%s%s%s%s%n" +
                         (hasReqBody ? "%sRequest Body:%s %s%n" : ""),
-                BLUE, timestamp, RESET,
+                BLUE, timestamp, BLUE,
                 CYAN, method, uri, GRAY, truncate(headers), RESET, CYAN, RESET,
-                hasReqBody ? GRAY : "", hasReqBody ? RESET : "", hasReqBody ? truncate(reqBody) : ""
+                hasReqBody ? GRAY : "", hasReqBody ? RESET : "", hasReqBody ? reqBody : ""
         );
 
         System.out.printf(
-                "%s─────────────── [RESPONSE @ %s] ───────────────%s%n" +
+                "%s───── [RESPONSE @ %s] ─────%s%n" +
                         "%sStatus:%s %s%d%s | %sTime:%s %dms%n" +
                         "%sResponse Body:%s %s%n" +
                         "%s═══════════════════════════════════════%s%n",
