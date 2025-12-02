@@ -76,13 +76,14 @@ public class FactsController {
     public ResponseEntity<APIResponse> getFactsByCategory(@PathVariable int categoryId) {
         log.info("[FactController] >> [getFactsByCategory] categoryId: {}", categoryId);
         List<FactDetailsDTO> facts = factTypeService.getFactsByCategory(categoryId);
+        if (facts != null)
+            log.info("[FactController] >> [getFactsByCategory] [response] >> total items: {}", facts.size());
         return ResponseEntity.ok(ResponseUtils.success("200", "Facts fetched successfully", facts));
     }
 
     // ✅ Update category views
     @PostMapping("/category/views")
     public ResponseEntity<APIResponse> updateCategoryViews(@RequestBody Map<String, List<Long>> payload) {
-        log.info("[FactController] >> [updateCategoryViews]");
         factTypeService.incrementCategoryViewsAsync(payload);
         return ResponseEntity.ok(ResponseUtils.success("200", "Category views updated successfully", null));
     }
@@ -118,7 +119,6 @@ public class FactsController {
     // ✅ Update fact detail counts
     @PostMapping("/detail/counts")
     public ResponseEntity<APIResponse> updateFactDetailCounts(@RequestBody Map<String, List<Long>> payload) {
-        log.info("[FactController] >> [updateFactDetailCounts]");
         factTypeService.incrementDetailCounts(payload);
         return ResponseEntity.ok(ResponseUtils.success("200", "Fact detail counts updated successfully", null));
     }

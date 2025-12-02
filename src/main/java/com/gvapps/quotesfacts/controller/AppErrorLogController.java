@@ -22,7 +22,6 @@ public class AppErrorLogController {
     @PostMapping("/logError")
     public ResponseEntity<APIResponse> logError(@RequestBody JsonNode payload) {
         AppErrorLogEntity errorLog = new AppErrorLogEntity();
-        //errorLog.setPayload(payload.toString()); // store full JSON
         errorLog.setPayload(payload.path("payload").toString());
         errorLog.setDeviceId(payload.path("deviceId").asText(null));
         errorLog.setDeviceOs(payload.path("deviceOs").asText(null));

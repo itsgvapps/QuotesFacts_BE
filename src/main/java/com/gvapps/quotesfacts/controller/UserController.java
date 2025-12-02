@@ -11,8 +11,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import static com.gvapps.quotesfacts.util.Utils.getJsonString;
-
 @Slf4j
 @RestController
 @RequestMapping("/v1/users")
@@ -24,14 +22,12 @@ public class UserController {
 
     @PostMapping("/save")
     public ResponseEntity<APIResponse> saveOrUpdate(@RequestBody UserDTO userDTO) {
-        log.info("[UserController] >> [saveOrUpdate] userDTO: {}", getJsonString(userDTO));
         UserDTO savedUser = userService.saveOrUpdate(userDTO);
         return ResponseEntity.ok(ResponseUtils.success("200", "User saved successfully", savedUser));
     }
 
     @PostMapping("/update-notification")
     public ResponseEntity<APIResponse> updateNotification(@RequestBody UpdateNotificationRequest request) {
-        log.info("[UserController] >> [updateNotification] request: {}", getJsonString(request));
         userService.updateNotificationAndFcmToken(
                 request.getId(),
                 request.getAppId(),
