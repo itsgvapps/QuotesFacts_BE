@@ -67,28 +67,28 @@ public interface ArticlesRepository extends JpaRepository<ArticlesEntity, Long> 
     List<ArticlesEntity> findRandomByTag(@Param("tag") String tag, @Param("limit") int limit);
 
     @Query(value = """
-            SELECT      id,
-                            title,
-                            sub_title AS subTitle,
-                            source,
-                            summary,
-                            author,
-                            active,
-                            img_credit AS imgCredit,
-                            img_path AS imgPath,
-                            external_url AS externalUrl
-                        FROM articles
-            WHERE (:tag IS NULL OR :tag = '' 
-                   OR JSON_SEARCH(LOWER(tags), 'one', LOWER(:tag), NULL, '$') IS NOT NULL)
-        AND active = 1
-        ORDER BY RAND()
-        """,
+                SELECT      id,
+                                title,
+                                sub_title AS subTitle,
+                                source,
+                                summary,
+                                author,
+                                active,
+                                img_credit AS imgCredit,
+                                img_path AS imgPath,
+                                external_url AS externalUrl
+                            FROM articles
+                WHERE (:tag IS NULL OR :tag = '' 
+                       OR JSON_SEARCH(LOWER(tags), 'one', LOWER(:tag), NULL, '$') IS NOT NULL)
+            AND active = 1
+            ORDER BY RAND()
+            """,
             countQuery = """
-        SELECT COUNT(*) FROM articles 
-                    WHERE (:tag IS NULL OR :tag = '' 
-                           OR JSON_SEARCH(LOWER(tags), 'one', LOWER(:tag), NULL, '$') IS NOT NULL)
-        AND active = 1
-        """,
+                    SELECT COUNT(*) FROM articles 
+                                WHERE (:tag IS NULL OR :tag = '' 
+                                       OR JSON_SEARCH(LOWER(tags), 'one', LOWER(:tag), NULL, '$') IS NOT NULL)
+                    AND active = 1
+                    """,
             nativeQuery = true)
     Page<ArticleListProjection> findByTagOrAll(@Param("tag") String tag, Pageable pageable);
 

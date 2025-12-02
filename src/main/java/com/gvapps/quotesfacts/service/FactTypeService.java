@@ -21,7 +21,7 @@ public interface FactTypeService {
 
     void incrementCategoryViewsAsync(Map<String, List<Long>> categoryIds);
 
-    Map<String ,Object> getHomeTabData();
+    Map<String, Object> getHomeTabData();
 
     Map<String, Object> getDiscoverTabData();
 

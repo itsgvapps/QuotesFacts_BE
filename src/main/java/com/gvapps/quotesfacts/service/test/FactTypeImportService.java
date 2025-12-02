@@ -36,7 +36,8 @@ public class FactTypeImportService {
             // Read the JSON array into a List of generic maps
             List<Map<String, Object>> factTypeList = objectMapper.readValue(
                     inputStream,
-                    new TypeReference<>() {}
+                    new TypeReference<>() {
+                    }
             );
 
             List<FactTypeEntity> entities = factTypeList.stream()
@@ -170,7 +171,8 @@ public class FactTypeImportService {
             // Read JSON array into a list of maps
             List<Map<String, Object>> factList = objectMapper.readValue(
                     inputStream,
-                    new TypeReference<>() {}
+                    new TypeReference<>() {
+                    }
             );
 
             List<FactDetailsEntity> entities = factList.stream()

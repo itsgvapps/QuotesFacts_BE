@@ -57,7 +57,8 @@ logging:
     org.hibernate.SQL: DEBUG
     org.hibernate.type.descriptor.sql.BasicBinder: TRACE
   file:
-    name: application.log
+    name: logs/application.log
+
 myapp:
   message: Hello, Spring Boot!
 

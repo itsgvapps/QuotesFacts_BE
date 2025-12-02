@@ -34,7 +34,7 @@ public class RequestResponseLogger extends OncePerRequestFilter {
     private static final String GRAY = "\u001B[90m";
 
     private static final DateTimeFormatter ISO_FORMATTER =
-            DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss.SSSXXX");
+            DateTimeFormatter.ofPattern("yyyy-MM-dd' T 'HH:mm:ss");
 
     private static final Set<String> IGNORED_HEADERS = new HashSet<>(Arrays.asList(
             "accept", "accept-encoding", "accept-language", "connection", "content-length",
@@ -81,22 +81,23 @@ public class RequestResponseLogger extends OncePerRequestFilter {
 
         // ✅ Malaysia timezone timestamp
         ZonedDateTime malaysiaTime = ZonedDateTime.now(ZoneId.of("Asia/Kuala_Lumpur"));
-        String timestamp = CYAN + malaysiaTime.format(ISO_FORMATTER) + " MYT" + BLUE;
+        String timestamp = malaysiaTime.format(ISO_FORMATTER) + " MYT";
 
         System.out.printf(
-                "%n%s═══════════════ [REQUEST @ %s] ═══════════════%s%n" +
-                        "%s→ %s %s | Headers: %s%s%s%s%s%n" +
+                "%n%s═══════════════ %s[REQUEST @ %s]%s ═══════════════%s%n" +
+                        "%s→ %s %s | Headers: %s%s%s%n" +
                         (hasReqBody ? "%sRequest Body:%s %s%n" : ""),
-                BLUE, timestamp, BLUE,
-                CYAN, method, uri, GRAY, truncate(headers), RESET, CYAN, RESET,
+                BLUE, YELLOW, timestamp, BLUE, RESET,
+                YELLOW, method, uri, GRAY, truncate(headers), RESET,
                 hasReqBody ? GRAY : "", hasReqBody ? RESET : "", hasReqBody ? reqBody : ""
         );
+
 
         System.out.printf(
                 "%s───── [RESPONSE @ %s] ─────%s%n" +
                         "%sStatus:%s %s%d%s | %sTime:%s %dms%n" +
                         "%sResponse Body:%s %s%n" +
-                        "%s══════════════════════════════════════════════════════════════════════════════%s%n",
+                        "%s═════════════════════════════════════════════════════════════════════════════%s%n",
                 BLUE, timestamp, RESET,
                 CYAN, RESET, color, status, RESET, CYAN, RESET, duration,
                 GRAY, RESET, truncate(resBody), BLUE, RESET

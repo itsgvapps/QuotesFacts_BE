@@ -18,24 +18,24 @@ public interface FactDetailsRepository extends JpaRepository<FactDetailsEntity, 
     List<FactDetailsEntity> findByCategoryId(int categoryId);
 
     @Query(value = """
-            SELECT 
-                id,
-                category_id AS categoryId,
-                text,
-                short_summary AS shortSummary,
-                long_summary AS longSummary,
-                article_id AS articleId,
-                source_url AS sourceUrl,
-                likes,
-                bookmarks,
-                downloads,
-                shares,
-                views,
-                verified
-            FROM fact_details
-    WHERE category_id = :categoryId
-    ORDER BY RAND()
-    LIMIT :limit
+                    SELECT 
+                        id,
+                        category_id AS categoryId,
+                        text,
+                        short_summary AS shortSummary,
+                        long_summary AS longSummary,
+                        article_id AS articleId,
+                        source_url AS sourceUrl,
+                        likes,
+                        bookmarks,
+                        downloads,
+                        shares,
+                        views,
+                        verified
+                    FROM fact_details
+            WHERE category_id = :categoryId
+            ORDER BY RAND()
+            LIMIT :limit
             """,
             nativeQuery = true)
     List<FactDetailsProjection> findRandomByCategoryId(

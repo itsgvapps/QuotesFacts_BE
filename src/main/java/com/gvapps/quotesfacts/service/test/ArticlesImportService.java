@@ -30,7 +30,8 @@ public class ArticlesImportService {
             InputStream inputStream = new ClassPathResource("temp/articles_life_901_1000.json").getInputStream();
 
             // Read JSON as List<Map>
-            List<Map<String, Object>> jsonList = objectMapper.readValue(inputStream, new TypeReference<>() {});
+            List<Map<String, Object>> jsonList = objectMapper.readValue(inputStream, new TypeReference<>() {
+            });
 
             // Convert JSON objects → Entities
             List<ArticlesEntity> entities = jsonList.stream()
