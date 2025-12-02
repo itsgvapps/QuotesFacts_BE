@@ -42,7 +42,7 @@ public class HmacFilter extends OncePerRequestFilter {
 
             if (timestamp == null || nonce == null || signature == null) {
                 res.sendError(401, "Missing headers");
-                log.error("[HmacFilter] >> [doFilterInternal] >> Missing headers");
+                log.error("[HmacFilter] >> [doFilterInternal] >> Missing headers: timestamp: {}; nonce:{}; signature:{}", timestamp, nonce, signature);
                 return;
             }
 

@@ -96,7 +96,7 @@ public class RequestResponseLogger extends OncePerRequestFilter {
                 "%s───── [RESPONSE @ %s] ─────%s%n" +
                         "%sStatus:%s %s%d%s | %sTime:%s %dms%n" +
                         "%sResponse Body:%s %s%n" +
-                        "%s═══════════════════════════════════════%s%n",
+                        "%s══════════════════════════════════════════════════════════════════════════════%s%n",
                 BLUE, timestamp, RESET,
                 CYAN, RESET, color, status, RESET, CYAN, RESET, duration,
                 GRAY, RESET, truncate(resBody), BLUE, RESET
