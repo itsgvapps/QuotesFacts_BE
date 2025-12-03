@@ -23,8 +23,8 @@ public class AppErrorLogEntity {
     @Column(name = "app_id")
     private String appId;
 
-    @Column(name = "device_id", nullable = false)
-    private String deviceId;
+    @Column(name = "unique_id", nullable = false)
+    private String uniqueId;
 
     @Column(name = "device_os", nullable = false)
     private String deviceOs;

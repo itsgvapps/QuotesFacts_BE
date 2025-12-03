@@ -12,7 +12,7 @@ import java.util.Optional;
 
 @Repository
 public interface UserRepository extends JpaRepository<UserEntity, Long> {
-    Optional<UserEntity> findByDeviceId(String deviceId);
+    Optional<UserEntity> findByUniqueId(String uniqueId);
 
     // 🟢 Update notificationEnabled + fcmToken based on id and appId
     @Modifying

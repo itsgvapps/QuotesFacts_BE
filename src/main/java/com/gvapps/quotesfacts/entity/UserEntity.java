@@ -23,7 +23,7 @@ public class UserEntity {
     private Long id;
 
     @Column(nullable = false, unique = true)
-    private String deviceId;
+    private String uniqueId;
 
     private String deviceOs;
     private String appId;

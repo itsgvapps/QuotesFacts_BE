@@ -73,7 +73,7 @@ public class ArticlesImportService {
         try {
             // Load JSON file from resources/temp
             InputStream inputStream =
-                    new ClassPathResource("temp/articles_life_501_600.json").getInputStream();
+                    new ClassPathResource("temp/articles_life_1_100.json").getInputStream();
 
             // Read JSON list
             List<Map<String, Object>> jsonList =

@@ -23,7 +23,7 @@ public class AppErrorLogController {
     public ResponseEntity<APIResponse> logError(@RequestBody JsonNode payload) {
         AppErrorLogEntity errorLog = new AppErrorLogEntity();
         errorLog.setPayload(payload.path("payload").toString());
-        errorLog.setDeviceId(payload.path("deviceId").asText(null));
+        errorLog.setUniqueId(payload.path("uniqueId").asText(null));
         errorLog.setDeviceOs(payload.path("deviceOs").asText(null));
         errorLog.setAppId(payload.path("appId").asText(null));
         errorLog.setAppVersion(payload.path("appVersion").asText(null));

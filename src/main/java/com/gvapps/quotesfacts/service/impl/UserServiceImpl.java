@@ -34,9 +34,9 @@ public class UserServiceImpl implements UserService {
             userEntity = userRepository.findById(userDTO.getId())
                     .orElse(new UserEntity());
             userMapper.updateEntityFromDto(userDTO, userEntity);
-        } else if (userDTO.getDeviceId() != null) {
-            // 🆕 Check existing by deviceId to avoid duplicates
-            userEntity = userRepository.findByDeviceId(userDTO.getDeviceId())
+        } else if (userDTO.getUniqueId() != null) {
+            // 🆕 Check existing by uniqueId to avoid duplicates
+            userEntity = userRepository.findByUniqueId(userDTO.getUniqueId())
                     .orElse(userMapper.toEntity(userDTO));
             userMapper.updateEntityFromDto(userDTO, userEntity);
         } else {

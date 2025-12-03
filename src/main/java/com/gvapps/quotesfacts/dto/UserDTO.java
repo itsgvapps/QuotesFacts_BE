@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class UserDTO {
     private Long id;
-    private String deviceId;
+    private String uniqueId;
     private String deviceOs;
     private String appId;
     private String packageName;
