@@ -74,10 +74,9 @@ public class FactsController {
     // ✅ Get facts by category
     @GetMapping("/category/{categoryId}")
     public ResponseEntity<APIResponse> getFactsByCategory(@PathVariable int categoryId) {
-        log.info("[FactController] >> [getFactsByCategory] categoryId: {}", categoryId);
         List<FactDetailsDTO> facts = factTypeService.getFactsByCategory(categoryId);
         if (facts != null)
-            log.info("[FactController] >> [getFactsByCategory] [response] >> total items: {}", facts.size());
+            log.info("[FactController] >> [getFactsByCategory] [response] >> categoryId:{}; total items: {}", categoryId, facts.size());
         return ResponseEntity.ok(ResponseUtils.success("200", "Facts fetched successfully", facts));
     }
 

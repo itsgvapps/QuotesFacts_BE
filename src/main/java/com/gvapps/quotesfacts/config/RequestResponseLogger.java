@@ -67,7 +67,7 @@ public class RequestResponseLogger extends OncePerRequestFilter {
         String method = req.getMethod();
         String uri = req.getRequestURI() + (req.getQueryString() != null ? "?" + req.getQueryString() : "");
         int status = res.getStatus();
-        String color = status >= 500 ? RED : status >= 400 ? YELLOW : GREEN;
+        String color = status >= 500 ? RED : status >= 400 ? RED : GREEN;
 
         String reqBody = new String(req.getContentAsByteArray(), StandardCharsets.UTF_8).trim();
         String resBody = new String(res.getContentAsByteArray(), StandardCharsets.UTF_8).trim();
