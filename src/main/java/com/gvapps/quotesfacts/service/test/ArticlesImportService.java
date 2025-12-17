@@ -69,11 +69,11 @@ public class ArticlesImportService {
     }
 
     @Transactional
-    public void importInsertUpdateArticlesFromJson() {
+    public void importInsertUpdateArticlesFromJson(String path) {
         try {
             // Load JSON file from resources/temp
             InputStream inputStream =
-                    new ClassPathResource("temp/articles_life_201_300.json").getInputStream();
+                    new ClassPathResource(path).getInputStream();
 
             // Read JSON list
             List<Map<String, Object>> jsonList =
@@ -134,9 +134,9 @@ public class ArticlesImportService {
 
             if (!toSave.isEmpty()) {
                 articlesRepository.saveAll(toSave);
-                log.info("✅ Saved {} records (inserted + updated).", toSave.size());
+                log.info("✅ Saved {} article records (inserted + updated).", toSave.size());
             } else {
-                log.info("No records to save.");
+                log.info("No article records to save.");
             }
 
         } catch (Exception e) {

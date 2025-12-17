@@ -12,7 +12,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img501.jpg",
     "tags": [
       "Motivation",
@@ -34,12 +34,13 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img502.jpg",
     "tags": [
       "Motivation",
       "Lifestyle",
-      "Love"
+      "Love",
+      "Relationships"
     ]
   },
   {
@@ -55,7 +56,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img503.jpg",
     "tags": [
       "Psychology",
@@ -82,13 +83,14 @@
       "Country",
       "Travel",
       "Facts",
+      "Thailand",
       "Historical Structures"
     ]
   },
   {
     "id": 505,
     "title": "Psychology Facts That Will Make You Rethink Reality",
-    "content": "<ol><li>Neediness is repulsive. The more you chase a relationship, the lower the odds of making it work.</li><li>You&rsquo;re not kind because you want to be it. You&rsquo;re kind because you aren&rsquo;t powerful enough to be otherwise.</li><li>People lie all the time. It&rsquo;s just that instead of telling fake stories, they conveniently omit parts of the truth that bother them.</li><li>We feel more than we think. This is why most commercial arguments prioritize appealing to our feelings rather than our logic.</li><li>Most people seek emotional support to alleviate their immediate pain rather than practical advice to cure it.</li><li>If you are not an extremely talented genius, you&rsquo;d better learn to be liked. This is how you&rsquo;ll win in life.</li><li>Being weird is a quality; acting weird is a flaw. Society ruthlessly erases what doesn&rsquo;t fit the average.</li><li>Everyone is driven by self-interest. Playing with pity and portraying yourself as a victim will never work. Identify their needs instead.</li><li>Most people don&rsquo;t care about your life. They only pretend to be, hoping for juicy gossip you can give them.</li><li>No system can cure the way humans organize themselves. Strong exploit weak and there is absolutely nothing you can do about it.</li><li>A good reputation doesn&rsquo;t mean they&rsquo;re a good person. It means they&rsquo;re good concealers. Everyone&rsquo;s hiding dirty unavoidable secrets.</li><li>Most people don&rsquo;t like you. They like the feelings they have when they are with you. And that&rsquo;s a huge difference.</li><li>We don&rsquo;t surround ourselves with most friends because we genuinely like them, but because of the social validation they provide.</li><li>The average man falls into the politeness trap because his self-esteem is at an all-time low.</li><li>Complaining in front of others only shows your unreliability and annoyance. Plus it never leads to any meaningful solutions for your problems.</li><li>Unlucky people are not struck by bad luck, they simply tend to blame fate for their problems.</li><li>Telling the truth is not as rewarding as telling people what they want to hear.</li><li>Apologizing may initially elicit sympathy, but ultimately fuels long-lasting disdain and suspicion.</li><li>It&rsquo;s the primal, vital urge of necessity that compels action. Not empty promises, mere dreams, or lofty ambitions.</li><li><mark>On those bad days when you feel unmotivated and lack discipline, what you do will fall to the level of your standards. If you want a better life, increase your standards.</mark></li></ol>",
+    "content": "<ol><li>Neediness is repulsive. The more you chase a relationship, the lower the odds of making it work.</li><li>You&rsquo;re not kind because you want to be it. You&rsquo;re kind because you aren&rsquo;t powerful enough to be otherwise.</li><li>People lie all the time. It&rsquo;s just that instead of telling fake stories, they conveniently omit parts of the truth that bother them.</li><li>We feel more than we think. This is why most commercial arguments prioritize appealing to our feelings rather than our logic.</li><li>Most people seek emotional support to alleviate their immediate pain rather than practical advice to cure it.</li><li>If you are not an extremely talented genius, you&rsquo;d better learn to be liked. This is how you&rsquo;ll win in life.</li><li>Being weird is a quality; acting weird is a flaw. Society ruthlessly erases what doesn&rsquo;t fit the average.</li><li>Everyone is driven by self-interest. Playing with pity and portraying yourself as a victim will never work. Identify their needs instead.</li><li>Most people don&rsquo;t care about your life. They only pretend to be, hoping for juicy gossip you can give them.</li><li>No system can cure the way humans organize themselves. Strong exploit weak and there is absolutely nothing you can do about it.</li><li>A good reputation doesn&rsquo;t mean they&rsquo;re a good person. It means they&rsquo;re good concealers. Everyone&rsquo;s hiding dirty unavoidable secrets.</li><li>Most people don&rsquo;t like you. They like the feelings they have when they are with you. And that&rsquo;s a huge difference.</li><li>We don&rsquo;t surround ourselves with most friends because we genuinely like them, but because of the social validation they provide.</li><li>The average man falls into the politeness trap because his self-esteem is at an all-time low.</li><li>Complaining in front of others only shows your unreliability and annoyance. Plus it never leads to any meaningful solutions for your problems.</li><li>Unlucky people are not struck by bad luck, they simply tend to blame fate for their problems.</li><li>Telling the truth is not as rewarding as telling people what they want to hear.</li><li>Apologizing may initially elicit sympathy, but ultimately fuels long-lasting disdain and suspicion.</li><li>It&rsquo;s the primal, vital urge of necessity that compels action. Not empty promises, mere dreams, or lofty ambitions.</li><li>On those bad days when you feel unmotivated and lack discipline, what you do will fall to the level of your standards. If you want a better life, increase your standards.</li></ol>",
     "src": "https://julfi.medium.com/20-dark-psychology-facts-that-will-make-you-rethink-reality-0bf577b1d3d2",
     "author": "Mentalcodex | Julfi",
     "imgSrc": "(unsplash)",
@@ -98,7 +100,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img505.jpg",
     "tags": [
       "Psychology",
@@ -120,12 +122,12 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img506.jpg",
     "tags": [
       "Motivation",
       "Lifestyle",
-      "Habits",
+      "Relationships",
       "Psychology",
       "Health & Fitness",
       "Love"
@@ -144,7 +146,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img507.jpg",
     "tags": [
       "Psychology",
@@ -170,6 +172,7 @@
       "Facts",
       "Country",
       "Monuments",
+      "India",
       "Historical Structure"
     ]
   },
@@ -186,7 +189,7 @@
     "read": "",
     "notes": "",
     "header": "Find out how algorithms use your likes to control what you see, feel, and engage with every day.",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img509.jpg",
     "tags": [
       "Psychology",
@@ -211,7 +214,8 @@
     "isShow": true,
     "tags": [
       "Facts",
-      "Animals"
+      "Animals",
+      "Jaguar"
     ]
   },
   {
@@ -233,7 +237,8 @@
       "Country",
       "Lifestyle",
       "Facts",
-      "Habits"
+      "Habits",
+      "Netherlands"
     ]
   },
   {
@@ -249,7 +254,7 @@
     "read": "",
     "notes": "",
     "header": "Uncover the surprising link between prenatal behavior and handedness later in childhood.",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img512.jpg",
     "tags": [
       "Psychology",
@@ -274,7 +279,8 @@
     "imgPath": "article_images_life/img513.jpg",
     "tags": [
       "Facts",
-      "Country"
+      "Country",
+      "Nature"
     ]
   },
   {
@@ -314,7 +320,8 @@
     "imgPath": "article_images_life/img515.jpg",
     "tags": [
       "Facts",
-      "Nature"
+      "Nature",
+      "Earth"
     ]
   },
   {
@@ -334,7 +341,8 @@
     "imgPath": "article_images_life/img516.jpg",
     "tags": [
       "Facts",
-      "Creature"
+      "Creature",
+      "Scorpion"
     ]
   },
   {
@@ -355,8 +363,7 @@
     "tags": [
       "Facts",
       "Psychology",
-      "Human Body",
-      "Health & Fitness"
+      "Human Body"
     ]
   },
   {
@@ -377,6 +384,7 @@
     "tags": [
       "Facts",
       "Country",
+      "Egypt",
       "Monuments",
       "Historical Structure",
       "Geography"
@@ -420,6 +428,7 @@
     "imgPath": "article_images_life/img520.jpg",
     "tags": [
       "Facts",
+      "France",
       "Nature",
       "Geography",
       "Historical Structure",
@@ -485,7 +494,6 @@
     "imgPath": "article_images_life/img523.jpg",
     "tags": [
       "Facts",
-      "Geography",
       "Universe",
       "Innovation"
     ]
@@ -508,7 +516,8 @@
     "tags": [
       "Travel",
       "Facts",
-      "Conutry"
+      "Country",
+      "Indonesia"
     ]
   },
   {
@@ -529,7 +538,8 @@
     "tags": [
       "Facts",
       "Geography",
-      "Universe"
+      "Universe",
+      "Earth"
     ]
   },
   {
@@ -545,7 +555,7 @@
     "read": "",
     "notes": "",
     "header": "Uncover the strange science behind the world’s most famous headless chicken.",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img526.jpg",
     "tags": [
       "Facts",
@@ -585,7 +595,7 @@
     "read": "",
     "notes": "",
     "header": "Find out why people living alone see the biggest heart-health benefits from dogs.",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img528.jpg",
     "tags": [
       "Psychology",
@@ -611,7 +621,7 @@
     "imgPath": "article_images_life/img529.jpg",
     "tags": [
       "Facts",
-      "Science"
+      "Science & Technology"
     ]
   },
   {
@@ -630,6 +640,7 @@
     "isShow": true,
     "imgPath": "article_images_life/img530.jpg",
     "tags": [
+      "Facts",
       "Psychology",
       "Human Body"
     ]
@@ -647,7 +658,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img531.jpg",
     "tags": [
       "Psychology",
@@ -668,13 +679,14 @@
     "read": "",
     "notes": "",
     "header": "Discover why millions see Mount Fuji as a gateway to purity, power, and enlightenment.",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img532.jpg",
     "tags": [
       "Facts",
       "Nature",
       "Geography",
-      "Country"
+      "Country",
+      "Japan"
     ]
   },
   {
@@ -694,8 +706,7 @@
     "imgPath": "article_images_life/img533.jpg",
     "tags": [
       "Facts",
-      "Nature",
-      "Geography"
+      "Nature"
     ]
   },
   {
@@ -732,35 +743,31 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img535.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Medical and Health"
     ]
   },
   {
     "id": 536,
-    "title": "",
-    "content": "",
+    "title": "Were airports, in the past, more like full-service restaurants?",
+    "content": "Yes, before the 1980s, airports were often seen as community hubs with nice restaurants (likeDobbs House or Fred Harvey) serving locals and travelers alike, offering quality dining and a pleasant atmosphere, sometimes even featuring airline-run eateries, with a shift towards themed airport-vicinity restaurants emerging later, especially post-9/11 security changes altering airport access. Here's a breakdown of why this was the case:    Community Gathering Spots: Airports were more accessible, with families and locals often visiting just to watch planes take off and land, making airport restaurants popular destinations.    High-Quality Offerings: Chains like Dobbs House provided quality meals, earning praise from food critics, notes Restaurant-ing through history.    Integrated Services: Restaurants were often run by major catering companies (like Interstate Hosts) or even airlines themselves, creating a diverse dining scene.    Pre-Security Era: Before stricter security measures (especially post-9/11), anyone could easily enter the terminal and access restaurants, blurring lines between airport and city life, according to The Parking Spot and the Transportation Security Administration (.gov)",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Neon Wang (unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img536.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Lifestyle"
     ]
   },
   {
@@ -776,7 +783,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img537.jpg",
     "tags": [
       "Motivation",
@@ -787,46 +794,44 @@
   },
   {
     "id": 538,
-    "title": "",
-    "content": "",
+    "title": "Did you know birds need gravity to swallow?",
+    "content": "<p><em>Birds need gravity to swallow their food</em>. Without it, they can't eat properly.</p><p>When humans eat food, it enters into a muscular organ called food pipe or esophagus. In the esophagus, a series of contraction and relaxation take place that pushes or moves food towards the stomach. This movement is called peristalsis.</p><p>Now, in most birds, such peristaltic movement doesn't take place in their esophagus. Hence, they need to depend on gravity to push their food through the esophagus.</p><p>When a bird eats its food, the bird lifts or tilts its head up and with the help of its tongue, it directs the food towards the throat. Then, the gravitational force of earth causes the food to slide down into a pouch called crop, thus helping it to swallow its food.</p><div>Most birds need gravity to swallow because their esophagus lacks strong peristalsis (muscle contractions) to push food down, so they rely on tilting their heads back and using gravity to move food from their throat to their crop and then stomach. This is why birds struggle to eat in zero gravity, as demonstrated in space experiments where they can't swallow properly without gravity's help</div>»",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by Misty Ladd(unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img538.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Birds"
     ]
   },
   {
     "id": 539,
-    "title": "",
-    "content": "",
+    "title": "Is the Earth's rotation changing speed it's actually slowing?",
+    "content": "<p><strong>Earth's rotation is slowing slightly with time</strong>; thus, a day was shorter in the past. This is due to the tidal effects the Moon has on Earth's rotation.</p><p>We define a day as 86,400 seconds, or 24 hours &ndash; the time it takes for Earth to rotate once. However, the Earth doesn&rsquo;t rotate perfectly uniformly. Usually, the Earth&rsquo;s rotation is actually slowing down so that the length of the day increases by about 1.8 milliseconds per century, on average. This means that 600 million years ago a day lasted only 21 hours.</p><ul><li><strong>Earth's rotation is slowing:</strong> This is due to the tidal effects of the Moon's gravitational pull (tidal braking).</li><li><strong>Rate of change:</strong> On average, the length of a day increases by around 1.8 milliseconds per century (which is 0.0018 seconds per century, not 1.8 seconds).</li><li><strong>Historical day length:</strong> Approximately 600 million years ago, a day on Earth lasted about 21 hours.&nbsp;</li></ul>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by Planet Volumes(unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img539.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Geography",
+      "Earth",
+      "Nature"
     ]
   },
   {
@@ -846,204 +851,198 @@
     "imgPath": "article_images_life/img540.jpg",
     "tags": [
       "Facts",
-      "Country"
+      "Country",
+      "Germany"
     ]
   },
   {
     "id": 541,
-    "title": "",
-    "content": "",
+    "title": "Do earlobes have a biological purpose?",
+    "content": "<p><em>Earlobes have no biological purpose</em>.</p><p>Since the earlobe does not contain cartilage it has a large blood supply and may help to warm the ears. However, <strong>earlobes are not generally considered to have any major biological function</strong>. The earlobe contains many nerve endings, and for some people is an erogenous zone.</p><p>While earlobes don&rsquo;t have a critical function like some other body parts, they have cultural significance in many societies. They are often adorned with jewellery and are involved in traditional practices like ear stretching or piercing.</p><p>So, while their role in physiology might be modest, their contribution to human expression and culture is significant.</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by Planet Volumes(unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img541.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Psychology",
+      "Science & Technology"
     ]
   },
   {
     "id": 542,
-    "title": "",
-    "content": "",
+    "title": "Why is your brain constantly eating itself?",
+    "content": "<p><em>Phagocytosis</em> is <em>a process</em> whereby <em>cells</em> will <em>envelop</em> and <em>consume smaller cells</em> or <em>molecules</em>, in order to <em>remove them</em> from the <em>system</em>.</p><p>This process, known as <strong>astrocytic phagocytosis</strong>, is a normal part of brain health. Think of it like tidying up your desk &mdash; the brain trims away unused or weak synapses to make room for new learning and stronger connections. But in sleep-deprived brains, this &ldquo;clean-up crew&rdquo; goes into overdrive.</p><p>Our brains aren&rsquo;t static. They&rsquo;re flexible, adaptable, constantly reacting to what life throws at them. That&rsquo;s largely the source of their power. But they wouldn&rsquo;t be able to do this if they weren&rsquo;t willing to eat parts of themselves on a regular basis.</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by (unsplash)KOMMERS",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img542.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Psychology",
+      "Brain"
     ]
   },
   {
     "id": 543,
-    "title": "",
-    "content": "",
+    "title": "What is the world's most forested country with approximately 93% of its land covered by forests?",
+    "content": "<p><strong>Suriname</strong> has the highest forest cover of any country in the world. Approximately 93% of the country is covered in tropical forest, most of which is primary forest, untouched by logging, mining, agriculture or other forms of development or extractive industries.</p><p>A small nation in South America renowned for having the world's highest forest cover, with around 93% of its land blanketed in pristine tropical rainforest, much of it part of the Amazon biome, making it a vital carbon sink and biodiversity hotspot.&nbsp;</p><div><strong>Key Facts about Suriname's Forests:</strong></div><ul><li><strong>Highest Forest Cover:</strong> Suriname is the most forested country on Earth by percentage.</li><li><strong>Amazon Part:</strong> A significant portion of its forest is within the vast Amazon ecosystem.</li><li><strong>Carbon Negative:</strong> Its dense forests absorb more carbon dioxide than the nation produces.</li><li><strong>Low Population Density:</strong> Most Surinamese live along the coast, leaving the interior wilderness largely untouched.</li><li><strong>Biodiversity:</strong> Home to jaguars, giant river otters, harpy eagles, and rich plant life.</li><li><strong>Protected Areas:</strong> The Central Suriname Nature Reserve is a UNESCO World Heritage Site.</li></ul>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by Rineshkumar Ghirao(unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img543.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Geography",
+      "Country"
     ]
   },
   {
     "id": 544,
-    "title": "",
-    "content": "",
+    "title": "What sport can a woman beat a man?",
+    "content": "<p>Women consistently beat men in <strong>marathon swimming</strong>. I did not know that. There's a twenty mile swim in California where the is held by a woman, it's 40 minutes faster than the closest male record.</p><p>Men are less streamlined and produce more drag, they are heavier too which requires more energy to move the same distance through the water. </p><p>This sport that women are believed to hold a biological advantage at over men. It&rsquo;s probably a combination of having more slow twitch muscles and being better at conserving core body temperature. </p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by Ricardo IV Tamayo(unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img544.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
+      "Facts",
       "Health & Fitness"
     ]
   },
   {
     "id": 545,
-    "title": "",
-    "content": "",
+    "title": "What happens if I never eat onions?",
+    "content": "<p>Skipping onions could lead to <strong>deficiencies in vitamins C, B6, and folate, along with minerals like manganese and potassium</strong>. Swati said that this can have negative consequences like a weakened immune system, increased fatigue, and potential blood clotting and red blood cell formation issues.</p><p>You miss out on their rich antioxidants (like flavonoids &amp; Vitamin C) that boost immunity and fight chronic diseases, plus beneficial fructans for gut health, potentially leading to lower defenses against inflammation and certain illnesses, though you also avoid digestive issues like bloating if you have an intolerance (FODMAPs) and sidestep certain cultural/spiritual restrictions.</p><p>You'd need to find other sources for these nutrients and might find flavor blandness, but it's manageable by substituting with other veggies and herbs.</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by K8 (Unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img545.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Medical and Health",
+      "Food"
     ]
   },
   {
     "id": 546,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": "Is chocolate poisonous for cats?",
+    "content": "<p>Chocolate can cause some serious health issues for cats.</p><p>A bar of chocolate may be a tasty treat for us humans, but you should never share it with your cat. <strong>It can create serious health problems and could be fatal. </strong>It&rsquo;s best that other treats are favoured over chocolate when you want to give your cat something nice.</p><h2>Why shouldn&rsquo;t cats eat chocolate?</h2><p><strong>Chocolate contains a chemical compound called theobromine which is toxic for cats and dogs.</strong> It acts as a stimulant to increase their heart rate and a diuretic to increase the loss of their bodily fluids. Both of these can prove fatal.&nbsp;</p><p>In fact, theobromine is actually toxic for us too. But because our bodies can process it more effectively, we would need to eat around 70 grams to reach a lethal dose. That equates to eating around 35 kilograms of milk chocolate in one go, which isn&rsquo;t easy for us to do!</p><p>Cats and dogs are not as good at processing theobromine. It stays in their bloodstream for much longer and can accumulate to dangerous levels more easily. Eating just a couple of grams of chocolate can be fatal for a cat.</p><p>Dark chocolate with a higher percentage of cocoa content will contain more theobromine than milk or white chocolate. But all are dangerous. If your cat has eaten any chocolate, you should call your vet straight away.&nbsp;</p><p>Luckily, your cat is unlikely to want to try your chocolate anyway. They lack the ability to taste sweetness like most other mammals can. But you should still always keep it out of their reach in case they get curious.&nbsp;</p>",
+    "src": "https://www.cats.org.uk/cats-blog/why-is-chocolate-poisonous-for-cats",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by tian dayong(unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img546.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Cats",
+      "Animals"
     ]
   },
   {
     "id": 547,
-    "title": "",
-    "content": "",
+    "title": "Is it okay to eat bananas every day?",
+    "content": "<p>Yes, for most healthy people, eating one banana a day is perfectly fine and can be part of a healthy diet, offering nutrients like potassium, fiber, and vitamins. However, moderation is key, and those with certain health conditions like diabetes or late-stage kidney disease should consult a doctor. &nbsp;</p><div><div>Benefits of eating a banana daily </div></div><div><ul><li><div><div><div><div><strong>Supports heart and muscle health:</strong></div><div>Bananas are rich in potassium, which helps manage blood pressure by flushing out excess sodium and relaxing blood vessels. It also plays a role in proper muscle function.</div></div></div></div></li></ul></div><ul><li></li><li><div><div><div><div><strong>Improves digestive health:</strong></div><div>The fiber in bananas can help prevent constipation and promote good gut health.</div></div></div></div></li><li></li><li><div><div><div><div><strong>Provides essential vitamins:</strong></div><div>Bananas are a good source of Vitamin C, Vitamin B6, and manganese, which are important for immunity, energy metabolism, and skin health.</div></div></div></div></li><li></li><li><div><div><div><div><strong>Helps manage blood sugar:</strong></div><div>The fiber in bananas helps prevent sharp blood sugar spikes. However, individuals with diabetes should monitor their intake, especially since bananas are relatively high in carbs.</div></div></div></div></li></ul>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by Fabrizio Frigeni(unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img547.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
+      "Facts",
+      "Medical and Health",
+      "Food",
       "Health & Fitness"
     ]
   },
   {
     "id": 548,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": " What Is Coconut Water?",
+    "content": "<p>Coconut water, the clear liquid part of the tropical fruit coconut, is a popular natural beverage with a slightly sweet taste.</p><p>Think of it as nature's sports drink, packed with electrolytes and nutrients. This drink has been keeping people hydrated for centuries.</p><p>This refreshing beverage consists of approximately 95% water and contains essential nutrients such as potassium, magnesium, sodium, vitamins, small amounts of protein, and dietary fiber. Importantly, coconut water and coconut milk are completely different products. Coconut water is the clear liquid from young coconuts.</p><p>Coconut water is 95% water, plus the following components:</p><ul><li>Carbohydrates (sugars)</li><li>Vitamins</li><li>Minerals</li><li>Amino acids, including lysine and glutamic acid</li><li>Phenolic acids, including salicylic acid</li></ul>",
+    "src": "https://www.verywellhealth.com/does-coconut-water-lower-blood-pressure-11763520",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by Fabrizio Frigeni(unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img548.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
+      "Facts",
+      "Medical and Health",
+      "Food",
       "Health & Fitness"
     ]
   },
   {
     "id": 549,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": "Hidden Costs of High Sugar Consumption",
+    "content": "<p>You might enjoy the taste of Coke, but what&rsquo;s the cost of all that sugar, really? In terms of your health, the cost is significant. Here are some of the risks that come with excessive sugar intake, which a single can of Coke can contribute to:&nbsp;</p><ul><li>Weight gain and obesity&nbsp;</li><li>Heightened risk of developing type 2 diabetes</li><li>Increased risk of heart disease and other cardiovascular issues</li><li>Dental decay, resulting from the acidic nature of sugary drinks</li></ul><p>Plus, many people find that the more sugar they consume, the more they crave. It&rsquo;s a cycle that&rsquo;s very hard to break, and can have a serious impact on your health in the long term.&nbsp;</p>",
+    "src": "https://oobli.com/blogs/news/how-much-sugar-is-in-a-can-of-coke",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by Blake Wisz (Unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img549.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
+      "Facts",
+      "Medical and Health",
+      "Food",
       "Health & Fitness"
     ]
   },
@@ -1060,7 +1059,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img550.jpg",
     "tags": [
       "Motivation",
@@ -1071,18 +1070,18 @@
   },
   {
     "id": 551,
-    "title": "",
-    "content": "",
+    "title": "Did you know the fear of long words is called hippopotomonstrosesquippedaliophobia?",
+    "content": "<p><strong>Hippopotomonstrosesquippedaliophobia , the fear of long words, is also known as sesquipedalophobia</strong> . While many people struggle with pronouncing or understanding a long word, some people experience this social phobia when reading aloud or using long words in a social context.</p><div>The 36-letter term for fear of long words is</div><p><strong>Hippopotomonstrosesquippedaliophobia</strong>, famously coined (or at least popularized in its current form) by poet Aimee Nezhukumatathil around 2000, while the ancient Roman poet Horace (1st Century BCE) used the concept of <em>sesquipedalia verba</em> (words a foot and a half long) to mock wordy writers, making the name itself an ironic joke.</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "<a href=\"https://www.freepik.com/free-photo/covering-face-with-hands-peeking-fingers-with-surprised-expression-looking-side_381368308.htm#fromView=search&page=1&position=45&uuid=fa8a44f3-b2cd-4db2-b54a-8b8611a1cd3a&query=phobia\">Image by kues1 on Freepik</a>",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img551.jpg",
     "tags": [
       "Motivation",
@@ -1093,18 +1092,18 @@
   },
   {
     "id": 552,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": "The world’s oldest dog lived to 29.5 years old",
+    "content": "<p>While the median age a dog reaches tends to be about 10-15 years, one Australian cattle dog, &lsquo;Bluey&rsquo;, survived to the ripe old age of 29.5.</p><p>Bluey was born 7 June 1910 in Rochester, Victoria, Australia and was acquired by William Hall in 1910. After William's death, Bluey was passed to his son Les and his wife. It is claimed Bluey worked as a cattle and sheep dog for about 20 years before retiring.</p><p>According to Guinness World Records, Bluey was the oldest-lived dog ever verified, having lived 29 years and 5 months (1910&ndash;1939) before being euthanised. Bluey was a loyal dog who spent time in the backyard and was incredibly loyal to her owners. She used to follow her owner's wife, up the street of their shop and sit outside with the carriage until she came out, where she would then walk with her home.</p><p>Because Bluey's town, Rochester, was so small and her owner (Les) was the main grocer for several years, everyone knew Bluey and the whole town was deeply affected by her death in 1939.</p>",
+    "src": "https://dogtime.com/dog-health/136083-oldest-dog-that-ever-lived-age-breed",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Marcin Wojna (unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img552.jpg",
     "tags": [
       "Motivation",
@@ -1126,7 +1125,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img553.jpg",
     "tags": [
       "Motivation",
@@ -1148,7 +1147,7 @@
     "likes": "",
     "read": "",
     "notes": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img554.jpg",
     "tags": [
       "Motivation",
@@ -1191,7 +1190,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img555.jpg",
     "tags": [
       "Motivation",
@@ -1213,7 +1212,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img556.jpg",
     "tags": [
       "Motivation",
@@ -1235,7 +1234,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img557.jpg",
     "tags": [
       "Motivation",
@@ -1257,7 +1256,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img558.jpg",
     "tags": [
       "Motivation",
@@ -1268,89 +1267,88 @@
   },
   {
     "id": 559,
-    "title": "",
-    "content": "",
+    "title": "Which snake is poisonous?",
+    "content": "<p>Of the terrestrial venomous snakes, four species are widespread on the Indian mainland &ndash; also known as the &ldquo;big four.&rdquo; They include <strong>spectacled cobra (Naja naja), common krait (Bungarus caeruleus), Russell's viper (Daboia russelii), and saw-scaled viper (Echis carinatus)</strong>.</p><ul><li><strong>Spectacled Cobra (Naja naja):</strong> Known for the spectacle-like pattern on its hood.</li><li><strong>Common Krait (Bungarus caeruleus):</strong> A highly venomous snake found in various environments, including human settlements.</li><li><strong>Russell's Viper (Daboia russelii):</strong> A terrestrial viper abundant in farmlands, causing many bites.</li><li><strong>Saw-scaled Viper (Echis carinatus):</strong> Another viper species that contributes significantly to snakebite incidents.&nbsp;</li></ul>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by Nivedh P (Unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img559.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Snake"
     ]
   },
   {
     "id": 560,
-    "title": "",
-    "content": "",
+    "title": "What is Cosmic Latte?",
+    "content": "<p>Cosmic Latte is the name given to the average color of the observable universe, derived by averaging the light from a large, representative sample of galaxies across the sky. It quantifies what color an observer would perceive if all starlight were blended and viewed as a single patch.</p><p><strong>Key points</strong></p><ul><li>Origin: In 2001 a team of astronomers at Johns Hopkins University (Karl Glazebrook and Ivan Baldry, with collaborators) calculated the mean color by averaging spectra of tens of thousands of galaxies from redshift surveys. An initial result was reported as a greenish tone; after correcting a unit-conversion error the corrected mean color was a very light beige, which the team playfully named \"Cosmic Latte.\" The formal result was published in 2002&ndash;2003 literature and press coverage.</li><li>Method: The calculation averages galaxy spectral energy distributions (SEDs) weighted by luminosity, then converts the resulting composite spectrum into a color in a standard color space (sRGB/CIELAB/XYZ) assuming a reference white point and cosmological corrections (K-corrections) to account for redshifted light. Practical steps: collect spectra, correct for redshift and selection effects, integrate flux over filter bands, compute averaged color coordinates, transform to display RGB.</li><li>Result: Cosmic Latte corresponds to a hex color roughly #FFF8E7 (described as a pale beige or latte). Exact numeric coordinates depend on the color space and assumptions; typical reported values place it near light cream with a tiny yellowish tint.</li><li>Why not pure white or blue? Individual young, hot stars emit blue light, but most stellar populations include older, redder stars. When averaged across all galaxy types and ages, and weighted by luminosity, the combined spectrum is nearly neutral with a slight beige/yellow bias. Cosmic expansion redshifts light, but the calculation accounts for that; the dominant effect is the mix of stellar populations.</li><li>Limitations and caveats:</li><ul><li>Sample dependence: results depend on the galaxy sample, depth, and wavelength coverage of surveys used.</li><li>Cosmological evolution: the mean color evolves with cosmic time (higher-redshift universe appears bluer because of more active star formation).</li><li>Choice of color space, white point and display gamut changes the rendered RGB; lab conversions are needed for precise color reproduction.</li><li>Observer-dependent factors (atmosphere, human vision) will alter perceived color.</li></ul></ul><p><strong>Examples and implications</strong></p><ul><li>Typical story used to explain it: average spectra from large surveys (e.g., SDSS-like) &rarr; composite SED &rarr; convert to visible RGB &rarr; result is a pale latte color, hence the whimsical name. The concept emphasizes that the universe&rsquo;s net starlight is not dramatically blue or red but close to neutral with a slight warm tint.</li><li>Usefulness: more illustrative than physically deep &mdash; it conveys a population-averaged property of starlight and communicates cosmic star-formation history qualitatively (bluer past, redder future).</li></ul><p><strong>References and further reading (representative)</strong></p><ul><li>Glazebrook, K., Baldry, I., et al., press articles and follow-up notes (2002&ndash;2003) describing the calculation and correction to the initial report.</li><li>Reviews of galaxy spectral energy distributions and cosmic color evolution in observational cosmology literature through May 2024.</li></ul>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by Graham Holtshausen (Unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img560.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Earth",
+      "Space",
+      "Universe"
     ]
   },
   {
     "id": 561,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": "Does time move faster for smaller animals?",
+    "content": "<p>A new research reveals that <strong>the animals that can perceive time passing the fastest are those that can fly, are small or are marine predators.</strong></p><p>Studies suggest smaller animals may experience the world in slow motion, compared to humans.</p><p>Salamanders and lizards, it seems, perceive time more slowly than cats and dogs. And whilethis may help to explain the infuriating ability of flies to elude rolled-up newspapers.</p><div>Becausetheir brains process sensory input faster, allowing for quicker reactions to predators or prey, a phenomenon linked to their higher metabolic rates and faster neural processing (flicker fusion), meaning a second contains more \"frames\" of experience for them than for humans or larger animals like dogs, who perceive time relatively slower</div>",
+    "src": "https://www.sciencefocus.com/science/animal-time-perception",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by Angelina Litvin (Unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img561.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Animals",
+      "Dogs",
+      "Nature",
+      "Earth"
     ]
   },
   {
     "id": 562,
-    "title": "",
-    "content": "",
+    "title": "Is it true that celery is 0 calories?",
+    "content": "<div>No, celery isn't zero-calorie;&nbsp;it's extremely low in calories, with about 6-10 calories per medium stalk, not zero, because it's mostly water (95%) and fiber, though the idea of \"negative-calorie foods\" is a myth, as digestion burns only a fraction of those calories</div><p>Celery is a nutrient-rich, low-calorie food. <strong>Two stalks of celery contain only 15 calories</strong>. Aside from its low calorie count, celery contains dietary fiber, vitamin K, and small amounts of vitamins A and C, calcium and iron.</p><p>Celery has a low sugar content and is low in digestive carbohydrates. These things mean <strong>it is not likely to cause blood sugar spikes for most people</strong>. Celery also contains a compound called apigenin, which has been shown to help lower blood sugar levels, improve insulin resistance, and maintain healthy weight in mice.</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by Valentin Balan (Unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img562.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
+      "Facts",
+      "Food",
+      "Medical and Health",
       "Health & Fitness"
     ]
   },
@@ -1368,7 +1366,7 @@
     "notes": "",
     "header": "Unlock the secrets behind elephant super-senses, family bonds, and incredible memories",
     "imgPath": "article_images_life/img563.jpg",
-    "isShow": false,
+    "isShow": true,
     "tags": [
       "Facts",
       "Animals",
@@ -1377,68 +1375,67 @@
   },
   {
     "id": 564,
-    "title": "",
-    "content": "",
+    "title": "How far would all the bacteria in the world stretch?",
+    "content": "<p>All the world&rsquo;s bacteria stacked on top of each other would stretch for 10 billion light-years. Together, Earth's 0.001mm-long microbes could wrap around the Milky Way over 20,000 times.</p><p>Here's a breakdown:</p><ul><li><strong>Tiny Size:</strong> Bacteria average about 1 micrometer (0.001mm) long, much thinner than a human hair.</li><li><strong>Colossal Count:</strong> The total number is so vast (trillions upon trillions) that when arranged end-to-end, their collective length becomes astronomical.</li><li><strong>Stretching Across Space:</strong> This bacterial chain would span 10 billion light-years.</li><li><strong>Wrapping the Galaxy:</strong> This length is sufficient to encircle our Milky Way galaxy more than 20,000 times.&nbsp;</li></ul><div>This illustrates that while individual microbes are microscopic, their collective mass and reach are staggering, making them \"emperors of our planet\".</div>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by Adrian Lange (Unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img564.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Nature",
+      "Bacteria"
     ]
   },
   {
     "id": 565,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": "Will we lose a second in 2029?",
+    "content": "<p>For the first time in history, world timekeepers may have to consider subtracting a second from our clocks in a few years because the planet is rotating a tad faster than it used to. <strong>Clocks may have to skip a second &mdash; called a &ldquo;negative leap second&rdquo; &mdash; around 2029</strong>, a study in the journal Nature said Wednesday.</p><p>Ice melting at both of Earth&rsquo;s poles has been counteracting the planet&rsquo;s burst of speed and is likely to have delayed this global second of reckoning by about three years.</p><p>For thousands of years, the Earth has been generally slowing down, with the rate varying from time to time, said Agnew and Judah Levine, a physicist for the time and frequency division of the National Institute of Standards and Technology.</p><p>The slowing is mostly caused by the effect of tides, which are caused by the pull of the moon, Dennis McCarthy, retired director of time for the U.S. Naval Observatory said.</p>",
+    "src": "https://www.pbs.org/newshour/science/timekeepers-may-subtract-a-second-from-clocks-as-soon-as-2029-as-planet-spins-slightly-faster",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by Thomas Bormans (Unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img565.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Science & Technology",
+      "Nature",
+      "Earth"
     ]
   },
   {
     "id": 566,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": "What animal has 99% human DNA?",
+    "content": "<p>The animal that shares the most DNA with humans, around 98.8% to 99%, is the <strong>chimpanzee</strong>, closely followed by the <strong>bonobo</strong>, making them our closest living relatives due to a shared ancestor millions of years ago, though the exact percentage varies depending on what's counted (genes vs. regulatory DNA).&nbsp;</p><div><strong>Why Chimpanzees/Bonobos?</strong></div><ul><li><strong>Close Ancestry:</strong> Humans, chimps, and bonobos all evolved from a common ancestor species about 6-7 million years ago, leading to very similar genetic blueprints.</li><li><strong>Genome Comparison:</strong> The high percentage reflects shared sequences in the roughly 3 billion letters of our genomes, similar to comparing slightly different versions of a long book.&nbsp;</li></ul><div><strong>Nuances in the Percentage:</strong></div><ul><li><strong>Focus on Aligned DNA:</strong> The 98.8% figure often comes from comparing directly alignable stretches, not the whole genome.</li><li><strong>Regulatory DNA Matters:</strong> Crucial differences lie in non-coding DNA (which controls gene expression), where small changes create big distinctions in appearance and function, explains Live Science.&nbsp;</li></ul>",
+    "src": "https://www.livescience.com/archaeology/human-evolution/do-humans-and-chimps-really-share-nearly-99-percent-of-their-dna",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by Anna Roberts (Unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img566.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Psychology",
+      "Animals",
+      "Chimpanzee"
     ]
   },
   {
@@ -1454,7 +1451,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img567.jpg",
     "tags": [
       "Motivation",
@@ -1476,7 +1473,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img568.jpg",
     "tags": [
       "Motivation",
@@ -1498,7 +1495,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img569.jpg",
     "tags": [
       "Motivation",
@@ -1520,7 +1517,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img570.jpg",
     "tags": [
       "Motivation",
@@ -1542,7 +1539,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img571.jpg",
     "tags": [
       "Motivation",
@@ -1564,7 +1561,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img572.jpg",
     "tags": [
       "Motivation",
@@ -1587,10 +1584,11 @@
     "notes": "",
     "header": "Explore the surprising intelligence of penguins and how they build social hierarchies",
     "imgPath": "article_images_life/img573.jpg",
-    "isShow": false,
+    "isShow": true,
     "tags": [
       "Facts",
-      "Animals"
+      "Animals",
+      "Penguins"
     ]
   },
   {
@@ -1606,7 +1604,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img574.jpg",
     "tags": [
       "Motivation",
@@ -1628,7 +1626,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img575.jpg",
     "tags": [
       "Motivation",
@@ -1650,7 +1648,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img576.jpg",
     "tags": [
       "Motivation",
@@ -1672,11 +1670,12 @@
     "read": "",
     "notes": "",
     "header": "Explore the secrets behind the world’s most endangered big cat’s survival in icy forests",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img577.jpg",
     "tags": [
       "Facts",
-      "Animals"
+      "Animals",
+      "Leopard"
     ]
   },
   {
@@ -1692,29 +1691,29 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img578.jpg",
     "tags": [
       "Motivation",
       "Lifestyle",
       "Habits",
-      "Health & Fitness"
+      "Psychology"
     ]
   },
   {
     "id": 579,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": "How Many Teeth Do Dogs Have?",
+    "content": "<p>Like human babies, puppies are also born without teeth. Their teeth start to erupt when they are 3-4 weeks old. By 3-5 months of age, the tiny pups will have 28 teeth, also known as milk teeth. However, small or toy breed might take longer to develop puppy and adult teeth.</p><p>Dogs also lose their first teeth quickly. Their incisors fall first at around 4 months of age. The canine teeth then falls out at 5-6 months. In case any milk or puppy teeth does not fall, they needs to be extracted by a veterinarian.</p><div>&nbsp;Premolars and molars most likely erupt in between 5-8 months. By the end, a dog will have total of 42 adult permanent teeth: 12 incisors for their grasping function, 4 canines for tearing, 16 premolars and 10 molars for chewing purpose. Overall, canines have more teeth than humans which may change as they grow old.</div><div>The number of teeth in adult pooches does not vary by breed. Be it a small or big canine of any breed, typically all of them will have 42 permanent teeth: 22 on the bottom and 20 on top.</div>",
+    "src": "https://dogtime.com/dog-health/176910-how-many-teeth-do-dogs-have",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Aleksandra Lesniak (unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img579.jpg",
     "tags": [
       "Motivation",
@@ -1736,7 +1735,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img580.jpg",
     "tags": [
       "Motivation",
@@ -1759,10 +1758,11 @@
     "notes": "",
     "header": "Uncover the biggest threats facing giant pandas — and how conservationists are saving them",
     "imgPath": "article_images_life/img581.jpg",
-    "isShow": false,
+    "isShow": true,
     "tags": [
       "Facts",
-      "Animals"
+      "Animals",
+      "Panda"
     ]
   },
   {
@@ -1778,7 +1778,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img582.jpg",
     "tags": [
       "Motivation",
@@ -1800,7 +1800,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img583.jpg",
     "tags": [
       "Motivation",
@@ -1822,7 +1822,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img584.jpg",
     "tags": [
       "Motivation",
@@ -1844,7 +1844,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img585.jpg",
     "tags": [
       "Motivation",
@@ -1866,13 +1866,13 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img586.jpg",
     "tags": [
       "Motivation",
       "Lifestyle",
       "Habits",
-      "Health & Fitness"
+      "Psychology"
     ]
   },
   {
@@ -1888,7 +1888,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img587.jpg",
     "tags": [
       "Motivation",
@@ -1899,18 +1899,18 @@
   },
   {
     "id": 588,
-    "title": "",
-    "content": "",
+    "title": "Is lion the laziest animal?",
+    "content": "<p>Despite their fierce reputation as king of the jungle, <strong>lions are surprisingly one of the laziest animals on earth</strong>. They are known to rest and sleep up to 20 hours a day to conserve energy for their high-stakes hunts.</p><p>However, much like our beloved house cats, lions like to spend a majority of their days sleeping, basking in the sunlight, and grooming themselves.</p><p>they're surprisingly lazy predators, sleeping up to 20 hours daily to conserve energy for hunts, similar to big cats like tigers, while true \"laziest\" contenders often include sloths, koalas, pandas, and even crocodiles, relying on energy conservation or ambush tactics.&nbsp;</p><div><strong>Why Lions (and other big cats) are Lazy</strong></div><ul><li><strong>Energy Conservation:</strong> After a big meal or big effort, lions rest extensively, sometimes sleeping a whole day away to save energy for the next hunt, notes Fact Animal.</li><li><strong>Big Cat Lifestyle:</strong> Like house cats, they enjoy lounging, grooming, and sleeping, with males resting more than females who hunt, according to posts on Instagram and Rockwell Green C of E Primary School.</li></ul>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Mystery Cat (unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img588.jpg",
     "tags": [
       "Motivation",
@@ -1921,18 +1921,18 @@
   },
   {
     "id": 589,
-    "title": "",
-    "content": "",
+    "title": "What Kind of Animal Can Defeat an Elephant?",
+    "content": "<p><strong>Elephants are the largest living land animals. Three living species are currently recognised: the African bush elephant, the African forest elephant, and the Asian elephant. </strong></p><p><strong>Size:&nbsp;</strong>The elephant weighs between 6,000 and 12,000 lbs, has a height up to 12 ft, and can measure 21ft in length.</p><p>It is very hard to imagine any animal taking down an elephant, especially an adult elephant, one-on-one. As the world&rsquo;s largest land animal, a fully-grown, male elephant can weigh up to 1,500 pounds. With that size advantage alone, other animals just are not capable of defeating them in a fair fight.</p><p>This is why most elephant battles are between them and packs of hyenas or pairs of lions. On top of that, only the hungriest of predators will attempt to hunt an adult elephant. Usually, they would take their sights on a young calf, an elderly, or a wounded elephant.</p><p>With all this being said, there are a few rare exceptions. A charging rhino would be able to defeat an adult elephant if it was able to land a blow at full speed. The gore attack from a rhino at full speed could very well be deadly by itself, and it would most likely knock an elephant back or prone. After landing a gore with its horn, a rhino could keep attacking an elephant&rsquo;s vital organs while it is on its side or still stunned. It would truly be a sight!</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "katsuma tanaka (unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img589.jpg",
     "tags": [
       "Motivation",
@@ -1943,18 +1943,18 @@
   },
   {
     "id": 590,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": "DID YOU KNOW - pythons can sleep for up to 18 hours a day?",
+    "content": "<p>Speaking of animals that can sleep almost entire days away, pythons are known to sleep up to 18 hours a day!</p><p>Yes, it's true that pythons are big sleepers, often resting or in a sleep-like state for up to 18 hours a day, especially after large meals, because their metabolism slows down dramatically to focus energy on digesting huge prey over days or weeks, making them appear quite inactive and lazy. They are nocturnal ambush predators, so they spend most daylight hours resting in dark, safe spots, but because snakes lack eyelids, telling when they're truly asleep is tricky as their eyes stay open.</p><p>When they are awake and active, they can be seen engaging with their environment, slithering about and exploring their cage or habitat. Pythons also don&rsquo;t eat often, usually surviving off of only one or so meals each <em>week</em>.</p><p>When it comes down to big life changes, such as a major shed, pythons are known to sleep for even longer. In order to prepare, they&rsquo;ve been sleeping as much as an entire week straight.</p>",
+    "src": "https://factanimal.com/fun-stuff/laziest-animals-in-the-world/",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Ranjana Rajput (unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img590.jpg",
     "tags": [
       "Motivation",
@@ -1965,18 +1965,18 @@
   },
   {
     "id": 591,
-    "title": "",
-    "content": "",
+    "title": "Is a fox the cleverest animal?",
+    "content": "<p>While foxes are incredibly smart, adaptable problem-solvers known for cunning, there isn't one single \"cleverest\" animal; intelligence varies by species and context, with chimpanzees often cited for complex cognition, and foxes excelling in survival skills like memory, learning, and complex strategies, making them top contenders in the cunning category.&nbsp;</p><div><strong>Why Foxes Are Considered So Smart</strong></div><ul><li><strong>Problem-Solving:</strong> They use varied approaches to problems, unlike dogs' more direct methods.</li><li><strong>Memory &amp; Learning:</strong> Excellent spatial memory and ability to learn from experience.</li><li><strong>Adaptability:</strong> Thrive in diverse environments, even urban settings.</li><li><strong>Hunting &amp; Survival:</strong> Employ complex strategies, like using sounds to time train departures or setting up food caches for kits.</li><li><strong>\"Dog Hardware, Cat Software\":</strong> They possess canine traits but with cat-like independence and stealth, notes PBS.</li></ul>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": " Zdeněk Macháček (unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img591.jpg",
     "tags": [
       "Motivation",
@@ -1987,18 +1987,18 @@
   },
   {
     "id": 592,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": "Komodo Dragons are the world's largest living lizards",
+    "content": "<div><div><div><p>Fewer than 3,500 Komodo dragons remain. They once lived across a huge range, spanning Indonesia&rsquo;s islands and Australia, but since the 1970s, Komodo National Park has been the only place in the world where they can be found. Often weighing more than 300 pounds, these giant lizards can grow up to 10 feet long, run as fast as 12 miles (19 km) per hour, smell blood from almost 6 miles away, and deliver a powerful bite with venom strong enough to kill a human.</p></div></div></div><ul><li>Komodo Dragons are the world&rsquo;s largest living lizards and the most intelligent. They are able to outsmart a deer or pig when it comes to hunting.</li><li>Komodos are equipped with large claws and a muscular tail.</li><li>Their curved serrated teeth resemble those of sharks and flesh-eating dinosaurs more than the teeth of today&rsquo;s reptiles.</li><li>Have been seen swimming between the islands in search of prey.</li></ul>",
+    "src": "https://louisvillezoo.org/animalsandplants/komodo-dragon/",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "will komodo (unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img592.jpg",
     "tags": [
       "Motivation",
@@ -2009,18 +2009,18 @@
   },
   {
     "id": 593,
-    "title": "",
-    "content": "",
+    "title": "What animal sleeps 90% of its life?",
+    "content": "<p>The animal famous for sleeping around 90% of its life, or up to 20-22 hours a day, is the <strong>Koala</strong>, a sleepy marsupial from Australia that needs all that rest to digest its low-energy eucalyptus diet.&nbsp;</p><div><strong>Why Koalas Sleep So Much:</strong></div><ul><li><strong>Tough Diet:</strong> Eucalyptus leaves are fibrous, low in nutrients, and contain toxins, requiring significant energy to digest.</li><li><strong>Energy Conservation:</strong> Sleeping for most of the day is a survival strategy to conserve energy for eating and basic functions.</li></ul>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Jordan Whitt (unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img593.jpg",
     "tags": [
       "Motivation",
@@ -2031,18 +2031,18 @@
   },
   {
     "id": 594,
-    "title": "",
-    "content": "",
+    "title": "Asian elephants have larger brains than their African relatives",
+    "content": "<div>Yes, recent studies show&nbsp;adult female Asian elephants have significantly heavier brains (around 5,300g) than African females (around 4,400g), despite being smaller, suggesting higher encephalization, though African elephants have a proportionally larger cerebellum. This difference, along with more cerebral gray matter in Asians, points to unique cognitive adaptations, possibly linked to prolonged social learning in complex Asian elephant societies, notes.</div><div>Elephants are exceptionally smart creatures. They have the largest brain of any land animal, and three times as many neurons as humans. While many of these neurons exist to control the elephant&rsquo;s large and dexterous body, these creatures have demonstrated their impressive mental capabilities time and time again.</div><div>&nbsp;</div><div><strong>Key Brain Differences:</strong></div><ul><li><strong>Overall Weight:</strong> Female Asian elephants have heavier brains, averaging about 900g more than African females.</li><li><strong>Cerebellum:</strong> African elephants have a larger cerebellum (around 22% of brain weight) compared to Asian elephants (around 19%).</li><li><strong>Cerebral Cortex:</strong> Asian elephants likely have more cerebral gray matter, linked to complex functions like memory and decision-making, say.</li></ul>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Carlos Torres (unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img594.jpg",
     "tags": [
       "Motivation",
@@ -2053,18 +2053,18 @@
   },
   {
     "id": 595,
-    "title": "",
-    "content": "",
+    "title": "Which animal has the strongest memory?",
+    "content": "<p><strong>Dolphins</strong> often top lists for long-term social memory, recognizing other dolphins' unique \"names\" (whistles) after 20+ years, surpassing humans in some social recall; while <strong>elephants</strong> are famous for life-long memory, especially for migration routes and water sources, and <strong>crows</strong> remember faces and grievances for years, showing exceptional cognitive abilities.&nbsp;</p><div><strong>Top Contenders for Best Memory:</strong></div><ul><li><strong>Dolphins:</strong> Research shows bottlenose dolphins remember specific dolphin whistles (names) for decades, highlighting incredible social memory crucial for survival.</li><li><strong>Elephants:</strong> Known for vast memory, recalling migration routes, water sources, and other elephants after long separations, a key to their strong social structures.</li><li><strong>Crows &amp; Corvids:</strong> These birds possess impressive face recognition, remembering humans who are kind or mean to them for years and passing this info to others.</li><li><strong>Clark's Nutcracker:</strong> Uses sophisticated spatial memory to locate thousands of cached seeds, even producing new brain cells in the memory center (hippocampus) as they age.</li><li><strong>Apes &amp; Monkeys:</strong> Can learn complex sequences and show episodic memory, though testing can be tricky.</li></ul>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Damian Patkowski (unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img595.jpg",
     "tags": [
       "Motivation",
@@ -2075,18 +2075,18 @@
   },
   {
     "id": 596,
-    "title": "",
-    "content": "",
+    "title": "Who is more intelligent cats or dogs?",
+    "content": "<p>One of the key differences between the cat brain vs the dog brain is their cognitive function. As discussed, cats are independent thinkers and problem solvers, while <strong>dogs tend to be more socially intelligent and trainable</strong>. Their brain size is different as well.</p><p>It's less about one being \"smarter\" and more about different types of intelligence, but dogs often show higher trainability and social intelligence (more brain neurons), while cats excel in practical, independent problem-solving and memory, especially short-term spatial recall, making them better survivors. </p><p>Dogs have more cortical neurons, suggesting complex thought, but cats' spatial memory, like finding hidden food, can surpass dogs' in short bursts. Ultimately, both are smart in ways suited to their evolutionary roles: dogs for cooperation, cats for solitary hunting.</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": " Tran Mau Tri Tam (unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img596.jpg",
     "tags": [
       "Motivation",
@@ -2097,7 +2097,7 @@
   },
   {
     "id": 597,
-    "title": "",
+    "title": "What is the no. 1 lazy dog?",
     "content": "",
     "src": "",
     "author": "",
@@ -2108,7 +2108,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img597.jpg",
     "tags": [
       "Motivation",
@@ -2119,23 +2119,23 @@
   },
   {
     "id": 598,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": "What are the benefits of drinking coconut water?",
+    "content": "<ul><li>Coconut water can be a nutrient-rich choice for hydrating. It may benefit your health, including the heart and kidneys.</li><li>Coconut water contains 94% water and very little fat. It should not be confused with coconut milk, which is made by adding water to grated coconut meat. Coconut milk contains about 50% water and is quite high in fat</li><li>Coconut water contains antioxidants that have shown to be beneficial in research involving rats and mice, but human studies are lacking.</li><li>Studies on animals with diabetes suggest that coconut water may improve blood sugar control, but more research involving humans needs to be done.</li><li>Early research suggests that water from coconuts may help prevent kidney stones by reducing crystal and stone formation. However, more studies have to be done &mdash; specifically involving humans.</li><li>While there is some evidence that coconut water may be good for heart health, more research centering on humans needs to be done.</li><li>Coconut water is effective at replenishing fluids and electrolytes after exercise. It&rsquo;s comparable to other sports beverages.</li><li>Coconut water can be consumed directly from green coconuts or bought in bottles. Avoid brands with added sugar, sweeteners, or flavors.</li></ul>",
+    "src": "https://www.healthline.com/nutrition/coconut-water-benefits",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by Datingscout (Unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img598.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
+      "Facts",
+      "Medical and Health",
+      "Food",
       "Health & Fitness"
     ]
   },
@@ -2153,10 +2153,11 @@
     "notes": "",
     "header": "The shocking truth: one bee makes only 1/12 teaspoon of honey in its life",
     "imgPath": "article_images_life/img599.jpg",
-    "isShow": false,
+    "isShow": true,
     "tags": [
       "Facts",
-      "Birds"
+      "Birds",
+      "Bee"
     ]
   },
   {
@@ -2172,12 +2173,13 @@
     "read": "",
     "notes": "",
     "header": "Why constant stress keeps your blood sugar high, even if you eat well",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img600.jpg",
     "tags": [
+      "Facts",
       "Psychology",
       "Lifestyle",
-      "Habits",
+      "Medical and Health",
       "Health & Fitness"
     ]
   }
