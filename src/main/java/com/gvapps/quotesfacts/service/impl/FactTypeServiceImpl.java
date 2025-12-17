@@ -180,7 +180,7 @@ public class FactTypeServiceImpl implements FactTypeService {
             dashboard.put("SECTION_HOME_TEXT_CATEGORY_GRID_LONG_TEXT_1", Map.of(
                     "header", Map.of(
                             "title", "Popular Fact Categories",
-                            "subTitle", "Discover trending topics and curiosities"
+                            "subTitle", "Popular Knowledge Bites Worth Knowing"
                     ),
                     "items", factTypeRepository.findTopByTypeIdAndActiveTrue(11, 4)
             ));
@@ -196,7 +196,7 @@ public class FactTypeServiceImpl implements FactTypeService {
             dashboard.put("SECTION_HOME_TEXT_CATEGORY_GRID_SHORT_CARD_1", Map.of(
                     "header", Map.of(
                             "title", "Facts by Category",
-                            "subTitle", "Explore diverse fact types"
+                            "subTitle", "Learn Something New in Every Category"
                     ),
                     "items", factTypeRepository.findTopByTypeIdAndActiveTrue(11, 4)
             ));
@@ -212,7 +212,7 @@ public class FactTypeServiceImpl implements FactTypeService {
             dashboard.put("SECTION_HOME_ARTICLES_SHORT_CARD_1", Map.of(
                     "header", Map.of(
                             "title", "Curious Reads",
-                            "subTitle", "Thought-provoking psychology reads"
+                            "subTitle", "Thought-Provoking Articles to Explore"
                     ),
                     "items", articlesRepository.findRandomArticlesByTag("Psychology", 4)
             ));
@@ -229,7 +229,7 @@ public class FactTypeServiceImpl implements FactTypeService {
             dashboard.put("SECTION_HOME_ARTICLES_TALL_CARD_2", Map.of(
                     "header", Map.of(
                             "title", "Featured Articles",
-                            "subTitle", "In-depth stories & curated facts"
+                            "subTitle", "Featured Stories That Stand Out"
                     ),
                     "items", articlesRepository.findRandomArticlesByTag("Psychology", 4)
             ));
@@ -239,13 +239,13 @@ public class FactTypeServiceImpl implements FactTypeService {
                             "title", "Top by Category",
                             "subTitle", "Explore diverse fact types"
                     ),
-                    "items", articlesRepository.findRandomArticlesByTag("Facts", 4)
+                    "items", factTypeRepository.findTopByTypeIdAndActiveTrue(11, 4)
             ));
 
             dashboard.put("SECTION_HOME_ARTICLES_GRID_2", Map.of(
                     "header", Map.of(
-                            "title", "Random Facts",
-                            "subTitle", "Timeless and must-read facts"
+                            "title", "Life Simplified",
+                            "subTitle", "Easy Reads for a Better Lifestyle"
                     ),
                     "items", articlesRepository.findRandomArticlesByTag("Lifestyle", 4)
             ));
@@ -255,7 +255,7 @@ public class FactTypeServiceImpl implements FactTypeService {
                             "title", "Explore & Learn",
                             "subTitle", "Thought-provoking psychology reads"
                     ),
-                    "items", articlesRepository.findRandomArticlesByTag("Facts", 4)
+                    "items", articlesRepository.findRandomArticlesByTag("Psychology", 4)
             ));
 
 
