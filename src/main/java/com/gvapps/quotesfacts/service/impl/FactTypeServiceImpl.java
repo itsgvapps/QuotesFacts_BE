@@ -182,7 +182,7 @@ public class FactTypeServiceImpl implements FactTypeService {
                             "title", "Popular Fact Categories",
                             "subTitle", "Discover trending topics and curiosities"
                     ),
-                    "items", factTypeRepository.findTop4PopularCategories()
+                    "items", factTypeRepository.findTopByTypeIdAndActiveTrue(11, 4)
             ));
 
             dashboard.put("SECTION_HOME_ARTICLES_TALL_CARD_1", Map.of(
@@ -206,7 +206,7 @@ public class FactTypeServiceImpl implements FactTypeService {
                             "title", "Featured Facts",
                             "subTitle", "Timeless and must-read facts"
                     ),
-                    "items", articlesRepository.findRandomArticlesByTag("Lifestyle", 4)
+                    "items", articlesRepository.findRandomArticlesByTag("Facts", 4)
             ));
 
             dashboard.put("SECTION_HOME_ARTICLES_SHORT_CARD_1", Map.of(
@@ -214,7 +214,7 @@ public class FactTypeServiceImpl implements FactTypeService {
                             "title", "Curious Reads",
                             "subTitle", "Thought-provoking psychology reads"
                     ),
-                    "items", articlesRepository.findTopArticles(4)
+                    "items", articlesRepository.findRandomArticlesByTag("Psychology", 4)
             ));
 
             //second set
@@ -223,7 +223,7 @@ public class FactTypeServiceImpl implements FactTypeService {
                             "title", "Latest Fact Categories",
                             "subTitle", "Discover latest topics and curiosities"
                     ),
-                    "items", factTypeRepository.findTop4PopularCategories()
+                    "items", factTypeRepository.findTopByTypeIdAndActiveTrue(11, 4)
             ));
 
             dashboard.put("SECTION_HOME_ARTICLES_TALL_CARD_2", Map.of(
@@ -239,7 +239,7 @@ public class FactTypeServiceImpl implements FactTypeService {
                             "title", "Top by Category",
                             "subTitle", "Explore diverse fact types"
                     ),
-                    "items", factTypeRepository.findTopByTypeIdAndActiveTrue(11, 4)
+                    "items", articlesRepository.findRandomArticlesByTag("Facts", 4)
             ));
 
             dashboard.put("SECTION_HOME_ARTICLES_GRID_2", Map.of(
@@ -255,7 +255,7 @@ public class FactTypeServiceImpl implements FactTypeService {
                             "title", "Explore & Learn",
                             "subTitle", "Thought-provoking psychology reads"
                     ),
-                    "items", articlesRepository.findTopArticles(4)
+                    "items", articlesRepository.findRandomArticlesByTag("Facts", 4)
             ));
 
 

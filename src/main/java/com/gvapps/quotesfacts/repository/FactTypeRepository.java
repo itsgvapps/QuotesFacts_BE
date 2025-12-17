@@ -33,7 +33,7 @@ public interface FactTypeRepository extends JpaRepository<FactTypeEntity, Intege
             ORDER BY views DESC
             LIMIT 4
             """, nativeQuery = true)
-    List<FactTypeEntity> findTop4PopularCategories();
+    List<FactTypeEntity> findTop4MostViewedCategories();
 
     @Query(value = "SELECT * FROM fact_type WHERE type_id = :typeId AND active = true ORDER BY RAND() LIMIT :limit", nativeQuery = true)
     List<FactTypeEntity> findTopByTypeIdAndActiveTrue(@Param("typeId") int typeId, @Param("limit") int limit);
