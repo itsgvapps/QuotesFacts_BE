@@ -12,11 +12,12 @@
     "read": "",
     "notes": "",
     "header": "Explore the Secret Life of the Amur Leopard: The Elusive Big Cat Living on the Edge of Extinction",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img901.jpg",
     "tags": [
       "Animals",
       "Facts",
+      "Cats",
       "Leopard"
     ]
   },
@@ -33,7 +34,7 @@
     "read": "",
     "notes": "",
     "header": "The Moon Is Quietly Slowing Earth Down — Find Out How It Will Add a Full Hour to Our Day",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img902.jpg",
     "tags": [
       "Facts",
@@ -55,7 +56,7 @@
     "read": "",
     "notes": "",
     "header": "A Chicken Lived 18 Months Without a Head — Discover the Bizarre Science Behind Its Survival",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img903.jpg",
     "tags": [
       "Facts",
@@ -75,7 +76,7 @@
     "read": "",
     "notes": "",
     "header": "Struggling With Stress? Discover Simple Habits That Protect Your Health and Calm Your Mind",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img904.jpg",
     "tags": [
       "Motivation",
@@ -97,7 +98,7 @@
     "read": "",
     "notes": "",
     "header": "Struggling to Sleep? Discover How Simple Daily Movements Can Transform Your Nights",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img905.jpg",
     "tags": [
       "Motivation",
@@ -119,7 +120,7 @@
     "read": "",
     "notes": "",
     "header": "Discover Why Eggs Are One of the Most Nutrient-Dense Foods You Can Eat Daily",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img906.jpg",
     "tags": [
       "Facts",
@@ -141,7 +142,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img907.jpg",
     "tags": [
       "Facts"
@@ -160,7 +161,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img908.jpg",
     "tags": [
       "Facts",
@@ -181,7 +182,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img909.jpg",
     "tags": [
       "Facts",
@@ -202,7 +203,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img910.jpg",
     "tags": [
       "Facts",
@@ -222,7 +223,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img911.jpg",
     "tags": [
       "Facts",
@@ -242,7 +243,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img912.jpg",
     "tags": [
       "Facts"
@@ -261,7 +262,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img913.jpg",
     "tags": [
       "Facts",
@@ -282,7 +283,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img914.jpg",
     "tags": [
       "Facts",
@@ -303,7 +304,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img915.jpg",
     "tags": [
       "Animals",
@@ -324,7 +325,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img916.jpg",
     "tags": [
       "Facts",
@@ -345,7 +346,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img917.jpg",
     "tags": [
       "Facts",
@@ -365,7 +366,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img918.jpg",
     "tags": [
       "Facts",
@@ -385,7 +386,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img919.jpg",
     "tags": [
       "Facts",
@@ -405,7 +406,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img920.jpg",
     "tags": [
       "Facts",
@@ -426,7 +427,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img921.jpg",
     "tags": [
       "Facts",
@@ -446,7 +447,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img922.jpg",
     "tags": [
       "Facts",
@@ -466,7 +467,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img923.jpg",
     "tags": [
       "Facts",
@@ -486,7 +487,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img924.jpg",
     "tags": [
       "Facts",
@@ -506,7 +507,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img925.jpg",
     "tags": [
       "Facts",
@@ -528,7 +529,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img926.jpg",
     "tags": [
       "Facts",
@@ -549,7 +550,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img927.jpg",
     "tags": [
       "Facts",
@@ -571,7 +572,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img928.jpg",
     "tags": [
       "Facts",
@@ -591,7 +592,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img929.jpg",
     "tags": [
       "Facts",
@@ -611,7 +612,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img930.jpg",
     "tags": [
       "Facts",
@@ -631,7 +632,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img931.jpg",
     "tags": [
       "Motivation",
@@ -653,7 +654,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img932.jpg",
     "tags": [
       "Motivation",
@@ -675,7 +676,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img933.jpg",
     "tags": [
       "Motivation",
@@ -697,7 +698,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img934.jpg",
     "tags": [
       "Motivation",
@@ -719,7 +720,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img935.jpg",
     "tags": [
       "Motivation",
@@ -741,7 +742,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img936.jpg",
     "tags": [
       "Motivation",
@@ -763,7 +764,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img937.jpg",
     "tags": [
       "Motivation",
@@ -785,7 +786,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img938.jpg",
     "tags": [
       "Motivation",
@@ -807,7 +808,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img939.jpg",
     "tags": [
       "Motivation",
@@ -829,7 +830,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img940.jpg",
     "tags": [
       "Motivation",
@@ -851,7 +852,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img941.jpg",
     "tags": [
       "Motivation",
@@ -873,7 +874,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img942.jpg",
     "tags": [
       "Motivation",
@@ -895,7 +896,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img943.jpg",
     "tags": [
       "Motivation",
@@ -917,7 +918,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img944.jpg",
     "tags": [
       "Motivation",
@@ -939,13 +940,12 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img945.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Cats",
+      "Animals"
     ]
   },
   {
@@ -961,7 +961,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img946.jpg",
     "tags": [
       "Motivation",
@@ -983,7 +983,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img947.jpg",
     "tags": [
       "Motivation",
@@ -1005,13 +1005,12 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img948.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Animals",
+      "Dogs"
     ]
   },
   {
@@ -1027,7 +1026,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img949.jpg",
     "tags": [
       "Motivation",
@@ -1049,7 +1048,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img950.jpg",
     "tags": [
       "Motivation",
@@ -1071,7 +1070,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img951.jpg",
     "tags": [
       "Motivation",
@@ -1093,7 +1092,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img952.jpg",
     "tags": [
       "Motivation",
@@ -1115,7 +1114,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img953.jpg",
     "tags": [
       "Motivation",
@@ -1137,7 +1136,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img954.jpg",
     "tags": [
       "Motivation",
@@ -1159,7 +1158,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img955.jpg",
     "tags": [
       "Motivation",
@@ -1181,7 +1180,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img956.jpg",
     "tags": [
       "Motivation",
@@ -1203,7 +1202,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img957.jpg",
     "tags": [
       "Motivation",
@@ -1225,7 +1224,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img958.jpg",
     "tags": [
       "Motivation",
@@ -1247,13 +1246,12 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img959.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Animals",
+      "Snakes"
     ]
   },
   {
@@ -1269,7 +1267,7 @@
     "read": "",
     "notes": "",
     "header": "Discover the rarest big cat on Earth and the secrets hidden in its mysterious survival.",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img960.jpg",
     "tags": [
       "Animals",
@@ -1290,7 +1288,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img961.jpg",
     "tags": [
       "Motivation",
@@ -1312,7 +1310,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img962.jpg",
     "tags": [
       "Motivation",
@@ -1334,7 +1332,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img963.jpg",
     "tags": [
       "Motivation",
@@ -1345,18 +1343,18 @@
   },
   {
     "id": 964,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": "Are bobcats common in the US?",
+    "content": "<p><strong>Bobcats are a common species in North America</strong> with stable or increasing populations. Florida is the only state that reports a declining population, which is attributed to the increase in invasive Burmese pythons (Python molurus bivittatus).</p><p>Bobcats are the most common wild cat in the United States. Out of the estimated 1-3 million bobcats in the country, California has the most, with about 30-50,000. They live in all 58 counties of the state. Bobcats are not endangered;</p><p><strong>Key Facts:</strong></p><ul><li><strong>Widespread:</strong> Found in every U.S. state except Delaware, they've adapted to many environments.</li><li><strong>Adaptable:</strong> They live in forests, swamps, deserts, and even near suburban areas.</li><li><strong>Elusive:</strong> Despite their abundance, they're rarely seen as they're solitary, territorial, and mostly nocturnal.</li><li><strong>Appearance:</strong> Brown/reddish fur with dark spots, distinctive black bars on forelegs, and a short \"bobbed\" tail.</li><li><strong>Diet:</strong> Opportunistic, preying on rabbits, rodents, birds, and sometimes deer, depending on location.</li><li><strong>Ecological Role:</strong> Help control pest populations, benefiting both humans and ecosystems.</li></ul>",
+    "src": "https://a-z-animals.com/blog/bobcat-population-by-state-how-many-live-in-yours/",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@tjentzsch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Tracy Jentzsch</a> on <a href=\"https://unsplash.com/photos/a-cat-is-standing-on-top-of-a-rock-GXC-9nEJhaQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img964.jpg",
     "tags": [
       "Motivation",
@@ -1367,62 +1365,60 @@
   },
   {
     "id": 965,
-    "title": "",
-    "content": "",
+    "title": "Why are tortoiseshell cats special?",
+    "content": "<p><strong>Tortoiseshells are almost exclusively female and have distinctive personality traits</strong>. Tortoiseshell cats tend to be feisty and strong-willed. They are also louder and more dominant than other cats and fiercely independent. They do have positive traits as well, of course. They also demand head rubs and extra TLC.</p><p>Tortoiseshell is a cat coat coloring named for its similarity to tortoiseshell pattern. Like tortoiseshell-and-white or calico cats, tortoiseshell cats are almost exclusively female. Male tortoiseshells are rare and are usually sterile.</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@astro_civil?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Chelsey Marques</a> on <a href=\"https://unsplash.com/photos/a-close-up-of-a-cat-with-green-eyes-wHAGXKrGPQE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img965.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Cats",
+      "Animals"
     ]
   },
   {
     "id": 966,
-    "title": "",
-    "content": "",
+    "title": "Are male or female cats better?",
+    "content": "<div><div>Neither male nor female cats are definitively \"better\"; the choice depends on individual personality, which is influenced more by genetics and upbringing than by sex. Some general tendencies are that males may be more overtly affectionate and playful, while females might be more independent and calm, but these are stereotypes and not guarantees for every cat. It is best to choose a cat based on its individual temperament and personality, not its gender.</div><div>&nbsp;</div><div><div><div><strong>Male cats</strong></div></div><div><ul><li><div><div><div><div><strong>Tendencies:</strong></div><div>Often more social, playful, and outgoing. They may be more immediately affectionate and enjoy cuddling with anyone, but can also be more rambunctious.</div></div></div></div></li></ul></div><ul><li></li><li><div><div><div><div><strong>Considerations:</strong></div><div>Neutered males may be less territorial, but intact males can be more prone to fighting and spraying. They may also have a slightly shorter average lifespan compared to females.</div></div></div></div></li></ul><div><div><strong>Female cats</strong></div></div><div><ul><li><div><div><div><div><strong>Tendencies:</strong></div><div>Frequently described as more independent and reserved, though they can form deep bonds with their chosen humans. They may show affection on their own terms.</div></div></div></div></li><li><div><div><div><div><strong>Considerations:</strong></div><div>Often more calm and loyal. They may also have a slightly longer average lifespan.</div></div></div></div></li></ul></div><br /><div><strong>Some cat lovers think the prettiest colors are common one like black, orange, or brown tabby, with or without white markings. Other people prefer rare colors, such as chocolate, cinnamon, lilac, cream, tortoiseshell, or colorpoint.</strong></div><div>&nbsp;</div><div><strong>Orange cats</strong> were regarded as the friendliest by respondents, while white cats were labeled aloof, and tortoiseshell cats were thought to have too much \"attitude.\"</div><div>&nbsp;</div><div>Orange cats are known for their <strong>playful and affectionate nature</strong>, making them a favorite among cat lovers. They often exhibit unique personalities, from being energetic and curious to being laid-back cuddle buddies. The iconic color of orange cats, often associated with warmth and cheerfulness, adds to their charm.</div></div></div>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@jackplantt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Jack Plant</a> on <a href=\"https://unsplash.com/photos/a-woman-holding-a-black-and-white-cat-in-her-arms-bjxu3Fyrnvg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img966.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Cats",
+      "Animals"
     ]
   },
   {
     "id": 967,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": "Are black cats lucky or unlucky?",
+    "content": "<p><strong>Some cultures believe that black cats are a symbol of good luck, while others think they're an omen of bad luck</strong>. Black cats have been associated with witchcraft and with seafaring in the past.</p><p>Throughout history and across cultures, black cats have been seen as both lucky and unlucky, with negative perceptions largely based on fear rather than fact.</p><p>In medieval Europe, they became linked to witchcraft. Black cats were thought to be witches' familiars or even witches in disguise, leading to their persecution. Some theorize this contributed to the spread of the bubonic plague, as killing cats reduced rodent control.<br/><br/><strong>In contrast, black cats were seen positively in other contexts.</strong></p><ul><li>British sailors believed black cats brought good luck on ships, helping ensure safe voyages by keeping rodents in check.</li><li>Fishermen's wives also kept black house cats, believing they would protect their husbands at sea.</li><li>In Japan, black cats are considered lucky, especially in love, as they are thought to attract suitors to single women.</li><li>Similarly, Scottish folklore views a black cat on the doorstep as a sign of prosperity.</li><li>In France, black cats are called \"money cats\" and are associated with financial fortune.</li></ul><p>Black cats are domestic felines with solid black fur, resulting from high melanin, often with gold/amber eyes, appearing in many breeds but famously exemplified by the pure black <strong>Bombay</strong>; they're steeped in lore, seen as lucky in some cultures, unlucky in others (witch familiars), but are generally affectionate pets, celebrated on days like Black Cat Appreciation Day (Aug 17) and National Black Cat Day (Oct 27) to counter superstitions.</p>",
+    "src": "https://www.cuteness.com/1683979/facts-black-cats-probably-didnt-know/",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@hocza?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Jozsef Hocza</a> on <a href=\"https://unsplash.com/photos/black-and-brown-cat-on-gray-concrete-wall-during-daytime-ffgxtPhCqxo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img967.jpg",
     "tags": [
       "Motivation",
@@ -1433,18 +1429,18 @@
   },
   {
     "id": 968,
-    "title": "",
-    "content": "",
+    "title": "Cats are good for your health",
+    "content": "<div>The cat, also called domestic cat and house cat, is a small carnivorous mammal. It is an obligate carnivore, requiring a predominantly meat-based diet. Its retractable claws are adapted to killing small prey species such as mice and rats.</div><div>Domestic <em>cats</em> are characterized by retractable claws, powerful bodies, acute senses, long tails, and specialized teeth adapted for hunting prey.</div><div>&nbsp;</div><p>Studies have shown that cats have a calming effect on their owners, from the soothing action of petting to purring being an aid in falling asleep. Cats can even play a part in lowering your blood pressure and risk of a heart attack.</p><p>One 10-year study has even shown that cat owners were 30% less likely to die of a heart attack or stroke than non-cat owners.</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@yerlinmatu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Yerlin Matu</a> on <a href=\"https://unsplash.com/photos/shallow-focus-photography-of-white-and-brown-cat-GtwiBmtJvaU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img968.jpg",
     "tags": [
       "Motivation",
@@ -1455,24 +1451,23 @@
   },
   {
     "id": 969,
-    "title": "",
-    "content": "",
+    "title": "Do lions sleep for 20 hours?",
+    "content": "<p><em>Lions enjoy relaxing and lazing around. <strong>They spend up to 21 hours each day resting and sleeping</strong>. They have few sweat glands, so they wisely tend to conserve their energy by resting during the day and become more active at night when it is cooler.</em></p><p><em>Especially males, to conserve energy for hunting, territorial defense, and mating, often taking advantage of cooler nights for activity and hot days for rest in the savanna heat. This long rest period allows them to store energy for short, intense bursts of activity, as hunting large prey is very demanding.&nbsp;</em></p><p><em>Lions are the only big cats that live in groups called prides</em>, which consist of mostly related females, their cubs, plus one or two adult males.</p><p>Despite what most people may believe, lions are not the largest of all wild cats, but they&rsquo;re among the largest. While some lions live in India, most are located in Africa.&nbsp;</p><p>Though they&rsquo;re not the largest felines, they are still quite large. Males typically stand up to four feet high at the shoulders, making them as tall as a hockey goal post. Many male lions can also measure close to 10 feet long when you include their tail, which makes them as long as a smaller U-haul truck. Finally, males can weigh up to 550 pounds. Female lions range from 5.5 to 6.6 feet long, including their tail, and they typically stand about 3.5 feet tall.&nbsp;</p><p>Lions live and work in groups called prides, and numerous members of the pride are often involved in hunting prey. They typically hunt during early morning or early night when it&rsquo;s darker and they can more easily sneak up on their victims. Lions are extremely strong, but they can&rsquo;t run for long periods, so they strategize and use teamwork to get their meals. Typical prey of lions includes wildebeest, zebras, buffalo, antelope, and warthogs. The female lions do most of the hunting because they&rsquo;re smaller and faster. While they do that, the males protect the territory.&nbsp;</p><p>The lifespan of lions in the wild is approximately 12 years, but they can live twice as long in captivity. Sadly, the lion population worldwide is dwindling rapidly. Lion populations have declined drastically in recent history, with the number of lions dropping by 43% over the last two decades. Today, there are about 23,000, so these majestic beasts must be protected.</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@matin_k14?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Matin Keivanloo</a> on <a href=\"https://unsplash.com/photos/brown-lion-lying-on-ground-during-daytime-VJlV_GvKkXo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img969.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Lion",
+      "Animals"
     ]
   },
   {
@@ -1488,7 +1483,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img970.jpg",
     "tags": [
       "Motivation",
@@ -1510,7 +1505,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img971.jpg",
     "tags": [
       "Motivation",
@@ -1532,7 +1527,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img972.jpg",
     "tags": [
       "Motivation",
@@ -1554,7 +1549,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img973.jpg",
     "tags": [
       "Motivation",
@@ -1576,7 +1571,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img974.jpg",
     "tags": [
       "Motivation",
@@ -1598,7 +1593,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img975.jpg",
     "tags": [
       "Motivation",
@@ -1620,7 +1615,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img976.jpg",
     "tags": [
       "Motivation",
@@ -1642,7 +1637,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img977.jpg",
     "tags": [
       "Motivation",
@@ -1664,7 +1659,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img978.jpg",
     "tags": [
       "Motivation",
@@ -1686,7 +1681,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img979.jpg",
     "tags": [
       "Motivation",
@@ -1708,7 +1703,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img980.jpg",
     "tags": [
       "Motivation",
@@ -1730,7 +1725,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img981.jpg",
     "tags": [
       "Motivation",
@@ -1752,13 +1747,12 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img982.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Animals",
+      "Dogs"
     ]
   },
   {
@@ -1774,13 +1768,12 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img983.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Animals",
+      "Dogs"
     ]
   },
   {
@@ -1796,7 +1789,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img984.jpg",
     "tags": [
       "Motivation",
@@ -1818,7 +1811,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img985.jpg",
     "tags": [
       "Motivation",
@@ -1840,7 +1833,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img986.jpg",
     "tags": [
       "Motivation",
@@ -1862,7 +1855,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img987.jpg",
     "tags": [
       "Motivation",
@@ -1884,7 +1877,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img988.jpg",
     "tags": [
       "Motivation",
@@ -1906,7 +1899,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img989.jpg",
     "tags": [
       "Motivation",
@@ -1928,7 +1921,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img990.jpg",
     "tags": [
       "Motivation",
@@ -1950,7 +1943,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img991.jpg",
     "tags": [
       "Motivation",
@@ -1961,9 +1954,9 @@
   },
   {
     "id": 992,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": "Can Orange Cats Be Female?",
+    "content": "<div><div><div><p>Yes. Orange cats can be female. But the reason that there is a misconception that all orange cats are male is because the vast majority of them are. Roughly 80% of orange cats are male. That means that for every five ginger cats, only one will be female, but those numbers can be slightly misleading.</p><p>Since fur color is tightly linked to the sex of the cat, the prevalence of the gene in certain cat colonies can lead to far more or fewer orange female cats than expected. For example, if there is a cat colony with a large number of orange cats, the likelihood of running into a female orange cat is much higher than if you run into a random stray on the street.</p></div></div></div><p>Orange cats are known for their <strong>playful and affectionate nature</strong>, making them a favorite among cat lovers. They often exhibit unique personalities, from being energetic and curious to being laid-back cuddle buddies. The iconic color of orange cats, often associated with warmth and cheerfulness, adds to their charm.</p>",
+    "src": "https://www.catster.com/lifestyle/can-orange-cats-be-female/",
     "author": "",
     "imgSrc": "(unsplash)",
     "type": "Quotes",
@@ -1972,7 +1965,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img992.jpg",
     "tags": [
       "Motivation",
@@ -1983,18 +1976,18 @@
   },
   {
     "id": 993,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": "What is a cat’s scientific name?",
+    "content": "<p>The scientific name for the domestic cat is <em>Felis catus</em>. They are the domesticated members of the Felidae family and are its smallest member.</p><p>A binomial name given by Carl Linnaeus in 1758, though some scientists classify it as a subspecies, <em>Felis silvestris catus</em>, reflecting its origin from the African wildcat (<em>Felis lybica</em>), but <em>Felis catus</em> remains the most common and recognized name for the domestic cat.&nbsp;</p><div><strong>Key Details</strong></div><ul><li><strong>Genus:</strong><em>Felis</em> (meaning \"cat\").</li><li><strong>Species:</strong><em>catus</em> (referring to the domestic cat).</li><li><strong>Family:</strong> Felidae (the cat family).</li></ul>",
+    "src": "https://www.ifaw.org/international/animals/cats",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@andriyko?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Andriyko Podilnyk</a> on <a href=\"https://unsplash.com/photos/orange-tabby-kitten-in-grasses-RCfi7vgJjUY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img993.jpg",
     "tags": [
       "Motivation",
@@ -2016,7 +2009,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img994.jpg",
     "tags": [
       "Motivation",
@@ -2038,7 +2031,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img995.jpg",
     "tags": [
       "Motivation",
@@ -2060,13 +2053,14 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img996.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Animals",
+      "Elephant",
+      "Dolphin",
+      "Chimpanzee"
     ]
   },
   {
@@ -2082,7 +2076,7 @@
     "read": "",
     "notes": "",
     "header": "Learn how dog companionship may reduce stress, increase activity, and strengthen heart health.",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img997.jpg",
     "tags": [
       "Psychology",
@@ -2104,7 +2098,7 @@
     "read": "",
     "notes": "",
     "header": "Explore why one of the world’s longest words describes the fear of long words itself.",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img998.jpg",
     "tags": [
       "Motivation",
@@ -2126,7 +2120,7 @@
     "read": "",
     "notes": "",
     "header": "Uncover the hidden habits and rare traits that make dolphins one of the most fascinating animals on Earth.",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img999.jpg",
     "tags": [
       "Facts",
@@ -2147,7 +2141,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img1000.jpg",
     "tags": [
       "Motivation",

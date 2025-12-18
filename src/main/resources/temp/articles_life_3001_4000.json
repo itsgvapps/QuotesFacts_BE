@@ -14,7 +14,11 @@
     "header": "",
     "isShow": false,
     "imgPath": "article_images_life/img3001.jpg",
-    "tags": []
+    "tags": [
+      "Facts",
+      "Animals",
+      "Dogs"
+    ]
   },
   {
     "id": 3002,
@@ -31,13 +35,20 @@
     "header": "",
     "isShow": false,
     "imgPath": "article_images_life/img3002.jpg",
-    "tags": []
+    "tags": [
+      "Facts",
+      "Animals",
+      "Elephant",
+      "Lion",
+      "Tiger",
+      "Rhino"
+    ]
   },
   {
     "id": 3003,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": "The world’s oldest known cream puff, a cat, lived an astonishing 38 years",
+    "content": "<div><p>The world&rsquo;s oldest known cream puff, a cat, lived an astonishing 38 years before passing away in 2005. This extraordinary lifespan far exceeded the average for domestic cats, highlighting the potential for longevity under proper care, nutrition, and a safe environment. Cream Puff&rsquo;s record remains unmatched, inspiring pet owners and animal enthusiasts to pay close attention to health and well-being in their own pets </p></div><ul><li><strong>Age &amp; Lifespan:</strong> She lived for 38 years and 3 days, far exceeding the typical 12-17 year lifespan of domestic cats, according to USA Today and Wikipedia.</li><li><strong>Owner:</strong> Jake Perry owned Creme Puff and also had another long-lived cat, Granpa Rex Allen.</li><li><strong>Diet:</strong> Perry attributed her longevity to a unique diet that included dry cat food, eggs, broccoli, and even a bit of red wine and coffee with cream, notes IFLScience and HowStuffWorks.</li></ul>",
+    "src": "https://en.wikipedia.org/wiki/Creme_Puff_(cat)",
     "author": "",
     "imgSrc": "(unsplash)",
     "type": "Quotes",
@@ -48,15 +59,19 @@
     "header": "",
     "isShow": false,
     "imgPath": "article_images_life/img3003.jpg",
-    "tags": []
+    "tags": [
+      "Facts",
+      "Cats",
+      "Animals"
+    ]
   },
   {
     "id": 3004,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": "How Rare Are Female Orange Cats?",
+    "content": "<div><div><div><div><div>Female cats that are orange in color are very rare. On average, only 1 in 5 orange cats will be female. In local populations, these numbers can be far higher or lower depending on the gene pool.</div><div>Some areas will have a very low prevalence of the orange gene, while other areas might have a higher prevalence of the orange gene.</div><div>Overall, if you spot an orange cat in the wild or at the shelter, statistically, it is more likely to be male. Some statistics skew even further, suggesting that 82% of orange cats are male, and just 18% female.</div></div></div></div></div><p>Orange cats are known for their <strong>playful and affectionate nature</strong>, making them a favorite among cat lovers. They often exhibit unique personalities, from being energetic and curious to being laid-back cuddle buddies. The iconic color of orange cats, often associated with warmth and cheerfulness, adds to their charm.</p>",
+    "src": "https://www.catster.com/lifestyle/can-orange-cats-be-female/",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@lois184?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Louis Droege</a> on <a href=\"https://unsplash.com/photos/orange-and-white-cat-on-gray-brick-floor-PIOaj0-cDmA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "14-12-2025",
     "likes": "",
@@ -6593,7 +6608,12 @@
     "header": "",
     "isShow": false,
     "imgPath": "article_images_life/img3388.jpg",
-    "tags": []
+    "tags": [
+      "Facts",
+      "Animals",
+      "Snakes",
+      "Country"
+    ]
   },
   {
     "id": 3389,
@@ -16729,11 +16749,11 @@
   },
   {
     "id": 3985,
-    "title": "",
-    "content": "",
+    "title": "How do zookeepers safely work with tigers?",
+    "content": "<p>Animal keepers at the Smithsonian&rsquo;s National Zoo never enter an enclosure with a tiger, because tigers are just too big and potentially dangerous. Keepers rely on many tools to work safely with these big cats, such as fences and locks. They also constantly have colleagues double check their work, including making sure locks are secure and confirming the location of cats with two sets of eyes.</p><p>They also utilize a type of training, called operant conditioning, to safely work with these huge felines. Tigers learn to allow keepers look at their teeth, eyes, bellies, and the bottom of their feet. Keepers use positive reinforcement to teach them to lay down, stand up and put their paws on the mesh fence &mdash;&nbsp;all by following a target, such as a pole with a red ball at the end. When a tiger completes a task, it gets a tasty reward. Training sessions are always voluntary and allow tigers to participate in their own care.</p><p><em>The world's largest wild cat is the Siberian or Amur tiger</em> (Panthera tigris altaica), native to eastern Russia, north-east China and North Korea.</p><p>Males, which are bigger than females, typically have a total length of 2.7&ndash;3.3 metres (8 feet 10 inches&ndash;10 feet 9 inches) from nose to tail tip, as measured between the pegs, a shoulder height of 0.99&ndash;1.07 metres (3 feet 3 inches&ndash;3 feet 6 inches), and a weight of 180&ndash;306 kilograms (397&ndash;675 pounds).</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@mattiatanner?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Mattia Tanner</a> on <a href=\"https://unsplash.com/photos/tiger-on-brown-wooden-fence-during-daytime-NxtOqX3p3CQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "14-12-2025",
     "likes": "",
@@ -16742,15 +16762,19 @@
     "header": "",
     "isShow": false,
     "imgPath": "article_images_life/img3985.jpg",
-    "tags": []
+    "tags": [
+      "Facts",
+      "Tigers",
+      "Animals"
+    ]
   },
   {
     "id": 3986,
-    "title": "",
-    "content": "",
+    "title": "Cats are Nearsighted, but See Great in the Dark",
+    "content": "<p>Compared to humans, cats are nearsighted because their eyes are so large and placed so forward on their face. In fact, they can&rsquo;t focus on anything less than 1 foot in front of them. This is where the whiskers come into play, as they can swing the whiskers forward to feel in front of them.</p><p>However, they make up for this nearsightedness with an excellent ability to see in the dark. Cats have extra dark-specializing cells called rods and a &ldquo;reflective mirror&rdquo; called a tapetum in the back of the eye. These work together, so cats can see light at eight times dimmer illumination than you can.</p><p>Cats are fascinating creatures known for sleeping most of the day, having unique nose prints, communicating with humans via meows, and possessing incredible agility, with abilities like jumping high and running fast, all thanks to their sharp senses and flexible bodies, though they can't taste sweetness and have unique features like a third eyelid and sensitive whiskers.</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@lunascott?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Luna Scott</a> on <a href=\"https://unsplash.com/photos/a-teddy-bear-wearing-glasses-on-top-of-a-bed--akeCGl-JN4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "14-12-2025",
     "likes": "",
@@ -16763,11 +16787,11 @@
   },
   {
     "id": 3987,
-    "title": "",
-    "content": "",
+    "title": "Are Bengal Cats Dangerous?",
+    "content": "<div><div><div><div><div><div><div><div><div><div><div><p>While they may not be the cuddliest lap cats, Bengals are known for their affectionate and friendly nature. There is no research to prove that Bengals are any more dangerous than other breeds. All cats have the potential to bite, especially if they are hurt, scared, or acting on their prey drive.</p><p>Unfortunately, a purebred Bengal may bear the burden of being associated with their F1&ndash;F3 ancestors, who often do not act like domestic cats. These hybrid cats are used for breeding purposes but do not make good pets.</p><p>The Bengal is a sleek, muscular cat with a wild appearance, enhanced by the bold marbling and spotting on their thick, luxurious coat. Despite their striking appearance, physically there is nothing extreme about their build or structure, as this is a well-balanced cat without any exaggerated features, smallish ears, wedge shaped head, neat paws and athletic outline.&nbsp;</p><div><div><strong>Lifespan:</strong> 10 - 16 years</div><div><div><div><strong>Weight:</strong> 3.6 - 7.7kg</div></div><div><div><div><strong>Colours:</strong> Bengal cats come in come with a spotted marble coat in brown, silver and snow.</div><div>&nbsp;</div></div></div></div></div></div></div><p>The first Bengal cat was born in the early 1960s when a domestic cat mated with an Asian leopard cat. Most of today&rsquo;s Bengals can trace their lineage to the 1980s when breeding began in earnest.</p><p>A kitten with one Asian leopard cat parent is called an &ldquo;F1&rdquo; Bengal. These felines are considered hybrids and won&rsquo;t make good companions for the average pet owner. An F1 female bred with a domestic male cat will produce &ldquo;F2&rdquo; Bengals, and the offspring of an F2 and a domestic cat is an &ldquo;F3&rdquo; kitten.</p><p>The cat community often refers to the first three generations of a Bengal lineage as the foundation generations. Any subsequent generations are Bengals&mdash;domestic cats with an exotic appearance.</p></div></div></div></div></div></div></div></div></div>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@xiaotojohn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">john xiao</a> on <a href=\"https://unsplash.com/photos/a-cat-walking-across-a-grass-covered-field-AtLmjax44b8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "14-12-2025",
     "likes": "",
@@ -16780,11 +16804,11 @@
   },
   {
     "id": 3988,
-    "title": "",
-    "content": "",
+    "title": "Can cats recognize their owners?",
+    "content": "<div>For example, a study published in the journal \"Animal Cognition\" in 2013 found that <strong>cats are capable of recognizing human faces, particularly those of their owners</strong>. In this study, cats were presented with images of their owners' faces, as well as those of strangers, and they were able to distinguish between them.</div><div>&nbsp;</div><div>The cat, also called domestic cat and house cat, is a small carnivorous mammal. It is an obligate carnivore, requiring a predominantly meat-based diet. Its retractable claws are adapted to killing small prey species such as mice and rats.</div><div>Domestic <em>cats</em> are characterized by retractable claws, powerful bodies, acute senses, long tails, and specialized teeth adapted for hunting prey.</div><div>&nbsp;</div><p>Studies have shown that cats have a calming effect on their owners, from the soothing action of petting to purring being an aid in falling asleep. Cats can even play a part in lowering your blood pressure and risk of a heart attack.</p><p>One 10-year study has even shown that cat owners were 30% less likely to die of a heart attack or stroke than non-cat owners.</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@plhnk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Paul Hanaoka</a> on <a href=\"https://unsplash.com/photos/person-holding-brown-cat-on-white-textile-C0zDWAPFT9A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "14-12-2025",
     "likes": "",
@@ -16797,11 +16821,11 @@
   },
   {
     "id": 3989,
-    "title": "",
-    "content": "",
+    "title": "Are cats smarter than dogs?",
+    "content": "<p>Both cats and dogs can learn through observing other animals and humans, but they have different skill sets. Cats tend to be better at stealth and hunting, while <strong>dogs rank higher in social intelligence and understanding humans</strong>.</p><div><div>Why Dogs Seem \"Smarter\" (Trainable/Social)</div></div><div><ul><li><strong>More Neurons:</strong> Dogs have roughly twice the neurons in their cerebral cortex (processing center) compared to cats, notes{2, 8}.</li><li><strong>Social Intelligence:</strong> Their pack nature makes them eager to please, learn commands, and understand human cues, leading to better word recognition (hundreds vs. cat's ~40).</li></ul></div><div><ul><li><strong>Trainability:</strong> Excellent for jobs like search and rescue due to their cooperative nature.</li></ul></div><div><div><div>Why Cats Seem \"Smarter\" (Independent/Practical)</div></div></div><div><div><div><ul><li><div><div><div><div><strong>Survival Instincts:</strong></div><div>As solitary hunters, they possess great spatial memory (hippocampus) and problem-solving for navigation and hunting.</div></div></div></div></li></ul></div></div></div><div><ul><li><div><div><div><div><strong>Memory:</strong></div><div>Better short-term memory for food/hiding spots (hours vs. minutes for dogs) and excellent long-term memory.</div></div></div></div></li></ul></div><div><ul><li><div><div><div><div><strong>Independence:</strong></div><div>Their self-reliance and focus on personal goals (rather than pleasing) can appear as higher intelligence in some tasks, like understanding object permanence.</div></div></div></div></li></ul></div><div><div><div><strong>The Verdict</strong></div></div></div><div><div><div>Both are smart, but in different ways; dogs excel at social problem-solving for human interaction, while cats excel at independent survival and spatial awareness, making comparisons difficult as they value different things</div></div></div>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@krista?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Krista Mangulsone</a> on <a href=\"https://unsplash.com/photos/white-dog-and-gray-cat-hugging-each-other-on-grass-9gz3wfHr65U?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "14-12-2025",
     "likes": "",
@@ -16814,11 +16838,11 @@
   },
   {
     "id": 3990,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": " Are tortoiseshell cats very friendly? ",
+    "content": "<p>Some pet parents describe their torties as sassy, but every cat is an individual with their own unique personality. Generally, tortoiseshell cats are affectionate, cuddly, and social companions who are friendly and fun, just like other cats.</p><p>They do look alike, but a tortoiseshell usually has two colors instead of the calico's three. Also, a tortie's coat colors are usually more blended together while a calico's coat features more patches.</p><p>Tortoiseshell cats get their name from their bi-colored coats that resemble a tortoise shell. \"Tortoiseshell\" describes a distinct coat pattern, not a particular breed. Often called \"torties,\" these colorful cats, primarily female, are beloved pets in many households.</p><p>Tortoiseshell cats are almost always female, as the males are exceedingly rare in the wild.</p><p>Explore unique traits, folklore, and famous tortoiseshell cat owners.</p><div><ul><li>Most tortoiseshell cats are female, and males are extremely rare, with about 1 in 3,000 being male.</li><li>Tortoiseshell cats are considered good luck in several cultures and have unique folklore associated with them.</li><li>Tortoiseshell isn't a specific breed; cats with this pattern can be found in both mixed and purebred varieties.</li></ul></div>",
+    "src": "https://www.thesprucepets.com/tortoiseshell-cat-profile-554703",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@grant_durr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Grant Durr</a> on <a href=\"https://unsplash.com/photos/brown-black-and-white-cat-lying-on-brown-textile-vb__uMigbY4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "14-12-2025",
     "likes": "",
@@ -16831,11 +16855,11 @@
   },
   {
     "id": 3991,
-    "title": "",
-    "content": "",
+    "title": "What is the cat for good luck in Feng Shui?",
+    "content": "<p>The <strong>maneki-neko</strong> ( 'beckoning cat') is a common Japanese figurine which is often believed to bring good luck to the owner. In modern times, they are usually made of ceramic or plastic. The figurine depicts a cat, traditionally a calico Japanese Bobtail, with a paw raised in a beckoning gesture.</p><p>The figurines are often displayed in shops, restaurants, pachinko parlors, dry cleaners, laundromats, bars, casinos, hotels, nightclubs, and other businesses, generally near the entrance,<sup>[1]</sup> as well as households.<sup>[2]</sup> Some <em>maneki-neko</em> are equipped with a mechanical paw that slowly moves back and forth. </p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "<a href=\"https://www.freepik.com/free-photo/lucky-cat-with-golden-details-podium_23666928.htm#fromView=search&page=1&position=43&uuid=c1aeec6c-193c-4007-8cce-0ecc80254318&query=maneki-neko\">Image by freepik</a>",
     "type": "Quotes",
     "date": "14-12-2025",
     "likes": "",
@@ -16848,11 +16872,11 @@
   },
   {
     "id": 3992,
-    "title": "",
-    "content": "",
+    "title": "What's the prettiest cat color?",
+    "content": "<div><div><div><strong>Some cat lovers think the prettiest colors are common one like black, orange, or brown tabby, with or without white markings. Other people prefer rare colors, such as chocolate, cinnamon, lilac, cream, tortoiseshell, or colorpoint.</strong></div><div><strong>Orange cats</strong> were regarded as the friendliest by respondents, while white cats were labeled aloof, and tortoiseshell cats were thought to have too much \"attitude.\"</div></div></div><p>Orange cats are known for their <strong>playful and affectionate nature</strong>, making them a favorite among cat lovers. They often exhibit unique personalities, from being energetic and curious to being laid-back cuddle buddies. The iconic color of orange cats, often associated with warmth and cheerfulness, adds to their charm.</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@katelyn_g?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Katelyn G</a> on <a href=\"https://unsplash.com/photos/a-cat-laying-in-the-grass-with-its-tongue-out-hju9QYcVARc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "14-12-2025",
     "likes": "",
@@ -16963,7 +16987,11 @@
     "header": "",
     "isShow": false,
     "imgPath": "article_images_life/img3998.jpg",
-    "tags": []
+    "tags": [
+      "Facts",
+      "Animals",
+      "Dogs"
+    ]
   },
   {
     "id": 3999,
@@ -16980,7 +17008,11 @@
     "header": "",
     "isShow": false,
     "imgPath": "article_images_life/img3999.jpg",
-    "tags": []
+    "tags": [
+      "Facts",
+      "Animals",
+      "Snakes"
+    ]
   },
   {
     "id": 4000,

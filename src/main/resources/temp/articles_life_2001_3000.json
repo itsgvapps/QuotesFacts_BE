@@ -31,7 +31,11 @@
     "header": "",
     "isShow": false,
     "imgPath": "article_images_life/img2002.jpg",
-    "tags": []
+    "tags": [
+      "Facts",
+      "Animals",
+      "Dogs"
+    ]
   },
   {
     "id": 2003,
@@ -48,7 +52,11 @@
     "header": "",
     "isShow": false,
     "imgPath": "article_images_life/img2003.jpg",
-    "tags": []
+    "tags": [
+      "Facts",
+      "Animals",
+      "Dogs"
+    ]
   },
   {
     "id": 2004,
@@ -120,11 +128,11 @@
   },
   {
     "id": 2008,
-    "title": "",
-    "content": "",
+    "title": "What is the friendliest color cat?",
+    "content": "<div><div><div>University of California, Berkeley researchers surveyed 189 cat owners in a study published in the October 2012 edition of Anthrozoos. <strong>Orange cats</strong> were regarded as the friendliest by respondents, while white cats were labeled aloof, and tortoiseshell cats were thought to have too much \"attitude.\"</div></div></div><p>Orange cats are known for their <strong>playful and affectionate nature</strong>, making them a favorite among cat lovers. They often exhibit unique personalities, from being energetic and curious to being laid-back cuddle buddies. The iconic color of orange cats, often associated with warmth and cheerfulness, adds to their charm.</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@a_preusser?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Alex Preusser</a> on <a href=\"https://unsplash.com/photos/an-orange-and-white-cat-laying-on-top-of-a-blanket-zf-veuJlFHY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "14-12-2025",
     "likes": "",
@@ -133,15 +141,19 @@
     "header": "",
     "isShow": false,
     "imgPath": "article_images_life/img2008.jpg",
-    "tags": []
+    "tags": [
+      "Facts",
+      "Cats",
+      "Animals"
+    ]
   },
   {
     "id": 2009,
-    "title": "",
-    "content": "",
+    "title": "Which cat brings money?",
+    "content": "<div><div><div>In the United States, calico cats are sometimes referred to as \"money cats,\" because they bring good fortune to their owners. Because calico Persian cats are so rare (especially male calico cats) they're considered a good luck charm all over the world.</div><div>&nbsp;</div><div>Calicos are symbols of luck in many cultures&mdash;those who have one are truly blessed!</div><div>&nbsp;</div><div>Some cat lovers think the prettiest colors are common one like black, orange, or brown tabby, with or without white markings. Other people prefer rare colors, such as chocolate, cinnamon, lilac, cream, tortoiseshell, or colorpoint.</div><div>&nbsp;</div><div><strong>Orange cats</strong> were regarded as the friendliest by respondents, while white cats were labeled aloof, and tortoiseshell cats were thought to have too much \"attitude.\"</div><div>&nbsp;</div><div>Orange cats are known for their <strong>playful and affectionate nature</strong>, making them a favorite among cat lovers. They often exhibit unique personalities, from being energetic and curious to being laid-back cuddle buddies. The iconic color of orange cats, often associated with warmth and cheerfulness, adds to their charm.</div></div></div>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "<a href=\"https://www.freepik.com/free-photo/closeup-shot-cat-staring-camera_9852336.htm#fromView=search&page=1&position=0&uuid=a121161f-b6a5-4442-80f0-0427c0d5bd78&query=calico+cat\">Image by wirestock on Freepik</a>",
     "type": "Quotes",
     "date": "14-12-2025",
     "likes": "",
@@ -154,11 +166,11 @@
   },
   {
     "id": 2010,
-    "title": "",
-    "content": "",
+    "title": "What is the myth about black cats?",
+    "content": "<p><strong>The evolution of black cats being &ldquo;familiars&rdquo; with witches was rooted in the belief that witches were able to use cats for spying and other dark magic. Believing that witches could take the form of their black cat companions, the superstition that a black cat crossing your path was bad luck materialized.</strong></p><p><strong>Fortune bearers:&nbsp;</strong><strong>In some parts of Europe, black cats were seen as symbols of good luck</strong>. For example, in Britain and Ireland, a black cat crossing your path was thought to bring fortune, not misfortune. Sailors, too, often kept black cats on ship as good luck charms.<br/><br/><strong>In contrast, black cats were seen positively in other contexts.</strong></p><ul><li>British sailors believed black cats brought good luck on ships, helping ensure safe voyages by keeping rodents in check.</li><li>Fishermen's wives also kept black house cats, believing they would protect their husbands at sea.</li><li>In Japan, black cats are considered lucky, especially in love, as they are thought to attract suitors to single women.</li><li>Similarly, Scottish folklore views a black cat on the doorstep as a sign of prosperity.</li><li>In France, black cats are called \"money cats\" and are associated with financial fortune.</li></ul><p>Black cats are domestic felines with solid black fur, resulting from high melanin, often with gold/amber eyes, appearing in many breeds but famously exemplified by the pure black <strong>Bombay</strong>; they're steeped in lore, seen as lucky in some cultures, unlucky in others (witch familiars), but are generally affectionate pets, celebrated on days like Black Cat Appreciation Day (Aug 17) and National Black Cat Day (Oct 27) to counter superstitions.</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@sicuro?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Gabriel Sicuro</a> on <a href=\"https://unsplash.com/photos/black-cat-in-tilt-shift-lens-weBgfDcoh0I?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "14-12-2025",
     "likes": "",
@@ -171,11 +183,11 @@
   },
   {
     "id": 2011,
-    "title": "",
-    "content": "",
+    "title": "The History of the Bengal Cat Breed",
+    "content": "<div><div><div><div><div><div><div><div><div><div><div><p>The Bengal is a sleek, muscular cat with a wild appearance, enhanced by the bold marbling and spotting on their thick, luxurious coat. Despite their striking appearance, physically there is nothing extreme about their build or structure, as this is a well-balanced cat without any exaggerated features, smallish ears, wedge shaped head, neat paws and athletic outline.&nbsp;</p><div><div><strong>Lifespan:</strong> 10 - 16 years</div><div><div><div><strong>Weight:</strong> 3.6 - 7.7kg</div></div><div><div><div><strong>Colours:</strong> Bengal cats come in come with a spotted marble coat in brown, silver and snow.</div><div>&nbsp;</div></div></div></div></div></div></div><p>The first Bengal cat was born in the early 1960s when a domestic cat mated with an Asian leopard cat. Most of today&rsquo;s Bengals can trace their lineage to the 1980s when breeding began in earnest.</p><p>A kitten with one Asian leopard cat parent is called an &ldquo;F1&rdquo; Bengal. These felines are considered hybrids and won&rsquo;t make good companions for the average pet owner. An F1 female bred with a domestic male cat will produce &ldquo;F2&rdquo; Bengals, and the offspring of an F2 and a domestic cat is an &ldquo;F3&rdquo; kitten.</p><p>The cat community often refers to the first three generations of a Bengal lineage as the foundation generations. Any subsequent generations are Bengals&mdash;domestic cats with an exotic appearance.</p></div></div></div></div></div></div></div></div></div>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "<a href=\"https://www.freepik.com/free-photo/bengal-cat-stands-yellow-bed_1472619.htm#fromView=search&page=1&position=0&uuid=0cc16d90-c97e-4653-8341-b03bb1adc304&query=BENGAL+cat\">Image by freepic.diller on Freepik</a>",
     "type": "Quotes",
     "date": "14-12-2025",
     "likes": "",
@@ -188,11 +200,11 @@
   },
   {
     "id": 2012,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": "Why are Bengal cats often accused of being aggressive?",
+    "content": "<div><div><div><div><div><div><div><div><div><div><div><div><div><div><p><strong>Many people falsely assume that Bengal cats are aggressive, but the truth is they are as prone to bad behaviour as any other domestic cat breed.</strong> This unfair belief stems from Bengals being bred from wild felines, specifically the Asian leopard cat.</p><p>In reality, Bengals only look wild. They are loveable, loyal, easily trainable, and capable of forming an unbreakable bond with their cat parents.&nbsp;</p><p>If you are considering getting a Bengal, keep in mind that they are energetic and have a strong drive to hunt, but these traits shouldn't be misinterpreted as aggression.</p><p>The Bengal is a sleek, muscular cat with a wild appearance, enhanced by the bold marbling and spotting on their thick, luxurious coat. Despite their striking appearance, physically there is nothing extreme about their build or structure, as this is a well-balanced cat without any exaggerated features, smallish ears, wedge shaped head, neat paws and athletic outline.&nbsp;</p><div><div><strong>Lifespan:</strong> 10 - 16 years</div><div><div><div><strong>Weight:</strong> 3.6 - 7.7kg</div></div><div><div><div><strong>Colours:</strong> Bengal cats come in come with a spotted marble coat in brown, silver and snow.</div><div>&nbsp;</div></div></div></div></div></div></div><p>The first Bengal cat was born in the early 1960s when a domestic cat mated with an Asian leopard cat. Most of today&rsquo;s Bengals can trace their lineage to the 1980s when breeding began in earnest.</p></div><p>Веngаl саtѕ аrе іntеllіgеnt аnd vеrу соmmunісаtіvе. Тhеу оftеn mеоw whеn bоrеd аnd vоісе thеіr fruѕtrаtіоn іf уоu аrеn&rsquo;t gіvіng thеm thе аttеntіоn thеу wаnt. Кеер іn mіnd thаt thеѕе fеlіnеѕ nоt оnlу ѕееk аttеntіоn but аlѕо wоuld dо аnуthіng tо gеt іt, ѕо dоn&rsquo;t іgnоrе thеm оr уоu&rsquo;ll рау.</p><p>Оvеrаll, Веngаl саtѕ аrе соnfіdеnt, сurіоuѕ, аnd hарру. Тhеу аrе nо mоrе аggrеѕѕіvе thаn thе аvеrаgе dоmеѕtіс саt, аnd, аѕ wіth аll саtѕ, thеіr tеmреrаmеnt саn bе mоldеd wіth trаіnіng. Тhеу аrе аlѕо frіеndlу аnd lоvіng, аnd іt&rsquo;ѕ nоt unuѕuаl fоr thеm tо dеvеlор grеаt lоуаltу tо а ѕіnglе fаmіlу mеmbеr.&nbsp;</p></div></div></div></div></div></div></div></div></div></div></div>",
+    "src": "https://untamed.com/blogs/cat-breeds/are-bengal-cats-aggressive",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@plhnk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Paul Hanaoka</a> on <a href=\"https://unsplash.com/photos/sleeping-leopard-kitten-LcAZcVWsCIo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "14-12-2025",
     "likes": "",
@@ -205,11 +217,11 @@
   },
   {
     "id": 2013,
-    "title": "",
-    "content": "",
+    "title": "Do tigers make good pets?",
+    "content": "<p>No. Tigers are wild animals and should never be kept as pets. Tiger cubs may look cute and cuddly, but they grow into very large, powerful carnivores with sharp teeth and claws that make them incredibly destructive and potentially deadly. Tigers also require specialized diets and healthcare that the average person simply can&rsquo;t provide. In many states, it&rsquo;s illegal to own tigers and other exotic animals.</p><p><em>The world's largest wild cat is the Siberian or Amur tiger</em> (Panthera tigris altaica), native to eastern Russia, north-east China and North Korea.</p><p>Males, which are bigger than females, typically have a total length of 2.7&ndash;3.3 metres (8 feet 10 inches&ndash;10 feet 9 inches) from nose to tail tip, as measured between the pegs, a shoulder height of 0.99&ndash;1.07 metres (3 feet 3 inches&ndash;3 feet 6 inches), and a weight of 180&ndash;306 kilograms (397&ndash;675 pounds).</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@waldemarbrandt67w?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Waldemar Brandt</a> on <a href=\"https://unsplash.com/photos/brown-and-black-tiger-lying-on-ground-zQsCISvBY2E?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "14-12-2025",
     "likes": "",
@@ -218,7 +230,11 @@
     "header": "",
     "isShow": false,
     "imgPath": "article_images_life/img2013.jpg",
-    "tags": []
+    "tags": [
+      "Facts",
+      "Tigers",
+      "Animals"
+    ]
   },
   {
     "id": 2014,
@@ -5080,7 +5096,11 @@
     "header": "",
     "isShow": false,
     "imgPath": "article_images_life/img2299.jpg",
-    "tags": []
+    "tags": [
+      "Facts",
+      "Animals",
+      "Dogs"
+    ]
   },
   {
     "id": 2300,
@@ -9432,7 +9452,11 @@
     "header": "",
     "isShow": false,
     "imgPath": "article_images_life/img2555.jpg",
-    "tags": []
+    "tags": [
+      "Facts",
+      "Animals",
+      "Snakes"
+    ]
   },
   {
     "id": 2556,

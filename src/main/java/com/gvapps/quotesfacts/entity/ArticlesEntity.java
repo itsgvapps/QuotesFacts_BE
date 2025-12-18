@@ -40,7 +40,8 @@ public class ArticlesEntity {
     private String summary;
     private String author;
 
-    @Column(name = "img_credit")
+    @Lob
+    @Column(name = "img_credit", columnDefinition = "TEXT")
     private String imgCredit;
 
     @Column(name = "img_path")

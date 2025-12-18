@@ -14,7 +14,11 @@
     "header": "",
     "isShow": false,
     "imgPath": "article_images_life/img4001.jpg",
-    "tags": []
+    "tags": [
+      "Facts",
+      "Animals",
+      "Dogs"
+    ]
   },
   {
     "id": 4002,
@@ -31,7 +35,11 @@
     "header": "",
     "isShow": false,
     "imgPath": "article_images_life/img4002.jpg",
-    "tags": []
+    "tags": [
+      "Facts",
+      "Animals",
+      "Dogs"
+    ]
   },
   {
     "id": 4003,
@@ -48,7 +56,11 @@
     "header": "",
     "isShow": false,
     "imgPath": "article_images_life/img4003.jpg",
-    "tags": []
+    "tags": [
+      "Facts",
+      "Animals",
+      "Elephant"
+    ]
   },
   {
     "id": 4004,
@@ -69,11 +81,11 @@
   },
   {
     "id": 4005,
-    "title": "",
-    "content": "",
+    "title": "Which cat color is mostly female?",
+    "content": "<div><div><div><div><div>Calico:&nbsp;Only cells with multiple X-chromosomes can undergo X-chromosome inactivation, which explains why almost all <strong>calico-coloured</strong> cats are female.</div></div></div></div></div><p>While, <em>only about 20% of orange cats are female</em>, making them a relatively rare sight compared to their male counterparts. </p><p>Orange cats are known for their <strong>playful and affectionate nature</strong>, making them a favorite among cat lovers. They often exhibit unique personalities, from being energetic and curious to being laid-back cuddle buddies. The iconic color of orange cats, often associated with warmth and cheerfulness, adds to their charm.</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@sarsenic?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Sanela Arsenić</a> on <a href=\"https://unsplash.com/photos/a-cat-sitting-in-the-grass-on-a-path-OCX2mQF_0Ew?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "14-12-2025",
     "likes": "",
@@ -82,15 +94,19 @@
     "header": "",
     "isShow": false,
     "imgPath": "article_images_life/img4005.jpg",
-    "tags": []
+    "tags": [
+      "Facts",
+      "Cats",
+      "Animals"
+    ]
   },
   {
     "id": 4006,
-    "title": "",
-    "content": "",
+    "title": "What is the best breed of cat for a house?",
+    "content": "<div><div><div><strong>The most low maintenance cat breeds are British Shorthairs and Siamese cats since their short hair means they don't require as much grooming. Sphynx cats are also low maintenance as they have no fur at all and therefore have no need for grooming, although they do require regular baths.</strong></div><div><strong>Some cat lovers think the prettiest colors are common one like black, orange, or brown tabby, with or without white markings. Other people prefer rare colors, such as chocolate, cinnamon, lilac, cream, tortoiseshell, or colorpoint.</strong></div><div><strong>Orange cats</strong> were regarded as the friendliest by respondents, while white cats were labeled aloof, and tortoiseshell cats were thought to have too much \"attitude.\"</div></div></div><p>Orange cats are known for their <strong>playful and affectionate nature</strong>, making them a favorite among cat lovers. They often exhibit unique personalities, from being energetic and curious to being laid-back cuddle buddies. The iconic color of orange cats, often associated with warmth and cheerfulness, adds to their charm.</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@wildspirit?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Wild Spirit</a> on <a href=\"https://unsplash.com/photos/a-cat-with-a-sad-expression-LA8gZYQklFA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "14-12-2025",
     "likes": "",
@@ -103,11 +119,11 @@
   },
   {
     "id": 4007,
-    "title": "",
-    "content": "",
+    "title": "Do purple cats exist?",
+    "content": "<p>No, naturally vibrant purple cats don't exist, but there are rare, genetically occurring <strong>lilac or lavender cats</strong> with a soft, pale grayish-purple tint, and cats can appear purple from staining or skin issues. The natural lilac color is a diluted chocolate brown, requiring specific recessive genes from both parents, appearing in breeds like Siamese, Persians, and Burmese.&nbsp;</p><div><strong>Natural \"Purple\" (Lilac/Lavender):</strong></div><ul><li><strong>Genetics:</strong> It's a diluted brown, a very light, dusty gray with pinkish or lavender undertones, not a true purple.</li><li><strong>Appearance:</strong> Soft, pale, sometimes described as dove gray or frost.</li><li><strong>Breeds:</strong> Common in Siamese, Burmese, Oriental Shorthairs, Persians, and Ragdolls.</li><li><strong>Rarity:</strong> Very rare because both parents must carry the recessive genes for this color.</li></ul>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@mayertawfik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Mayer Tawfik</a> on <a href=\"https://unsplash.com/photos/white-long-fur-cat-on-white-textile-T6BDU8vPgtg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "14-12-2025",
     "likes": "",
@@ -120,11 +136,11 @@
   },
   {
     "id": 4008,
-    "title": "",
-    "content": "",
+    "title": "Why are black cats so magical?",
+    "content": "<p><strong>Fortune bearers</strong><br /><br /><strong>In some parts of Europe, black cats were seen as symbols of good luck</strong>. For example, in Britain and Ireland, a black cat crossing your path was thought to bring fortune, not misfortune. Sailors, too, often kept black cats on ship as good luck charms.<br /><br /><strong>In contrast, black cats were seen positively in other contexts.</strong></p><ul><li>British sailors believed black cats brought good luck on ships, helping ensure safe voyages by keeping rodents in check.</li><li>Fishermen's wives also kept black house cats, believing they would protect their husbands at sea.</li><li>In Japan, black cats are considered lucky, especially in love, as they are thought to attract suitors to single women.</li><li>Similarly, Scottish folklore views a black cat on the doorstep as a sign of prosperity.</li><li>In France, black cats are called \"money cats\" and are associated with financial fortune.</li></ul><p>Black cats are domestic felines with solid black fur, resulting from high melanin, often with gold/amber eyes, appearing in many breeds but famously exemplified by the pure black <strong>Bombay</strong>; they're steeped in lore, seen as lucky in some cultures, unlucky in others (witch familiars), but are generally affectionate pets, celebrated on days like Black Cat Appreciation Day (Aug 17) and National Black Cat Day (Oct 27) to counter superstitions.</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@graywolfsphotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Grayson neill</a> on <a href=\"https://unsplash.com/photos/a-black-cat-standing-on-a-sidewalk-next-to-plants-nRCFAu4Ai0o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "14-12-2025",
     "likes": "",
@@ -137,11 +153,11 @@
   },
   {
     "id": 4009,
-    "title": "",
-    "content": "",
+    "title": "Which cat is the most obedient?",
+    "content": "<div>The cat, also called domestic cat and house cat, is a small carnivorous mammal. It is an obligate carnivore, requiring a predominantly meat-based diet. Its retractable claws are adapted to killing small prey species such as mice and rats.</div><div>Domestic <em>cats</em> are characterized by retractable claws, powerful bodies, acute senses, long tails, and specialized teeth adapted for hunting prey.</div><div><strong>These easy-to-train cats include:</strong></div><div><ul><li>Siamese.</li><li>American Shorthair.</li><li>Abyssinian.</li><li>Maine Coon.</li><li>Somali.</li><li>Burmese.</li><li>Cornish Rex.</li></ul></div>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@itslydia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Lydia S</a> on <a href=\"https://unsplash.com/photos/a-cat-with-blue-eyes-laying-in-the-grass-uS2GNWptuEo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "14-12-2025",
     "likes": "",
@@ -154,11 +170,11 @@
   },
   {
     "id": 4010,
-    "title": "",
-    "content": "",
-    "src": "",
-    "author": "",
-    "imgSrc": "(unsplash)",
+    "title": "Fun Black Cat Facts",
+    "content": "<div>The cat, also called domestic cat and house cat, is a small carnivorous mammal. It is an obligate carnivore, requiring a predominantly meat-based diet. Its retractable claws are adapted to killing small prey species such as mice and rats.</div><div>Domestic <em>cats</em> are characterized by retractable claws, powerful bodies, acute senses, long tails, and specialized teeth adapted for hunting prey.</div><div>&nbsp;</div><div><div><div><div><div><div><div><div><div><p>Black cats are as fascinating as they are adorable&mdash;which is saying a lot. On top of being fun and cute, they&rsquo;ve also captivated cultures all over the world throughout history. Check out some of the many fun facts about black cats that make these felines so special.</p></div></div></div></div></div></div></div></div></div><div><div><div><div><div><div><div><div><div><h2>1. They&rsquo;re Great Matchmakers</h2></div></div><div><div><div><p>In Japan, single ladies are encouraged to have a black cat because they can attract a potential suitor. That's right: black cats are considered the ultimate matchmakers. Which makes sense because there's actually some scientific evidence that owning a furry friend makes you more active socially and better at establishing healthy relationships. And, let's face it, who can resist someone with an adorable cat?&nbsp;</p></div></div></div><div><div><h2>2. Many Black Cats Have Golden Eyes</h2></div></div><div><div><div><p>The bodies of black cats produce a high amount of melanin, a chemical which accounts for their dark coat. Melanin can also affect the color of a cat's eyes, which is why it&rsquo;s common for black cats to have beautiful yellow or gold irises.&nbsp;</p></div></div></div><div><div><h2>3. They Might Make You Rich</h2></div></div><div><div><div><p>In many Asian countries, such as China and Japan, black cats are not only considered good luck, but also attractors of wealth. That's why you may see a black &ldquo;maneki-neko&rdquo; (meaning &ldquo;beckoning cat&rdquo;) figurine in Chinese or Japanese restaurants and grocery stores &mdash; black cats are believed to ward off evil spirits and bring good fortune.</p><p>Also, according to Scottish legend, it&rsquo;s considered quite lucky to encounter a strange black cat on your porch. That's because black cats bring prosperity, something that the Scottish seem to take to heart. Recently, a Scottish bingo hall recruited several black cats to improve the luck of its patrons.&nbsp;</p></div></div></div><div><div><h2>4. Black Cats Tend to Be Male</h2></div></div><div><div><div><p>Black cats can of course be either male or female. But similar to calico cats, which are almost always female, black cats are more genetically predisposed to be male than female.&nbsp;</p></div></div></div><div><div><h2>5. They Bring Good Luck</h2></div></div><div><div><div><p>In most of the United Kingdom, black cats are considered so lucky that some people give them to newlyweds as a gift of good fortune. Meanwhile, in Germany, it's considered lucky when a black cat crosses your path from right to left, but not left to right. And in other parts of Europe, sailors considered black cats exceedingly lucky to have on a ship &mdash; the families of sailors would even keep black cats in their homes for twice the luck. Plus, many theater actors believe black cats are lucky. Some even bring them backstage to encourage award-winning performances and bring good vibes to the venue.&nbsp;</p></div></div></div><div><div><h2>6. There Are Many Types of Black Cats</h2></div></div><div><div><div><p>The Cat Fancier&rsquo;s Association recognizes 22 breeds of cats that allow for solid black coats. But there aren&rsquo;t as many specific breeds of black cats &mdash; only the Bombay consists solely of cats with black coats.</p></div></div></div></div></div></div></div></div></div></div>",
+    "src": "https://www.meowmix.com/cat-care/black-cats-facts",
+    "author": "Meow Mix (MeowMix.com) ",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@ditakesphotos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Diana Parkhouse</a> on <a href=\"https://unsplash.com/photos/black-cat-with-yellow-bokeh-lights-y5-GavCrQYk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "14-12-2025",
     "likes": "",
@@ -171,11 +187,11 @@
   },
   {
     "id": 4011,
-    "title": "",
-    "content": "",
+    "title": "How big are tigers?",
+    "content": "<p><em>The world's largest wild cat is the Siberian or Amur tiger</em> (Panthera tigris altaica), native to eastern Russia, north-east China and North Korea.</p><p>Males, which are bigger than females, typically have a total length of 2.7&ndash;3.3 metres (8 feet 10 inches&ndash;10 feet 9 inches) from nose to tail tip, as measured between the pegs, a shoulder height of 0.99&ndash;1.07 metres (3 feet 3 inches&ndash;3 feet 6 inches), and a weight of 180&ndash;306 kilograms (397&ndash;675 pounds).</p><p><strong>Key Sizes by Subspecies (Male Adults)</strong></p><ul><li><strong>Amur/Siberian:</strong> Up to 660 lbs (300 kg) &amp; 10 ft (3m).</li><li><strong>Bengal:</strong> Around 480 lbs (220 kg) &amp; 9.5 ft (2.9m).</li><li><strong>Indo-Chinese:</strong> Up to 400 lbs (182 kg) &amp; 9 ft (2.8m).</li><li><strong>Sumatran:</strong> Up to 265 lbs (120 kg) &amp; 8 ft (2.4m).&nbsp;</li></ul><div><strong>General Characteristics</strong></div><ul><li><strong>Weight:</strong> Varies greatly, from smaller females to huge males.</li><li><strong>Length:</strong> Includes head, body, and tail, with males being longer.</li><li><strong>Body:</strong> Powerful, muscular build with large paws.&nbsp;</li></ul><div>In short, tigers are impressively large, but expect significant size differences between the biggest Siberian males and smaller female Sumatran tigers.</div>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@danrusson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Dan Russon</a> on <a href=\"https://unsplash.com/photos/a-family-of-tigers-resting-together-on-grassy-ground-Auqq5XTJDM8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "14-12-2025",
     "likes": "",
@@ -184,7 +200,11 @@
     "header": "",
     "isShow": false,
     "imgPath": "article_images_life/img4011.jpg",
-    "tags": []
+    "tags": [
+      "Facts",
+      "Tigers",
+      "Animals"
+    ]
   },
   {
     "id": 4012,
@@ -5335,7 +5355,11 @@
     "header": "",
     "isShow": false,
     "imgPath": "article_images_life/img4314.jpg",
-    "tags": []
+    "tags": [
+      "Facts",
+      "Animals",
+      "Dogs"
+    ]
   },
   {
     "id": 4315,
@@ -8650,7 +8674,12 @@
     "header": "",
     "isShow": false,
     "imgPath": "article_images_life/img4509.jpg",
-    "tags": []
+    "tags": [
+      "Facts",
+      "Lion",
+      "Dogs",
+      "Animals"
+    ]
   },
   {
     "id": 4510,
@@ -16912,7 +16941,11 @@
     "header": "",
     "isShow": false,
     "imgPath": "article_images_life/img4995.jpg",
-    "tags": []
+    "tags": [
+      "Facts",
+      "Animals",
+      "Elephant"
+    ]
   },
   {
     "id": 4996,
@@ -16980,7 +17013,11 @@
     "header": "",
     "isShow": false,
     "imgPath": "article_images_life/img4999.jpg",
-    "tags": []
+    "tags": [
+      "Facts",
+      "Animals",
+      "Snakes"
+    ]
   },
   {
     "id": 5000,

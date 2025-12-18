@@ -12,7 +12,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img601.jpg",
     "tags": [
       "Motivation",
@@ -34,7 +34,7 @@
     "likes": "",
     "read": "",
     "notes": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img602.jpg",
     "tags": [
       "Motivation",
@@ -60,7 +60,8 @@
     "imgPath": "article_images_life/img603.jpg",
     "tags": [
       "Facts",
-      "Animals"
+      "Animals",
+      "Alligators"
     ]
   },
   {
@@ -98,7 +99,7 @@
     "read": "",
     "notes": "",
     "header": "Study Shows Wearing a Tie Reduces Brain Blood Flow… But How Dangerous Is It?",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img605.jpg",
     "tags": [
       "Psychology",
@@ -119,7 +120,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img606.jpg",
     "tags": [
       "Motivation",
@@ -141,13 +142,12 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img607.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Animals",
+      "Dogs"
     ]
   },
   {
@@ -163,7 +163,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img608.jpg",
     "tags": [
       "Motivation",
@@ -185,7 +185,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img609.jpg",
     "tags": [
       "Motivation",
@@ -207,7 +207,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img610.jpg",
     "tags": [
       "Motivation",
@@ -229,7 +229,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img611.jpg",
     "tags": [
       "Motivation",
@@ -251,7 +251,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img612.jpg",
     "tags": [
       "Motivation",
@@ -273,7 +273,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img613.jpg",
     "tags": [
       "Motivation",
@@ -295,13 +295,13 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img614.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Animals",
+      "Dogs",
+      "Cats"
     ]
   },
   {
@@ -317,35 +317,33 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img615.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Animals",
+      "Dolphin"
     ]
   },
   {
     "id": 616,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": "What should you feed your cats, according to nutritionists?",
+    "content": "<p>Ample and Brookham both recommend diets full of fresh meat. Ample suggests focusing on fresh white meat (chicken, turkey, or rabbit), fresh organ meats (especially liver and heart), a small amount of leafy greens, and fish (especially small, oily fish, like sardines).&nbsp;</p><p>&ldquo;There are commercial frozen or gently cooked cat foods available in your local independent pet store,&rdquo; Brookham says. &ldquo;A freeze-dried product, which you would rehydrate, can also be a convenient way to nourish your cat with the right nutrients. You would want to make sure to add additional filtered warm water, though. Our kitties do not like to eat cold food!&rdquo;</p><p>If you can&rsquo;t purchase raw food, Brookham suggests canned food with human-grade ingredients. &ldquo;Remember, our cats are desert animals and do not have a thirst factor, which means they don&rsquo;t stop to drink,&rdquo; Brookham says. &ldquo;We need to serve it to them in a moisture-rich diet. This can stop so many diseases and help our cats live a long life.&rdquo;</p><p>Again, it&rsquo;s best to talk to your vet about what they think is best for your cat when it comes to supplements and the nutrients in their food.</p>",
+    "src": "https://www.kinship.com/cat-lifestyle/oldest-living-cat-diet-fact-check",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "khaled khazna (unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img616.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Cats",
+      "Animals"
     ]
   },
   {
@@ -361,7 +359,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img617.jpg",
     "tags": [
       "Motivation",
@@ -383,7 +381,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img618.jpg",
     "tags": [
       "Motivation",
@@ -405,7 +403,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img619.jpg",
     "tags": [
       "Motivation",
@@ -427,7 +425,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img620.jpg",
     "tags": [
       "Motivation",
@@ -449,7 +447,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img621.jpg",
     "tags": [
       "Motivation",
@@ -471,7 +469,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img622.jpg",
     "tags": [
       "Motivation",
@@ -513,7 +511,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img624.jpg",
     "tags": [
       "Motivation",
@@ -535,7 +533,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img625.jpg",
     "tags": [
       "Motivation",
@@ -557,7 +555,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img626.jpg",
     "tags": [
       "Motivation",
@@ -579,7 +577,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img627.jpg",
     "tags": [
       "Motivation",
@@ -601,7 +599,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img628.jpg",
     "tags": [
       "Motivation",
@@ -623,7 +621,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img629.jpg",
     "tags": [
       "Motivation",
@@ -645,7 +643,7 @@
     "read": "",
     "notes": "",
     "header": "Unlock the Ancient Legends That Still Shape Life Around Mount Bromo",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img630.jpg",
     "tags": [
       "Travel",
@@ -667,7 +665,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img631.jpg",
     "tags": [
       "Motivation",
@@ -689,7 +687,7 @@
     "likes": "",
     "read": "",
     "notes": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img632.jpg",
     "tags": [
       "Motivation",
@@ -711,7 +709,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img633.jpg",
     "tags": [
       "Motivation",
@@ -733,7 +731,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img634.jpg",
     "tags": [
       "Motivation",
@@ -755,7 +753,7 @@
     "likes": "",
     "read": "",
     "notes": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img635.jpg",
     "tags": [
       "Motivation",
@@ -777,7 +775,7 @@
     "read": "",
     "notes": "",
     "header": "Discover the Secret Lives of Butterflies and What Makes Them So Extraordinary",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img636.jpg",
     "tags": [
       "Facts",
@@ -820,7 +818,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img638.jpg",
     "tags": [
       "Motivation",
@@ -842,7 +840,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img639.jpg",
     "tags": [
       "Motivation",
@@ -864,7 +862,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img640.jpg",
     "tags": [
       "Motivation",
@@ -886,7 +884,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img641.jpg",
     "tags": [
       "Motivation",
@@ -908,7 +906,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img642.jpg",
     "tags": [
       "Motivation",
@@ -930,7 +928,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img643.jpg",
     "tags": [
       "Motivation",
@@ -952,7 +950,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img644.jpg",
     "tags": [
       "Motivation",
@@ -974,7 +972,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img645.jpg",
     "tags": [
       "Motivation",
@@ -996,7 +994,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img646.jpg",
     "tags": [
       "Motivation",
@@ -1018,7 +1016,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img647.jpg",
     "tags": [
       "Motivation",
@@ -1040,7 +1038,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img648.jpg",
     "tags": [
       "Motivation",
@@ -1062,7 +1060,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img649.jpg",
     "tags": [
       "Motivation",
@@ -1084,7 +1082,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img650.jpg",
     "tags": [
       "Motivation",
@@ -1106,7 +1104,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img651.jpg",
     "tags": [
       "Motivation",
@@ -1128,7 +1126,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img652.jpg",
     "tags": [
       "Motivation",
@@ -1150,7 +1148,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img653.jpg",
     "tags": [
       "Motivation",
@@ -1172,7 +1170,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img654.jpg",
     "tags": [
       "Motivation",
@@ -1194,7 +1192,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img655.jpg",
     "tags": [
       "Motivation",
@@ -1216,7 +1214,7 @@
     "read": "",
     "notes": "",
     "header": "Explore the Hidden Skills and Superpowers Your Cat Uses Every Day",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img656.jpg",
     "tags": [
       "Facts",
@@ -1237,7 +1235,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img657.jpg",
     "tags": [
       "Motivation",
@@ -1259,7 +1257,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img658.jpg",
     "tags": [
       "Motivation",
@@ -1281,7 +1279,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img659.jpg",
     "tags": [
       "Motivation",
@@ -1303,7 +1301,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img660.jpg",
     "tags": [
       "Motivation",
@@ -1325,7 +1323,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img661.jpg",
     "tags": [
       "Motivation",
@@ -1347,7 +1345,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img662.jpg",
     "tags": [
       "Motivation",
@@ -1369,7 +1367,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img663.jpg",
     "tags": [
       "Motivation",
@@ -1391,7 +1389,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img664.jpg",
     "tags": [
       "Motivation",
@@ -1413,7 +1411,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img665.jpg",
     "tags": [
       "Motivation",
@@ -1435,7 +1433,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img666.jpg",
     "tags": [
       "Motivation",
@@ -1457,7 +1455,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img667.jpg",
     "tags": [
       "Motivation",
@@ -1479,7 +1477,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img668.jpg",
     "tags": [
       "Motivation",
@@ -1501,7 +1499,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img669.jpg",
     "tags": [
       "Motivation",
@@ -1523,7 +1521,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img670.jpg",
     "tags": [
       "Motivation",
@@ -1545,7 +1543,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img671.jpg",
     "tags": [
       "Motivation",
@@ -1567,7 +1565,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img672.jpg",
     "tags": [
       "Motivation",
@@ -1589,7 +1587,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img673.jpg",
     "tags": [
       "Motivation",
@@ -1611,7 +1609,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img674.jpg",
     "tags": [
       "Motivation",
@@ -1633,7 +1631,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img675.jpg",
     "tags": [
       "Motivation",
@@ -1655,7 +1653,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img676.jpg",
     "tags": [
       "Motivation",
@@ -1677,7 +1675,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img677.jpg",
     "tags": [
       "Motivation",
@@ -1699,7 +1697,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img678.jpg",
     "tags": [
       "Motivation",
@@ -1721,7 +1719,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img679.jpg",
     "tags": [
       "Motivation",
@@ -1743,7 +1741,7 @@
     "read": "",
     "notes": "",
     "header": "See Why Chimps Are Our Closest Relatives and What Makes Them Truly Extraordinary",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img680.jpg",
     "tags": [
       "Facts",
@@ -1764,7 +1762,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img681.jpg",
     "tags": [
       "Motivation",
@@ -1786,7 +1784,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img682.jpg",
     "tags": [
       "Motivation",
@@ -1808,7 +1806,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img683.jpg",
     "tags": [
       "Motivation",
@@ -1830,7 +1828,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img684.jpg",
     "tags": [
       "Motivation",
@@ -1852,7 +1850,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img685.jpg",
     "tags": [
       "Motivation",
@@ -1874,7 +1872,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img686.jpg",
     "tags": [
       "Motivation",
@@ -1896,7 +1894,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img687.jpg",
     "tags": [
       "Motivation",
@@ -1918,7 +1916,7 @@
     "likes": "",
     "read": "",
     "notes": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img688.jpg",
     "tags": [
       "Motivation",
@@ -1940,7 +1938,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img689.jpg",
     "tags": [
       "Motivation",
@@ -1962,7 +1960,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img690.jpg",
     "tags": [
       "Motivation",
@@ -1984,7 +1982,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img691.jpg",
     "tags": [
       "Motivation",
@@ -1995,40 +1993,39 @@
   },
   {
     "id": 692,
-    "title": "",
-    "content": "",
+    "title": "Can tigers swim?",
+    "content": "<p><em><strong>Tigers are excellent swimmers</strong> and, unlike most other cat species, genuinely enjoy being in the water. They are well-adapted for aquatic environments and use their swimming abilities for various reasons, including cooling off, travelling, and hunting.&nbsp;</em></p><div><strong>Why Tigers Are Great Swimmers</strong></div><ul><li><strong>Physical Adaptations:</strong> Tigers have muscular bodies and large, slightly webbed paws that function like paddles to help them move powerfully and efficiently through the water.</li><li><strong>Stamina:</strong> These big cats can swim for miles without tiring. Some have been recorded swimming continuously for up to 18 miles (29 km) in a single stretch, or crossing rivers as wide as 4.3 miles (7 km).</li><li><strong>Behavior and Habitat:</strong> Tigers evolved in wet environments like the mangrove forests of the Sundarbans, where water is a regular part of their habitat. Their fur is less prone to getting waterlogged than that of other cats, which helps them stay comfortable in the water.</li><li><strong>Survival Skills:</strong> Swimming is a crucial survival skill. Tigers often enter the water to regulate their body temperature in hot climates, expand their territory, or chase prey like deer and wild boar into the water, where they have a distinct advantage.&nbsp;</li></ul><p><em>The world's largest wild cat is the Siberian or Amur tiger</em> (Panthera tigris altaica), native to eastern Russia, north-east China and North Korea.</p><p>Males, which are bigger than females, typically have a total length of 2.7&ndash;3.3 metres (8 feet 10 inches&ndash;10 feet 9 inches) from nose to tail tip, as measured between the pegs, a shoulder height of 0.99&ndash;1.07 metres (3 feet 3 inches&ndash;3 feet 6 inches), and a weight of 180&ndash;306 kilograms (397&ndash;675 pounds).</p><p>Amur tigers (sometimes called Siberian tigers) are the biggest tigers, with males weighing up to 660 pounds and measuring up to 10 feet long from nose to tip of the tail. Sumatran tigers are the smallest of the tiger subspecies, maxing out at about 310 pounds and 8 feet.</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@yashclicks19?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Yash Muchhal</a> on <a href=\"https://unsplash.com/photos/a-tiger-swimming-in-a-body-of-water-KeNr7LvwBMA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img692.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Tigers",
+      "Animals"
     ]
   },
   {
     "id": 693,
-    "title": "",
-    "content": "",
+    "title": "Are Bengal cats good pets?",
+    "content": "<div>The cat, also called domestic cat and house cat, is a small carnivorous mammal. It is an obligate carnivore, requiring a predominantly meat-based diet. Its retractable claws are adapted to killing small prey species such as mice and rats.</div><div>Domestic <em>cats</em> are characterized by retractable claws, powerful bodies, acute senses, long tails, and specialized teeth adapted for hunting prey.</div><div>&nbsp;</div><div><div><div><div><div><div><div><div><div><strong>Bengal cats make wonderful pets, but they are not suitable for everyone</strong>. Their highly intelligent and energetic nature means you will have to commit to spending time with them and providing both mental and physical stimulation to keep them happy.</div><div>&nbsp;</div><div>Bengal cats can be amazing pets for the <em>right</em> active, engaged owners due to their intelligence, exotic looks, and playful affection, but they need significant stimulation, space, and training to prevent boredom, destructiveness, and separation anxiety, making them high-maintenance companions for busy or sedentary households. They're great for those who want an interactive, dog-like companion that enjoys climbing, learning tricks, and even playing in water, but they aren't for people seeking a quiet lap cat.</div><div>&nbsp;</div><div><div><strong>Pros (Why they're great pets):</strong></div><ul><li><strong>Intelligent &amp; Trainable:</strong> They learn tricks, walk on leashes, and can even use talking buttons.</li><li><strong>Affectionate &amp; Social:</strong> They bond closely with owners, love attention, and often follow you around.</li><li><strong>Energetic &amp; Playful:</strong> Perfect for active owners who enjoy activities like hiking or want a cat to join in games.</li><li><strong>Exotic Look:</strong> Their wild appearance is captivating.</li><li><strong>Low Grooming:</strong> Their short coat sheds minimally and is considered hypoallergenic (though no cat is 100% allergy-free).</li><li><strong>Water Lovers:</strong> Many enjoy playing in water.&nbsp;</li></ul><div><strong>Cons (What to be aware of):</strong></div><ul><li><strong>High Energy Needs:</strong> Require lots of daily playtime and mental challenges to avoid boredom.</li><li><strong>Potential for Destruction:</strong> Bored Bengals can become destructive, scratching furniture or knocking things over.</li><li><strong>Can Get Separation Anxiety:</strong> Need consistent companionship, ideally another energetic pet.</li><li><strong>Vocal:</strong> They can be very talkative, trilling and chirping.</li><li><strong>High Prey Drive:</strong> Their wild ancestry means they might not be great with small, timid pets like hamsters.&nbsp;</li></ul><div><strong>Verdict:</strong></div><div>Bengals are fantastic for adventurous, engaged owners who can provide an enriched environment with plenty of toys, climbing structures, and interactive play. If you want a low-key, hands-off pet, a Bengal is not the best fit; they thrive with an active lifestyle and dedicated playtime.</div></div></div></div></div></div></div></div></div></div>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@caleb_woods?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Caleb Woods</a> on <a href=\"https://unsplash.com/photos/short-fur-orange-and-black-cat-9KpQrPEy8P8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img693.jpg",
     "tags": [
       "Motivation",
@@ -2039,18 +2036,18 @@
   },
   {
     "id": 694,
-    "title": "",
-    "content": "",
+    "title": "Why are only 20% of orange cats female?",
+    "content": "<p>The ratio is actually about 80 percent male to <strong>20 percent</strong> female; making females a rarer find. 3. Orange tabbies tend to talk a lot: National Geographic reports that personality is tied to a cat's coat color.</p><p>This rarity is <strong>due to the orange coat color gene being sex-linked to the X chromosome</strong>; since female cats have two X chromosomes, they need to inherit two copies of the orange gene (one from each parent) to be orange, while male cats only need one copy.</p><p>The genetics behind it:</p><ul><li><strong>Chromosomes:</strong> A female cat has two X chromosomes (XX), while a male has one X and one Y (XY).</li><li><strong>Orange Gene Location:</strong> The gene that codes for orange fur sits on the X chromosome.</li><li><strong>Males (XY):</strong> If a male cat inherits the orange gene on his single X chromosome, he will be orange. This makes it easy for males to be orange.</li><li><strong>Females (XX):</strong> A female needs to inherit the orange gene on <em>both</em> her X chromosomes (one from each parent) to be fully orange. If she gets one orange and one non-orange X, she'll be a calico or tortoiseshell (with patches of orange and other colors).</li></ul>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@answer603?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Sam Chang</a> on <a href=\"https://unsplash.com/photos/orange-tabby-cat-in-blue-background-5-ckjYvTZQw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img694.jpg",
     "tags": [
       "Motivation",
@@ -2072,13 +2069,13 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img695.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Animals",
+      "Snakes",
+      "Mongoose"
     ]
   },
   {
@@ -2094,7 +2091,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img696.jpg",
     "tags": [
       "Motivation",
@@ -2116,7 +2113,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img697.jpg",
     "tags": [
       "Motivation",
@@ -2138,7 +2135,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img698.jpg",
     "tags": [
       "Motivation",
@@ -2160,7 +2157,7 @@
     "read": "",
     "notes": "",
     "header": "Unlock the Strange Behaviors and Hidden Biology of These Sky-High Giants",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img699.jpg",
     "tags": [
       "Facts",
@@ -2181,7 +2178,7 @@
     "read": "",
     "notes": "",
     "header": "Find Out Why Quality Sleep Can Change Your Entire Body",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img700.jpg",
     "tags": [
       "Motivation",

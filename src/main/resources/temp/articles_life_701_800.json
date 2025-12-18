@@ -12,7 +12,7 @@
     "likes": "",
     "read": "",
     "notes": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img701.jpg",
     "tags": [
       "Motivation",
@@ -34,7 +34,7 @@
     "likes": "",
     "read": "",
     "notes": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img702.jpg",
     "tags": [
       "Motivation",
@@ -56,7 +56,7 @@
     "read": "",
     "notes": "",
     "header": "Your heart beats 100,000 times a day—wait till you learn what it can still do after it’s removed from your body.",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img703.jpg",
     "tags": [
       "Facts",
@@ -78,7 +78,7 @@
     "read": "",
     "notes": "",
     "header": "From world’s tallest to symbol of love—the Eiffel Tower’s real story will surprise you.",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img704.jpg",
     "tags": [
       "Facts",
@@ -101,7 +101,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img705.jpg",
     "tags": [
       "Motivation",
@@ -123,7 +123,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img706.jpg",
     "tags": [
       "Motivation",
@@ -134,68 +134,65 @@
   },
   {
     "id": 707,
-    "title": "",
-    "content": "",
+    "title": "What is special about black cats?",
+    "content": "<p>Black cats are <strong>often a symbol of Halloween or witchcraft</strong>. In the present day many Westerners, including Christian clergy, have black cats as pets, and very few people attach superstitions to them anymore. Sailors considering a \"ship's cat\" would want a black one because it would bring good luck.</p><p>Black cats are domestic felines with solid black fur, resulting from high melanin, often with gold/amber eyes, appearing in many breeds but famously exemplified by the pure black <strong>Bombay</strong>; they're steeped in lore, seen as lucky in some cultures, unlucky in others (witch familiars), but are generally affectionate pets, celebrated on days like Black Cat Appreciation Day (Aug 17) and National Black Cat Day (Oct 27) to counter superstitions</p><p><strong>Only one cat breed is always black.&nbsp;</strong>The origins of the Bombay can be traced back to the 1950s. It was created through a carefully planned breeding program by Nikki Horner, a Kentucky-based cat breeder.</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@nrly?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Nathan Riley</a> on <a href=\"https://unsplash.com/photos/black-cat-in-front-of-yellow-wall-_ir1D49PRqM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img707.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Cats",
+      "Animals"
     ]
   },
   {
     "id": 708,
-    "title": "",
-    "content": "",
+    "title": "Why are Bengal cats illegal?",
+    "content": "<div><div><div><div><div><div><div><div><div><div><div><p>The Bengal is a sleek, muscular cat with a wild appearance, enhanced by the bold marbling and spotting on their thick, luxurious coat. Despite their striking appearance, physically there is nothing extreme about their build or structure, as this is a well-balanced cat without any exaggerated features, smallish ears, wedge shaped head, neat paws and athletic outline.&nbsp;</p><div><div><strong>Lifespan:</strong> 10 - 16 years</div><div><div><div><strong>Weight:</strong> 3.6 - 7.7kg</div></div><div><div><div><strong>Colours:</strong> Bengal cats come in come with a spotted marble coat in brown, silver and snow.</div><div>&nbsp;</div></div></div></div></div></div></div>Bengal cats aren't universally illegal but are restricted or banned in places like <strong>Australia, Hawaii, and some U.S. cities (NYC, Seattle)</strong>due to concerns they retain strong hunting instincts from their wild Asian Leopard Cat ancestors, posing a threat to native wildlife if they escape and breed with feral populations, though many breeders argue later generations (F4/F5+) are safe domestic pets.<div><strong>Reasons for Restrictions</strong></div><ul><li><strong>Wild Instincts:</strong> Their Asian Leopard Cat (ALC) heritage means early generations (F1-F3) can have powerful predatory drives, making them unsuitable for some homes and dangerous outdoors.</li><li><strong>Threat to Wildlife:</strong> Authorities worry they could hunt native birds and small animals, impacting ecosystems, as seen in New Zealand's concerns about kiwi and weka.</li><li><strong>Interbreeding:</strong> A significant concern is that Bengals could interbreed with feral cats, potentially creating a new, more adaptable, and dangerous feral population.&nbsp;</li></ul><div><strong>Where They're Restricted/Banned (Examples)</strong></div><ul><li><strong>Australia:</strong> Bans or heavily restricts imports due to high-risk concerns.</li><li><strong>Hawaii:</strong> Completely illegal due to threats to native species and potential parasites.</li><li><strong>U.S. States:</strong> Rules vary; some, like NY, require Bengals to be at least 5 generations (F5) removed from the ALC to be considered domestic. States like Georgia, Connecticut, and Indiana have specific bans on early generations.</li><li><strong>Cities:</strong> New York City and Seattle, WA, prohibit them, while other areas have local rules.&nbsp;</li></ul></div></div></div></div></div></div></div></div></div>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@ingvar_erik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Igor Karimov</a> on <a href=\"https://unsplash.com/photos/brown-tabby-cat-on-white-textile-cjJYr-m2H9U?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img708.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Cats",
+      "Animals"
     ]
   },
   {
     "id": 709,
-    "title": "",
-    "content": "",
+    "title": "What do tigers eat at the Zoo?",
+    "content": "<p>Food plays a big role in how animal keepers take such good care of tigers at the Zoo.&nbsp;Tigers, like all cats, are obligate carnivores &mdash;&nbsp;meaning they can only efficiently digest meat. So, for these animals, it&rsquo;s all meat all the time! Keepers feed the tigers a commercial carnivore diet that looks a lot like ground beef but is designed to meet their nutritional needs. It&rsquo;s enriched with vitamins essential to a long and healthy life.</p><p>The tigers also eat beef chunks, bones and frozen-thawed rabbits.</p><p>Animal keepers also maintain a watchful eye on every tiger&rsquo;s weight. They weigh each animal once a week to ensure that they notice any variations and can adjust diets or catch any potential problems early.</p><p><em>The world's largest wild cat is the Siberian or Amur tiger</em> (Panthera tigris altaica), native to eastern Russia, north-east China and North Korea.</p><p>Males, which are bigger than females, typically have a total length of 2.7&ndash;3.3 metres (8 feet 10 inches&ndash;10 feet 9 inches) from nose to tail tip, as measured between the pegs, a shoulder height of 0.99&ndash;1.07 metres (3 feet 3 inches&ndash;3 feet 6 inches), and a weight of 180&ndash;306 kilograms (397&ndash;675 pounds).</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@alicja_photos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Alicja Ziajowska</a> on <a href=\"https://unsplash.com/photos/a-tiger-laying-on-the-ground-with-a-dead-animal-YB1zHaLjqZo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img709.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Tigers",
+      "Animals"
     ]
   },
   {
@@ -211,7 +208,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img710.jpg",
     "tags": [
       "Motivation",
@@ -233,7 +230,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img711.jpg",
     "tags": [
       "Motivation",
@@ -255,7 +252,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img712.jpg",
     "tags": [
       "Motivation",
@@ -277,7 +274,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img713.jpg",
     "tags": [
       "Motivation",
@@ -299,7 +296,7 @@
     "read": "",
     "notes": "",
     "header": "Japan’s sacred peak is privately owned—and once banned women from climbing. Here’s why.",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img714.jpg",
     "tags": [
       "Facts",
@@ -321,7 +318,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img715.jpg",
     "tags": [
       "Motivation",
@@ -343,7 +340,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img716.jpg",
     "tags": [
       "Motivation",
@@ -365,7 +362,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img717.jpg",
     "tags": [
       "Motivation",
@@ -387,7 +384,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img718.jpg",
     "tags": [
       "Motivation",
@@ -409,13 +406,13 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img719.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Animals",
+      "Snakes",
+      "Country"
     ]
   },
   {
@@ -431,7 +428,7 @@
     "read": "",
     "notes": "",
     "header": "Antarctica has no owner—so who really controls the coldest place on Earth?",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img720.jpg",
     "tags": [
       "Facts",
@@ -453,7 +450,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img721.jpg",
     "tags": [
       "Motivation",
@@ -474,7 +471,7 @@
     "likes": "",
     "read": "",
     "header": "Rhinos can outrun lions and elephants—so why are they still losing the fight for survival?",
-    "isShow": false,
+    "isShow": true,
     "notes": "",
     "imgPath": "article_images_life/img722.jpg",
     "tags": [
@@ -496,7 +493,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img723.jpg",
     "tags": [
       "Motivation",
@@ -518,7 +515,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img724.jpg",
     "tags": [
       "Motivation",
@@ -540,7 +537,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img725.jpg",
     "tags": [
       "Motivation",
@@ -562,7 +559,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img726.jpg",
     "tags": [
       "Motivation",
@@ -584,7 +581,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img727.jpg",
     "tags": [
       "Motivation",
@@ -606,7 +603,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img728.jpg",
     "tags": [
       "Motivation",
@@ -628,7 +625,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img729.jpg",
     "tags": [
       "Motivation",
@@ -650,7 +647,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img730.jpg",
     "tags": [
       "Motivation",
@@ -672,7 +669,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img731.jpg",
     "tags": [
       "Motivation",
@@ -694,7 +691,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img732.jpg",
     "tags": [
       "Motivation",
@@ -716,7 +713,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img733.jpg",
     "tags": [
       "Motivation",
@@ -738,13 +735,12 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img734.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Animals",
+      "Dogs"
     ]
   },
   {
@@ -760,7 +756,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img735.jpg",
     "tags": [
       "Motivation",
@@ -782,7 +778,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img736.jpg",
     "tags": [
       "Motivation",
@@ -804,7 +800,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img737.jpg",
     "tags": [
       "Motivation",
@@ -826,7 +822,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img738.jpg",
     "tags": [
       "Motivation",
@@ -837,18 +833,18 @@
   },
   {
     "id": 739,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": "Benefits of Owning Multiple Pets",
+    "content": "<p><strong>Benefits of Having More Than One Dog or Cat:</strong></p><ul><li>Pets Keep Each Other From Becoming Bored or Lonely.</li><li>Pets Help Each Other Get More Exercise.</li><li>Pets Provide Mental Health Benefits for Their Owners.</li><li>Pets Provide Physical Health Benefits for Their Owners.</li><li>Providing a Lifelong Emotional Bond.</li></ul>",
+    "src": "https://www.purina.com/articles/dog/getting-a-dog/benefits-of-multiple-pets",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Reba Spike (unsplash)",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img739.jpg",
     "tags": [
       "Motivation",
@@ -859,24 +855,23 @@
   },
   {
     "id": 740,
-    "title": "",
-    "content": "",
-    "src": "",
-    "author": "",
-    "imgSrc": "(unsplash)",
+    "title": "Interesting Facts About Tortoiseshell Cats for Feline Lovers",
+    "content": "<p>Tortoiseshell cats get their name from their bi-colored coats that resemble a tortoise shell. \"Tortoiseshell\" describes a distinct coat pattern, not a particular breed. Often called \"torties,\" these colorful cats, primarily female, are beloved pets in many households.</p><ul><li>Tortoiseshell Cats Are Almost Always Female.&nbsp;There <em>are</em> some male tortie cats, but they&rsquo;re extremely rare. They&rsquo;re also usually sterile, so there&rsquo;s little chance of them passing on their special mutation to future generations.</li><li>Tortoiseshell cats are in almost every breed, including purebreds and mixes. They&rsquo;re also found in both short- and long-haired cats.</li><li>There are two distinct types of tortoiseshells: mosaic and chimera. Mosaics have their colors mixed randomly in large swirls and swaths across their body. On the other hand, Chimeras have clearly demarcated appearances, with one color on each side.</li><li>They Have Different Types of Fur :&nbsp;Beyond the two color types, you&rsquo;ll also find two types of fur: bridled and patched. Bridled tortoiseshells have their colors mixed tightly together, whereas patched tortoiseshells have large sections of each color all over their bodies.</li><li>They&rsquo;re Named After Tortoiseshell Material:&nbsp;Tortoiseshell used to be made of tortoise shells, and it was used in everything from jewelry to home d&eacute;cor.</li><li>Tortoiseshell Cats Are Notoriously Feisty:&nbsp;Many people believe that tortoiseshells have more attitude (called &ldquo;tortitude&rdquo;) than other cats, and you&rsquo;ll find all sorts of anecdotal reports that tortoiseshells have extremely short fuses.&nbsp;</li><li>They&rsquo;re Considered to Be Good Luck in Many Cultures:&nbsp;Many cultures worldwide have a soft spot for these cats, and they&rsquo;re almost universally considered good luck. In Scotland and Ireland, having a tortoiseshell enter your home is thought to be a sign that good fortune will soon come your way, and in the U.S., they&rsquo;re actually considered &ldquo;money cats&rdquo;.</li></ul><p><strong>Final Thoughts:</strong></p><p>Tortoiseshell cats and tortie kittens are absolutely beautiful, all the more so because they can be found in just about any breed. That gives them a variety of quirks and features that help set them apart from other cats.</p><p>Of course, at the end of the day, a tortoiseshell cat is just a regular cat with the same needs as any other. While they&rsquo;re beautiful, they&rsquo;re no more special than their regularly colored compatriots.</p>",
+    "src": "https://www.catster.com/lifestyle/tortoiseshell-cat-facts/",
+    "author": "Christian Adams",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@grant_durr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Grant Durr</a> on <a href=\"https://unsplash.com/photos/brown-and-white-cat-on-pink-textile-qDL64NjXrRM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img740.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Cats",
+      "Animals"
     ]
   },
   {
@@ -892,7 +887,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img741.jpg",
     "tags": [
       "Motivation",
@@ -914,7 +909,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img742.jpg",
     "tags": [
       "Motivation",
@@ -936,7 +931,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img743.jpg",
     "tags": [
       "Motivation",
@@ -958,7 +953,7 @@
     "read": "",
     "notes": "",
     "header": "Left-handers aren’t just different—they may be wired differently from birth.",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img744.jpg",
     "tags": [
       "Psychology",
@@ -979,7 +974,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img745.jpg",
     "tags": [
       "Motivation",
@@ -1001,7 +996,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img746.jpg",
     "tags": [
       "Motivation",
@@ -1023,7 +1018,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img747.jpg",
     "tags": [
       "Motivation",
@@ -1045,7 +1040,7 @@
     "likes": "",
     "read": "",
     "notes": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img748.jpg",
     "tags": [
       "Motivation",
@@ -1067,7 +1062,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img749.jpg",
     "tags": [
       "Motivation",
@@ -1088,7 +1083,7 @@
     "likes": "",
     "read": "",
     "header": "Tigers Can Do WHAT?! The Most Surprising Big-Cat Secrets Exposed",
-    "isShow": false,
+    "isShow": true,
     "notes": "",
     "imgPath": "article_images_life/img750.jpg",
     "tags": [
@@ -1110,7 +1105,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img751.jpg",
     "tags": [
       "Motivation",
@@ -1132,7 +1127,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img752.jpg",
     "tags": [
       "Motivation",
@@ -1154,7 +1149,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img753.jpg",
     "tags": [
       "Motivation",
@@ -1176,13 +1171,12 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img754.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Animals",
+      "Snakes"
     ]
   },
   {
@@ -1198,7 +1192,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img755.jpg",
     "tags": [
       "Motivation",
@@ -1220,7 +1214,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img756.jpg",
     "tags": [
       "Motivation",
@@ -1242,7 +1236,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img757.jpg",
     "tags": [
       "Motivation",
@@ -1264,7 +1258,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img758.jpg",
     "tags": [
       "Motivation",
@@ -1286,7 +1280,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img759.jpg",
     "tags": [
       "Motivation",
@@ -1308,7 +1302,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img760.jpg",
     "tags": [
       "Motivation",
@@ -1330,7 +1324,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img761.jpg",
     "tags": [
       "Motivation",
@@ -1352,7 +1346,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img762.jpg",
     "tags": [
       "Motivation",
@@ -1374,7 +1368,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img763.jpg",
     "tags": [
       "Motivation",
@@ -1396,7 +1390,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img764.jpg",
     "tags": [
       "Motivation",
@@ -1418,7 +1412,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img765.jpg",
     "tags": [
       "Motivation",
@@ -1440,7 +1434,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img766.jpg",
     "tags": [
       "Motivation",
@@ -1462,7 +1456,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img767.jpg",
     "tags": [
       "Motivation",
@@ -1484,7 +1478,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img768.jpg",
     "tags": [
       "Motivation",
@@ -1506,7 +1500,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img769.jpg",
     "tags": [
       "Motivation",
@@ -1528,7 +1522,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img770.jpg",
     "tags": [
       "Motivation",
@@ -1550,7 +1544,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img771.jpg",
     "tags": [
       "Motivation",
@@ -1572,7 +1566,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img772.jpg",
     "tags": [
       "Motivation",
@@ -1594,7 +1588,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img773.jpg",
     "tags": [
       "Motivation",
@@ -1616,7 +1610,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img774.jpg",
     "tags": [
       "Motivation",
@@ -1638,7 +1632,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img775.jpg",
     "tags": [
       "Motivation",
@@ -1660,7 +1654,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img776.jpg",
     "tags": [
       "Motivation",
@@ -1682,7 +1676,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img777.jpg",
     "tags": [
       "Motivation",
@@ -1704,7 +1698,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img778.jpg",
     "tags": [
       "Motivation",
@@ -1726,7 +1720,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img779.jpg",
     "tags": [
       "Motivation",
@@ -1747,7 +1741,7 @@
     "likes": "",
     "read": "",
     "header": "Why Lions Are Called Kings — The Truth Behind Their Power and Hidden Weaknesses",
-    "isShow": false,
+    "isShow": true,
     "notes": "",
     "imgPath": "article_images_life/img780.jpg",
     "tags": [
@@ -1769,7 +1763,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img781.jpg",
     "tags": [
       "Motivation",
@@ -1791,7 +1785,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img782.jpg",
     "tags": [
       "Motivation",
@@ -1813,7 +1807,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img783.jpg",
     "tags": [
       "Motivation",
@@ -1835,7 +1829,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img784.jpg",
     "tags": [
       "Motivation",
@@ -1857,7 +1851,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img785.jpg",
     "tags": [
       "Motivation",
@@ -1879,7 +1873,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img786.jpg",
     "tags": [
       "Motivation",
@@ -1901,7 +1895,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img787.jpg",
     "tags": [
       "Motivation",
@@ -1923,7 +1917,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img788.jpg",
     "tags": [
       "Motivation",
@@ -1945,7 +1939,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img789.jpg",
     "tags": [
       "Motivation",
@@ -1967,7 +1961,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img790.jpg",
     "tags": [
       "Motivation",
@@ -1989,7 +1983,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img791.jpg",
     "tags": [
       "Motivation",
@@ -2011,7 +2005,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img792.jpg",
     "tags": [
       "Motivation",
@@ -2033,7 +2027,7 @@
     "read": "",
     "notes": "",
     "header": "The Volcano Worshipped for Centuries: Discover Mount Bromo’s Wild Legends and Hidden Phenomena",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img793.jpg",
     "tags": [
       "Travel",
@@ -2055,7 +2049,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img794.jpg",
     "tags": [
       "Motivation",
@@ -2077,7 +2071,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img795.jpg",
     "tags": [
       "Motivation",
@@ -2099,7 +2093,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img796.jpg",
     "tags": [
       "Habits",
@@ -2119,7 +2113,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img797.jpg",
     "tags": [
       "Motivation",
@@ -2142,7 +2136,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img798.jpg",
     "tags": [
       "Psychology",
@@ -2163,7 +2157,7 @@
     "read": "",
     "notes": "",
     "header": "",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img799.jpg",
     "tags": [
       "Psychology",
@@ -2184,7 +2178,7 @@
     "read": "",
     "notes": "",
     "header": "The Great Pyramid’s 6-Million-Ton Secret: Why This Ancient Wonder Still Defies Modern Science",
-    "isShow": false,
+    "isShow": true,
     "imgPath": "article_images_life/img800.jpg",
     "tags": [
       "Facts",
