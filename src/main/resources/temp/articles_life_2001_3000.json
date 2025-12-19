@@ -14,7 +14,10 @@
     "header": "",
     "isShow": false,
     "imgPath": "article_images_life/img2001.jpg",
-    "tags": []
+    "tags": [
+      "Facts",
+      "Dogs"
+    ]
   },
   {
     "id": 2002,
@@ -73,7 +76,12 @@
     "header": "",
     "isShow": false,
     "imgPath": "article_images_life/img2004.jpg",
-    "tags": []
+    "tags": [
+      "Facts",
+      "Animals",
+      "Gorilla",
+      "Chimpanzee"
+    ]
   },
   {
     "id": 2005,
@@ -238,11 +246,11 @@
   },
   {
     "id": 2014,
-    "title": "",
-    "content": "",
+    "title": "“What does it mean when a butterfly visits you?",
+    "content": "<p><strong>They can symbolize change, joy, hope, new beginnings, and freedom</strong>. Some believe that when a butterfly lands on you, a spirit is coming to visit you</p><p>Butterflies sometimes land on people <strong>to obtain salts and amino acids from sweat</strong>--especially on hot days or after physical activity. Landing can be random: a slow-moving person wearing bright colors or floral scents may attract them. It's not aggressive; butterflies don't bite or sting. Landing is brief and harmless.</p><p><strong>Scientific Reasons:</strong></p><ul><li><strong>Puddling for Minerals:</strong> Butterflies need salts, amino acids, and nitrogen, which aren't abundant in flower nectar. They get these by \"puddling\" on damp soil, animal dung, or even sweat on human skin, which contains electrolytes and salts.</li><li><strong>Mistaken Identity:</strong> If you're wearing bright colors or floral perfumes, they might think you're a flower and land to investigate or rest.</li><li><strong>Resting Spot:</strong> You might just offer a convenient, still, and warm surface to rest on, especially if you're standing still.&nbsp;</li></ul>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@puregeorgia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Alfred Schrock</a> on <a href=\"https://unsplash.com/photos/brown-and-black-butterfly-in-close-up-photography-hGjXijvVxrQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>\n      ",
     "type": "Quotes",
     "date": "14-12-2025",
     "likes": "",
@@ -251,15 +259,22 @@
     "header": "",
     "isShow": false,
     "imgPath": "article_images_life/img2014.jpg",
-    "tags": []
+    "tags": [
+      "Facts",
+      "Butterfly",
+      "Insects",
+      "Nature",
+      "Animals",
+      "Wildlife"
+    ]
   },
   {
     "id": 2015,
-    "title": "",
-    "content": "",
+    "title": "How do butterflies communicate with each other?",
+    "content": "<p>Butterfliesdon&rsquo;t need to do much communicating. They sometimes move their wings to send a message. And because they can see ultraviolet light, they look for the ultraviolet light patterns on each others wings that&nbsp;identify their species and gender.</p><p><strong>Chemical (Pheromones)</strong></p><ul><li><strong>Mate Attraction:</strong> Males release pheromones (scent chemicals) to attract females, with some scents detectable from miles away.</li><li><strong>Species Recognition:</strong> These scents are species-specific, ensuring butterflies find the correct partner.&nbsp;</li></ul><div><strong>Visual Signals (Color &amp; UV)</strong></div><ul><li><strong>UV Patterns:</strong> Butterflies see ultraviolet (UV) light, revealing patterns on wings that act as \"hidden messages\" for identification, species recognition, and mating.</li><li><strong>Warning Colors:</strong> Bright colors and eye-spots on wings warn predators of toxicity.</li><li><strong>Movement:</strong> Specific flight patterns and wing movements signal territorial claims or courtship displays.&nbsp;</li></ul><div><strong>Auditory Signals (Sound)</strong></div><ul><li><strong>Wing Clicks:</strong> Some species, like the Cracker butterfly, snap their wings to make loud clicks for territorial defense or to scare rivals.</li><li><strong>Ultrasonic Pulses:</strong> Males might produce subtle ultrasonic sounds to advertise their presence, notes Natural History Museum.</li></ul>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@audrivangores?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Audri Van Gores</a> on <a href=\"https://unsplash.com/photos/two-butterflies-sitting-on-top-of-an-orange-flower-9BQllqTGzoc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>\n      ",
     "type": "Quotes",
     "date": "14-12-2025",
     "likes": "",
@@ -268,15 +283,22 @@
     "header": "",
     "isShow": false,
     "imgPath": "article_images_life/img2015.jpg",
-    "tags": []
+    "tags": [
+      "Facts",
+      "Butterfly",
+      "Insects",
+      "Nature",
+      "Animals",
+      "Wildlife"
+    ]
   },
   {
     "id": 2016,
-    "title": "",
-    "content": "",
+    "title": "Butterfly lifecycle",
+    "content": "<p>Butterflies and moths go through several different life stages in their lives.&nbsp;They start life as a small egg attached to a plant - often on the leaf - by glue that was produced from the adult butterfly as it laid an egg. When it is ready, the egg hatches out into a caterpillar, or larvae, which then proceeds to eat as much as possible. It often grows several times its original size and sheds its skin to do just that.</p><p>When it is fully gown, the caterpillar will fix itself to somewhere, again often the underside of a leaf or branch, and shed its final skin to reveal a pupae or chrysalis. Moth caterpillars actually spin a cocoon using a leaf, in which the pupae then develops.</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@__drz__?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">__ drz __</a> on <a href=\"https://unsplash.com/photos/blue-butterfly-sticker-lot-CK7rdTauhDE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>\n      ",
     "type": "Quotes",
     "date": "14-12-2025",
     "likes": "",
@@ -285,15 +307,22 @@
     "header": "",
     "isShow": false,
     "imgPath": "article_images_life/img2016.jpg",
-    "tags": []
+    "tags": [
+      "Facts",
+      "Butterfly",
+      "Insects",
+      "Nature",
+      "Animals",
+      "Wildlife"
+    ]
   },
   {
     "id": 2017,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": "What is a polar bear's worst enemy?",
+    "content": "<p>The polar bear is a large bear native to the Arctic and nearby areas. It is closely related to the brown bear, and the two species can interbreed. The polar bear is the largest extant species of bear and land carnivore by body mass, with adult males weighing 300&ndash;800 kg.</p><p>The only known predators of these bears are <em>humans and other polar bears</em>, and human-made threats have led to their populations being threatened. Commercial and&nbsp;...</p><p>Its biggest threats are <strong>climate change, pollution and energy development</strong>. Climate change has caused a decline in sea ice, giving the polar bear less access to its favoured prey and increasing the risk of malnutrition and starvation.</p><p>Polar bears are built for the cold. Beneath their thick white fur lies a 5&ndash;10 cm layer of insulating fat, and their black skin efficiently absorbs heat from the sun. Even the bottoms of their paws are covered in fur for extra protection against icy terrain.</p><p>Polar bears lose so little heat to their environment that they are almost invisible to thermal imaging cameras.</p><p>But a recent study at the University of Buffalo found that polar bears have also evolved genes that produce more nitric oxide than other bear species.</p><p>Nitric oxide is a signalling molecule and one of the mechanisms it controls is whether cells use their available nutrients to produce metabolic energy, or simply convert it into body heat. Polar bears seem to be able to divert more of their body&rsquo;s resources into generating heat.</p><p>This relies on them getting enough fuel for this process and adult polar bears have a high calorie diet; they mostly eat seal blubber.</p>",
+    "src": "https://oceana.org/marine-life/polar-bear/",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "<a href=\"https://www.freepik.com/free-ai-image/photorealistic-view-wild-bear-its-natural-environment_186036658.htm#fromView=search&page=1&position=18&uuid=c89e228a-16e5-48d2-88b8-d38117b9ae50&query=polar+bear\">Image by freepik</a>",
     "type": "Quotes",
     "date": "14-12-2025",
     "likes": "",
@@ -302,15 +331,21 @@
     "header": "",
     "isShow": false,
     "imgPath": "article_images_life/img2017.jpg",
-    "tags": []
+    "tags": [
+      "Facts",
+      "Polar Bears",
+      "Arctic",
+      "Wildlife",
+      "Animals"
+    ]
   },
   {
     "id": 2018,
-    "title": "",
-    "content": "",
+    "title": "How Far Can Polar Bears Swim?",
+    "content": "<p>The polar bear is a large bear native to the Arctic and nearby areas. It is closely related to the brown bear, and the two species can interbreed. The polar bear is the largest extant species of bear and land carnivore by body mass, with adult males weighing 300&ndash;800 kg.</p><p>Polar bears are strong swimmers. The longest recorded swim was a staggering 686 kilometers over nine days&mdash;roughly the distance between Munich and Paris. During that journey, the bear lost 22% of her body weight. With ice melting faster than ever, long-distance swims like this may become more common.</p><p><strong>How Far &amp; How Long?</strong></p><ul><li><strong>Regular Swims:</strong> It's common for polar bears to swim 50 km (30 miles) or more between ice floes or land.</li><li><strong>Record Swims:</strong> A female bear was tracked swimming a record 687 km (426 miles) in nine days without rest, while others averaged 155 km (96 miles) in long-distance studies.</li><li><strong>Duration:</strong> They can swim for days continuously, using a steady doggy-paddle style.</li></ul>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "<a href=\"https://www.freepik.com/free-ai-image/one-endangered-arctic-mammal-looking-camera-generated-by-ai_41036460.htm#fromView=search&page=1&position=33&uuid=c89e228a-16e5-48d2-88b8-d38117b9ae50&query=polar+bear\">Image by vecstock on Freepik</a>",
     "type": "Quotes",
     "date": "14-12-2025",
     "likes": "",
@@ -323,11 +358,11 @@
   },
   {
     "id": 2019,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": "What is unique about polar bear hair?",
+    "content": "<p>The polar bear is a large bear native to the Arctic and nearby areas. It is closely related to the brown bear, and the two species can interbreed. The polar bear is the largest extant species of bear and land carnivore by body mass, with adult males weighing 300&ndash;800 kg.</p><p>Polar bear fur is actually colorless but appears white because of the way it interacts with light. Each hair shaft is hollow and transparent, allowing it to scatter and reflect sunlight, much like ice.</p><p><strong>The polar bear's fur is not actually white; it is translucent</strong>. Each hair is hollow and reflects visible light, giving the bear its white appearance, which helps it blend into its snowy environment. This adaptation provides camouflage while hunting and protection from predators.</p><ul><li>Polar bears are completely furred except for the nose and footpads.</li><li>A polar bear's coat is about 2.5 to 5 cm (1-2 in.) thick. A dense, woolly, insulating layer of underhair is covered by a relatively thin layer of stiff, shiny, hollow guard hairs. Guard hairs may be as long as 15 cm (6 in.).</li><li>Though really translucent, the hairs appear white because of their highly reflective quality. Oxidation from the sun, or staining, can make the hairs look yellow or brown.</li><li>Polar bear fur is oily and water repellent. The hairs don't mat when wet, allowing the polar bears to easily shake free of water and any ice that may form after swimming. Ice forms when the wet fur is exposed to air temperatures at or below freezing.</li><li>Polar bears completely molt (shed and replace their fur) annually, in May or June. The molt can last several weeks.</li></ul><p>Polar bears live in <mark>the Arctic regions of North America, Europe, and Asia, primarily on sea ice, but also on land in countries like <strong>Canada</strong>, <strong>Russia</strong>, <strong>Alaska (USA)</strong>, <strong>Greenland</strong>, and <strong>Norway (Svalbard)</strong></mark>, following the ice where they hunt seals, their main food source. They are marine mammals, spending most of their lives on the ice, though they can swim long distances and den on land to give birth.&nbsp;</p>",
+    "src": "https://seaworld.org/animals/all-about/polar-bears/characteristics/",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "<a href=\"https://www.freepik.com/free-ai-image/one-endangered-arctic-mammal-looking-camera-generated-by-ai_41036460.htm#fromView=search&page=2&position=18&uuid=736575e2-8473-4837-98ca-b9203a63a050&query=polar-bear\">Image by vecstock on Freepik</a>",
     "type": "Quotes",
     "date": "14-12-2025",
     "likes": "",
@@ -340,11 +375,11 @@
   },
   {
     "id": 2020,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": "What can a polar bear do to its nose when it swims?",
+    "content": "<p>The polar bear is a large bear native to the Arctic and nearby areas. It is closely related to the brown bear, and the two species can interbreed. The polar bear is the largest extant species of bear and land carnivore by body mass, with adult males weighing 300&ndash;800 kg.</p><p>Polar bears live in <mark>the Arctic regions of North America, Europe, and Asia, primarily on sea ice, but also on land in countries like <strong>Canada</strong>, <strong>Russia</strong>, <strong>Alaska (USA)</strong>, <strong>Greenland</strong>, and <strong>Norway (Svalbard)</strong></mark>, following the ice where they hunt seals, their main food source. They are marine mammals, spending most of their lives on the ice, though they can swim long distances and den on land to give birth.&nbsp;</p><p>Polar bears don't have to worry about getting water up their noses. When they swim, their nostrils close to prevent them from breathing in water.</p><p>They can swim at depths up to 15 feet, and while they typically only dive for a few seconds, they can hold their breath for more than two minutes, enabling them to sneak up on seals resting on ice floes. In 2015, scientists reported observing a record-breaking polar bear dive that totaled 3 minutes and 10 seconds.</p><p>The hungry bear stalked three seals from afar, swimming almost 150 feet underwater without surfacing for a breath or to reorient himself to the seals' location before bursting out of the water where one of the seals was resting. (Sadly, his prey got away.)</p><p><mark>polar bears automatically close their nostrils and flatten their ears when they swim or dive underwater</mark>, preventing water from entering their nose and ears, allowing them to stay submerged for minutes at a time to hunt seals or travel long distances between ice floes. This is a key adaptation for their semi-aquatic lifestyle, along with webbed paws for paddling and a thick fat layer for insulation.&nbsp;</p><div><strong>Key Adaptations for Swimming:</strong></div><ul><li><strong>Nostrils Seal Shut:</strong> Prevents water from getting in when diving for prey.</li><li><strong>Ears Flatten:</strong> Reduces drag in the water.</li><li><strong>Large, Partially Webbed Paws:</strong> Act like paddles for propulsion and snowshoes on land.</li><li><strong>Hind Legs as Rudders:</strong> Used for steering underwater.</li><li><strong>Breath-Holding:</strong> Can hold their breath for up to two minutes.</li></ul>",
+    "src": "https://www.mentalfloss.com/article/532061/25-icy-cool-facts-about-polar-bears",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "<a href=\"https://www.vecteezy.com/free-photos/environment\">Environment Stock photos by Vecteezy</a>",
     "type": "Quotes",
     "date": "14-12-2025",
     "likes": "",
@@ -17004,7 +17039,11 @@
     "header": "",
     "isShow": false,
     "imgPath": "article_images_life/img2999.jpg",
-    "tags": []
+    "tags": [
+      "Facts",
+      "Animals",
+      "Dogs"
+    ]
   },
   {
     "id": 3000,

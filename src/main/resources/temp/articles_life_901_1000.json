@@ -101,6 +101,7 @@
     "isShow": true,
     "imgPath": "article_images_life/img905.jpg",
     "tags": [
+      "Facts",
       "Motivation",
       "Lifestyle",
       "Habits",
@@ -227,7 +228,8 @@
     "imgPath": "article_images_life/img911.jpg",
     "tags": [
       "Facts",
-      "Continents"
+      "Continents",
+      "Antarctica"
     ]
   },
   {
@@ -246,7 +248,8 @@
     "isShow": true,
     "imgPath": "article_images_life/img912.jpg",
     "tags": [
-      "Facts"
+      "Facts",
+      "Rivers"
     ]
   },
   {
@@ -267,7 +270,8 @@
     "tags": [
       "Facts",
       "Egypt",
-      "Country"
+      "Country",
+      "Rivers"
     ]
   },
   {
@@ -288,7 +292,8 @@
     "tags": [
       "Facts",
       "Egypt",
-      "Country"
+      "Country",
+      "Rivers"
     ]
   },
   {
@@ -534,7 +539,8 @@
     "tags": [
       "Facts",
       "Earth",
-      "Universe"
+      "Universe",
+      "Space"
     ]
   },
   {
@@ -635,10 +641,8 @@
     "isShow": true,
     "imgPath": "article_images_life/img931.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "War"
     ]
   },
   {
@@ -657,10 +661,8 @@
     "isShow": true,
     "imgPath": "article_images_life/img932.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "War"
     ]
   },
   {
@@ -679,10 +681,7 @@
     "isShow": true,
     "imgPath": "article_images_life/img933.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts"
     ]
   },
   {
@@ -701,10 +700,8 @@
     "isShow": true,
     "imgPath": "article_images_life/img934.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Giraffe"
     ]
   },
   {
@@ -723,10 +720,8 @@
     "isShow": true,
     "imgPath": "article_images_life/img935.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Ocean"
     ]
   },
   {
@@ -745,10 +740,8 @@
     "isShow": true,
     "imgPath": "article_images_life/img936.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Birds"
     ]
   },
   {
@@ -767,10 +760,8 @@
     "isShow": true,
     "imgPath": "article_images_life/img937.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Egypt"
     ]
   },
   {
@@ -789,10 +780,8 @@
     "isShow": true,
     "imgPath": "article_images_life/img938.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Human body"
     ]
   },
   {
@@ -811,10 +800,8 @@
     "isShow": true,
     "imgPath": "article_images_life/img939.jpg",
     "tags": [
-      "Motivation",
       "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts"
     ]
   },
   {
@@ -833,10 +820,9 @@
     "isShow": true,
     "imgPath": "article_images_life/img940.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Brain",
+      "Facts",
+      "Psychology"
     ]
   },
   {
@@ -855,10 +841,8 @@
     "isShow": true,
     "imgPath": "article_images_life/img941.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Planets",
+      "Facts"
     ]
   },
   {
@@ -877,6 +861,7 @@
     "isShow": true,
     "imgPath": "article_images_life/img942.jpg",
     "tags": [
+      "Facts",
       "Motivation",
       "Lifestyle",
       "Habits",
@@ -921,10 +906,7 @@
     "isShow": true,
     "imgPath": "article_images_life/img944.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts"
     ]
   },
   {
@@ -964,9 +946,8 @@
     "isShow": true,
     "imgPath": "article_images_life/img946.jpg",
     "tags": [
-      "Motivation",
+      "Facts",
       "Lifestyle",
-      "Habits",
       "Health & Fitness"
     ]
   },
@@ -986,10 +967,7 @@
     "isShow": true,
     "imgPath": "article_images_life/img947.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts"
     ]
   },
   {
@@ -1015,11 +993,11 @@
   },
   {
     "id": 949,
-    "title": "",
-    "content": "",
+    "title": "Can butterflies hear you?",
+    "content": "<p><mark>Butterflies generally have poor hearing, but some species, especially in the Nymphalidae family (like Monarchs, Morphos), do have ears and can hear sounds</mark>, particularly low-frequency ones like a predator's wingbeats, using special structures on their wings that act as eardrums, while caterpillars sense vibrations through body hairs (setae).</p><p>So, while they don't \"hear\" like humans, some can perceive your voice as vibrations, but it's their physical reactions to sudden sounds or movements that often alert them</p><p>Many Nymphalidae butterflies have ears and scientists have confirmed hearing in several species using neuroanatomical and neurophysiological methods.</p><p>Ears are mostly sensitive to sound frequencies between 500 Hz and 6 kHz, overlapping the hearing range of humans.</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@epan5?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Krzysztof  Niewolny</a> on <a href=\"https://unsplash.com/photos/red-and-multicolored-butterfly-perch-on-yellow-petaled-flower-f8JYQPq45uI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>\n      ",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
@@ -1029,19 +1007,21 @@
     "isShow": true,
     "imgPath": "article_images_life/img949.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Butterfly",
+      "Insects",
+      "Nature",
+      "Animals",
+      "Wildlife"
     ]
   },
   {
     "id": 950,
-    "title": "",
-    "content": "",
+    "title": "Why Are Monarch Butterflies Important?",
+    "content": "<div><div><div><p>While monarchs may seem small and insignificant, the creatures play a crucial role in the ecosystems they inhabit.</p></div></div></div><div><div><div><p>As adults, monarch butterflies visit countless numbers of wildflowers each year as they seek out nutrient-rich nectar. In doing so, the monarchs transfer pollen from one plant to another and assist in those species&rsquo; reproduction.&nbsp;</p><p>And even though monarch caterpillars and adults are poisonous to most predators, thanks to toxins they acquire from milkweed, some animals are still able to stomach them. Orioles and grosbeaks in particular make a feast of monarchs over the winter, and ants, wasps, flies, and spiders have been known to prey on the caterpillars when they get the chance.</p></div></div></div><p>Each fall, millions of monarch butterflies leave their summer breeding grounds in the northeastern U.S. and Canada and travel upwards of 3,000 miles to reach overwintering grounds in southwestern Mexico.</p><p>Monarch butterflies undertake an incredible migration, with <mark>some individuals flying up to 3,000 miles (4,800 km) from North American breeding grounds to overwintering sites in central Mexico or California</mark>, a remarkable feat for such small insects that rely on air currents and sun navigation for this multi-generational journey.&nbsp;</p><div><strong>Key Facts About the Migration:</strong></div><ul><li><strong>Distance:</strong> Up to 3,000 miles (4,800 km) for the \"super generation\" that flies south in the fall.</li><li><strong>Duration:</strong> The fall migration takes 2-3 months (August&ndash;November).</li><li><strong>Navigation:</strong> They use a time-compensated sun compass, Earth's magnetic field, and landscape cues.</li><li><strong>Generations:</strong> It takes 3-5 generations to complete the full round trip, but the butterflies that fly south in fall are a special, long-lived generation that won't make the return trip.</li><li><strong>Overwintering:</strong> Millions cluster on oyamel fir trees in Mexico, forming dense colonies to conserve energy and heat.</li><li><strong>Threats:</strong> Habitat loss, climate change, and pesticide use threaten this vital phenomenon.&nbsp;</li></ul>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@damiencampbell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Damien Campbell</a> on <a href=\"https://unsplash.com/photos/a-butterfly-flying-over-a-field-of-yellow-flowers-6yzKtgl0WfM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>\n      ",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
@@ -1051,19 +1031,21 @@
     "isShow": true,
     "imgPath": "article_images_life/img950.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Butterfly",
+      "Insects",
+      "Nature",
+      "Animals",
+      "Wildlife"
     ]
   },
   {
     "id": 951,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": "How Many Polar Bears Are There?",
+    "content": "<p>The polar bear is a large bear native to the Arctic and nearby areas. It is closely related to the brown bear, and the two species can interbreed. The polar bear is the largest extant species of bear and land carnivore by body mass, with adult males weighing 300&ndash;800 kg.</p><p>After intense hunting reduced their numbers to as low as 5,000&ndash;10,000 in the mid-20th century, conservation efforts have helped the population rebound. Today, it's estimated that around 26,000 polar bears remain in the wild.</p><p>Polar bears live about <mark>15 to 18 years on average in the wild</mark>, though some can reach their late 20s or even early 30s before succumbing to starvation as they grow too weak to hunt, while in captivity they can live much longer, with the oldest known polar bear reaching 42 years old.</p><p><strong>Main Threat: Climate Change &amp; Sea Ice Loss</strong>&nbsp;</p><ul><li><strong>Habitat Loss:</strong> Polar bears rely on sea ice for hunting seals, mating, and travel. Less ice means less hunting access.</li><li><strong>Starvation:</strong> Longer ice-free periods force bears onto land, away from their high-fat seal diet, leading to malnutrition.</li><li><strong>Human Conflict:</strong> Bears spend more time ashore, increasing encounters with humans.</li></ul>",
+    "src": "https://www.travelhx.com/en/stories/8-facts-you-didnt-know-about-polar-bears/",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "<a href=\"https://www.freepik.com/free-photo/closeup-couple-polar-bears-ursus-maritimus_29174498.htm#fromView=search&page=1&position=5&uuid=c89e228a-16e5-48d2-88b8-d38117b9ae50&query=polar+bear\">Image by wirestock on Freepik</a>",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
@@ -1073,19 +1055,20 @@
     "isShow": true,
     "imgPath": "article_images_life/img951.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Polar Bears",
+      "Arctic",
+      "Wildlife",
+      "Animals"
     ]
   },
   {
     "id": 952,
-    "title": "",
-    "content": "",
+    "title": "Are polar bears fast runners?",
+    "content": "<p>The polar bear is a large bear native to the Arctic and nearby areas. It is closely related to the brown bear, and the two species can interbreed. The polar bear is the largest extant species of bear and land carnivore by body mass, with adult males weighing 300&ndash;800 kg.</p><p>A polar bear's top speed is frighteningly swift. <em>The average young adult polar bear can sprint at up to 25 miles per hour</em> or around 40 kilometers per hour.</p><p>They are powerful sprinters for short hunts but conserve energy by moving deliberately, making them dangerous over short distances despite their lumbering appearance.&nbsp;</p><div><strong>Speed &amp; Stamina:</strong></div><ul><li><strong>Top Sprint Speed:</strong> Around 40 kph (25 mph).</li><li><strong>Normal Walking Speed:</strong> About 5-5.5 kph (3-3.4 mph).</li><li><strong>Endurance:</strong> They overheat easily when sprinting due to their size, making them sprinters, not marathon runners.&nbsp;</li></ul><div><strong>Why They're Fast (When Needed):</strong></div><ul><li><strong>Powerful Build:</strong> Strong muscles and powerful legs allow for quick acceleration.</li><li><strong>Hunting:</strong> This burst of speed helps them ambush prey like seals.</li></ul><p>Polar bears live in <mark>the Arctic regions of North America, Europe, and Asia, primarily on sea ice, but also on land in countries like <strong>Canada</strong>, <strong>Russia</strong>, <strong>Alaska (USA)</strong>, <strong>Greenland</strong>, and <strong>Norway (Svalbard)</strong></mark>, following the ice where they hunt seals, their main food source. They are marine mammals, spending most of their lives on the ice, though they can swim long distances and den on land to give birth.&nbsp;</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "<a href=\"https://www.freepik.com/free-ai-image/close-up-wild-animal-nature_358133600.htm#fromView=search&page=1&position=48&uuid=736575e2-8473-4837-98ca-b9203a63a050&query=polar-bear\">Image by freepik</a>",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
@@ -1103,11 +1086,11 @@
   },
   {
     "id": 953,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": "Fast Fact About Polar Bears",
+    "content": "<p><strong>Polar bears are the largest carnivorous land mammals on Earth</strong>. They are about seven to eight feet long, measured from the nose to the tip of their very short tail. Male polar bears are much larger than the females.</p><p>Polar bears live in <mark>the Arctic regions of North America, Europe, and Asia, primarily on sea ice, but also on land in countries like <strong>Canada</strong>, <strong>Russia</strong>, <strong>Alaska (USA)</strong>, <strong>Greenland</strong>, and <strong>Norway (Svalbard)</strong></mark>, following the ice where they hunt seals, their main food source. They are marine mammals, spending most of their lives on the ice, though they can swim long distances and den on land to give birth.&nbsp;</p><ul><li>Polar bears can currently be found in five different countries.</li><li>Polar bears can swim for days at a time to get from one piece of ice to another. In fact, they regularly swim around 30 miles in a stretch, and in one case, up to 220 miles!</li><li>Polar bears are actually black.</li><li>They are the largest living carnivores on land.&nbsp;Adult male polar bears usually weigh more than 800 eight pounds and are over 8 feet long when measured from their nose to their tail!</li><li>A group of polar bears has a special name.&nbsp;When Polar bears are spotted in groups, they are called a &ldquo;pack&rdquo; or a &ldquo;sleuth.&rdquo;</li><li>Their sense of smell is incredibly strong.&nbsp;Polar bears can sniff out a seal on the ice up to 20 miles away! And they can smell a seal up to a half a mile underwater.</li><li>They can&rsquo;t outswim a seal.&nbsp;In water, seals are much faster than polar bears, which is why polar bears rely on their amazing sense of smell to sniff out a seal&rsquo;s breathing hole. They will camp out and wait for the seal to emerge from the water before attacking.</li><li>They have a high fat diet.&nbsp;Polar bears don&rsquo;t worry about their cholesterol. They eat a lot of fat, and it makes up about half of their body weight. To keep warm in their cold climate, they are covered in a thick layer of blubber, which is often more than 4 inches thick.</li><li>The polar bear population is on the decline.&nbsp;Currently, there are about 26,000 polar bears in the wild. They rely on sea ice to hunt, travel, and live. Many studies predict that unless there is action taken on climate change, there will be a sharp drop in this number by 2050.</li></ul>",
+    "src": "https://www.harpercollins.com/blogs/harperkids/10-polar-bear-facts-for-kids",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "<a href=\"https://www.freepik.com/free-ai-image/arctic-mammal-reflects-tranquil-icy-waters-generative-ai_40965125.htm#fromView=search&page=2&position=24&uuid=736575e2-8473-4837-98ca-b9203a63a050&query=polar-bear\">Image by vecstock on Freepik</a>",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
@@ -1125,11 +1108,11 @@
   },
   {
     "id": 954,
-    "title": "",
-    "content": "",
+    "title": "Are Polar Bears Arctic or Antarctic?",
+    "content": "<p><strong>Polar bears are the largest carnivorous land mammals on Earth</strong>. They are about seven to eight feet long, measured from the nose to the tip of their very short tail. Male polar bears are much larger than the females.</p><div><p>Polar bears are <strong>Arctic</strong> animals. They live in the northern parts of the world like <strong>Canada, Alaska, Greenland, Norway, and Russia</strong>.</p></div><div><p>You will never find a polar bear in the <strong>Antarctic</strong>&mdash;that&rsquo;s the home of penguins!</p></div><p><mark>Polar bears are strongly associated with Canada</mark>, as it's home to about <strong>two-thirds of the world's total population</strong>, roughly 16,000 bears, primarily in Nunavut and the Northwest Territories, making Canada the \"polar bear capital\". They inhabit the Arctic ice, using it to hunt seals, and are a significant part of Arctic culture, though their survival is threatened by melting sea ice.&nbsp;</p><p>Polar bears live in <mark>the Arctic regions of North America, Europe, and Asia, primarily on sea ice, but also on land in countries like <strong>Canada</strong>, <strong>Russia</strong>, <strong>Alaska (USA)</strong>, <strong>Greenland</strong>, and <strong>Norway (Svalbard)</strong></mark>, following the ice where they hunt seals, their main food source. They are marine mammals, spending most of their lives on the ice, though they can swim long distances and den on land to give birth.&nbsp;</p><p>Few facts:</p><ul><li><p>Polar bears aren&rsquo;t white</p></li><li><p>Polar bears are marine mammals</p></li><li><p>Polar bears are the largest land carnivore</p></li><li><p>Polar bears are tiny and helpless at birth</p></li><li><p>Polar bears typically give birth to twins</p></li><li><p>Polar bears need sea ice</p></li><li><p>Polar bears have perfectly adapted paws</p></li><li><p>Polar bears are mostly Canadian</p></li><li><p>Polar bears can fast for up to eight months</p></li><li><p>Polar bears are called &ldquo;Nanuq&rdquo; in Inuktitut</p></li></ul>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "<a href=\"https://www.freepik.com/free-ai-image/photorealistic-view-wild-bear-its-natural-environment_186036782.htm#fromView=search&page=1&position=7&uuid=f64b61ac-2d57-4214-a8c0-08e0a254e127&query=polar+bear\">Image by freepik</a>",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
@@ -1139,10 +1122,11 @@
     "isShow": true,
     "imgPath": "article_images_life/img954.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Polar Bears",
+      "Arctic",
+      "Wildlife",
+      "Animals"
     ]
   },
   {
@@ -1291,10 +1275,7 @@
     "isShow": true,
     "imgPath": "article_images_life/img961.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts"
     ]
   },
   {
@@ -1357,10 +1338,9 @@
     "isShow": true,
     "imgPath": "article_images_life/img964.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Animals",
+      "Cats"
     ]
   },
   {
@@ -1421,10 +1401,9 @@
     "isShow": true,
     "imgPath": "article_images_life/img967.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Animals",
+      "Cats"
     ]
   },
   {
@@ -1443,10 +1422,9 @@
     "isShow": true,
     "imgPath": "article_images_life/img968.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Animals",
+      "Cats"
     ]
   },
   {
@@ -1968,10 +1946,9 @@
     "isShow": true,
     "imgPath": "article_images_life/img992.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Animals",
+      "Cats"
     ]
   },
   {
@@ -1990,10 +1967,9 @@
     "isShow": true,
     "imgPath": "article_images_life/img993.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Animals",
+      "Cats"
     ]
   },
   {
@@ -2012,10 +1988,10 @@
     "isShow": true,
     "imgPath": "article_images_life/img994.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Animals",
+      "Bonobos",
+      "Chimpanzee"
     ]
   },
   {
@@ -2034,10 +2010,9 @@
     "isShow": true,
     "imgPath": "article_images_life/img995.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Animals",
+      "koala"
     ]
   },
   {
@@ -2079,10 +2054,9 @@
     "isShow": true,
     "imgPath": "article_images_life/img997.jpg",
     "tags": [
-      "Psychology",
+      "Facts",
       "Animals",
-      "Habits",
-      "Health & Fitness"
+      "Dogs"
     ]
   },
   {
@@ -2101,10 +2075,7 @@
     "isShow": true,
     "imgPath": "article_images_life/img998.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts"
     ]
   },
   {
@@ -2144,10 +2115,7 @@
     "isShow": true,
     "imgPath": "article_images_life/img1000.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts"
     ]
   }
 ]

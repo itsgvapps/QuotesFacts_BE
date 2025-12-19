@@ -429,7 +429,6 @@
     "tags": [
       "Facts",
       "France",
-      "Nature",
       "Geography",
       "Historical Structure",
       "Monuments"
@@ -473,6 +472,7 @@
     "imgPath": "article_images_life/img522.jpg",
     "tags": [
       "Facts",
+      "Planets",
       "Geography",
       "Universe"
     ]
@@ -539,7 +539,8 @@
       "Facts",
       "Geography",
       "Universe",
-      "Earth"
+      "Earth",
+      "Planets"
     ]
   },
   {
@@ -788,6 +789,7 @@
     "tags": [
       "Motivation",
       "Lifestyle",
+      "Psychology",
       "Habits",
       "Health & Fitness"
     ]
@@ -872,8 +874,7 @@
     "imgPath": "article_images_life/img541.jpg",
     "tags": [
       "Facts",
-      "Psychology",
-      "Science & Technology"
+      "Psychology"
     ]
   },
   {
@@ -882,7 +883,7 @@
     "content": "<p><em>Phagocytosis</em> is <em>a process</em> whereby <em>cells</em> will <em>envelop</em> and <em>consume smaller cells</em> or <em>molecules</em>, in order to <em>remove them</em> from the <em>system</em>.</p><p>This process, known as <strong>astrocytic phagocytosis</strong>, is a normal part of brain health. Think of it like tidying up your desk &mdash; the brain trims away unused or weak synapses to make room for new learning and stronger connections. But in sleep-deprived brains, this &ldquo;clean-up crew&rdquo; goes into overdrive.</p><p>Our brains aren&rsquo;t static. They&rsquo;re flexible, adaptable, constantly reacting to what life throws at them. That&rsquo;s largely the source of their power. But they wouldn&rsquo;t be able to do this if they weren&rsquo;t willing to eat parts of themselves on a regular basis.</p>",
     "src": "",
     "author": "",
-    "imgSrc": "Photo by (unsplash)KOMMERS",
+    "imgSrc": "Photo by (unsplash) KOMMERS",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
@@ -1065,7 +1066,8 @@
       "Motivation",
       "Lifestyle",
       "Habits",
-      "Health & Fitness"
+      "Health & Fitness",
+      "Psychology"
     ]
   },
   {
@@ -1084,10 +1086,8 @@
     "isShow": true,
     "imgPath": "article_images_life/img551.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Psychology",
+      "Facts"
     ]
   },
   {
@@ -1106,19 +1106,18 @@
     "isShow": true,
     "imgPath": "article_images_life/img552.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Dogs",
+      "Animals"
     ]
   },
   {
     "id": 553,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": "Do butterflies sleep?",
+    "content": "<p>At night, or when it&rsquo;s cloudy or cool outside, butterflies land and might look like they are sleeping. But they never close their eyes. They don&rsquo;t have eyelids!</p><p><mark>Butterflies rest and enter a low-activity state called <strong>quiescence</strong>, often at night or during bad weather</mark>, though it's not \"sleep\" like humans know it; they find shelter, reduce their metabolism, and wait for warmth and light to become active again, sometimes gathering in large groups to roost for protection. They often perch upside down under leaves with their eyes open, waiting for the sun to warm them up to fly, notes Journey North, BBC Wildlife Magazine, naturemuseum.org, and The Academy of Natural Sciences of Drexel University.&nbsp;</p>",
+    "src": "https://www.lewisginter.org/butterfly-facts/",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@puregeorgia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Alfred Schrock</a> on <a href=\"https://unsplash.com/photos/orange-and-black-butterfly-perched-on-yellow-flower-shoE2y51uX0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>\n      ",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
@@ -1128,10 +1127,12 @@
     "isShow": true,
     "imgPath": "article_images_life/img553.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Butterfly",
+      "Insects",
+      "Nature",
+      "Animals",
+      "Wildlife"
     ]
   },
   {
@@ -1151,6 +1152,7 @@
     "imgPath": "article_images_life/img554.jpg",
     "tags": [
       "Motivation",
+      "Psychology",
       "Lifestyle",
       "Habits",
       "Health & Fitness"
@@ -1179,8 +1181,8 @@
   },
   {
     "id": 555,
-    "title": "",
-    "content": "",
+    "title": "Who lived the longest?",
+    "content": "<p>The longest verified human life belongs to <mark><strong>Jeanne Calment</strong></mark><strong> of France</strong>, who lived to be <strong>122 years and 164 days old</strong> (1875&ndash;1997). She's the only person verified to have lived past 120, with women generally holding the longevity records, while the oldest verified man was Jiroemon Kimura of Japan (116 years, 54 days).&nbsp;</p><div><strong>Key Details about Jeanne Calment:</strong></div><ul><ul><li><strong>Born:</strong> February 21, 1875, in Arles, France.</li><li><strong>Died:</strong> August 4, 1997, in Arles, France.</li><li><strong>Known For:</strong> Her incredible longevity, outliving her daughter and grandson, and her witty remarks about life.</li></ul></ul><ul><li><strong>Lifestyle:</strong> She famously attributed her long life to olive oil, a balanced diet, a little wine, and a stress-free outlook, though her habits (like smoking for nearly 100 years) are considered an extreme outlier, notes the Facebook post.&nbsp;</li></ul>",
     "src": "",
     "author": "",
     "imgSrc": "(unsplash)",
@@ -1201,11 +1203,11 @@
   },
   {
     "id": 556,
-    "title": "",
-    "content": "",
+    "title": "How much can male polar bears weigh?",
+    "content": "<p>An adult male polar bear&nbsp;typically weighs between 775 and 1,200 pounds (351 to 544 kilograms), or the weight of about five to seven men. The largest polar bear ever recorded was a male weighing 2,209 pounds (1,000 kg), according to Polar Bear International. By contrast, adult females weigh only half as much as males, or 330 to 650 pounds (50 to 295 kg).</p><p><strong>Weight Comparison to Men:</strong></p><ul><li><strong>Average Male:</strong> An adult male polar bear typically weighs between 775 to 1,200 pounds (350-544 kg), which is roughly 5 to 7 average-sized men, but they can exceed this significantly.</li><li><strong>Large Males:</strong> Some males can hit 1,500 pounds (680 kg) or more, equating to about 10 average men.</li><li><strong>Record Holders:</strong> The largest ever recorded was over 2,200 pounds (1,000 kg).</li></ul><p>The polar bear is a large bear native to the Arctic and nearby areas. It is closely related to the brown bear, and the two species can interbreed. The polar bear is the largest extant species of bear and land carnivore by body mass, with adult males weighing 300&ndash;800 kg.</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@hansjurgen007?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Hans-Jurgen Mager</a> on <a href=\"https://unsplash.com/photos/polar-bear-on-snow-covered-ground-during-daytime-qQWV91TTBrE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>\n      ",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
@@ -1215,19 +1217,20 @@
     "isShow": true,
     "imgPath": "article_images_life/img556.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Polar Bears",
+      "Arctic",
+      "Wildlife",
+      "Animals"
     ]
   },
   {
     "id": 557,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": "What is another name for a polar bear?",
+    "content": "<p>The polar bear is a large bear native to the Arctic and nearby areas. It is closely related to the brown bear, and the two species can interbreed. The polar bear is the largest extant species of bear and land carnivore by body mass, with adult males weighing 300&ndash;800 kg.</p><p>Throughout the Arctic, polar bears are known by a variety of common names, including <strong>nanook, nanuq, ice bear, sea bear, isbjorn, white bears, and beliy medved</strong>.</p><p>The Inuit people of the Canadian Artic call the polar bear <em>nanuq</em>, an animal worthy of great respect.</p><p>In Russia the polar bear is called <em>beliy medved</em> meaning the white bear.</p><p>While in Norway and Denmark, the polar bear is called <em>isbjorn</em>, meaning ice bear.</p>",
+    "src": "www.discoverwildlife.com/animal-facts/mammals/fpolar-bear-facts",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "<a href=\"https://www.freepik.com/free-ai-image/polar-bear-arctic_413064553.htm#fromView=search&page=1&position=1&uuid=736575e2-8473-4837-98ca-b9203a63a050&query=polar-bear\">Image by freepik</a>",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
@@ -1245,11 +1248,11 @@
   },
   {
     "id": 558,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": "What animals need ice to survive?",
+    "content": "<p>Animals needing sea ice include <mark><strong>polar bears</strong>, <strong>walruses</strong>, and several seal species (ringed, bearded, ribbon, spotted)</mark> for hunting, resting, and breeding; also whales like <strong>narwhals</strong> and <strong>belugas</strong> use ice edges for travel, while <strong>Emperor penguins</strong> rely on stable ice for their entire breeding cycle, making these crucial species for polar ecosystems. Sea ice provides vital platforms for foraging, giving birth, nursing, molting, and migrating, essential for survival in harsh polar environments.&nbsp;</p><div><strong>Arctic Ice-Dependent Animals</strong></div><ul><li><strong>Polar Bears:</strong> The quintessential sea ice animal, using it as a platform to hunt their primary prey, seals, and for reproduction.</li><li><strong>Walruses:</strong> Depend on ice as a haul-out (resting) spot near feeding grounds; without it, they must travel vast distances or crowd onto land, increasing mortality.</li><li><strong>Ice Seals (Ringed, Bearded, Ribbon, Spotted):</strong> Use ice for pupping, nursing, resting, and accessing breathing holes to feed.</li><li><strong>Whales (Narwhals, Belugas, Bowheads):</strong> Utilize open leads (cracks) and polynyas (areas of open water) within the ice for migration and foraging.</li><li><strong>Arctic Foxes &amp; Wolves:</strong> Hunt on the ice, using it as a hunting ground for prey like seals and birds.&nbsp;</li></ul>",
+    "src": "https://oceanconservancy.org/blog/2025/12/17/animals-need-sea-ice/",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "<a href=\"https://www.freepik.com/free-vector/hand-drawn-flat-winter-animals-collection_19838046.htm#fromView=search&page=1&position=2&uuid=aafea964-d550-4f04-870c-c1f73af2fcc6&query=ice+animals\">Image by freepik</a>",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
@@ -1455,10 +1458,9 @@
     "isShow": true,
     "imgPath": "article_images_life/img567.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Cheetah",
+      "Animals"
     ]
   },
   {
@@ -1498,10 +1500,9 @@
     "isShow": true,
     "imgPath": "article_images_life/img569.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Cats",
+      "Animals"
     ]
   },
   {
@@ -1650,10 +1651,9 @@
     "isShow": true,
     "imgPath": "article_images_life/img576.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Cats",
+      "Animals"
     ]
   },
   {
@@ -1715,10 +1715,9 @@
     "isShow": true,
     "imgPath": "article_images_life/img579.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Dogs",
+      "Animals"
     ]
   },
   {
@@ -1737,10 +1736,9 @@
     "isShow": true,
     "imgPath": "article_images_life/img580.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Cats",
+      "Animals"
     ]
   },
   {
@@ -1802,10 +1800,9 @@
     "isShow": true,
     "imgPath": "article_images_life/img583.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Cats",
+      "Animals"
     ]
   },
   {
@@ -1824,10 +1821,9 @@
     "isShow": true,
     "imgPath": "article_images_life/img584.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Cats",
+      "Animals"
     ]
   },
   {
@@ -1846,10 +1842,9 @@
     "isShow": true,
     "imgPath": "article_images_life/img585.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Cats",
+      "Animals"
     ]
   },
   {
@@ -1890,10 +1885,9 @@
     "isShow": true,
     "imgPath": "article_images_life/img587.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Cats",
+      "Animals"
     ]
   },
   {
@@ -1933,10 +1927,9 @@
     "isShow": true,
     "imgPath": "article_images_life/img589.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Elephant",
+      "Animals"
     ]
   },
   {
@@ -1955,10 +1948,9 @@
     "isShow": true,
     "imgPath": "article_images_life/img590.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Snakes",
+      "Animals"
     ]
   },
   {
@@ -1977,10 +1969,9 @@
     "isShow": true,
     "imgPath": "article_images_life/img591.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Fox",
+      "Animals"
     ]
   },
   {
@@ -1999,10 +1990,9 @@
     "isShow": true,
     "imgPath": "article_images_life/img592.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Lizards",
+      "Animals"
     ]
   },
   {
@@ -2021,10 +2011,10 @@
     "isShow": true,
     "imgPath": "article_images_life/img593.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Koala",
+      "Animals",
+      "Lion"
     ]
   },
   {
@@ -2043,10 +2033,9 @@
     "isShow": true,
     "imgPath": "article_images_life/img594.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Elephants",
+      "Animals"
     ]
   },
   {
@@ -2065,10 +2054,10 @@
     "isShow": true,
     "imgPath": "article_images_life/img595.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Dolphins",
+      "Elephants",
+      "Animals"
     ]
   },
   {
@@ -2087,10 +2076,10 @@
     "isShow": true,
     "imgPath": "article_images_life/img596.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Cats",
+      "Dogs",
+      "Animals"
     ]
   },
   {

@@ -188,7 +188,7 @@
     "isShow": true,
     "imgPath": "article_images_life/img609.jpg",
     "tags": [
-      "Motivation",
+      "Facts",
       "Lifestyle",
       "Habits",
       "Health & Fitness"
@@ -210,9 +210,7 @@
     "isShow": true,
     "imgPath": "article_images_life/img610.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
+      "Facts",
       "Health & Fitness"
     ]
   },
@@ -232,7 +230,7 @@
     "isShow": true,
     "imgPath": "article_images_life/img611.jpg",
     "tags": [
-      "Motivation",
+      "Facts",
       "Lifestyle",
       "Habits",
       "Health & Fitness"
@@ -254,10 +252,9 @@
     "isShow": true,
     "imgPath": "article_images_life/img612.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Animals",
+      "Dogs"
     ]
   },
   {
@@ -348,11 +345,11 @@
   },
   {
     "id": 617,
-    "title": "",
-    "content": "",
-    "src": "",
+    "title": "Where Do Butterflies Go At Night?",
+    "content": "<p>They sleep.</p><p dir=\"ltr\">Butterflies are active during the day, so at night they find a hiding place and go to sleep. In the same way, moths are active at night and during the day moths hide and rest.</p><p dir=\"ltr\">Animals that sleep during the night, like most butterflies, are <em>diurnal</em>. Animals that sleep during the day, like most moths, are <em>nocturnal</em>.</p><p>At night, or when it&rsquo;s cloudy or cool outside, butterflies land and might look like they are sleeping. But they never close their eyes. They don&rsquo;t have eyelids!</p><p><mark>Butterflies rest and enter a low-activity state called <strong>quiescence</strong>, often at night or during bad weather</mark>, though it's not \"sleep\" like humans know it; they find shelter, reduce their metabolism, and wait for warmth and light to become active again, sometimes gathering in large groups to roost for protection. They often perch upside down under leaves with their eyes open, waiting for the sun to warm them up to fly, notes Journey North, BBC Wildlife Magazine, naturemuseum.org, and The Academy of Natural Sciences of Drexel University.&nbsp;</p><p>The reality is, nature is incredibly diverse. There are over 17,500 species of butterfly and 160,000 species of moth.</p>",
+    "src": "https://naturemuseum.org/cas/blog/where-do-butterflies-go-at-night",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@wyxina?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Wyxina Tresse</a> on <a href=\"https://unsplash.com/photos/a-butterfly-that-is-sitting-on-some-grass-MYXG-oHT23M?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>\n      ",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
@@ -362,19 +359,21 @@
     "isShow": true,
     "imgPath": "article_images_life/img617.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Butterfly",
+      "Insects",
+      "Nature",
+      "Animals",
+      "Wildlife"
     ]
   },
   {
     "id": 618,
-    "title": "",
-    "content": "",
+    "title": "Why Polar Bears Are So Big?",
+    "content": "<p><strong><strong>Why They're So Big:</strong></strong></p><ul><li><strong>Diet:</strong> They gorge on fatty seals, allowing them to build massive fat reserves for survival.</li><li><strong>Climate Adaptation:</strong> Their large size and fat layer help them stay warm in the frigid Arctic.&nbsp;</li></ul><div><strong>Size &amp; Strength:</strong></div><ul><li>They are the largest bear species and the biggest land carnivore.</li><li>They can stand over 9 feet tall on their hind legs.</li></ul><p>An adult male polar bear&nbsp;typically weighs between 775 and 1,200 pounds (351 to 544 kilograms), or the weight of about five to seven men. The largest polar bear ever recorded was a male weighing 2,209 pounds (1,000 kg), according to Polar Bear International. By contrast, adult females weigh only half as much as males, or 330 to 650 pounds (50 to 295 kg).</p><p><strong>Weight Comparison to Men:</strong></p><ul><li><strong>Average Male:</strong> An adult male polar bear typically weighs between 775 to 1,200 pounds (350-544 kg), which is roughly 5 to 7 average-sized men, but they can exceed this significantly.</li><li><strong>Large Males:</strong> Some males can hit 1,500 pounds (680 kg) or more, equating to about 10 average men.</li><li><strong>Record Holders:</strong> The largest ever recorded was over 2,200 pounds (1,000 kg).</li></ul><p>The polar bear is a large bear native to the Arctic and nearby areas. It is closely related to the brown bear, and the two species can interbreed. The polar bear is the largest extant species of bear and land carnivore by body mass, with adult males weighing 300&ndash;800 kg.</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@hansjurgen007?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Hans-Jurgen Mager</a> on <a href=\"https://unsplash.com/photos/polar-bear-on-snow-covered-ground-during-daytime-Ec_ygZTIv_0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>\n      ",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
@@ -384,19 +383,20 @@
     "isShow": true,
     "imgPath": "article_images_life/img618.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Polar Bears",
+      "Arctic",
+      "Wildlife",
+      "Animals"
     ]
   },
   {
     "id": 619,
-    "title": "",
-    "content": "",
+    "title": "Where do polar bears live?",
+    "content": "<p>The polar bear is a large bear native to the Arctic and nearby areas. It is closely related to the brown bear, and the two species can interbreed. The polar bear is the largest extant species of bear and land carnivore by body mass, with adult males weighing 300&ndash;800 kg.</p><p>Polar bears live in <mark>the Arctic regions of North America, Europe, and Asia, primarily on sea ice, but also on land in countries like <strong>Canada</strong>, <strong>Russia</strong>, <strong>Alaska (USA)</strong>, <strong>Greenland</strong>, and <strong>Norway (Svalbard)</strong></mark>, following the ice where they hunt seals, their main food source. They are marine mammals, spending most of their lives on the ice, though they can swim long distances and den on land to give birth.&nbsp;</p><div><strong>Key Locations:</strong></div><ul><li><strong>Canada:</strong> Home to about two-thirds of the world's polar bears, particularly in the Arctic Islands and Hudson Bay.</li><li><strong>Russia:</strong> Found across its vast Arctic coastline.</li><li><strong>Greenland &amp; Svalbard (Norway):</strong> Important habitats, with bears moving between these islands and the mainland.</li><li><strong>Alaska (USA):</strong> Occupies the northern coasts.&nbsp;</li></ul><div><strong>Habitat &amp; Behavior:</strong></div><ul><li><strong>Sea Ice:</strong> Their essential platform for hunting seals, mating, and travel.</li><li><strong>Land:</strong> They use land for dens, especially pregnant females, and when sea ice isn't available.</li><li><strong>Swimming:</strong> Excellent swimmers, capable of traversing large distances.&nbsp;</li></ul><p>The Inuit people of the Canadian Artic call the polar bear <em>nanuq</em>, an animal worthy of great respect.</p><p>In Russia the polar bear is called <em>beliy medved</em> meaning the white bear.</p><p>While in Norway and Denmark, the polar bear is called <em>isbjorn</em>, meaning ice bear.</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "<a href=\"https://www.freepik.com/free-ai-image/polar-bear-sunset-ice-floe_419928986.htm#fromView=search&page=1&position=8&uuid=736575e2-8473-4837-98ca-b9203a63a050&query=polar-bear\">Image by freepik</a>",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
@@ -406,19 +406,20 @@
     "isShow": true,
     "imgPath": "article_images_life/img619.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Polar Bears",
+      "Arctic",
+      "Wildlife",
+      "Animals"
     ]
   },
   {
     "id": 620,
-    "title": "",
-    "content": "",
+    "title": "What is special about a narwhal?",
+    "content": "<p>The narwhal is an odontocete or toothed whale, but is different from all other toothed whales in that <strong>it has no teeth in its mouth</strong>. Instead, male narwhals have a single long, straight tooth (or tusk) that protrudes two to three meters out of the upper left jaw. Females almost never have a tusk.</p><p>The narwhal is a species of toothed whale native to the Arctic. It is the only member of the genus Monodon and one of two living representatives of the family Monodontidae. The narwhal is a stocky cetacean with a relatively blunt snout, a large melon, and a shallow ridge in place of a dorsal fin.</p><p>Narwhals live to <strong>at least 25 years old, and may live up to 50 years</strong>.</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@nypl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">The New York Public Library</a> on <a href=\"https://unsplash.com/photos/WajmwVkb7EQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>\n      ",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
@@ -436,11 +437,11 @@
   },
   {
     "id": 621,
-    "title": "",
-    "content": "",
+    "title": "Do walruses live in the ocean?",
+    "content": "<p><strong>The Arctic Ocean and subarctic seas are home to a hefty fellow: the walrus</strong>. These beasts use sea ice for resting and giving birth. And not any ice will suffice; it has to be thick enough to support their weight, which can reach up to 4000 pounds.</p><p>The walrus is a large pinniped marine mammal with discontinuous distribution about the North Pole in the Arctic Ocean and subarctic seas of the Northern Hemisphere. It is the only extant species in the family Odobenidae and genus Odobenus.</p><p>Walruses are <strong>generally not aggressive towards humans</strong>, but can be very dangerous when threatened. They utilise their tusks for defense and can fight off polar bears and other threats. Although most encounters assume that these seals are non-aggressive, they should always be approached carefully.</p>",
     "src": "",
     "author": "",
-    "imgSrc": "(unsplash)",
+    "imgSrc": "Photo by <a href=\"https://unsplash.com/@nypl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">The New York Public Library</a> on <a href=\"https://unsplash.com/photos/WajmwVkb7EQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>\n      ",
     "type": "Quotes",
     "date": "2025-10-06",
     "likes": "",
@@ -495,7 +496,8 @@
     "imgPath": "article_images_life/img623.jpg",
     "tags": [
       "Facts",
-      "Animals"
+      "Animals",
+      "Hares"
     ]
   },
   {
@@ -756,7 +758,7 @@
     "isShow": true,
     "imgPath": "article_images_life/img635.jpg",
     "tags": [
-      "Motivation",
+      "Psychology",
       "Lifestyle",
       "Habits",
       "Health & Fitness"
@@ -779,9 +781,11 @@
     "imgPath": "article_images_life/img636.jpg",
     "tags": [
       "Facts",
-      "Animals",
       "Butterfly",
-      "Birds"
+      "Insects",
+      "Nature",
+      "Animals",
+      "Wildlife"
     ]
   },
   {
@@ -1922,7 +1926,7 @@
       "Motivation",
       "Lifestyle",
       "Habits",
-      "Health & Fitness"
+      "Psychology"
     ]
   },
   {
@@ -2028,10 +2032,9 @@
     "isShow": true,
     "imgPath": "article_images_life/img693.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Animals",
+      "Cats"
     ]
   },
   {
@@ -2050,10 +2053,9 @@
     "isShow": true,
     "imgPath": "article_images_life/img694.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Animals",
+      "Cats"
     ]
   },
   {
@@ -2094,10 +2096,9 @@
     "isShow": true,
     "imgPath": "article_images_life/img696.jpg",
     "tags": [
-      "Motivation",
-      "Lifestyle",
-      "Habits",
-      "Health & Fitness"
+      "Facts",
+      "Universe",
+      "Space"
     ]
   },
   {
@@ -2116,7 +2117,7 @@
     "isShow": true,
     "imgPath": "article_images_life/img697.jpg",
     "tags": [
-      "Motivation",
+      "Facts",
       "Lifestyle",
       "Habits",
       "Health & Fitness"
@@ -2138,7 +2139,7 @@
     "isShow": true,
     "imgPath": "article_images_life/img698.jpg",
     "tags": [
-      "Motivation",
+      "Facts",
       "Lifestyle",
       "Habits",
       "Health & Fitness"
