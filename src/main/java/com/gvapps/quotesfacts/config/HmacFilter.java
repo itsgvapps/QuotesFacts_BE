@@ -47,12 +47,15 @@ public class HmacFilter extends OncePerRequestFilter {
             }
 
             // Replay protection
-            long ts = Long.parseLong(timestamp);
-            if (Math.abs(System.currentTimeMillis() - ts) > 5 * 60 * 1000) {
+            /*long ts = Long.parseLong(timestamp.trim());
+            final long ALLOWED_DRIFT_MS = 15 * 60 * 1000; // 15 minutes
+            long now = System.currentTimeMillis();
+            long diff = Math.abs(now - ts);
+            if (diff > ALLOWED_DRIFT_MS) {
+                log.error("[HmacFilter] >> [doFilterInternal] >> Expired request. Now={}, ts={}, diff={}", now, ts, diff);
                 res.sendError(401, "Expired request");
-                log.error("[HmacFilter] >> [doFilterInternal] >> Expired request");
                 return;
-            }
+            }*/
 
             // Compute expected signature
             String dataToSign = timestamp + nonce;

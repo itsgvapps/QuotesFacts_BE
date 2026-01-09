@@ -138,11 +138,55 @@ public class ArticlesImportService {
             } else {
                 log.info("No article records to save.");
             }
-
+            log.info("✅ Done with article set: {}", path);
         } catch (Exception e) {
             log.error("❌ Failed to import or merge articles: {}", e.getMessage(), e);
         }
     }
+
+    public void printIdByArticleTagFromJson(String path, String tag) {
+        try {
+            InputStream inputStream =
+                    new ClassPathResource(path).getInputStream();
+
+            // Read JSON list
+            List<Map<String, Object>> jsonList =
+                    objectMapper.readValue(inputStream, new TypeReference<List<Map<String, Object>>>() {
+                    });
+
+            // Convert → Entities
+            List<ArticlesEntity> incomingEntities = jsonList.stream()
+                    .map(this::mapToEntity)
+                    .filter(Objects::nonNull)
+                    .filter(e -> e.getId() != null)
+                    .filter(e -> e.getTags() != null && !e.getTags().isEmpty())
+                    .collect(Collectors.toList());
+
+            if (incomingEntities.isEmpty()) {
+                log.info("⚠️ No valid articles found in JSON.");
+                return;
+            }
+
+            // Filter by tag (case-insensitive) and collect IDs
+            String commaSeparatedIds = incomingEntities.stream()
+                    .filter(article ->
+                            article.getTags().stream()
+                                    .anyMatch(t -> t.equalsIgnoreCase(tag))
+                    )
+                    .map(article -> article.getId().toString())
+                    .collect(Collectors.joining(","));
+
+            if (commaSeparatedIds.isEmpty()) {
+                log.info("ℹ️ No articles found with tag: {}", tag);
+            } else {
+                log.info("✅ Article IDs for tag [{}]: {}", tag, commaSeparatedIds);
+            }
+
+        } catch (Exception e) {
+            log.error("❌ Failed to process articles: {}", e.getMessage(), e);
+        }
+    }
+
 
 
     @Transactional
