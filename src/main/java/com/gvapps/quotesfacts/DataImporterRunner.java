@@ -19,10 +19,11 @@ public class DataImporterRunner implements CommandLineRunner {
 //        importService.importFactDetailsFromJson();
 //        importService.importFactDetailsTempFromJson();//FACT_DETAILS_TEMP.json
 //        articlesImportService.importArticlesFromJson();
-//        articlesImportService.importInsertUpdateArticlesFromJson("temp/articles_life_501_600.json");
+//        articlesImportService.importInsertUpdateArticlesFromJson("temp/articles_life_901_1000.json");
 //        articlesImportService.printIdByArticleTagFromJson("temp/articles_life_501_600.json", "Lifestyle");
 //        articlesImportService.updateSubTitleFromJson();
     }
 }
 
 //articles_life_501_600, articles_life_601_700, articles_life_701_800, articles_life_801_900, articles_life_901_1000
+

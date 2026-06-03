@@ -21,6 +21,11 @@ public interface FactTypeRepository extends JpaRepository<FactTypeEntity, Intege
     @Query("UPDATE FactTypeEntity f SET f.views = f.views + 1 WHERE f.id IN :categoryIds")
     void incrementViewsByCategoryIds(List<Long> categoryIds);
 
+    @Transactional
+    @Modifying(clearAutomatically = true, flushAutomatically = true)
+    @Query(value = "UPDATE fact_type SET views = views + 1 WHERE category_id = :categoryId", nativeQuery = true)
+    int incrementViewsByCategoryId(@Param("categoryId") int categoryId);
+
     // ✅ Get top N popular categories (based on views)
     List<FactTypeEntity> findTop4ByOrderByViewsDesc();
 

@@ -57,4 +57,3 @@ logging:
     name: application.log
 myapp:
   message: Hello, Spring Boot!
-

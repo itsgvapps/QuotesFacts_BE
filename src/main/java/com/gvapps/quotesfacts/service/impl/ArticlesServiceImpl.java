@@ -65,8 +65,14 @@ public class ArticlesServiceImpl implements ArticlesService {
     }
 
     @Override
+    @Transactional
     public Optional<ArticleDetailDTO> getById(Long id) {
         try {
+            int updatedRows = repository.incrementViewsById(id);
+            if (updatedRows == 0) {
+                return Optional.empty();
+            }
+
             return repository.findById(id)
                     .map(ArticleMapper::toDetailDTO);
         } catch (Exception e) {

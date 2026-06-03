@@ -1,6 +1,8 @@
 package com.gvapps.quotesfacts.controller;
 
 import com.gvapps.quotesfacts.dto.FactDetailsDTO;
+import com.gvapps.quotesfacts.dto.FactImageCategoryDTO;
+import com.gvapps.quotesfacts.dto.FactImageResponse;
 import com.gvapps.quotesfacts.dto.response.APIResponse;
 import com.gvapps.quotesfacts.entity.FactDetailsEntity;
 import com.gvapps.quotesfacts.entity.FactTypeEntity;
@@ -30,7 +32,27 @@ public class FactsController {
         return ResponseEntity.ok(ResponseUtils.success("200", "Categories fetched successfully", result));
     }
 
+    // Get
+    @GetMapping("/text-categories")
+    public ResponseEntity<APIResponse> getTextCategoriesByTypeId(@RequestParam int typeId) {
+        List<FactTypeEntity> result = factTypeService.getCategoriesByTypeId(typeId);
+        return ResponseEntity.ok(ResponseUtils.success("200", "Categories fetched successfully", result));
+    }
+
+    // Get image categories by type_id. Default limit is 4 for home/discover sections.
+    @GetMapping("/image-categories")
+    public ResponseEntity<APIResponse> getImageCategoriesByTypeId(@RequestParam int typeId) {
+        List<FactImageCategoryDTO> result = factTypeService.getImageCategoriesByTypeId(typeId);
+        return ResponseEntity.ok(ResponseUtils.success("200", "Image categories fetched successfully", result));
+    }
+
     // ✅ Get tab data (Home / Discover)
+    @GetMapping("/image-categories/{imageCategoryId}/images")
+    public ResponseEntity<APIResponse> getFactImagesByImageCategoryId(@PathVariable Long imageCategoryId) {
+        List<FactImageResponse> result = factTypeService.getFactImagesByImageCategoryId(imageCategoryId);
+        return ResponseEntity.ok(ResponseUtils.success("200", "Fact images fetched successfully", result));
+    }
+
     @GetMapping("/tab/{name}")
     public ResponseEntity<APIResponse> getTabData(@PathVariable String name) {
         Map<String, Object> tabData;
@@ -81,6 +103,14 @@ public class FactsController {
     }
 
     // ✅ Update category views
+    @GetMapping("/text-categories/{textCategoryId}/texts")
+    public ResponseEntity<APIResponse> getTextsByTextCategoryId(@PathVariable int textCategoryId) {
+        List<FactDetailsDTO> facts = factTypeService.getFactsByCategory(textCategoryId);
+        if (facts != null)
+            log.info("[FactController] >> [getTextsByTextCategoryId] [response] >> textCategoryId:{}; total items: {}", textCategoryId, facts.size());
+        return ResponseEntity.ok(ResponseUtils.success("200", "Facts fetched successfully", facts));
+    }
+
     @PostMapping("/category/views")
     public ResponseEntity<APIResponse> updateCategoryViews(@RequestBody Map<String, List<Long>> payload) {
         factTypeService.incrementCategoryViewsAsync(payload);

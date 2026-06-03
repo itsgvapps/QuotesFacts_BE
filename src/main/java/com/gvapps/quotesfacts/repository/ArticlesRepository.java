@@ -24,6 +24,10 @@ public interface ArticlesRepository extends JpaRepository<ArticlesEntity, Long> 
     @Query("UPDATE ArticlesEntity a SET a.views = a.views + 1 WHERE a.id IN :ids")
     void incrementViews(List<Long> ids);
 
+    @Modifying(clearAutomatically = true, flushAutomatically = true)
+    @Query("UPDATE ArticlesEntity a SET a.views = a.views + 1 WHERE a.id = :id")
+    int incrementViewsById(@Param("id") Long id);
+
     @Modifying
     @Query("UPDATE ArticlesEntity a SET a.likes = a.likes + 1 WHERE a.id IN :ids")
     void incrementLikes(List<Long> ids);

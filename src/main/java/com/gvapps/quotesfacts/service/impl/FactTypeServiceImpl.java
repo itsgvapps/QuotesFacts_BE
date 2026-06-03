@@ -1,13 +1,19 @@
 package com.gvapps.quotesfacts.service.impl;
 
 import com.gvapps.quotesfacts.dto.FactDetailsDTO;
+import com.gvapps.quotesfacts.dto.FactImageCategoryDTO;
+import com.gvapps.quotesfacts.dto.FactImageResponse;
 import com.gvapps.quotesfacts.entity.FactDetailsEntity;
+import com.gvapps.quotesfacts.entity.FactImageCategoryEntity;
 import com.gvapps.quotesfacts.entity.FactTypeEntity;
 import com.gvapps.quotesfacts.exception.ApiException;
 import com.gvapps.quotesfacts.repository.ArticlesRepository;
 import com.gvapps.quotesfacts.repository.FactDetailsRepository;
+import com.gvapps.quotesfacts.repository.FactImageCategoryRepository;
 import com.gvapps.quotesfacts.repository.FactTypeRepository;
 import com.gvapps.quotesfacts.service.FactTypeService;
+import com.gvapps.quotesfacts.util.Constants;
+import com.gvapps.quotesfacts.util.FactImageBuilder;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.scheduling.annotation.Async;
@@ -24,6 +30,7 @@ public class FactTypeServiceImpl implements FactTypeService {
     private final FactDetailsRepository factDetailsRepository;
     private final FactTypeRepository factTypeRepository;
     private final ArticlesRepository articlesRepository;
+    private final FactImageCategoryRepository factImageCategoryRepository;
 
     // ----------------------------------------------------------------------------------------
     // CATEGORY MANAGEMENT
@@ -52,6 +59,53 @@ public class FactTypeServiceImpl implements FactTypeService {
         } catch (Exception e) {
             log.error("[getCategoriesByTypeId] ❌ Failed for typeId={}", typeId, e);
             throw new ApiException("500", "Error retrieving categories for typeId=" + typeId);
+        }
+    }
+
+    @Override
+    public List<FactImageCategoryDTO> getImageCategoriesByTypeId(int typeId) {
+        try {
+            List<FactImageCategoryDTO> imageCategories = factImageCategoryRepository.findByTypeIdAndActiveTrue(typeId, Constants.FACT_IMAGE_CATEGORIES_LIMIT)
+                    .stream()
+                    .map(category -> new FactImageCategoryDTO(
+                            category.getImageCategoryId(),
+                            category.getName(),
+                            category.getShortDescription(),
+                            category.getSquareImage(),
+                            category.getVerticalImage(),
+                            category.getVerticalImageWithText(),
+                            category.getHorizontalImage(),
+                            category.getHorizontalImageWithText()
+                    ))
+                    .toList();
+            log.info("[getImageCategoriesByTypeId] typeId: {}; limit: {}; total items: {}", typeId, Constants.FACT_IMAGE_CATEGORIES_LIMIT, imageCategories.size());
+            return imageCategories;
+        } catch (ApiException e) {
+            throw e;
+        } catch (Exception e) {
+            log.error("[getImageCategoriesByTypeId] Failed for typeId={}", typeId, e);
+            throw new ApiException("500", "Error retrieving image categories for typeId=" + typeId);
+        }
+    }
+
+    @Override
+    public List<FactImageResponse> getFactImagesByImageCategoryId(Long imageCategoryId) {
+        try {
+            FactImageCategoryEntity category = factImageCategoryRepository
+                    .findByImageCategoryIdAndActiveTrue(imageCategoryId)
+                    .orElseThrow(() -> new ApiException("404", "No active image category found with imageCategoryId: " + imageCategoryId));
+
+            List<FactImageResponse> images = new ArrayList<>();
+            for (long imageId = category.getMinId(); imageId <= category.getMaxId(); imageId++) {
+                images.add(FactImageBuilder.build(category, imageId));
+            }
+            Collections.shuffle(images);
+            return images.subList(0, Math.min(Constants.FACT_IMAGE_CATEGORY_IMAGES_LIMIT, images.size()));
+        } catch (ApiException e) {
+            throw e;
+        } catch (Exception e) {
+            log.error("[getFactImagesByImageCategoryId] Failed for imageCategoryId={}", imageCategoryId, e);
+            throw new ApiException("500", "Error retrieving fact images for imageCategoryId=" + imageCategoryId);
         }
     }
 
@@ -282,6 +336,14 @@ public class FactTypeServiceImpl implements FactTypeService {
                     "items", factTypeRepository.findTopByTypeIdAndActiveTrue(11, 4)
             ));
 
+            discover.put("SECTION_EXPLORE_IMAGE_CATEGORY_HORIZONTAL_BANNER_1", Map.of(
+                    "header", Map.of(
+                            "title", "What Are You Curious About?",
+                            "subTitle", "Browse categories and learn something surprising in seconds."
+                    ),
+                    "items", getImageCategoriesByTypeId(11)
+            ));
+
             discover.put("SECTION_EXPLORE_ARTICLES_SHORT_CARD_1", Map.of(
                     "header", Map.of(
                             "title", "Curious Reads",
@@ -340,7 +402,13 @@ public class FactTypeServiceImpl implements FactTypeService {
     }
 
     @Override
+    @Transactional
     public List<FactDetailsDTO> getFactsByCategory(int categoryId) {
+        int updatedRows = factTypeRepository.incrementViewsByCategoryId(categoryId);
+        if (updatedRows == 0) {
+            log.warn("[getFactsByCategory] No fact_type row found to increment views for categoryId={}", categoryId);
+        }
+
         return factDetailsRepository.findRandomByCategoryId(categoryId, 100)
                 .stream()
                 .map(p -> new FactDetailsDTO(
