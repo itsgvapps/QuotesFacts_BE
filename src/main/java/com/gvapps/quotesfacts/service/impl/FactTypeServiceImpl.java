@@ -89,11 +89,17 @@ public class FactTypeServiceImpl implements FactTypeService {
     }
 
     @Override
+    @Transactional
     public List<FactImageResponse> getFactImagesByImageCategoryId(Long imageCategoryId) {
         try {
             FactImageCategoryEntity category = factImageCategoryRepository
                     .findByImageCategoryIdAndActiveTrue(imageCategoryId)
                     .orElseThrow(() -> new ApiException("404", "No active image category found with imageCategoryId: " + imageCategoryId));
+
+            int updatedRows = factImageCategoryRepository.incrementViewsByImageCategoryId(imageCategoryId);
+            if (updatedRows == 0) {
+                log.warn("[getFactImagesByImageCategoryId] No active image category row found to increment views for imageCategoryId={}", imageCategoryId);
+            }
 
             List<FactImageResponse> images = new ArrayList<>();
             for (long imageId = category.getMinId(); imageId <= category.getMaxId(); imageId++) {
@@ -404,12 +410,7 @@ public class FactTypeServiceImpl implements FactTypeService {
     @Override
     @Transactional
     public List<FactDetailsDTO> getFactsByCategory(int categoryId) {
-        int updatedRows = factTypeRepository.incrementViewsByCategoryId(categoryId);
-        if (updatedRows == 0) {
-            log.warn("[getFactsByCategory] No fact_type row found to increment views for categoryId={}", categoryId);
-        }
-
-        return factDetailsRepository.findRandomByCategoryId(categoryId, 100)
+        List<FactDetailsDTO> facts = factDetailsRepository.findRandomByCategoryId(categoryId, 100)
                 .stream()
                 .map(p -> new FactDetailsDTO(
                         p.getId(),
@@ -427,6 +428,15 @@ public class FactTypeServiceImpl implements FactTypeService {
                         p.isVerified()
                 ))
                 .toList();
+
+        if (!facts.isEmpty()) {
+            int updatedRows = factTypeRepository.incrementViewsByCategoryId(categoryId);
+            if (updatedRows == 0) {
+                log.warn("[getFactsByCategory] Facts found, but no fact_type row found to increment views for categoryId={}", categoryId);
+            }
+        }
+
+        return facts;
     }
 
     @Override

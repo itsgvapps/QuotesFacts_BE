@@ -11,9 +11,9 @@ spring:
   application:
     name: quotes-facts-service
   datasource:
-    url: 'jdbc:mysql://localhost:3306/gvsdb'
-    username: root
-    password: admin@1234
+    url: jdbc:mysql://db-mysql-sgp1-do-user-8499874-0.m.db.ondigitalocean.com:25060/gvsdb?sslMode=REQUIRED
+    username: doadmin
+    password: AVNS_jHgFuyfc1f-mq4KTLJ0
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     hibernate:
@@ -46,8 +46,14 @@ management:
 logging:
   level:
     org.springframework.web: INFO
+    org.hibernate.SQL: DEBUG
+    org.hibernate.orm.jdbc.bind: TRACE
   file:
     name: application.log
 myapp:
   message: Hello, Spring Boot!
 
+security:
+  hmac:
+    # Disabled only in dev so Postman/local calls can run without HMAC headers.
+    enabled: false

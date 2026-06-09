@@ -3,6 +3,7 @@ package com.gvapps.quotesfacts.repository;
 import com.gvapps.quotesfacts.dto.FactImageCategoryProjection;
 import com.gvapps.quotesfacts.entity.FactImageCategoryEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
@@ -35,5 +36,13 @@ public interface FactImageCategoryRepository extends JpaRepository<FactImageCate
     );
 
     Optional<FactImageCategoryEntity> findByImageCategoryIdAndActiveTrue(Long imageCategoryId);
+
+    @Modifying(clearAutomatically = true, flushAutomatically = true)
+    @Query(value = """
+            UPDATE fact_image_category
+            SET views = views + 1
+            WHERE image_category_id = :imageCategoryId
+            """, nativeQuery = true)
+    int incrementViewsByImageCategoryId(@Param("imageCategoryId") Long imageCategoryId);
 }
 
