@@ -5,7 +5,9 @@ public interface FactImageCategoryProjection {
 
     String getName();
 
-    String getShortDescription();
+    String getTitle();
+
+    String getSubTitle();
 
     String getSquareImage();
 

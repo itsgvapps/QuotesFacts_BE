@@ -9,22 +9,22 @@ import lombok.NoArgsConstructor;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "fact_image_category")
+@Table(name = "content_image_set")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class FactImageCategoryEntity {
+public class ContentImageSetEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "image_category_id")
-    private Long imageCategoryId;
+    @Column(name = "image_set_id")
+    private Long imageSetId;
 
     private String name;
 
     @Column(name = "category_id")
-    private int categoryId;
+    private Integer categoryId;
 
     @Column(name = "category_type")
     private String categoryType;
@@ -66,7 +66,6 @@ public class FactImageCategoryEntity {
     private String subTitle;
 
     private String title;
-
     private String icon;
 
     @Column(name = "square_image")
@@ -111,4 +110,3 @@ public class FactImageCategoryEntity {
     @Column(name = "updated_at", insertable = false, updatable = false)
     private LocalDateTime updatedAt;
 }
-

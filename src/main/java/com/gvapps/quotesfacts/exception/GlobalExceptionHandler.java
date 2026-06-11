@@ -4,6 +4,7 @@ import com.gvapps.quotesfacts.dto.response.APIResponse;
 import com.gvapps.quotesfacts.util.ResponseUtils;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.dao.DataAccessException;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -58,6 +59,22 @@ public class GlobalExceptionHandler {
     public ResponseEntity<APIResponse> handleGeneric(Exception ex) {
         log.error("[GlobalExceptionHandler] Exception: {}", ex.getMessage(), ex);
         APIResponse response = ResponseUtils.error("500", "Unexpected Error", ex.getMessage());
+        return ResponseEntity.internalServerError().body(response);
+    }
+
+    @ExceptionHandler(IllegalArgumentException.class)
+    public ResponseEntity<APIResponse> handleBadRequest(
+            IllegalArgumentException ex
+    ) {
+        APIResponse response = ResponseUtils.error("400", "Unexpected Error", ex.getMessage());
+        return ResponseEntity.internalServerError().body(response);
+    }
+
+    @ExceptionHandler(DataAccessException.class)
+    public ResponseEntity<APIResponse> handleDatabase(
+            DataAccessException ex
+    ) {
+        APIResponse response = ResponseUtils.error("500", "Database Error", ex.getMessage());
         return ResponseEntity.internalServerError().body(response);
     }
 }

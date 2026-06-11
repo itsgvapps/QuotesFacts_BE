@@ -2,10 +2,11 @@ package com.gvapps.quotesfacts.controller;
 
 import com.gvapps.quotesfacts.dto.FactDetailsDTO;
 import com.gvapps.quotesfacts.dto.FactImageCategoryDTO;
-import com.gvapps.quotesfacts.dto.FactImageResponse;
+import com.gvapps.quotesfacts.dto.ImageCollectionDTO;
 import com.gvapps.quotesfacts.dto.response.APIResponse;
 import com.gvapps.quotesfacts.entity.FactDetailsEntity;
 import com.gvapps.quotesfacts.entity.FactTypeEntity;
+import com.gvapps.quotesfacts.service.ContentImageSetService;
 import com.gvapps.quotesfacts.service.FactTypeService;
 import com.gvapps.quotesfacts.util.ResponseUtils;
 import lombok.RequiredArgsConstructor;
@@ -24,6 +25,7 @@ import java.util.Map;
 public class FactsController {
 
     private final FactTypeService factTypeService;
+    private final ContentImageSetService contentImageSetService;
 
     // ✅ Get categories by type_id
     @GetMapping("/type/{typeId}")
@@ -49,8 +51,8 @@ public class FactsController {
     // ✅ Get tab data (Home / Discover)
     @GetMapping("/image-categories/{imageCategoryId}/images")
     public ResponseEntity<APIResponse> getFactImagesByImageCategoryId(@PathVariable Long imageCategoryId) {
-        List<FactImageResponse> result = factTypeService.getFactImagesByImageCategoryId(imageCategoryId);
-        return ResponseEntity.ok(ResponseUtils.success("200", "Fact images fetched successfully", result));
+        ImageCollectionDTO result = factTypeService.getFactImagesByImageCategoryId(imageCategoryId);
+        return ResponseEntity.ok(ResponseUtils.success("200", "Fact images fetched successfully", result.images(), result.title(), result.subTitle()));
     }
 
     @GetMapping("/tab/{name}")
@@ -150,5 +152,30 @@ public class FactsController {
     public ResponseEntity<APIResponse> updateFactDetailCounts(@RequestBody Map<String, List<Long>> payload) {
         factTypeService.incrementDetailCounts(payload);
         return ResponseEntity.ok(ResponseUtils.success("200", "Fact detail counts updated successfully", null));
+    }
+
+    /* get Images */
+    @GetMapping("/images/random")
+    public ResponseEntity<APIResponse> getRandomImages() {
+        ImageCollectionDTO result = contentImageSetService.getRandomImages();
+        return ResponseEntity.ok(ResponseUtils.success("200", "Images fetched successfully", result.images(), result.title(), result.subTitle()));
+    }
+
+    @GetMapping("/images/sets/{setName}")
+    public ResponseEntity<APIResponse> getImagesBySetName(@PathVariable String setName) {
+        ImageCollectionDTO result = contentImageSetService.getImagesBySetName(setName);
+        return ResponseEntity.ok(ResponseUtils.success("200", "Images fetched successfully", result.images(), result.title(), result.subTitle()));
+    }
+
+    @GetMapping("/images/categories/{categoryId}")
+    public ResponseEntity<APIResponse> getImagesByCategoryId(@PathVariable int categoryId) {
+        ImageCollectionDTO result = contentImageSetService.getImagesByCategoryId(categoryId);
+        return ResponseEntity.ok(ResponseUtils.success("200", "Images fetched successfully", result.images(), result.title(), result.subTitle()));
+    }
+
+    @GetMapping("/images/latest")
+    public ResponseEntity<APIResponse> getLatestImages() {
+        ImageCollectionDTO result = contentImageSetService.getLatestImages();
+        return ResponseEntity.ok(ResponseUtils.success("200", "Images fetched successfully", result.images(), result.title(), result.subTitle()));
     }
 }

@@ -2,7 +2,7 @@ package com.gvapps.quotesfacts.service;
 
 import com.gvapps.quotesfacts.dto.FactDetailsDTO;
 import com.gvapps.quotesfacts.dto.FactImageCategoryDTO;
-import com.gvapps.quotesfacts.dto.FactImageResponse;
+import com.gvapps.quotesfacts.dto.ImageCollectionDTO;
 import com.gvapps.quotesfacts.entity.FactDetailsEntity;
 import com.gvapps.quotesfacts.entity.FactTypeEntity;
 
@@ -18,7 +18,7 @@ public interface FactTypeService {
 
     List<FactImageCategoryDTO> getImageCategoriesByTypeId(int typeId);
 
-    List<FactImageResponse> getFactImagesByImageCategoryId(Long imageCategoryId);
+    ImageCollectionDTO getFactImagesByImageCategoryId(Long imageCategoryId);
 
     List<FactTypeEntity> getTopPopularCategories(int limit);
 

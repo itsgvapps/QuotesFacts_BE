@@ -18,7 +18,8 @@ public interface FactImageCategoryRepository extends JpaRepository<FactImageCate
             SELECT
                 image_category_id AS imageCategoryId,
                 name,
-                short_description AS shortDescription,
+                title,
+                sub_title AS subTitle,
                 square_image AS squareImage,
                 vertical_image AS verticalImage,
                 vertical_image_with_text AS verticalImageWithText,

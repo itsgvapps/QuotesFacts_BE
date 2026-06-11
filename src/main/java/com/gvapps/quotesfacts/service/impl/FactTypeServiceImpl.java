@@ -3,6 +3,7 @@ package com.gvapps.quotesfacts.service.impl;
 import com.gvapps.quotesfacts.dto.FactDetailsDTO;
 import com.gvapps.quotesfacts.dto.FactImageCategoryDTO;
 import com.gvapps.quotesfacts.dto.FactImageResponse;
+import com.gvapps.quotesfacts.dto.ImageCollectionDTO;
 import com.gvapps.quotesfacts.entity.FactDetailsEntity;
 import com.gvapps.quotesfacts.entity.FactImageCategoryEntity;
 import com.gvapps.quotesfacts.entity.FactTypeEntity;
@@ -11,6 +12,7 @@ import com.gvapps.quotesfacts.repository.ArticlesRepository;
 import com.gvapps.quotesfacts.repository.FactDetailsRepository;
 import com.gvapps.quotesfacts.repository.FactImageCategoryRepository;
 import com.gvapps.quotesfacts.repository.FactTypeRepository;
+import com.gvapps.quotesfacts.service.ContentImageSetService;
 import com.gvapps.quotesfacts.service.FactTypeService;
 import com.gvapps.quotesfacts.util.Constants;
 import com.gvapps.quotesfacts.util.FactImageBuilder;
@@ -31,6 +33,7 @@ public class FactTypeServiceImpl implements FactTypeService {
     private final FactTypeRepository factTypeRepository;
     private final ArticlesRepository articlesRepository;
     private final FactImageCategoryRepository factImageCategoryRepository;
+    private final ContentImageSetService contentImageSetService;
 
     // ----------------------------------------------------------------------------------------
     // CATEGORY MANAGEMENT
@@ -70,7 +73,8 @@ public class FactTypeServiceImpl implements FactTypeService {
                     .map(category -> new FactImageCategoryDTO(
                             category.getImageCategoryId(),
                             category.getName(),
-                            category.getShortDescription(),
+                            category.getTitle(),
+                            category.getSubTitle(),
                             category.getSquareImage(),
                             category.getVerticalImage(),
                             category.getVerticalImageWithText(),
@@ -90,7 +94,7 @@ public class FactTypeServiceImpl implements FactTypeService {
 
     @Override
     @Transactional
-    public List<FactImageResponse> getFactImagesByImageCategoryId(Long imageCategoryId) {
+    public ImageCollectionDTO getFactImagesByImageCategoryId(Long imageCategoryId) {
         try {
             FactImageCategoryEntity category = factImageCategoryRepository
                     .findByImageCategoryIdAndActiveTrue(imageCategoryId)
@@ -106,7 +110,8 @@ public class FactTypeServiceImpl implements FactTypeService {
                 images.add(FactImageBuilder.build(category, imageId));
             }
             Collections.shuffle(images);
-            return images.subList(0, Math.min(Constants.FACT_IMAGE_CATEGORY_IMAGES_LIMIT, images.size()));
+            List<FactImageResponse> limitedImages = images.subList(0, Math.min(Constants.FACT_IMAGE_CATEGORY_IMAGES_LIMIT, images.size()));
+            return new ImageCollectionDTO(category.getTitle(), category.getSubTitle(), limitedImages);
         } catch (ApiException e) {
             throw e;
         } catch (Exception e) {
@@ -237,6 +242,17 @@ public class FactTypeServiceImpl implements FactTypeService {
                             .toList()
             ));
 
+            ImageCollectionDTO homeImages = contentImageSetService.getHomeImages();
+            String homeImagesTitle = defaultIfBlank(homeImages.title(), "Popular Facts");
+            String homeImagesSubTitle = defaultIfBlank(homeImages.subTitle(), "Popular Knowledge Bites Worth Knowing");
+            dashboard.put("SECTION_HOME_IMAGE_LIST_HORIZONTAL_1", Map.of(
+                    "header", Map.of(
+                            "title", homeImagesTitle,
+                            "subTitle", homeImagesSubTitle
+                    ),
+                    "items", homeImages.images()
+            ));
+
             dashboard.put("SECTION_HOME_TEXT_CATEGORY_GRID_LONG_TEXT_1", Map.of(
                     "header", Map.of(
                             "title", "Popular Fact Categories",
@@ -334,6 +350,14 @@ public class FactTypeServiceImpl implements FactTypeService {
 
         Map<String, Object> discover = new LinkedHashMap<>();
         try {
+            discover.put("SECTION_EXPLORE_IMAGE_CATEGORY_HORIZONTAL_BANNER_1", Map.of(
+                    "header", Map.of(
+                            "title", "What Are You Curious About?",
+                            "subTitle", "Browse categories and learn something surprising in seconds."
+                    ),
+                    "items", getImageCategoriesByTypeId(11)
+            ));
+
             discover.put("SECTION_EXPLORE_TEXT_CATEGORY_GRID_TALL_CARD_1", Map.of(
                     "header", Map.of(
                             "title", "Facts by Category",
@@ -342,12 +366,15 @@ public class FactTypeServiceImpl implements FactTypeService {
                     "items", factTypeRepository.findTopByTypeIdAndActiveTrue(11, 4)
             ));
 
-            discover.put("SECTION_EXPLORE_IMAGE_CATEGORY_HORIZONTAL_BANNER_1", Map.of(
+            ImageCollectionDTO homeImages = contentImageSetService.getHomeImages();
+            String homeImagesTitle = defaultIfBlank(homeImages.title(), "Popular Facts");
+            String homeImagesSubTitle = defaultIfBlank(homeImages.subTitle(), "Popular Knowledge Bites Worth Knowing");
+            discover.put("SECTION_EXPLORE_IMAGE_LIST_HORIZONTAL_1", Map.of(
                     "header", Map.of(
-                            "title", "What Are You Curious About?",
-                            "subTitle", "Browse categories and learn something surprising in seconds."
+                            "title", homeImagesTitle,
+                            "subTitle", homeImagesSubTitle
                     ),
-                    "items", getImageCategoriesByTypeId(11)
+                    "items", homeImages.images()
             ));
 
             discover.put("SECTION_EXPLORE_ARTICLES_SHORT_CARD_1", Map.of(
@@ -410,7 +437,7 @@ public class FactTypeServiceImpl implements FactTypeService {
     @Override
     @Transactional
     public List<FactDetailsDTO> getFactsByCategory(int categoryId) {
-        List<FactDetailsDTO> facts = factDetailsRepository.findRandomByCategoryId(categoryId, 100)
+        List<FactDetailsDTO> facts = factDetailsRepository.findRandomByCategoryId(categoryId, 25)
                 .stream()
                 .map(p -> new FactDetailsDTO(
                         p.getId(),
@@ -537,5 +564,9 @@ public class FactTypeServiceImpl implements FactTypeService {
         } catch (Exception e) {
             log.error("[incrementDetailCounts] ❌ Error incrementing fact metrics", e);
         }
+    }
+
+    private String defaultIfBlank(String value, String defaultValue) {
+        return value == null || value.isBlank() ? defaultValue : value;
     }
 }

@@ -188,7 +188,6 @@ public class ArticlesImportService {
     }
 
 
-
     @Transactional
     public void updateSubTitleFromJson() {
         try {

@@ -7,8 +7,9 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 public record FactImageCategoryDTO(
         Long imageCategoryId,
         String name,
-        @JsonProperty("short_description")
-        String shortDescription,
+        String title,
+        @JsonProperty("sub_title")
+        String subTitle,
         @JsonProperty("square_image")
         String squareImage,
         @JsonProperty("vertical_image")

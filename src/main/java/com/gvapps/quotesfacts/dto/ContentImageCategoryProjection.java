@@ -6,7 +6,9 @@ public interface ContentImageCategoryProjection {
 
     String getName();
 
-    String getShortDescription();
+    String getTitle();
+
+    String getSubTitle();
 
     String getVerticalImage();
 
