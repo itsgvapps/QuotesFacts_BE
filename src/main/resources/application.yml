@@ -1,20 +1,20 @@
 server:
   port: 8386
+  servlet:
+    context-path: /api
   error:
     include-message: always
     include-binding-errors: always
     include-stacktrace: always
     whitelabel:
       enabled: false
+    path: /error
 
 spring:
   application:
     name: quotes-facts-service
   profiles:
     active: prod
-  mvc:
-    servlet:
-      path: /api
   datasource:
     url: ${DB_URL}
     username: ${DB_USER}

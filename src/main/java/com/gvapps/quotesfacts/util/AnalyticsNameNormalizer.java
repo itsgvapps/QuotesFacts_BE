@@ -5,6 +5,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class AnalyticsNameNormalizer {
 
+    private static final String VALID_ANALYTICS_NAME_REGEX = "^[a-z][a-z0-9_]{0,79}$";
+
     public String normalize(String value) {
         if (value == null || value.isBlank()) {
             return value;
@@ -12,15 +14,23 @@ public class AnalyticsNameNormalizer {
 
         String normalized = value.trim();
 
-        // Convert camelCase to snake_case
         normalized = normalized.replaceAll("([a-z0-9])([A-Z])", "$1_$2");
-
-        // Convert spaces/hyphens to underscore
         normalized = normalized.replaceAll("[\\s\\-]+", "_");
-
-        // Remove duplicate underscores
         normalized = normalized.replaceAll("_+", "_");
+        normalized = normalized.toLowerCase();
 
-        return normalized.toLowerCase();
+        if (normalized.startsWith("_")) {
+            normalized = normalized.substring(1);
+        }
+
+        if (normalized.endsWith("_")) {
+            normalized = normalized.substring(0, normalized.length() - 1);
+        }
+
+        return normalized;
+    }
+
+    public boolean isValidAnalyticsName(String value) {
+        return value != null && value.matches(VALID_ANALYTICS_NAME_REGEX);
     }
 }

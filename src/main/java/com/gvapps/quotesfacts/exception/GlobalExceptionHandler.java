@@ -3,6 +3,7 @@ package com.gvapps.quotesfacts.exception;
 import com.gvapps.quotesfacts.dto.response.APIResponse;
 import com.gvapps.quotesfacts.util.ResponseUtils;
 import jakarta.persistence.EntityNotFoundException;
+import jakarta.servlet.ServletException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.dao.DataAccessException;
 import org.springframework.dao.DataIntegrityViolationException;
@@ -11,10 +12,25 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
+import org.springframework.web.servlet.NoHandlerFoundException;
 
 @Slf4j
 @RestControllerAdvice
 public class GlobalExceptionHandler {
+
+    @ExceptionHandler(ServletException.class)
+    public ResponseEntity<APIResponse> handleServletException(ServletException ex) {
+        log.error("[GlobalExceptionHandler] ServletException: {}", ex.getMessage(), ex);
+        APIResponse response = ResponseUtils.error("500", "Servlet Error", ex.getMessage());
+        return ResponseEntity.internalServerError().body(response);
+    }
+
+    @ExceptionHandler(NoHandlerFoundException.class)
+    public ResponseEntity<APIResponse> handleNoHandlerFound(NoHandlerFoundException ex) {
+        log.warn("[GlobalExceptionHandler] NoHandlerFoundException: {}", ex.getMessage());
+        APIResponse response = ResponseUtils.error("404", "Endpoint Not Found", "The requested endpoint does not exist.");
+        return ResponseEntity.status(HttpStatus.NOT_FOUND).body(response);
+    }
 
     @ExceptionHandler(ApiException.class)
     public ResponseEntity<APIResponse> handleApiException(ApiException ex) {
