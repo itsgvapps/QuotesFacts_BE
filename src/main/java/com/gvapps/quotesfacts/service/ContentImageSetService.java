@@ -4,7 +4,7 @@ import com.gvapps.quotesfacts.dto.ImageCollectionDTO;
 
 public interface ContentImageSetService {
 
-    ImageCollectionDTO getRandomImages();
+    ImageCollectionDTO getRandomImages(int typeId, int categoryId);
 
     ImageCollectionDTO getImagesBySetName(String setName);
 

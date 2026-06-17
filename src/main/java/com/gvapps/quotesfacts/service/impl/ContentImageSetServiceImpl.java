@@ -25,10 +25,7 @@ public class ContentImageSetServiceImpl implements ContentImageSetService {
     private final ContentImageSetRepository contentImageSetRepository;
 
     @Override
-    public ImageCollectionDTO getRandomImages() {
-        int typeId = 11;
-        int categoryId = 1;
-
+    public ImageCollectionDTO getRandomImages(int typeId, int categoryId) {
         ContentImageSetEntity imageSet = contentImageSetRepository.findRandomActiveByTypeIdAndCategoryId(typeId, categoryId)
                 .orElseThrow(() -> new ApiException("404", "No active image set found for typeId=" + typeId + ", categoryId=" + categoryId));
 

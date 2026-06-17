@@ -157,7 +157,7 @@ public class FactsController {
     /* get Images */
     @GetMapping("/images/random")
     public ResponseEntity<APIResponse> getRandomImages() {
-        ImageCollectionDTO result = contentImageSetService.getRandomImages();
+        ImageCollectionDTO result = contentImageSetService.getRandomImages(11, 1);
         return ResponseEntity.ok(ResponseUtils.success("200", "Images fetched successfully", result.images(), result.title(), result.subTitle()));
     }
 
