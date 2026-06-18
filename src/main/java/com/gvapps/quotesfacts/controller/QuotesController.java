@@ -23,6 +23,13 @@ public class QuotesController {
     private final ContentImageSetService contentImageSetService;
 
     /* get Images */
+    @GetMapping("/images/latest")
+    public ResponseEntity<APIResponse> getLatestImages() {
+        ImageCollectionDTO result = contentImageSetService.getRandomImages(33, 1);
+        return ResponseEntity.ok(ResponseUtils.success("200", "Images fetched successfully", result.images(), result.title(), result.subTitle()));
+    }
+
+    /* get Images */
     @GetMapping("/images/random")
     public ResponseEntity<APIResponse> getRandomImages() {
         ImageCollectionDTO result = contentImageSetService.getRandomImages(33, 1);
