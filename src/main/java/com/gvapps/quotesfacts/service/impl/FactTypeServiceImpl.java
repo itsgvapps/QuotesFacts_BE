@@ -242,7 +242,7 @@ public class FactTypeServiceImpl implements FactTypeService {
                             .toList()
             ));
 
-            ImageCollectionDTO homeImages = contentImageSetService.getHomeImages();
+            ImageCollectionDTO homeImages = contentImageSetService.getHomeImages(11, 1);
             String homeImagesTitle = defaultIfBlank(homeImages.title(), "Popular Facts");
             String homeImagesSubTitle = defaultIfBlank(homeImages.subTitle(), "Popular Knowledge Bites Worth Knowing");
             dashboard.put("SECTION_HOME_IMAGE_LIST_HORIZONTAL_1", Map.of(
@@ -366,7 +366,7 @@ public class FactTypeServiceImpl implements FactTypeService {
                     "items", factTypeRepository.findTopByTypeIdAndActiveTrue(11, 4)
             ));
 
-            ImageCollectionDTO homeImages = contentImageSetService.getHomeImages();
+            ImageCollectionDTO homeImages = contentImageSetService.getHomeImages(11, 1);
             String homeImagesTitle = defaultIfBlank(homeImages.title(), "Popular Facts");
             String homeImagesSubTitle = defaultIfBlank(homeImages.subTitle(), "Popular Knowledge Bites Worth Knowing");
             discover.put("SECTION_EXPLORE_IMAGE_LIST_HORIZONTAL_1", Map.of(

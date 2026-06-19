@@ -10,7 +10,7 @@ public interface ContentImageSetService {
 
     ImageCollectionDTO getImagesByCategoryId(int categoryId);
 
-    ImageCollectionDTO getLatestImages();
+    ImageCollectionDTO getLatestImages(int typeId, int categoryId);
 
-    ImageCollectionDTO getHomeImages();
+    ImageCollectionDTO getHomeImages(int typeId, int categoryId);
 }

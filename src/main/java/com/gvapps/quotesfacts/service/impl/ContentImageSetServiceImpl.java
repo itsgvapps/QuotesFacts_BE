@@ -53,19 +53,19 @@ public class ContentImageSetServiceImpl implements ContentImageSetService {
     }
 
     @Override
-    public ImageCollectionDTO getLatestImages() {
+    public ImageCollectionDTO getLatestImages(int typeId, int categoryId) {
         List<ContentImageSetEntity> imageSets = contentImageSetRepository.findTop20ByActiveTrueOrderByUpdatedAtDescCreatedAtDesc();
         return buildRandomImagesOrThrow(imageSets, "No active image sets found");
     }
 
     @Override
-    public ImageCollectionDTO getHomeImages() {
-        ContentImageSetEntity imageSet = contentImageSetRepository.findRandomActive()
+    public ImageCollectionDTO getHomeImages(int typeId, int categoryId) {
+        ContentImageSetEntity imageSet = contentImageSetRepository.findRandomActiveByTypeIdAndCategoryId(typeId, categoryId)
                 .orElseThrow(() -> new ApiException("404", "No active image set found"));
 
         return buildRandomImagesOrThrow(
                 List.of(imageSet),
-                Constants.HOME_IMAGE_SET_IMAGES_LIMIT,
+                Constants.TAB_IMAGE_SET_IMAGES_LIMIT,
                 "No images found for image set=" + imageSet.getName()
         );
     }

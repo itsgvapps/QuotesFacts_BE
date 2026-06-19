@@ -154,13 +154,6 @@ public class FactsController {
         return ResponseEntity.ok(ResponseUtils.success("200", "Fact detail counts updated successfully", null));
     }
 
-    /* get Images */
-    @GetMapping("/images/random")
-    public ResponseEntity<APIResponse> getRandomImages() {
-        ImageCollectionDTO result = contentImageSetService.getRandomImages(11, 1);
-        return ResponseEntity.ok(ResponseUtils.success("200", "Images fetched successfully", result.images(), result.title(), result.subTitle()));
-    }
-
     @GetMapping("/images/sets/{setName}")
     public ResponseEntity<APIResponse> getImagesBySetName(@PathVariable String setName) {
         ImageCollectionDTO result = contentImageSetService.getImagesBySetName(setName);
@@ -175,7 +168,14 @@ public class FactsController {
 
     @GetMapping("/images/latest")
     public ResponseEntity<APIResponse> getLatestImages() {
-        ImageCollectionDTO result = contentImageSetService.getLatestImages();
+        ImageCollectionDTO result = contentImageSetService.getLatestImages(11, 1);
+        return ResponseEntity.ok(ResponseUtils.success("200", "Images fetched successfully", result.images(), result.title(), result.subTitle()));
+    }
+
+    /* get Images */
+    @GetMapping("/images/random")
+    public ResponseEntity<APIResponse> getRandomImages() {
+        ImageCollectionDTO result = contentImageSetService.getRandomImages(11, 1);
         return ResponseEntity.ok(ResponseUtils.success("200", "Images fetched successfully", result.images(), result.title(), result.subTitle()));
     }
 }
