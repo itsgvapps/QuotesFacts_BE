@@ -33,6 +33,14 @@ public class ContentImageSetServiceImpl implements ContentImageSetService {
     }
 
     @Override
+    public ImageCollectionDTO getLatestImages(int typeId, int categoryId) {
+        ContentImageSetEntity imageSet = contentImageSetRepository.findRandomActiveByTypeIdAndCategoryId(typeId, categoryId)
+                .orElseThrow(() -> new ApiException("404", "No active image set found for typeId=" + typeId + ", categoryId=" + categoryId));
+
+        return buildRandomImagesOrThrow(List.of(imageSet), "No images found for image set=" + imageSet.getName());
+    }
+
+    @Override
     public ImageCollectionDTO getImagesBySetName(String setName) {
         if (setName == null || setName.isBlank()) {
             throw new ApiException("400", "setName is required");
@@ -50,12 +58,6 @@ public class ContentImageSetServiceImpl implements ContentImageSetService {
 
         List<ContentImageSetEntity> imageSets = contentImageSetRepository.findActiveByCategoryId(categoryId);
         return buildRandomImagesOrThrow(imageSets, "No active image sets found for categoryId=" + categoryId);
-    }
-
-    @Override
-    public ImageCollectionDTO getLatestImages(int typeId, int categoryId) {
-        List<ContentImageSetEntity> imageSets = contentImageSetRepository.findTop20ByActiveTrueOrderByUpdatedAtDescCreatedAtDesc();
-        return buildRandomImagesOrThrow(imageSets, "No active image sets found");
     }
 
     @Override

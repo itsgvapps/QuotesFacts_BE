@@ -14,7 +14,7 @@ spring:
   application:
     name: quotes-facts-service
   profiles:
-    active: prod
+    active: dev
   datasource:
     url: ${DB_URL}
     username: ${DB_USER}

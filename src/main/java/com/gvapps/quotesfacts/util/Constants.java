@@ -8,6 +8,11 @@ public class Constants {
     public static final String STATUS_DESC_SUCCESS = "Successful";
     public static final String STATUS_DESC_FAILURE = "Unsuccessful";
 
+    public static final int SET_IMAGE_TYPE_QUOTES = 11;
+    public static final int SET_IMAGE_TYPE_LOVE = 22;
+    public static final int SET_IMAGE_TYPE_PSYCHOLOGY = 33;
+    public static final int SET_IMAGE_TYPE_FACTS = 44;
+
     public static final int FACT_IMAGE_CATEGORIES_LIMIT = 4;
     public static final int FACT_IMAGE_CATEGORY_IMAGES_LIMIT = 10;
 

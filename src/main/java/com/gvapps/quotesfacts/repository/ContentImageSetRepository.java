@@ -32,21 +32,8 @@ public interface ContentImageSetRepository extends JpaRepository<ContentImageSet
             SELECT *
             FROM content_image_set
             WHERE active = 1
-             AND typeId = :typeId
-             AND category_id = :categoryId
-            ORDER BY RAND()
-            LIMIT 1
-            """, nativeQuery = true)
-    Optional<ContentImageSetEntity> findRandomActive(@Param("typeId") int typeId, @Param("categoryId") int categoryId);
-
-    @Query(value = """
-            SELECT *
-            FROM content_image_set
-            WHERE active = 1
               AND category_id = :categoryId
             ORDER BY RAND()
             """, nativeQuery = true)
     List<ContentImageSetEntity> findActiveByCategoryId(@Param("categoryId") int categoryId);
-
-    List<ContentImageSetEntity> findTop20ByActiveTrueOrderByUpdatedAtDescCreatedAtDesc();
 }

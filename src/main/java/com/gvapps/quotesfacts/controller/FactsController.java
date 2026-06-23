@@ -17,6 +17,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Map;
 
+import static com.gvapps.quotesfacts.util.Constants.SET_IMAGE_TYPE_FACTS;
+
 @Slf4j
 @RestController
 @RequestMapping("/v1/facts")
@@ -160,6 +162,8 @@ public class FactsController {
         return ResponseEntity.ok(ResponseUtils.success("200", "Images fetched successfully", result.images(), result.title(), result.subTitle()));
     }
 
+
+    //Deprecated
     @GetMapping("/images/categories/{categoryId}")
     public ResponseEntity<APIResponse> getImagesByCategoryId(@PathVariable int categoryId) {
         ImageCollectionDTO result = contentImageSetService.getImagesByCategoryId(categoryId);
@@ -168,14 +172,14 @@ public class FactsController {
 
     @GetMapping("/images/latest")
     public ResponseEntity<APIResponse> getLatestImages() {
-        ImageCollectionDTO result = contentImageSetService.getLatestImages(11, 1);
+        ImageCollectionDTO result = contentImageSetService.getLatestImages(SET_IMAGE_TYPE_FACTS, 1);
         return ResponseEntity.ok(ResponseUtils.success("200", "Images fetched successfully", result.images(), result.title(), result.subTitle()));
     }
 
     /* get Images */
     @GetMapping("/images/random")
     public ResponseEntity<APIResponse> getRandomImages() {
-        ImageCollectionDTO result = contentImageSetService.getRandomImages(11, 1);
+        ImageCollectionDTO result = contentImageSetService.getRandomImages(SET_IMAGE_TYPE_FACTS, 1);
         return ResponseEntity.ok(ResponseUtils.success("200", "Images fetched successfully", result.images(), result.title(), result.subTitle()));
     }
 }
