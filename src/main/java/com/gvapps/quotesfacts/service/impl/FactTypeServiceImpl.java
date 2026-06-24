@@ -112,7 +112,7 @@ public class FactTypeServiceImpl implements FactTypeService {
                 images.add(FactImageBuilder.build(category, imageId));
             }
             Collections.shuffle(images);
-            List<FactImageResponse> limitedImages = images.subList(0, Math.min(Constants.FACT_IMAGE_CATEGORY_IMAGES_LIMIT, images.size()));
+            List<FactImageResponse> limitedImages = images.subList(0, Math.min(Constants.IMAGES_LIMIT, images.size()));
             return new ImageCollectionDTO(category.getTitle(), category.getSubTitle(), limitedImages);
         } catch (ApiException e) {
             throw e;

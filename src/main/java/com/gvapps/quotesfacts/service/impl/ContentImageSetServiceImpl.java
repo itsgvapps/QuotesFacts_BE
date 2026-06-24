@@ -29,7 +29,7 @@ public class ContentImageSetServiceImpl implements ContentImageSetService {
         ContentImageSetEntity imageSet = contentImageSetRepository.findRandomActiveByTypeIdAndCategoryId(typeId, categoryId)
                 .orElseThrow(() -> new ApiException("404", "No active image set found for typeId=" + typeId + ", categoryId=" + categoryId));
 
-        return buildRandomImagesOrThrow(List.of(imageSet), "No images found for image set=" + imageSet.getName());
+        return buildRandomImagesOrThrow(List.of(imageSet), Constants.VISUAL_IMAGES_LIMIT, "No images found for image set=" + imageSet.getName());
     }
 
     @Override
@@ -37,7 +37,7 @@ public class ContentImageSetServiceImpl implements ContentImageSetService {
         ContentImageSetEntity imageSet = contentImageSetRepository.findRandomActiveByTypeIdAndCategoryId(typeId, categoryId)
                 .orElseThrow(() -> new ApiException("404", "No active image set found for typeId=" + typeId + ", categoryId=" + categoryId));
 
-        return buildRandomImagesOrThrow(List.of(imageSet), "No images found for image set=" + imageSet.getName());
+        return buildRandomImagesOrThrow(List.of(imageSet), Constants.IMAGES_LIMIT, "No images found for image set=" + imageSet.getName());
     }
 
     @Override
@@ -49,7 +49,7 @@ public class ContentImageSetServiceImpl implements ContentImageSetService {
         ContentImageSetEntity imageSet = contentImageSetRepository.findByNameAndActiveTrue(setName.trim())
                 .orElseThrow(() -> new ApiException("404", "No active image set found for setName=" + setName));
 
-        return buildRandomImagesOrThrow(List.of(imageSet), "No images found for setName=" + setName);
+        return buildRandomImagesOrThrow(List.of(imageSet), Constants.IMAGES_LIMIT, "No images found for setName=" + setName);
     }
 
     @Override
@@ -57,7 +57,7 @@ public class ContentImageSetServiceImpl implements ContentImageSetService {
         validatePositive(categoryId, "categoryId");
 
         List<ContentImageSetEntity> imageSets = contentImageSetRepository.findActiveByCategoryId(categoryId);
-        return buildRandomImagesOrThrow(imageSets, "No active image sets found for categoryId=" + categoryId);
+        return buildRandomImagesOrThrow(imageSets, Constants.IMAGES_LIMIT, "No active image sets found for categoryId=" + categoryId);
     }
 
     @Override
@@ -70,10 +70,6 @@ public class ContentImageSetServiceImpl implements ContentImageSetService {
                 Constants.TAB_IMAGE_SET_IMAGES_LIMIT,
                 "No images found for image set=" + imageSet.getName()
         );
-    }
-
-    private ImageCollectionDTO buildRandomImagesOrThrow(List<ContentImageSetEntity> imageSets, String emptyMessage) {
-        return buildRandomImagesOrThrow(imageSets, Constants.CONTENT_IMAGE_SET_IMAGES_LIMIT, emptyMessage);
     }
 
     private ImageCollectionDTO buildRandomImagesOrThrow(List<ContentImageSetEntity> imageSets, int limit, String emptyMessage) {
