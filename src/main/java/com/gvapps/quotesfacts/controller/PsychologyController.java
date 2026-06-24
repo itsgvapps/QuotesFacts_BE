@@ -32,7 +32,7 @@ public class PsychologyController {
     /* get Images */
     @GetMapping("/images/random")
     public ResponseEntity<APIResponse> getRandomImages() {
-        ImageCollectionDTO result = contentImageSetService.getRandomImages(SET_IMAGE_TYPE_PSYCHOLOGY, 1);
+        ImageCollectionDTO result = contentImageSetService.getLatestImages(SET_IMAGE_TYPE_PSYCHOLOGY, 1);
         return ResponseEntity.ok(ResponseUtils.success("200", "Images fetched successfully", result.images(), result.title(), result.subTitle()));
     }
 }
