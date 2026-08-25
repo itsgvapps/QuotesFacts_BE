@@ -11,8 +11,6 @@ import java.util.Map;
 import java.util.Optional;
 
 public interface ArticlesService {
-    List<ArticlesEntity> getAll();
-
     Optional<ArticleDetailDTO> getById(Long id);
 
     ArticlesEntity save(ArticlesEntity article);

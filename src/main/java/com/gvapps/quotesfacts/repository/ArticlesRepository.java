@@ -14,11 +14,7 @@ import java.util.List;
 
 public interface ArticlesRepository extends JpaRepository<ArticlesEntity, Long> {
 
-    List<ArticlesEntity> findByActiveTrue();
-
     List<ArticlesEntity> findByFeaturedTrue();
-
-    List<ArticlesEntity> findByCategoryId(String categoryId);
 
     @Modifying
     @Query("UPDATE ArticlesEntity a SET a.views = a.views + 1 WHERE a.id IN :ids")

@@ -162,7 +162,6 @@ public class FactsController {
         return ResponseEntity.ok(ResponseUtils.success("200", "Images fetched successfully", result.images(), result.title(), result.subTitle()));
     }
 
-
     //Deprecated
     @GetMapping("/images/categories/{categoryId}")
     public ResponseEntity<APIResponse> getImagesByCategoryId(@PathVariable int categoryId) {

@@ -14,9 +14,6 @@ import java.util.List;
 @Repository
 public interface FactDetailsRepository extends JpaRepository<FactDetailsEntity, Integer> {
 
-    // ✅ Find facts by category
-    List<FactDetailsEntity> findByCategoryId(int categoryId);
-
     @Query(value = """
                     SELECT 
                         id,

@@ -36,8 +36,6 @@ public interface FactTypeService {
 
     Optional<FactDetailsEntity> getFactById(int id);
 
-    List<FactDetailsEntity> getAllFacts();
-
     List<FactDetailsDTO> getFactsByCategory(int categoryId);
 
     List<FactDetailsEntity> getFactsByLanguage(String language);

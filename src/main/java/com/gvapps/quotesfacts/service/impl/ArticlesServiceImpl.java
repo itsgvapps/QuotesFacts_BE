@@ -53,17 +53,6 @@ public class ArticlesServiceImpl implements ArticlesService {
         }
     }
 
-
-    @Override
-    public List<ArticlesEntity> getAll() {
-        try {
-            return repository.findAll();
-        } catch (Exception e) {
-            log.error("[ArticlesServiceImpl] >> getAll failed", e);
-            throw new ApiException("500", "Failed to fetch all articles");
-        }
-    }
-
     @Override
     @Transactional
     public Optional<ArticleDetailDTO> getById(Long id) {

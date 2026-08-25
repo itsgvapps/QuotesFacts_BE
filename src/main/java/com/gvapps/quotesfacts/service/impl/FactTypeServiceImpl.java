@@ -23,6 +23,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.*;
+import java.util.concurrent.ThreadLocalRandom;
 
 import static com.gvapps.quotesfacts.util.Constants.SET_IMAGE_TYPE_FACTS;
 
@@ -70,20 +71,7 @@ public class FactTypeServiceImpl implements FactTypeService {
     @Override
     public List<FactImageCategoryDTO> getImageCategoriesByTypeId(int typeId) {
         try {
-            List<FactImageCategoryDTO> imageCategories = factImageCategoryRepository.findByTypeIdAndActiveTrue(typeId, Constants.FACT_IMAGE_CATEGORIES_LIMIT)
-                    .stream()
-                    .map(category -> new FactImageCategoryDTO(
-                            category.getImageCategoryId(),
-                            category.getName(),
-                            category.getTitle(),
-                            category.getSubTitle(),
-                            category.getSquareImage(),
-                            category.getVerticalImage(),
-                            category.getVerticalImageWithText(),
-                            category.getHorizontalImage(),
-                            category.getHorizontalImageWithText()
-                    ))
-                    .toList();
+            List<FactImageCategoryDTO> imageCategories = factImageCategoryRepository.findByTypeIdAndActiveTrue(typeId, Constants.FACT_IMAGE_CATEGORIES_LIMIT).stream().map(category -> new FactImageCategoryDTO(category.getImageCategoryId(), category.getName(), category.getTitle(), category.getSubTitle(), category.getSquareImage(), category.getVerticalImage(), category.getVerticalImageWithText(), category.getHorizontalImage(), category.getHorizontalImageWithText())).toList();
             log.info("[getImageCategoriesByTypeId] typeId: {}; limit: {}; total items: {}", typeId, Constants.FACT_IMAGE_CATEGORIES_LIMIT, imageCategories.size());
             return imageCategories;
         } catch (ApiException e) {
@@ -97,28 +85,44 @@ public class FactTypeServiceImpl implements FactTypeService {
     @Override
     @Transactional
     public ImageCollectionDTO getFactImagesByImageCategoryId(Long imageCategoryId) {
+
         try {
-            FactImageCategoryEntity category = factImageCategoryRepository
-                    .findByImageCategoryIdAndActiveTrue(imageCategoryId)
-                    .orElseThrow(() -> new ApiException("404", "No active image category found with imageCategoryId: " + imageCategoryId));
+            FactImageCategoryEntity category = factImageCategoryRepository.findByImageCategoryIdAndActiveTrue(imageCategoryId).orElseThrow(() -> new ApiException("404", "No active image category found with imageCategoryId: " + imageCategoryId));
 
-            int updatedRows = factImageCategoryRepository.incrementViewsByImageCategoryId(imageCategoryId);
-            if (updatedRows == 0) {
-                log.warn("[getFactImagesByImageCategoryId] No active image category row found to increment views for imageCategoryId={}", imageCategoryId);
+            factImageCategoryRepository.incrementViewsByImageCategoryId(imageCategoryId);
+
+            long minId = category.getMinId();
+            long maxId = category.getMaxId();
+
+            if (maxId < minId) {
+                throw new ApiException("404", "Invalid image range");
             }
 
-            List<FactImageResponse> images = new ArrayList<>();
-            for (long imageId = category.getMinId(); imageId <= category.getMaxId(); imageId++) {
-                images.add(FactImageBuilder.build(category, imageId));
+            long available = maxId - minId + 1;
+
+            int limit = (int) Math.min(Constants.IMAGES_LIMIT, available);
+
+            Set<Long> selectedIds = new HashSet<>(limit);
+            List<FactImageResponse> images = new ArrayList<>(limit);
+
+            while (images.size() < limit) {
+
+                long imageId = ThreadLocalRandom.current().nextLong(minId, maxId + 1);
+
+                if (selectedIds.add(imageId)) {
+                    images.add(FactImageBuilder.build(category, imageId));
+                }
             }
+
             Collections.shuffle(images);
-            List<FactImageResponse> limitedImages = images.subList(0, Math.min(Constants.IMAGES_LIMIT, images.size()));
-            return new ImageCollectionDTO(category.getTitle(), category.getSubTitle(), limitedImages);
+
+            return new ImageCollectionDTO(category.getTitle(), category.getSubTitle(), images);
+
         } catch (ApiException e) {
             throw e;
         } catch (Exception e) {
             log.error("[getFactImagesByImageCategoryId] Failed for imageCategoryId={}", imageCategoryId, e);
-            throw new ApiException("500", "Error retrieving fact images for imageCategoryId=" + imageCategoryId);
+            throw new ApiException("500", "Error retrieving fact images");
         }
     }
 
@@ -219,122 +223,33 @@ public class FactTypeServiceImpl implements FactTypeService {
         Map<String, Object> dashboard = new LinkedHashMap<>();
 
         try {
-            dashboard.put("SECTION_HOME_TODAY_PICKS", Map.of(
-                    "header", Map.of(
-                            "title", "Today’s Quick Facts",
-                            "subTitle", "Short, snappy, and verified",
-                            "gradientColors", List.of("#FEF9C3", "#E0F2FE", "#E9D5FF")
-                    ),
-                    "items", factDetailsRepository.findRandomShortFacts(5).stream()
-                            .map(p -> new FactDetailsDTO(
-                                    p.getId(),
-                                    p.getCategoryId(),
-                                    p.getText(),
-                                    p.getShortSummary(),
-                                    p.getLongSummary(),
-                                    p.getArticleId(),
-                                    p.getSourceUrl(),
-                                    p.getLikes(),
-                                    p.getBookmarks(),
-                                    p.getDownloads(),
-                                    p.getShares(),
-                                    p.getViews(),
-                                    p.isVerified()
-                            ))
-                            .toList()
-            ));
+            dashboard.put("SECTION_HOME_TODAY_PICKS", Map.of("header", Map.of("title", "Today’s Quick Facts", "subTitle", "Short, snappy, and verified", "gradientColors", List.of("#FEF9C3", "#E0F2FE", "#E9D5FF")), "items", factDetailsRepository.findRandomShortFacts(5).stream().map(p -> new FactDetailsDTO(p.getId(), p.getCategoryId(), p.getText(), p.getShortSummary(), p.getLongSummary(), p.getArticleId(), p.getSourceUrl(), p.getLikes(), p.getBookmarks(), p.getDownloads(), p.getShares(), p.getViews(), p.isVerified())).toList()));
 
             ImageCollectionDTO homeImages = contentImageSetService.getHomeImages(SET_IMAGE_TYPE_FACTS, 1);
             String homeImagesTitle = defaultIfBlank(homeImages.title(), "Popular Facts");
             String homeImagesSubTitle = defaultIfBlank(homeImages.subTitle(), "Popular Knowledge Bites Worth Knowing");
-            dashboard.put("SECTION_HOME_IMAGE_LIST_HORIZONTAL_1", Map.of(
-                    "header", Map.of(
-                            "title", homeImagesTitle,
-                            "subTitle", homeImagesSubTitle
-                    ),
-                    "items", homeImages.images()
-            ));
+            dashboard.put("SECTION_HOME_IMAGE_LIST_HORIZONTAL_1", Map.of("header", Map.of("title", homeImagesTitle, "subTitle", homeImagesSubTitle), "items", homeImages.images()));
 
-            dashboard.put("SECTION_HOME_TEXT_CATEGORY_GRID_LONG_TEXT_1", Map.of(
-                    "header", Map.of(
-                            "title", "Popular Fact Categories",
-                            "subTitle", "Popular Knowledge Bites Worth Knowing"
-                    ),
-                    "items", factTypeRepository.findTopByTypeIdAndActiveTrue(11, 4)
-            ));
+            dashboard.put("SECTION_HOME_TEXT_CATEGORY_GRID_LONG_TEXT_1", Map.of("header", Map.of("title", "Popular Fact Categories", "subTitle", "Popular Knowledge Bites Worth Knowing"), "items", factTypeRepository.findTopByTypeIdAndActiveTrue(11, 4)));
 
-            dashboard.put("SECTION_HOME_ARTICLES_TALL_CARD_1", Map.of(
-                    "header", Map.of(
-                            "title", "Trending Facts",
-                            "subTitle", "In-depth stories & curated facts"
-                    ),
-                    "items", articlesRepository.findRandomArticlesByTag("Facts", 4)
-            ));
+            dashboard.put("SECTION_HOME_ARTICLES_TALL_CARD_1", Map.of("header", Map.of("title", "Trending Facts", "subTitle", "In-depth stories & curated facts"), "items", articlesRepository.findRandomArticlesByTag("Facts", 4)));
 
-            dashboard.put("SECTION_HOME_TEXT_CATEGORY_GRID_SHORT_CARD_1", Map.of(
-                    "header", Map.of(
-                            "title", "Facts by Category",
-                            "subTitle", "Learn Something New in Every Category"
-                    ),
-                    "items", factTypeRepository.findTopByTypeIdAndActiveTrue(11, 4)
-            ));
+            dashboard.put("SECTION_HOME_TEXT_CATEGORY_GRID_SHORT_CARD_1", Map.of("header", Map.of("title", "Facts by Category", "subTitle", "Learn Something New in Every Category"), "items", factTypeRepository.findTopByTypeIdAndActiveTrue(11, 4)));
 
-            dashboard.put("SECTION_HOME_ARTICLES_GRID_1", Map.of(
-                    "header", Map.of(
-                            "title", "Featured Facts",
-                            "subTitle", "Timeless and must-read facts"
-                    ),
-                    "items", articlesRepository.findRandomArticlesByTag("Facts", 4)
-            ));
+            dashboard.put("SECTION_HOME_ARTICLES_GRID_1", Map.of("header", Map.of("title", "Featured Facts", "subTitle", "Timeless and must-read facts"), "items", articlesRepository.findRandomArticlesByTag("Facts", 4)));
 
-            dashboard.put("SECTION_HOME_ARTICLES_SHORT_CARD_1", Map.of(
-                    "header", Map.of(
-                            "title", "Curious Reads",
-                            "subTitle", "Thought-Provoking Articles to Explore"
-                    ),
-                    "items", articlesRepository.findRandomArticlesByTag("Psychology", 4)
-            ));
+            dashboard.put("SECTION_HOME_ARTICLES_SHORT_CARD_1", Map.of("header", Map.of("title", "Curious Reads", "subTitle", "Thought-Provoking Articles to Explore"), "items", articlesRepository.findRandomArticlesByTag("Psychology", 4)));
 
             //second set
-            dashboard.put("SECTION_HOME_TEXT_CATEGORY_GRID_LONG_TEXT_2", Map.of(
-                    "header", Map.of(
-                            "title", "Latest Fact Categories",
-                            "subTitle", "Discover latest topics and curiosities"
-                    ),
-                    "items", factTypeRepository.findTopByTypeIdAndActiveTrue(11, 4)
-            ));
+            dashboard.put("SECTION_HOME_TEXT_CATEGORY_GRID_LONG_TEXT_2", Map.of("header", Map.of("title", "Latest Fact Categories", "subTitle", "Discover latest topics and curiosities"), "items", factTypeRepository.findTopByTypeIdAndActiveTrue(11, 4)));
 
-            dashboard.put("SECTION_HOME_ARTICLES_TALL_CARD_2", Map.of(
-                    "header", Map.of(
-                            "title", "Featured Articles",
-                            "subTitle", "Featured Stories That Stand Out"
-                    ),
-                    "items", articlesRepository.findRandomArticlesByTag("Psychology", 4)
-            ));
+            dashboard.put("SECTION_HOME_ARTICLES_TALL_CARD_2", Map.of("header", Map.of("title", "Featured Articles", "subTitle", "Featured Stories That Stand Out"), "items", articlesRepository.findRandomArticlesByTag("Psychology", 4)));
 
-            dashboard.put("SECTION_HOME_TEXT_CATEGORY_GRID_SHORT_CARD_2", Map.of(
-                    "header", Map.of(
-                            "title", "Top by Category",
-                            "subTitle", "Explore diverse fact types"
-                    ),
-                    "items", factTypeRepository.findTopByTypeIdAndActiveTrue(11, 4)
-            ));
+            dashboard.put("SECTION_HOME_TEXT_CATEGORY_GRID_SHORT_CARD_2", Map.of("header", Map.of("title", "Top by Category", "subTitle", "Explore diverse fact types"), "items", factTypeRepository.findTopByTypeIdAndActiveTrue(11, 4)));
 
-            dashboard.put("SECTION_HOME_ARTICLES_GRID_2", Map.of(
-                    "header", Map.of(
-                            "title", "Life Simplified",
-                            "subTitle", "Easy Reads for a Better Lifestyle"
-                    ),
-                    "items", articlesRepository.findRandomArticlesByTag("Lifestyle", 4)
-            ));
+            dashboard.put("SECTION_HOME_ARTICLES_GRID_2", Map.of("header", Map.of("title", "Life Simplified", "subTitle", "Easy Reads for a Better Lifestyle"), "items", articlesRepository.findRandomArticlesByTag("Lifestyle", 4)));
 
-            dashboard.put("SECTION_HOME_ARTICLES_SHORT_CARD_2", Map.of(
-                    "header", Map.of(
-                            "title", "Explore & Learn",
-                            "subTitle", "Thought-provoking psychology reads"
-                    ),
-                    "items", articlesRepository.findRandomArticlesByTag("Psychology", 4)
-            ));
+            dashboard.put("SECTION_HOME_ARTICLES_SHORT_CARD_2", Map.of("header", Map.of("title", "Explore & Learn", "subTitle", "Thought-provoking psychology reads"), "items", articlesRepository.findRandomArticlesByTag("Psychology", 4)));
 
 
             log.info("[getHomeTabData] ✅ Home dashboard ready with {} sections", dashboard.size());
@@ -352,56 +267,20 @@ public class FactTypeServiceImpl implements FactTypeService {
 
         Map<String, Object> discover = new LinkedHashMap<>();
         try {
-            discover.put("SECTION_EXPLORE_IMAGE_CATEGORY_HORIZONTAL_BANNER_1", Map.of(
-                    "header", Map.of(
-                            "title", "What Are You Curious About?",
-                            "subTitle", "Browse categories and learn something surprising in seconds."
-                    ),
-                    "items", getImageCategoriesByTypeId(11)
-            ));
+            discover.put("SECTION_EXPLORE_IMAGE_CATEGORY_HORIZONTAL_BANNER_1", Map.of("header", Map.of("title", "What Are You Curious About?", "subTitle", "Browse categories and learn something surprising in seconds."), "items", getImageCategoriesByTypeId(11)));
 
-            discover.put("SECTION_EXPLORE_TEXT_CATEGORY_GRID_TALL_CARD_1", Map.of(
-                    "header", Map.of(
-                            "title", "Facts by Category",
-                            "subTitle", "Explore diverse fact types"
-                    ),
-                    "items", factTypeRepository.findTopByTypeIdAndActiveTrue(11, 4)
-            ));
+            discover.put("SECTION_EXPLORE_TEXT_CATEGORY_GRID_TALL_CARD_1", Map.of("header", Map.of("title", "Facts by Category", "subTitle", "Explore diverse fact types"), "items", factTypeRepository.findTopByTypeIdAndActiveTrue(11, 4)));
 
             ImageCollectionDTO homeImages = contentImageSetService.getHomeImages(SET_IMAGE_TYPE_FACTS, 1);
             String homeImagesTitle = defaultIfBlank(homeImages.title(), "Popular Facts");
             String homeImagesSubTitle = defaultIfBlank(homeImages.subTitle(), "Popular Knowledge Bites Worth Knowing");
-            discover.put("SECTION_EXPLORE_IMAGE_LIST_HORIZONTAL_1", Map.of(
-                    "header", Map.of(
-                            "title", homeImagesTitle,
-                            "subTitle", homeImagesSubTitle
-                    ),
-                    "items", homeImages.images()
-            ));
+            discover.put("SECTION_EXPLORE_IMAGE_LIST_HORIZONTAL_1", Map.of("header", Map.of("title", homeImagesTitle, "subTitle", homeImagesSubTitle), "items", homeImages.images()));
 
-            discover.put("SECTION_EXPLORE_ARTICLES_SHORT_CARD_1", Map.of(
-                    "header", Map.of(
-                            "title", "Curious Reads",
-                            "subTitle", "Thought-provoking psychology reads"
-                    ),
-                    "items", articlesRepository.findRandomArticlesByTag("Psychology", 4)
-            ));
+            discover.put("SECTION_EXPLORE_ARTICLES_SHORT_CARD_1", Map.of("header", Map.of("title", "Curious Reads", "subTitle", "Thought-provoking psychology reads"), "items", articlesRepository.findRandomArticlesByTag("Psychology", 4)));
 
-            discover.put("SECTION_EXPLORE_ARTICLES_GRID_1", Map.of(
-                    "header", Map.of(
-                            "title", "Featured Facts",
-                            "subTitle", "Timeless and must-read facts"
-                    ),
-                    "items", articlesRepository.findRandomArticlesByTag("Lifestyle", 4)
-            ));
+            discover.put("SECTION_EXPLORE_ARTICLES_GRID_1", Map.of("header", Map.of("title", "Featured Facts", "subTitle", "Timeless and must-read facts"), "items", articlesRepository.findRandomArticlesByTag("Lifestyle", 4)));
 
-            discover.put("SECTION_EXPLORE_TEXT_CATEGORY_GRID_LONG_NAME_1", Map.of(
-                    "header", Map.of(
-                            "title", "Mind-Blowing Psychology Facts",
-                            "subTitle", "Explore fascinating mind insights"
-                    ),
-                    "items", factTypeRepository.findTopByTypeIdAndActiveTrue(22, 4)
-            ));
+            discover.put("SECTION_EXPLORE_TEXT_CATEGORY_GRID_LONG_NAME_1", Map.of("header", Map.of("title", "Mind-Blowing Psychology Facts", "subTitle", "Explore fascinating mind insights"), "items", factTypeRepository.findTopByTypeIdAndActiveTrue(22, 4)));
 
             log.info("[getDiscoverTabData] ✅ Discover tab ready with {} sections", discover.size());
             return discover;
@@ -432,31 +311,9 @@ public class FactTypeServiceImpl implements FactTypeService {
     }
 
     @Override
-    public List<FactDetailsEntity> getAllFacts() {
-        return factDetailsRepository.findAll();
-    }
-
-    @Override
     @Transactional
     public List<FactDetailsDTO> getFactsByCategory(int categoryId) {
-        List<FactDetailsDTO> facts = factDetailsRepository.findRandomByCategoryId(categoryId, 25)
-                .stream()
-                .map(p -> new FactDetailsDTO(
-                        p.getId(),
-                        p.getCategoryId(),
-                        p.getText(),
-                        p.getShortSummary(),
-                        p.getLongSummary(),
-                        p.getArticleId(),
-                        p.getSourceUrl(),
-                        p.getLikes(),
-                        p.getBookmarks(),
-                        p.getDownloads(),
-                        p.getShares(),
-                        p.getViews(),
-                        p.isVerified()
-                ))
-                .toList();
+        List<FactDetailsDTO> facts = factDetailsRepository.findRandomByCategoryId(categoryId, 25).stream().map(p -> new FactDetailsDTO(p.getId(), p.getCategoryId(), p.getText(), p.getShortSummary(), p.getLongSummary(), p.getArticleId(), p.getSourceUrl(), p.getLikes(), p.getBookmarks(), p.getDownloads(), p.getShares(), p.getViews(), p.isVerified())).toList();
 
         if (!facts.isEmpty()) {
             int updatedRows = factTypeRepository.incrementViewsByCategoryId(categoryId);
@@ -492,26 +349,24 @@ public class FactTypeServiceImpl implements FactTypeService {
     @Override
     public FactDetailsEntity updateFact(int id, FactDetailsEntity updatedFact) {
         try {
-            return factDetailsRepository.findById(id)
-                    .map(existingFact -> {
-                        existingFact.setText(updatedFact.getText());
-                        existingFact.setCategoryId(updatedFact.getCategoryId());
-                        existingFact.setShortSummary(updatedFact.getShortSummary());
-                        existingFact.setLongSummary(updatedFact.getLongSummary());
-                        existingFact.setSourceUrl(updatedFact.getSourceUrl());
-                        existingFact.setLikes(updatedFact.getLikes());
-                        existingFact.setBookmarks(updatedFact.getBookmarks());
-                        existingFact.setDownloads(updatedFact.getDownloads());
-                        existingFact.setShares(updatedFact.getShares());
-                        existingFact.setViews(updatedFact.getViews());
-                        existingFact.setTags(updatedFact.getTags());
-                        existingFact.setVerified(updatedFact.isVerified());
-                        existingFact.setLanguage(updatedFact.getLanguage());
-                        existingFact.setAddedDate(updatedFact.getAddedDate());
-                        existingFact.setUpdatedDate(updatedFact.getUpdatedDate());
-                        return factDetailsRepository.save(existingFact);
-                    })
-                    .orElseThrow(() -> new ApiException("404", "Fact not found with id " + id));
+            return factDetailsRepository.findById(id).map(existingFact -> {
+                existingFact.setText(updatedFact.getText());
+                existingFact.setCategoryId(updatedFact.getCategoryId());
+                existingFact.setShortSummary(updatedFact.getShortSummary());
+                existingFact.setLongSummary(updatedFact.getLongSummary());
+                existingFact.setSourceUrl(updatedFact.getSourceUrl());
+                existingFact.setLikes(updatedFact.getLikes());
+                existingFact.setBookmarks(updatedFact.getBookmarks());
+                existingFact.setDownloads(updatedFact.getDownloads());
+                existingFact.setShares(updatedFact.getShares());
+                existingFact.setViews(updatedFact.getViews());
+                existingFact.setTags(updatedFact.getTags());
+                existingFact.setVerified(updatedFact.isVerified());
+                existingFact.setLanguage(updatedFact.getLanguage());
+                existingFact.setAddedDate(updatedFact.getAddedDate());
+                existingFact.setUpdatedDate(updatedFact.getUpdatedDate());
+                return factDetailsRepository.save(existingFact);
+            }).orElseThrow(() -> new ApiException("404", "Fact not found with id " + id));
         } catch (ApiException e) {
             throw e;
         } catch (Exception e) {

@@ -24,12 +24,6 @@ public class ArticlesController {
 
     private final ArticlesService articlesService;
 
-    @GetMapping("/all")
-    public ResponseEntity<APIResponse> getAll() {
-        List<ArticlesEntity> articles = articlesService.getAll();
-        return ResponseEntity.ok(ResponseUtils.success("200", "Fetched all articles", articles));
-    }
-
     @GetMapping("/{id}")
     public ResponseEntity<APIResponse> getById(@PathVariable Long id) {
         return articlesService.getById(id)
