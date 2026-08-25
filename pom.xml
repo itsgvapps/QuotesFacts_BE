@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.gvapps</groupId>
     <artifactId>quotes-facts-backend</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>quotes-facts-backend</name>
     <description>Backend service for daily motivational quotes, facts, and random inspiration with RESTful APIs.
     </description>

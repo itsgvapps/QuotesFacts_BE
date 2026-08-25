@@ -20,6 +20,7 @@ public class HealthCheckController {
         Map<String, Object> response = new HashMap<>();
         response.put("status", "UP");
         response.put("timestamp", Instant.now());
+        response.put("version", "1.0.0");
         return response;
     }
 }
