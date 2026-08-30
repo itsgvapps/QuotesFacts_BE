@@ -1,6 +1,7 @@
 package com.gvapps.quotesfacts.controller;
 
 import com.gvapps.quotesfacts.dto.ArticleListDTO;
+import com.gvapps.quotesfacts.dto.ArticleListProjection;
 import com.gvapps.quotesfacts.dto.response.APIResponse;
 import com.gvapps.quotesfacts.entity.ArticlesEntity;
 import com.gvapps.quotesfacts.service.ArticlesService;
@@ -23,6 +24,13 @@ import java.util.Map;
 public class ArticlesController {
 
     private final ArticlesService articlesService;
+
+    @GetMapping("/all")
+    public ResponseEntity<APIResponse> getAll(@RequestParam(defaultValue = "0") int page,
+                                              @RequestParam(defaultValue = "5") int size) {
+        List<ArticleListProjection> articles = articlesService.getAll(page, size);
+        return ResponseEntity.ok(ResponseUtils.success("200", "Fetched all articles", articles));
+    }
 
     @GetMapping("/{id}")
     public ResponseEntity<APIResponse> getById(@PathVariable Long id) {

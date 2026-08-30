@@ -2,6 +2,7 @@ package com.gvapps.quotesfacts.service;
 
 import com.gvapps.quotesfacts.dto.ArticleDetailDTO;
 import com.gvapps.quotesfacts.dto.ArticleListDTO;
+import com.gvapps.quotesfacts.dto.ArticleListProjection;
 import com.gvapps.quotesfacts.entity.ArticlesEntity;
 import org.springframework.data.domain.Page;
 
@@ -11,6 +12,8 @@ import java.util.Map;
 import java.util.Optional;
 
 public interface ArticlesService {
+    List<ArticleListProjection> getAll(int page, int size);
+
     Optional<ArticleDetailDTO> getById(Long id);
 
     ArticlesEntity save(ArticlesEntity article);
