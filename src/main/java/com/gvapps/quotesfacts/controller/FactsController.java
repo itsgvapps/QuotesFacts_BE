@@ -50,13 +50,14 @@ public class FactsController {
         return ResponseEntity.ok(ResponseUtils.success("200", "Image categories fetched successfully", result));
     }
 
-    // ✅ Get tab data (Home / Discover)
+    // ✅ Get fact images by image category ID
     @GetMapping("/image-categories/{imageCategoryId}/images")
     public ResponseEntity<APIResponse> getFactImagesByImageCategoryId(@PathVariable Long imageCategoryId) {
         ImageCollectionDTO result = factTypeService.getFactImagesByImageCategoryId(imageCategoryId);
         return ResponseEntity.ok(ResponseUtils.success("200", "Fact images fetched successfully", result.images(), result.title(), result.subTitle()));
     }
 
+    // ✅ Get tab data (home, discover, etc.)
     @GetMapping("/tab/{name}")
     public ResponseEntity<APIResponse> getTabData(@PathVariable String name) {
         Map<String, Object> tabData;
@@ -106,7 +107,7 @@ public class FactsController {
         return ResponseEntity.ok(ResponseUtils.success("200", "Facts fetched successfully", facts));
     }
 
-    // ✅ Update category views
+    // ✅ GET category views
     @GetMapping("/text-categories/{textCategoryId}/texts")
     public ResponseEntity<APIResponse> getTextsByTextCategoryId(@PathVariable int textCategoryId) {
         List<FactDetailsDTO> facts = factTypeService.getFactsByCategory(textCategoryId);
@@ -149,7 +150,7 @@ public class FactsController {
         return ResponseEntity.ok(ResponseUtils.success("200", "Facts fetched successfully", result));
     }
 
-    // ✅ Update fact detail counts
+    // ✅ Update fact detail counts (views, shares, likes, etc.)
     @PostMapping("/detail/counts")
     public ResponseEntity<APIResponse> updateFactDetailCounts(@RequestBody Map<String, List<Long>> payload) {
         factTypeService.incrementDetailCounts(payload);

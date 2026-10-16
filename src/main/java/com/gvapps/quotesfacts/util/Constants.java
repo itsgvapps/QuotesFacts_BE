@@ -8,6 +8,11 @@ public class Constants {
     public static final String STATUS_DESC_SUCCESS = "Successful";
     public static final String STATUS_DESC_FAILURE = "Unsuccessful";
 
+    public static final String ARTICLE_TYPE_TAG_FACTS = "Facts";
+    public static final String ARTICLE_TYPE_TAG_PSYCHOLOGY = "Psychology";
+    public static final String ARTICLE_TYPE_TAG_LOVE = "Love";
+    public static final String ARTICLE_TYPE_TAG_LIFESTYLE = "Quotes";
+
     public static final int SET_IMAGE_TYPE_QUOTES = 11;
     public static final int SET_IMAGE_TYPE_LOVE = 22;
     public static final int SET_IMAGE_TYPE_PSYCHOLOGY = 33;

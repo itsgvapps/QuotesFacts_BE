@@ -25,7 +25,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
 
-import static com.gvapps.quotesfacts.util.Constants.SET_IMAGE_TYPE_FACTS;
+import static com.gvapps.quotesfacts.util.Constants.*;
 
 @Slf4j
 @Service
@@ -223,7 +223,7 @@ public class FactTypeServiceImpl implements FactTypeService {
         Map<String, Object> dashboard = new LinkedHashMap<>();
 
         try {
-            dashboard.put("SECTION_HOME_TODAY_PICKS", Map.of("header", Map.of("title", "Today’s Quick Facts", "subTitle", "Short, snappy, and verified", "gradientColors", List.of("#FEF9C3", "#E0F2FE", "#E9D5FF")), "items", factDetailsRepository.findRandomShortFacts(5).stream().map(p -> new FactDetailsDTO(p.getId(), p.getCategoryId(), p.getText(), p.getShortSummary(), p.getLongSummary(), p.getArticleId(), p.getSourceUrl(), p.getLikes(), p.getBookmarks(), p.getDownloads(), p.getShares(), p.getViews(), p.isVerified())).toList()));
+            dashboard.put("SECTION_HOME_TODAY_PICKS", Map.of("header", Map.of("title", "Today’s Quick Facts", "subTitle", "Short, snappy, and verified", "gradientColors", List.of("#FEF9C3", "#E0F2FE", "#E9D5FF")), "items", factDetailsRepository.findRandomShortFacts(5, 22, 160).stream().map(p -> new FactDetailsDTO(p.getId(), p.getCategoryId(), p.getText(), p.getShortSummary(), p.getLongSummary(), p.getArticleId(), p.getSourceUrl(), p.getLikes(), p.getBookmarks(), p.getDownloads(), p.getShares(), p.getViews(), p.isVerified())).toList()));
 
             ImageCollectionDTO homeImages = contentImageSetService.getHomeImages(SET_IMAGE_TYPE_FACTS, 1);
             String homeImagesTitle = defaultIfBlank(homeImages.title(), "Popular Facts");
@@ -232,24 +232,24 @@ public class FactTypeServiceImpl implements FactTypeService {
 
             dashboard.put("SECTION_HOME_TEXT_CATEGORY_GRID_LONG_TEXT_1", Map.of("header", Map.of("title", "Popular Fact Categories", "subTitle", "Popular Knowledge Bites Worth Knowing"), "items", factTypeRepository.findTopByTypeIdAndActiveTrue(11, 4)));
 
-            dashboard.put("SECTION_HOME_ARTICLES_TALL_CARD_1", Map.of("header", Map.of("title", "Trending Facts", "subTitle", "In-depth stories & curated facts"), "items", articlesRepository.findRandomArticlesByTag("Facts", 4)));
+            dashboard.put("SECTION_HOME_ARTICLES_TALL_CARD_1", Map.of("header", Map.of("title", "Trending Facts", "subTitle", "In-depth stories & curated facts"), "items", articlesRepository.findRandomArticlesByTag(ARTICLE_TYPE_TAG_FACTS, 4)));
 
             dashboard.put("SECTION_HOME_TEXT_CATEGORY_GRID_SHORT_CARD_1", Map.of("header", Map.of("title", "Facts by Category", "subTitle", "Learn Something New in Every Category"), "items", factTypeRepository.findTopByTypeIdAndActiveTrue(11, 4)));
 
-            dashboard.put("SECTION_HOME_ARTICLES_GRID_1", Map.of("header", Map.of("title", "Featured Facts", "subTitle", "Timeless and must-read facts"), "items", articlesRepository.findRandomArticlesByTag("Facts", 4)));
+            dashboard.put("SECTION_HOME_ARTICLES_GRID_1", Map.of("header", Map.of("title", "Featured Facts", "subTitle", "Timeless and must-read facts"), "items", articlesRepository.findRandomArticlesByTag(ARTICLE_TYPE_TAG_FACTS, 4)));
 
-            dashboard.put("SECTION_HOME_ARTICLES_SHORT_CARD_1", Map.of("header", Map.of("title", "Curious Reads", "subTitle", "Thought-Provoking Articles to Explore"), "items", articlesRepository.findRandomArticlesByTag("Psychology", 4)));
+            dashboard.put("SECTION_HOME_ARTICLES_SHORT_CARD_1", Map.of("header", Map.of("title", "Curious Reads", "subTitle", "Thought-Provoking Articles to Explore"), "items", articlesRepository.findRandomArticlesByTag(ARTICLE_TYPE_TAG_PSYCHOLOGY, 4)));
 
             //second set
             dashboard.put("SECTION_HOME_TEXT_CATEGORY_GRID_LONG_TEXT_2", Map.of("header", Map.of("title", "Latest Fact Categories", "subTitle", "Discover latest topics and curiosities"), "items", factTypeRepository.findTopByTypeIdAndActiveTrue(11, 4)));
 
-            dashboard.put("SECTION_HOME_ARTICLES_TALL_CARD_2", Map.of("header", Map.of("title", "Featured Articles", "subTitle", "Featured Stories That Stand Out"), "items", articlesRepository.findRandomArticlesByTag("Psychology", 4)));
+            dashboard.put("SECTION_HOME_ARTICLES_TALL_CARD_2", Map.of("header", Map.of("title", "Featured Articles", "subTitle", "Featured Stories That Stand Out"), "items", articlesRepository.findRandomArticlesByTag(ARTICLE_TYPE_TAG_PSYCHOLOGY, 4)));
 
             dashboard.put("SECTION_HOME_TEXT_CATEGORY_GRID_SHORT_CARD_2", Map.of("header", Map.of("title", "Top by Category", "subTitle", "Explore diverse fact types"), "items", factTypeRepository.findTopByTypeIdAndActiveTrue(11, 4)));
 
-            dashboard.put("SECTION_HOME_ARTICLES_GRID_2", Map.of("header", Map.of("title", "Life Simplified", "subTitle", "Easy Reads for a Better Lifestyle"), "items", articlesRepository.findRandomArticlesByTag("Lifestyle", 4)));
+            dashboard.put("SECTION_HOME_ARTICLES_GRID_2", Map.of("header", Map.of("title", "Life Simplified", "subTitle", "Easy Reads for a Better Lifestyle"), "items", articlesRepository.findRandomArticlesByTag(ARTICLE_TYPE_TAG_LIFESTYLE, 4)));
 
-            dashboard.put("SECTION_HOME_ARTICLES_SHORT_CARD_2", Map.of("header", Map.of("title", "Explore & Learn", "subTitle", "Thought-provoking psychology reads"), "items", articlesRepository.findRandomArticlesByTag("Psychology", 4)));
+            dashboard.put("SECTION_HOME_ARTICLES_SHORT_CARD_2", Map.of("header", Map.of("title", "Explore & Learn", "subTitle", "Thought-provoking psychology reads"), "items", articlesRepository.findRandomArticlesByTag(ARTICLE_TYPE_TAG_PSYCHOLOGY, 4)));
 
 
             log.info("[getHomeTabData] ✅ Home dashboard ready with {} sections", dashboard.size());

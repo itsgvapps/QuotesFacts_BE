@@ -78,27 +78,34 @@ public interface FactDetailsRepository extends JpaRepository<FactDetailsEntity, 
     void incrementShares(List<Long> ids);
 
     @Query(value = """
-            SELECT 
-                id,
-                category_id AS categoryId,
-                text,
-                short_summary AS shortSummary,
-                long_summary AS longSummary,
-                article_id AS articleId,
-                source_url AS sourceUrl,
-                likes,
-                bookmarks,
-                downloads,
-                shares,
-                views,
-                verified
-            FROM fact_details
-            WHERE LENGTH(text) < 160
+             SELECT
+                fd.id,
+                fd.
+             category_id AS categoryId,
+                fd.text,
+                fd.short_summary AS shortSummary,
+                fd.long_summary AS longSummary,
+                fd.article_id AS articleId,
+                fd.source_url AS sourceUrl,
+                fd.likes,
+                fd.bookmarks,
+                fd.downloads,
+                fd.shares,
+                fd.views,
+                fd.verified
+            FROM fact_details AS fd
+            INNER JOIN fact_type AS ft
+                ON fd.category_id = ft.category_id
+            WHERE
+                ft.type_id = :typeId
+                AND ft.active = 1
+                AND CHAR_LENGTH(fd.text) < :maxLength
             ORDER BY RAND()
-            LIMIT :limit
+            LIMIT :limit;
             """,
             nativeQuery = true)
     List<FactDetailsProjection> findRandomShortFacts(
-            @Param("limit") int limit
+            @Param("limit") int limit, @Param("typeId") int typeId,
+            @Param("maxLength") int maxLength
     );
 }

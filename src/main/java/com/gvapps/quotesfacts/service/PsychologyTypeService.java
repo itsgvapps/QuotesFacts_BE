@@ -1,0 +1,55 @@
+package com.gvapps.quotesfacts.service;
+
+import com.gvapps.quotesfacts.dto.FactDetailsDTO;
+import com.gvapps.quotesfacts.dto.FactImageCategoryDTO;
+import com.gvapps.quotesfacts.dto.ImageCollectionDTO;
+import com.gvapps.quotesfacts.entity.FactDetailsEntity;
+import com.gvapps.quotesfacts.entity.FactTypeEntity;
+
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
+
+public interface PsychologyTypeService {
+
+    List<FactTypeEntity> getAllCategories();
+
+    List<FactTypeEntity> getCategoriesByTypeId(int typeId);
+
+    List<FactImageCategoryDTO> getImageCategoriesByTypeId(int typeId);
+
+    ImageCollectionDTO getFactImagesByImageCategoryId(Long imageCategoryId);
+
+    List<FactTypeEntity> getTopPopularCategories(int limit);
+
+    List<FactTypeEntity> getTopTrendingCategories(int limit);
+
+    void incrementCategoryViewsAsync(Map<String, List<Long>> categoryIds);
+
+    Map<String, Object> getHomeTabData();
+
+    Map<String, Object> getDiscoverTabData();
+
+    //Fact details
+
+    FactDetailsEntity saveFact(FactDetailsEntity fact);
+
+    Optional<FactDetailsEntity> getFactById(int id);
+
+    List<FactDetailsDTO> getFactsByCategory(int categoryId);
+
+    List<FactDetailsEntity> getFactsByLanguage(String language);
+
+    List<FactDetailsEntity> getVerifiedFacts();
+
+    List<FactDetailsEntity> getTopViewedFacts(int limit);
+
+    List<FactDetailsEntity> searchFactsByKeyword(String keyword);
+
+    FactDetailsEntity updateFact(int id, FactDetailsEntity updatedFact);
+
+    void deleteFact(int id);
+
+    void incrementDetailCounts(Map<String, List<Long>> payload);
+
+}
