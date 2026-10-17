@@ -1,13 +1,13 @@
 package com.gvapps.quotesfacts.dto.request;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.databind.JsonNode;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.List;
-import java.util.Map;
 
 public record AnalyticsEventRequest(
 
@@ -127,7 +127,7 @@ public record AnalyticsEventRequest(
             @Size(max = 100, message = "adPlacement must be less than 100 characters")
             String adPlacement,
 
-            Map<String, Object> eventParams,
+            JsonNode eventParams,
 
             @JsonFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss")
             LocalDateTime occurredAt

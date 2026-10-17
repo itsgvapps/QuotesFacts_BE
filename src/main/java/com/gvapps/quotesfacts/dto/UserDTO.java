@@ -1,9 +1,12 @@
 package com.gvapps.quotesfacts.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
 import java.time.LocalDateTime;
+import java.util.List;
+import java.util.Map;
 
 @Data
 @JsonInclude(JsonInclude.Include.NON_NULL)
@@ -28,6 +31,8 @@ public class UserDTO {
     private Boolean isPremium;
     private Boolean darkMode;
     private Boolean notificationEnabled;
+    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
+    private List<Map<String, Object>> notificationCounts;
     private Integer syncStatus;
     private Integer sessionCount;
     private Integer appOpenCount;

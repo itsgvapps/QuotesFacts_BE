@@ -22,5 +22,5 @@ public class Constants {
     public static final int IMAGES_LIMIT = 10;
 
     public static final int VISUAL_IMAGES_LIMIT = 20;
-    public static final int TAB_IMAGE_SET_IMAGES_LIMIT = 5;
+    public static final int TAB_IMAGE_SET_IMAGES_LIMIT = 13;
 }

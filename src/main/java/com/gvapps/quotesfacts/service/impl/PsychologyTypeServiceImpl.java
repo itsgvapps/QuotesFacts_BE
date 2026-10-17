@@ -385,14 +385,14 @@ public class PsychologyTypeServiceImpl implements PsychologyTypeService {
                             "title", "What Makes Your Mind Curious?",
                             "subTitle", "Explore the fascinating world of thoughts, emotions, and behavior"
                     ),
-                    "items", getImageCategoriesByTypeId(22)
+                    "items", getImageCategoriesByTypeId(11)
             ));
 
             // 2. Discover Psychology Topics
             discover.put("SECTION_EXPLORE_TEXT_CATEGORY_GRID_TALL_CARD_1", Map.of(
                     "header", Map.of(
-                            "title", "Unlock the Human Mind",
-                            "subTitle", "Discover the psychology behind how we think, feel, and act"
+                            "title", "Explore Psychology Topics",
+                            "subTitle", "Discover fascinating insights into the mind, emotions, and human behavior"
                     ),
                     "items", factTypeRepository.findTopByTypeIdAndActiveTrue(22, 4)
             ));

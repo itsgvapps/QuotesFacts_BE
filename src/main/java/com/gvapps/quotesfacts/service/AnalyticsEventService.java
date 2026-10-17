@@ -1,6 +1,7 @@
 package com.gvapps.quotesfacts.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.gvapps.quotesfacts.dto.request.AnalyticsEventRequest;
 import com.gvapps.quotesfacts.model.AnalyticsEventInsertRow;
@@ -13,7 +14,6 @@ import org.springframework.transaction.annotation.Transactional;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 @Service
 public class AnalyticsEventService {
@@ -125,8 +125,8 @@ public class AnalyticsEventService {
         );
     }
 
-    private String toJson(Map<String, Object> params) {
-        if (params == null || params.isEmpty()) {
+    private String toJson(JsonNode params) {
+        if (params == null || params.isNull() || params.isEmpty()) {
             return null;
         }
 
