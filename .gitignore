@@ -1,26 +1,40 @@
+
+### Maven ###
 HELP.md
 target/
-logs/
-application.log
-application.log*
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
+### Spring Boot Application Logs ###
+application.log
+application.log.*
+*.log
+*.log.*
+logs/
+**/logs/
+
+### Spring Boot Runtime Files ###
+*.pid
+*.pid.lock
+*.hprof
+*.heapdump
+
+### STS / Eclipse ###
 .apt_generated
 .classpath
 .factorypath
 .project
-.settings
+.settings/
 .springBeans
-.sts4-cache
+.sts4-cache/
 
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iws
 *.iml
 *.ipr
+out/
 
 ### NetBeans ###
 /nbproject/private/
@@ -28,9 +42,24 @@ application.log*
 /dist/
 /nbdist/
 /.nb-gradle/
+
+### Gradle ###
+.gradle/
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
 ### VS Code ###
 .vscode/
+
+### Operating System Files ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### Temporary Files ###
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
