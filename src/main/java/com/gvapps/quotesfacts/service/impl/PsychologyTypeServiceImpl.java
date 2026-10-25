@@ -385,7 +385,7 @@ public class PsychologyTypeServiceImpl implements PsychologyTypeService {
                             "title", "What Makes Your Mind Curious?",
                             "subTitle", "Explore the fascinating world of thoughts, emotions, and behavior"
                     ),
-                    "items", getImageCategoriesByTypeId(11)
+                    "items", getImageCategoriesByTypeId(22)
             ));
 
             // 2. Discover Psychology Topics
