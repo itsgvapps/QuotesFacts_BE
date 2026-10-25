@@ -19,7 +19,7 @@ public class Constants {
     public static final int SET_IMAGE_TYPE_FACTS = 44;
 
     public static final int FACT_IMAGE_CATEGORIES_LIMIT = 4;
-    public static final int IMAGES_LIMIT = 10;
+    public static final int IMAGES_LIMIT = 13;
 
     public static final int VISUAL_IMAGES_LIMIT = 20;
     public static final int TAB_IMAGE_SET_IMAGES_LIMIT = 13;
