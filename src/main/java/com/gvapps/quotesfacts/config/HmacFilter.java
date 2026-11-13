@@ -40,6 +40,9 @@ public class HmacFilter extends OncePerRequestFilter {
             String nonce = req.getHeader("x-nonce");
             String signature = req.getHeader("x-signature");
 
+            // To test this:
+            //  profiles:
+            //    active: prod
             /*Client:
             Sends headers: X-APP-ID, X-TIMESTAMP, X-NONCE, X-SIGNATURE
             Signature = HMAC_SHA256(timestamp + nonce, SECRET)*/
